@@ -1,6 +1,6 @@
 report:
   slug: ethanol
-  name: Corn and Ethanol Intel
+  name: Weekly Corn and Ethanol Intel Report
   description: >-
     Weekly review of corn, ethanol, energy, co-product, policy, and related public-company
     performance for commodities risk managers at U.S. ethanol plants.
@@ -38,7 +38,7 @@ strategy_narrative:
 
 report_profiles:
   ethanol:
-    name: Corn and Ethanol Intel
+    name: Weekly Corn and Ethanol Intel Report
     description: >-
       Weekly review of corn, ethanol, energy, co-product, policy, and related public-company
       performance for commodities risk managers at U.S. ethanol plants.

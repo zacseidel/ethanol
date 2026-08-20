@@ -23,6 +23,27 @@ EXCHANGE_NAMES = {
 MONTH = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 DISPLAY_DATE = re.compile(rf"{MONTH}\s+\d{{1,2}}(?:,\s*\d{{4}})?", re.I)
 ICON_LIGATURES = re.compile(r"\b(?:summarize_auto|insights_auto|expand_more|search_spark)\b")
+CALL_TIMESTAMP = re.compile(
+    r"(?:(?P<hours>\d+(?:\.\d+)?)\s*h)?\s*"
+    r"(?:(?P<minutes>\d+(?:\.\d+)?)\s*m)?\s*"
+    r"(?:(?P<seconds>\d+(?:\.\d+)?)\s*s)?",
+    re.I,
+)
+
+
+def format_call_timestamp(value: str) -> str:
+    """Show earnings-call timestamps as whole minutes, dropping float seconds."""
+    text = " ".join(str(value or "").split())
+    if not text:
+        return ""
+    match = CALL_TIMESTAMP.fullmatch(text)
+    if not match or not any(match.group(name) for name in ("hours", "minutes", "seconds")):
+        return text
+    hours = int(float(match.group("hours") or 0))
+    minutes = int(float(match.group("minutes") or 0))
+    if hours:
+        return f"{hours}h {minutes}m" if minutes else f"{hours}h"
+    return f"{minutes}m"
 
 
 def earnings_state_path(config: ProjectConfig) -> Path:
@@ -134,7 +155,7 @@ def parse_google_earnings(html: str, ticker: str, as_of: date) -> dict[str, Any]
             moments.append(
                 {
                     "title": title.get_text(" ", strip=True),
-                    "timestamp": timestamp.get_text(" ", strip=True),
+                    "timestamp": format_call_timestamp(timestamp.get_text(" ", strip=True)),
                     "blurb": blurb.get_text(" ", strip=True),
                 }
             )

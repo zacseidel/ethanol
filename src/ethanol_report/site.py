@@ -18,6 +18,8 @@ from .config import ProjectConfig
 from .render import report_html_name
 from .storage import atomic_replace_directory, read_json, write_json
 
+SITE_TITLE = "Ethanol Strategy Digest"
+
 SITE_CSS = """
 :root { --site-navy:#1e2422; --site-blue:#5a6360; --site-gold:#c9a24a;
   --site-ink:#1e2422; --site-muted:#5a6360; --site-line:#d4cfc4; --site-paper:#fffdf8;
@@ -247,7 +249,7 @@ def _site_header(prefix: str, active: str) -> str:
     )
     return (
         '<header class="public-site-header"><div class="public-site-header-inner">'
-        f'<a class="public-site-brand" href="{home}">Corn &amp; Ethanol</a>'
+        f'<a class="public-site-brand" href="{home}">{html.escape(SITE_TITLE)}</a>'
         f'<nav class="public-site-nav" aria-label="Website navigation">{links}</nav>'
         "</div></header>"
     )
@@ -326,11 +328,11 @@ def _page_document(title: str, body: str, *, prefix: str, active: str) -> str:
     return (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        f"<title>{html.escape(title)} · Corn &amp; Ethanol Intel</title>"
+        f"<title>{html.escape(title)} · {html.escape(SITE_TITLE)}</title>"
         f"<style>{SITE_CSS}</style></head>"
         f'<body class="public-page-body">{_site_header(prefix, active)}'
         f'<main class="public-page">{body}'
-        '<footer class="public-site-footer">Corn &amp; Ethanol Intel uses public market and '
+        f'<footer class="public-site-footer">{html.escape(SITE_TITLE)} uses public market and '
         "company information. It is informational and is not investment advice.</footer>"
         "</main></body></html>"
     )
@@ -346,7 +348,7 @@ def _content_page(config: ProjectConfig, name: str, *, prefix: str) -> str:
 
 def _archive_page(reports: list[SiteReport]) -> str:
     groups = (
-        ("ethanol", "Corn & Ethanol Intel"),
+        ("ethanol", "Weekly Corn and Ethanol Intel Report"),
     )
     sections: list[str] = []
     for report_type, heading in groups:
@@ -457,7 +459,7 @@ def _news_index_page(reports: list[SiteReport]) -> str:
                 f"{html.escape(report.report_name)}</a></h3>"
                 f'{_report_download_links(report, f"../reports/{report.archive_path}/", compact=True)}'
                 "</div>"
-                f"<h4>In the News</h4>{_index_link_list(headlines)}"
+                f"<h4>Strategy Narrative</h4>{_index_link_list(headlines)}"
                 f"<h4>Earnings Calls</h4>{_index_link_list(earnings_calls)}"
                 "</article>"
             )

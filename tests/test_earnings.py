@@ -4,6 +4,7 @@ from datetime import date
 
 from ethanol_report.earnings import (
     apply_tentative,
+    format_call_timestamp,
     parse_google_earnings,
     refresh_needed,
 )
@@ -47,6 +48,17 @@ def test_same_report_date_is_not_retried_twice_in_one_day(project):
     )
 
 
+def test_call_timestamps_keep_whole_minutes_only():
+    assert format_call_timestamp("5m 44.75999999999999s") == "5m"
+    assert format_call_timestamp("2m 10s") == "2m"
+    assert format_call_timestamp("18m 32.039999999999964s") == "18m"
+    assert format_call_timestamp("44s") == "0m"
+    assert format_call_timestamp("1h 5m 10s") == "1h 5m"
+    assert format_call_timestamp("1h") == "1h"
+    assert format_call_timestamp("") == ""
+    assert format_call_timestamp("live") == "live"
+
+
 def test_google_parser_keeps_last_and_next_dates_separate():
     html = """
     <html><body><div>Last report Apr 30, 2026</div><div>Next earnings Aug 5, 2026</div>
@@ -54,7 +66,11 @@ def test_google_parser_keeps_last_and_next_dates_separate():
     <section><h2>At a glance</h2>
       <div class="sgb2mf"><strong class="mFa7Bd">Revenue:</strong>
       <span class="KBDbl">Revenue exceeded expectations.</span></div>
-    </section></body></html>
+    </section>
+    <div class="B1GkSe"><span class="tDiKLc">Strong results</span>
+    <span class="kcbpeb">5m 44.75999999999999s</span>
+    <span class="h3qzgf">Management raised guidance.</span></div>
+    </body></html>
     """
     result = parse_google_earnings(html, "LLY", date(2026, 7, 20))
     assert result["last_report_date"] == "2026-04-30"
@@ -63,4 +79,11 @@ def test_google_parser_keeps_last_and_next_dates_separate():
     assert result["at_a_glance_scope"] == "reported"
     assert result["at_a_glance"] == [
         {"headline": "Revenue", "detail": "Revenue exceeded expectations."}
+    ]
+    assert result["key_moments"] == [
+        {
+            "title": "Strong results",
+            "timestamp": "5m",
+            "blurb": "Management raised guidance.",
+        }
     ]

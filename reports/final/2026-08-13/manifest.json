@@ -1,13 +1,13 @@
 {
   "schema": 2,
   "report_type": "ethanol",
-  "report_name": "Corn and Ethanol Intel",
+  "report_name": "Weekly Corn and Ethanol Intel Report",
   "report_date": "2026-08-13",
   "market_data_as_of": "2026-08-12",
   "generated_at": "2026-08-20T20:01:14Z",
-  "rendered_at": "2026-08-20T20:01:14Z",
+  "rendered_at": "2026-08-20T22:17:32Z",
   "baseline_report_date": null,
-  "configuration_sha256": "2e5e41b9af0d7655b9eb0537c4ca8ad4952425fe12664e299f146a48c03458cc",
+  "configuration_sha256": "f8653a6f4d7d5afed7d891663e3a6f9f07ecc76a51a99572074a0e4e3533f502",
   "quality": "degraded",
   "issues": [
     "Low market-cap coverage: Wet milling, ingredients, and co-products 24m.",
@@ -736,17 +736,15 @@
     }
   ],
   "metrics": {
-    "mode": "full",
+    "mode": "render-only",
     "durations_seconds": {
-      "market_data": 1014.947,
-      "analysis": 0.026,
-      "secondary_sources": 394.212,
-      "rendering": 14.146,
-      "total": 1423.394
+      "render_input_load": 0.002,
+      "rendering": 0.455,
+      "total": 0.48
     },
     "counts": {
       "companies": 39,
-      "price_bars_loaded": 19625,
+      "price_bars_loaded": 0,
       "performance_charts": 3,
       "earnings_charts": 5,
       "source_statuses": {
@@ -755,22 +753,16 @@
       }
     },
     "output_bytes": {
-      "html": 4712621,
-      "markdown": 111958,
+      "html": 4709191,
+      "markdown": 109048,
       "charts": 3438378,
-      "data": 41442,
-      "total_without_manifest": 8304399
+      "data": 41082,
+      "total_without_manifest": 8297699
     },
-    "price_retention": {
-      "cutoff": "2024-06-29",
-      "files_changed": 0,
-      "bars_removed": 0,
-      "bars_retained": 19625
-    },
-    "directory_bytes": 8325713
+    "directory_bytes": 8318985
   },
   "files": [
-    "Corn and Ethanol Intel-2026-08-13.html",
+    "Weekly Corn and Ethanol Intel Report-2026-08-13.html",
     "report.md",
     "snapshot.csv",
     "changes.csv",

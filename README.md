@@ -1,4 +1,4 @@
-# Corn and Ethanol Intel
+# Ethanol Strategy Digest
 
 A Python application that creates a weekly corn and ethanol intelligence report from Massive market data, public earnings pages, and an OpenAI strategy brief. Reports are generated as finals immediately and stored in Git.
 
@@ -8,7 +8,7 @@ This is a single-profile port of the Healthcare Intel Digest workflow. There is 
 
 Reports are written to `reports/final/YYYY-MM-DD/`:
 
-- `Corn and Ethanol Intel-YYYY-MM-DD.html`: self-contained report HTML with embedded charts
+- `Weekly Corn and Ethanol Intel Report-YYYY-MM-DD.html`: self-contained report HTML with embedded charts
 - `report.md` and `assets/`: diffable Markdown and WebP charts
 - `snapshot.csv`, `changes.csv`, `render-data.json.gz`, `manifest.json`
 

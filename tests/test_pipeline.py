@@ -82,7 +82,8 @@ class FakeBrowser:
         <strong class="mFa7Bd">Guidance:</strong><span class="KBDbl">Guidance increased.</span>
         </div></section>
         <div class="B1GkSe"><span class="tDiKLc">Strong results</span>
-        <span class="kcbpeb">2m 10s</span><span class="h3qzgf">Management raised guidance.</span></div>
+        <span class="kcbpeb">5m 44.75999999999999s</span>
+        <span class="h3qzgf">Management raised guidance.</span></div>
         </body></html>
         """
 
@@ -103,6 +104,39 @@ def test_strategy_narrative_links_support_html_headings_and_strip_delta_labels()
     ]
     assert "NEW / RESOLVE" not in presented
     assert "CONFIRM" not in presented
+
+
+def test_strategy_jump_list_uses_interpretive_headlines_not_form_sections():
+    from ethanol_report.narrative import _embedded_strategy_body
+
+    raw = """# Ethanol Strategy Brief
+## Week of August 13, 2026
+
+## Executive View
+- Takeaway one.
+
+## 1. Lower yield matters more than the headline crop increase
+**What happened**
+USDA cut yield.
+
+## 2. Ethanol supply is testing demand capacity
+**What happened**
+Stocks rose.
+
+## Bottom Line
+Watch inventories.
+"""
+    presented = _presentation_narrative(_embedded_strategy_body(raw))
+    soup = BeautifulSoup(presented, "html.parser")
+    labels = [link.get_text(" ", strip=True) for link in soup.select("nav.strategy-narrative-links a")]
+    assert labels == [
+        "1. Lower yield matters more than the headline crop increase",
+        "2. Ethanol supply is testing demand capacity",
+    ]
+    assert soup.select_one("h3#executive-view") is not None
+    assert soup.select_one("h3#bottom-line") is not None
+    assert all("Executive view" not in label for label in labels)
+    assert all("Risk dashboard" not in label for label in labels)
 
 
 def test_end_to_end_report_and_baseline(project, monkeypatch):
@@ -151,7 +185,7 @@ Keep this section.
     assert first["baseline"] is None
     assert first["market_data_as_of"] == "2026-07-31"
     first_folder = project.root / "reports" / "final" / "2026-08-03"
-    html_name = "Corn and Ethanol Intel-2026-08-03.html"
+    html_name = "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
     for name in (
         html_name,
         "report.md",
@@ -184,6 +218,10 @@ Keep this section.
     assert 'href="#strategy-executive-1-cloud-strategy-headline"' in report_html
     assert "summarize_auto" not in report_html
     assert report_html.index("At a Glance") < report_html.index("Key Moments from the Call")
+    assert ">Weekly Corn and Ethanol Intel Report<" in report_html
+    assert "5m — Strong results" in report_html
+    assert "44.759" not in report_html
+    assert "5m 44" not in report_html
     assert 'class="insight-card"' not in report_html
     assert "Google Finance earnings page" in report_html
     assert "Recent Earnings Highlights — 3m Ret" in report_html
@@ -193,7 +231,7 @@ Keep this section.
     assert "h2::after" not in report_html
     assert "border-bottom:3px solid var(--navy)" in report_html
     soup = BeautifulSoup(report_html, "html.parser")
-    strategy_heading = soup.select_one("h2#in-the-news")
+    strategy_heading = soup.select_one("h2#strategy-narrative")
     strategy_links = soup.select_one("nav.strategy-narrative-links")
     executive_heading = soup.select_one("h3#executive-readout")
     assert strategy_heading is not None
@@ -296,7 +334,11 @@ Keep this section.
     assert len(requested_earnings_charts) == chart_requests_before_rerender
     assert not orphan_chart.exists()
     faithful_html = (
-        project.root / "reports" / "final" / "2026-08-03" / "Corn and Ethanol Intel-2026-08-03.html"
+        project.root
+        / "reports"
+        / "final"
+        / "2026-08-03"
+        / "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
     ).read_text()
     assert "Fixture earnings summary" in faithful_html
     assert "Cloud fixture narrative" in faithful_html

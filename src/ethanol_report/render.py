@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 from .analysis import Baseline, format_percent, months_before
 from .config import ProjectConfig
-from .earnings import google_url
+from .earnings import format_call_timestamp, google_url
 
 CSS = """
 :root { color-scheme:light; --navy:#2c3331; --navy-2:#5a6360; --ink:#1e2422;
@@ -787,7 +787,7 @@ def build_markdown(context: dict[str, Any]) -> str:
         "",
         str(config.settings["report"].get("description", "")),
         "",
-        "## In the News",
+        "## Strategy Narrative",
         "",
     ]
     if narrative:
@@ -1173,8 +1173,10 @@ def build_markdown(context: dict[str, Any]) -> str:
         if moments:
             lines.extend(["#### Key Moments from the Call", ""])
             for moment in moments:
+                timestamp = format_call_timestamp(str(moment.get("timestamp") or ""))
+                marker = f"{timestamp} — " if timestamp else ""
                 lines.append(
-                    f"- **{moment['timestamp']} — {_summary_text(moment['title'])}:** {_summary_text(moment['blurb'])}"
+                    f"- **{marker}{_summary_text(moment['title'])}:** {_summary_text(moment['blurb'])}"
                 )
         if not summary and not glance and not moments:
             lines.append(
@@ -1217,7 +1219,7 @@ def build_markdown(context: dict[str, Any]) -> str:
 
 def _report_file_prefix(config: ProjectConfig | None) -> str:
     if config is None:
-        return "Corn and Ethanol Intel"
+        return "Weekly Corn and Ethanol Intel Report"
     return config.report_name
 
 
@@ -1281,7 +1283,9 @@ def _html_document(
             image_node["src"] = f"data:{mime_type};base64,{encoded}"
         body = str(soup)
     title_match = re.search(r"^# (.+)$", markdown_text, re.M)
-    title = html.escape(title_match.group(1) if title_match else "Corn and Ethanol Intel")
+    title = html.escape(
+        title_match.group(1) if title_match else "Weekly Corn and Ethanol Intel Report"
+    )
     navigation, body = _navigation(body)
     return (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'

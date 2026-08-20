@@ -158,6 +158,10 @@ def test_ethanol_profile_uses_ethanol_prompt_and_research_task(project):
     assert "ethanol-plant economics" in result["assembled_prompt"]
     assert "Healthcare Strategy Brief" not in result["assembled_prompt"]
     assert "life-sciences" not in result["assembled_prompt"]
+    assert "Required format:" not in result["assembled_prompt"]
+    assert "## Delta-first requirement" in result["assembled_prompt"]
+    assert "Do **not**:" in result["assembled_prompt"]
+    assert "1-12 outline" in result["assembled_prompt"]
 
 
 def test_cost_estimate_uses_central_model_pricing():

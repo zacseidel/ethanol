@@ -23,7 +23,7 @@ def _fake_report(
     assets = folder / "assets"
     assets.mkdir(parents=True)
     (assets / "chart.webp").write_bytes(b"RIFF-fake-webp")
-    name = "Corn and Ethanol Intel" if report_type == "ethanol" else report_type
+    name = "Weekly Corn and Ethanol Intel Report" if report_type == "ethanol" else report_type
     headline_links = "".join(
         f'<li><a href="#{fragment}">{label}</a></li>' for fragment, label in headlines
     )
@@ -77,14 +77,14 @@ def test_build_site_uses_latest_report_and_builds_public_pages(project):
     assert "Report for 2026-08-03" in home.get_text(" ", strip=True)
     assert len(home.select("header.public-site-header")) == 1
     assert len(home.select("nav.report-nav")) == 0
-    assert home.select_one(".public-site-brand").get_text(strip=True) == "Corn & Ethanol"
+    assert home.select_one(".public-site-brand").get_text(strip=True) == "Ethanol Strategy Digest"
     home_downloads = {
         link.get_text(strip=True): str(link["href"])
         for link in home.select(".report-downloads-page a")
     }
     assert home_downloads == {
-        "PDF": "reports/2026-08-03/Corn%20and%20Ethanol%20Intel-2026-08-03.pdf",
-        "HTML": "reports/2026-08-03/Corn%20and%20Ethanol%20Intel-2026-08-03.html",
+        "PDF": "reports/2026-08-03/Weekly%20Corn%20and%20Ethanol%20Intel%20Report-2026-08-03.pdf",
+        "HTML": "reports/2026-08-03/Weekly%20Corn%20and%20Ethanol%20Intel%20Report-2026-08-03.html",
     }
     assert home.select_one('nav.public-site-nav a[href="reports/"]') is not None
     assert home.select_one('nav.public-site-nav a[href="news/"]') is not None
@@ -107,8 +107,12 @@ def test_build_site_uses_latest_report_and_builds_public_pages(project):
     assert historical.select_one('nav.public-site-nav a[href="../../about/"]') is not None
     assert len(historical.select(".report-downloads-page .download-button")) == 2
     assert (output / "reports" / "2026-07-27" / "assets" / "chart.webp").is_file()
-    assert (output / "reports" / "2026-08-03" / "Corn and Ethanol Intel-2026-08-03.html").is_file()
-    assert (output / "reports" / "2026-08-03" / "Corn and Ethanol Intel-2026-08-03.pdf").read_bytes().startswith(b"%PDF")
+    assert (
+        output / "reports" / "2026-08-03" / "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
+    ).is_file()
+    assert (
+        output / "reports" / "2026-08-03" / "Weekly Corn and Ethanol Intel Report-2026-08-03.pdf"
+    ).read_bytes().startswith(b"%PDF")
     assert "About" in (output / "about" / "index.html").read_text()
     assert "Market performance" in (output / "methodology" / "index.html").read_text()
     assert (output / ".nojekyll").is_file()
@@ -143,7 +147,7 @@ def test_build_site_lists_ethanol_reports_only(project):
     archive = BeautifulSoup((output / "reports" / "index.html").read_text(), "html.parser")
     links = [str(link["href"]) for link in archive.select(".report-list-link")]
     assert links == ["2026-08-03/", "2026-07-27/"]
-    assert "Corn & Ethanol Intel" in archive.get_text(" ", strip=True)
+    assert "Weekly Corn and Ethanol Intel Report" in archive.get_text(" ", strip=True)
     assert (output / "reports" / "2026-08-03" / "index.html").is_file()
 
 
@@ -226,4 +230,4 @@ def test_homepage_uses_the_newest_ethanol_report(project):
     assert "Report for 2026-08-10" in home.get_text(" ", strip=True)
     archive = BeautifulSoup((output / "reports" / "index.html").read_text(), "html.parser")
     headings = [heading.get_text(" ", strip=True) for heading in archive.select(".report-group h2")]
-    assert headings == ["Corn & Ethanol Intel"]
+    assert headings == ["Weekly Corn and Ethanol Intel Report"]

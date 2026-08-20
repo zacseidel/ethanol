@@ -1,6 +1,6 @@
 # About
 
-Corn & Ethanol Intel is a weekly view of the public companies, policy, and market conditions that shape U.S. ethanol-plant economics.
+Ethanol Strategy Digest is a weekly view of the public companies, policy, and market conditions that shape U.S. ethanol-plant economics. Each edition is published as the Weekly Corn and Ethanol Intel Report.
 
 Each edition brings three layers together:
 

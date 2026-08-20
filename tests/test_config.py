@@ -26,8 +26,13 @@ def test_single_ethanol_profile_uses_root_outputs(project):
     assert "GPRE" in project.universe.companies
     assert "VLO" in project.universe.companies
     assert project.final_root == project.root / "reports" / "final"
-    assert report_html_name(date(2026, 8, 3), project) == "Corn and Ethanol Intel-2026-08-03.html"
-    assert standalone_html_name(date(2026, 8, 3), project).startswith("Corn and Ethanol Intel-")
+    assert (
+        report_html_name(date(2026, 8, 3), project)
+        == "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
+    )
+    assert standalone_html_name(date(2026, 8, 3), project).startswith(
+        "Weekly Corn and Ethanol Intel Report-"
+    )
     assert narrative_path(project).name == "narrative.json"
 
 
