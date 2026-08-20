@@ -1,0 +1,55 @@
+report:
+  slug: ethanol
+  name: Corn and Ethanol Intel
+  description: >-
+    Weekly review of corn, ethanol, energy, co-product, policy, and related public-company
+    performance for commodities risk managers at U.S. ethanol plants.
+  timezone: America/Chicago
+  benchmark: SPY
+  return_horizons_months: [3, 12, 24]
+  chart_horizons_months: [6, 12, 24]
+  top_stocks_shown: 5
+  chart_stocks_per_horizon: 3
+  previous_report_minimum_days: 5
+
+market_data:
+  api_delay_seconds: 13
+  company_cache_days: 90
+  price_retention_buffer_days: 45
+  price_base_tolerance_days: 7
+  maximum_price_age_days: 7
+  maximum_market_cap_age_days: 90
+  minimum_market_cap_coverage: 0.8
+
+earnings:
+  window_days: 7
+  tentative_interval_days: 90
+  tentative_check_lead_days: 21
+  confirmed_recheck_lead_days: 21
+
+notable_changes:
+  comparison_horizon_months: 12
+  top_n: 3
+  largest_rank_changes: 3
+  movers_shown: 3
+
+strategy_narrative:
+  stale_after_days: 7
+
+report_profiles:
+  ethanol:
+    name: Corn and Ethanol Intel
+    description: >-
+      Weekly review of corn, ethanol, energy, co-product, policy, and related public-company
+      performance for commodities risk managers at U.S. ethanol plants.
+    categories:
+      - Crop inputs, equipment, and irrigation
+      - Grain origination and agribusiness
+      - U.S. ethanol and process technology
+      - Wet milling, ingredients, and co-products
+      - Fuel blending, refining, and retail
+      - Advanced biofuels and SAF
+      - International ethanol
+      - Logistics
+    strategy_narrative:
+      stale_after_days: 7

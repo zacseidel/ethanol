@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "companies": {
+    "CTVA": {
+      "fetched_at": "2026-08-20T19:37:31Z",
+      "value": {
+        "ticker": "CTVA",
+        "provider_name": "Corteva, Inc. Common Stock",
+        "market_cap": 52421589719.99999,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2019-05-24",
+        "description": "Corteva is an agricultural inputs pure play that was formed in 2019 when it was spun off from DowDuPont. The company is a leader in the development of new seed and crop protection products. Seeds generate the majority of profits with the remainder coming from crop protection products. Corteva plans to spin off its seeds business in late 2026. The seeds business will be named Vylor, while the crop protection business will retain the Corteva name and be a pure-play crop protection company following the divestiture. Corteva operates globally, but around half of revenue comes from North America.",
+        "website": "https://www.corteva.com"
+      }
+    },
+    "BAYRY": {
+      "fetched_at": "2026-08-20T19:37:57Z",
+      "value": {
+        "ticker": "BAYRY",
+        "provider_name": "BAYER AG S/ADR",
+        "market_cap": null,
+        "market_cap_date": "2026-08-20",
+        "exchange": "OTC Link",
+        "list_date": null,
+        "description": "BAYER AG S/ADR",
+        "website": ""
+      }
+    },
+    "BASFY": {
+      "fetched_at": "2026-08-20T19:38:23Z",
+      "value": {
+        "ticker": "BASFY",
+        "provider_name": "BASF SE S/ADR",
+        "market_cap": null,
+        "market_cap_date": "2026-08-20",
+        "exchange": "OTC Link",
+        "list_date": null,
+        "description": "BASF SE S/ADR",
+        "website": ""
+      }
+    },
+    "NTR": {
+      "fetched_at": "2026-08-20T19:38:49Z",
+      "value": {
+        "ticker": "NTR",
+        "provider_name": "Nutrien Ltd. Common Shares",
+        "market_cap": 33643310217.0,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1989-11-02",
+        "description": "Created in 2018 as a result of the merger between PotashCorp and Agrium, Nutrien is the world's largest fertilizer producer by capacity. Nutrien produces the three main crop nutrients—nitrogen, potash, and phosphate—although its main focus is potash, where it is the global leader in installed capacity with a roughly 20% market share. The company is also the largest agricultural retailer in North America and Australia, selling fertilizers, crop chemicals, seeds, and services directly to farm customers through its brick-and-mortar stores and online platforms.",
+        "website": "https://www.nutrien.com"
+      }
+    },
+    "CF": {
+      "fetched_at": "2026-08-20T19:39:15Z",
+      "value": {
+        "ticker": "CF",
+        "provider_name": "CF Industries Holding, Inc.",
+        "market_cap": 18012264232.6,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2005-08-11",
+        "description": "CF Industries is a leading producer and distributor of nitrogen, which is primarily used in fertilizers. The company operates nitrogen manufacturing plants primarily in North America. CF also produces nitrogen in the United Kingdom and holds a joint venture interest in a nitrogen production facility in Trinidad and Tobago. CF makes nitrogen primarily using low-cost US natural gas as its feedstock, making the company one of the lowest-cost nitrogen producers globally. It is also investing in carbon-free blue and green ammonia, which can be used as an alternative fuel to hydrogen or as a means to transport hydrogen.",
+        "website": "https://www.cfindustries.com"
+      }
+    },
+    "YARIY": {
+      "fetched_at": "2026-08-20T19:39:41Z",
+      "value": {
+        "ticker": "YARIY",
+        "provider_name": "YARA INTL ASA S/ADR",
+        "market_cap": null,
+        "market_cap_date": "2026-08-20",
+        "exchange": "OTC Link",
+        "list_date": null,
+        "description": "YARA INTL ASA S/ADR",
+        "website": ""
+      }
+    },
+    "MOS": {
+      "fetched_at": "2026-08-20T19:40:07Z",
+      "value": {
+        "ticker": "MOS",
+        "provider_name": "The Mosaic Company",
+        "market_cap": 7066820210.58,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1988-01-26",
+        "description": "Mosaic is one of the largest phosphate and potash producers in the world. The company's assets include phosphate rock mines in the US and potash mines in Canada. Mosaic also runs a large fertilizer distribution operation in Brazil through its Mosaic Fertilizantes business.",
+        "website": "https://www.mosaicco.com"
+      }
+    },
+    "DE": {
+      "fetched_at": "2026-08-20T19:40:33Z",
+      "value": {
+        "ticker": "DE",
+        "provider_name": "Deere & Company",
+        "market_cap": 156733767077.75,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1958-08-04",
+        "description": "Deere is the world's leading manufacturer of agricultural equipment and a major producer of construction machinery. The company is divided into four reporting segments: production & precision agriculture, or PPA, small agriculture & turf, or SAT, construction & forestry, or CF, and financial services, or FS, its captive finance subsidiary. The core PPA business is the largest contributor to sales and profits by far. Geographically, Deere sales are 60% US/Canada, 17% Europe, 14% Latin America, and 9% rest of the world. Deere goes to market through a robust dealer network that includes over 2,000 dealer locations in North America with reach into over 100 countries. John Deere Financial provides retail financing for machinery to its customers and wholesale financing for dealers.",
+        "website": "https://www.deere.com"
+      }
+    },
+    "CNH": {
+      "fetched_at": "2026-08-20T19:40:59Z",
+      "value": {
+        "ticker": "CNH",
+        "provider_name": "CNH INDUSTRIAL N.V.",
+        "market_cap": 16547953475.759998,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2013-09-30",
+        "description": "CNH Industrial is the world's second largest manufacturer of agricultural machinery (82% of industrial net sales) as well as a major player in construction equipment (18% of industrial net sales). Its Case and New Holland brands have served farmers for generations. Geographically, agricultural sales are 40% in North America, 32% in Europe, the Middle East, and Africa, 18% in South America, and 10% in Asia-Pacific. CNH's products are available through a robust independent dealer network, which includes over 2,600 dealer and distribution locations and reach into 164 countries. The construction business leverages over 400 dealers. The company's captive finance arm provides retail financing to its customers and wholesale financing to dealers to maintain inventory, thereby supporting sales.",
+        "website": "https://www.cnh.com"
+      }
+    }
+  }
+}

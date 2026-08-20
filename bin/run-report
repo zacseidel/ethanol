@@ -1,0 +1,207 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+project_dir=$(CDPATH= cd -- "$script_dir/.." && pwd)
+venv_dir="$project_dir/.venv"
+python_bin="$venv_dir/bin/python"
+requirements_file="$project_dir/requirements.lock"
+requirements_marker="$venv_dir/.environment-sha256"
+
+usage() {
+  cat <<'EOF'
+Usage:
+  ./bin/run-report                 Create today's Corn & Ethanol Intel report
+  ./bin/run-report YYYY-MM-DD      Create or replace that dated final report
+  ./bin/run-report --validate      Validate the local installation without fetching data
+  ./bin/run-report --render DATE [--refresh-charts]
+                                   Rerender a saved report without network requests
+  ./bin/run-report --export-standalone DATE [OUTPUT]
+                                   Export a portable single-file report
+  ./bin/run-report --setup-only    Install/update dependencies without creating a report
+EOF
+}
+
+case "${1:-}" in
+  -h|--help)
+    usage
+    exit 0
+    ;;
+esac
+
+report_date=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --validate|--render|--export-standalone|--setup-only)
+      # These existing modes are handled below and retain their original arguments.
+      break
+      ;;
+    --*)
+      echo "error: unknown option: $1" >&2
+      usage >&2
+      exit 1
+      ;;
+    *)
+      if [ -n "$report_date" ]; then
+        echo "error: only one report date may be provided." >&2
+        usage >&2
+        exit 1
+      fi
+      report_date="$1"
+      shift
+      ;;
+  esac
+done
+
+python_is_compatible() {
+  "$1" -c 'import sys; raise SystemExit(sys.version_info < (3, 12))' \
+    >/dev/null 2>&1
+}
+
+if [ ! -x "$python_bin" ] || ! python_is_compatible "$python_bin"; then
+  bootstrap_python=""
+  for candidate in "${ETHANOL_PYTHON:-}" python3.12 python3.13 python3.14 python3; do
+    if [ -n "$candidate" ] && command -v "$candidate" >/dev/null 2>&1; then
+      candidate_path=$(command -v "$candidate")
+      if python_is_compatible "$candidate_path"; then
+        bootstrap_python="$candidate_path"
+        break
+      fi
+    fi
+  done
+
+  if [ -z "$bootstrap_python" ]; then
+    echo "error: Python 3.12 or newer was not found." >&2
+    echo "On macOS with Homebrew, install it with: brew install python@3.12" >&2
+    echo "Or set ETHANOL_PYTHON to a compatible Python executable." >&2
+    exit 1
+  fi
+
+  if [ -d "$venv_dir" ]; then
+    echo "Rebuilding .venv with $("$bootstrap_python" --version 2>&1) ..."
+    "$bootstrap_python" -m venv --clear "$venv_dir"
+  else
+    echo "Creating .venv with $("$bootstrap_python" --version 2>&1) ..."
+    "$bootstrap_python" -m venv "$venv_dir"
+  fi
+fi
+
+requirements_hash=$(
+  shasum -a 256 "$requirements_file" "$project_dir/pyproject.toml" \
+    | awk '{print $1}' \
+    | shasum -a 256 \
+    | awk '{print $1}'
+)
+installed_hash=""
+if [ -f "$requirements_marker" ]; then
+  installed_hash=$(<"$requirements_marker")
+fi
+
+if [ "$requirements_hash" != "$installed_hash" ]; then
+  echo "Installing Python dependencies ..."
+  "$python_bin" -m pip install --upgrade pip
+  "$python_bin" -m pip install -r "$requirements_file"
+  "$python_bin" -m pip install --no-deps -e "$project_dir"
+  printf '%s\n' "$requirements_hash" > "$requirements_marker"
+fi
+
+chromium_is_available() {
+  "$python_bin" -c '
+import os
+from playwright.sync_api import sync_playwright
+with sync_playwright() as playwright:
+    executable = playwright.chromium.executable_path
+    raise SystemExit(not (os.path.isfile(executable) and os.access(executable, os.X_OK)))
+' >/dev/null 2>&1
+}
+
+if [ "${1:-}" != "--validate" ] && [ "${1:-}" != "--render" ] \
+  && [ "${1:-}" != "--export-standalone" ]; then
+  if chromium_is_available; then
+    echo "Chromium is ready."
+  else
+    echo "Chromium is not installed; downloading it once..."
+    "$python_bin" -m playwright install chromium
+    if ! chromium_is_available; then
+      echo "error: Chromium installation completed but the browser could not start." >&2
+      exit 1
+    fi
+  fi
+fi
+
+if [ "${1:-}" = "--setup-only" ]; then
+  echo "Local setup is ready."
+  exit 0
+fi
+
+if [ "${1:-}" = "--validate" ]; then
+  cd "$project_dir"
+  exec "$python_bin" -m ethanol_report validate
+fi
+
+if [ "${1:-}" = "--render" ]; then
+  if { [ "$#" -ne 2 ] && [ "$#" -ne 3 ]; } \
+    || [[ ! "$2" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] \
+    || { [ "$#" -eq 3 ] && [ "$3" != "--refresh-charts" ]; }; then
+    usage >&2
+    exit 1
+  fi
+  cd "$project_dir"
+  if [ "$#" -eq 3 ]; then
+    exec "$python_bin" -m ethanol_report render --date "$2" --refresh-charts
+  fi
+  exec "$python_bin" -m ethanol_report render --date "$2"
+fi
+
+if [ "${1:-}" = "--export-standalone" ]; then
+  if { [ "$#" -ne 2 ] && [ "$#" -ne 3 ]; } \
+    || [[ ! "$2" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+    usage >&2
+    exit 1
+  fi
+  cd "$project_dir"
+  if [ "$#" -eq 3 ]; then
+    exec "$python_bin" -m ethanol_report export-standalone --date "$2" --output "$3"
+  fi
+  exec "$python_bin" -m ethanol_report export-standalone --date "$2"
+fi
+
+if [ ! -f "$project_dir/.env" ]; then
+  echo "error: $project_dir/.env does not exist." >&2
+  echo "Create it from .env.example and add MASSIVE_API_KEY and OPENAI_API_KEY." >&2
+  exit 1
+fi
+
+# .env is a user-controlled local file. Export its assignments for the Python process
+# without printing them, so credentials never appear in the launcher output.
+set -a
+# shellcheck disable=SC1091
+source "$project_dir/.env"
+set +a
+
+if [ -z "${MASSIVE_API_KEY:-}" ] || [ "$MASSIVE_API_KEY" = "your_api_key_here" ]; then
+  echo "error: MASSIVE_API_KEY is missing from .env." >&2
+  exit 1
+fi
+
+if [ -z "${OPENAI_API_KEY:-}" ] || [ "$OPENAI_API_KEY" = "your_openai_api_key_here" ]; then
+  echo "error: OPENAI_API_KEY is missing from .env." >&2
+  exit 1
+fi
+
+if [ -n "$report_date" ] && [[ ! "$report_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+  echo "error: report date must use YYYY-MM-DD." >&2
+  usage >&2
+  exit 1
+fi
+
+if [ "$#" -gt 1 ]; then
+  usage >&2
+  exit 1
+fi
+
+cd "$project_dir"
+if [ -n "$report_date" ]; then
+  exec "$python_bin" -m ethanol_report run --date "$report_date" --report ethanol
+fi
+exec "$python_bin" -m ethanol_report run --report ethanol

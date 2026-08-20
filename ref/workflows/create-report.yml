@@ -1,0 +1,153 @@
+name: Run full healthcare update
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+      timezone: America/Denver
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: Optional report date (YYYY-MM-DD); defaults to today in Denver
+        required: false
+        type: string
+      report_scope:
+        description: Which report to update manually
+        required: true
+        default: both
+        type: choice
+        options:
+          - healthcare
+          - life-science-device
+          - both
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: healthcare-update-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  report:
+    name: Generate and commit complete update
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: gpt-5.6-sol
+      OPENAI_REASONING_EFFORT: high
+      REPORT_HISTORY_COUNT: "4"
+      MPLBACKEND: Agg
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.lock
+          python -m pip install --no-deps -e .
+          python -m playwright install --with-deps chromium
+
+      - name: Validate configuration and tests
+        run: |
+          python -m healthcare_report validate
+          ruff check src tests
+          mypy src
+          pytest
+
+      - name: Require API keys
+        run: |
+          if [ -z "$MASSIVE_API_KEY" ]; then
+            echo "::error::Add MASSIVE_API_KEY under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Add OPENAI_API_KEY under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+      - name: Generate the final report
+        env:
+          REQUESTED_REPORT_DATE: ${{ inputs.report_date }}
+        run: |
+          args=()
+          if [ -n "$REQUESTED_REPORT_DATE" ]; then
+            args+=(--date "$REQUESTED_REPORT_DATE")
+          fi
+          args+=(--report "${{ inputs.report_scope || 'both' }}")
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args+=(--force-secondary)
+          fi
+          python -m healthcare_report run "${args[@]}" | tee report-result.json
+
+      - name: Add the run summary
+        run: |
+          echo "## Healthcare report" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat report-result.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Build the downloadable standalone report
+        id: standalone
+        run: |
+          report_scope="${{ inputs.report_scope || 'both' }}"
+          report_date=$(python -c 'import json; value=json.load(open("report-result.json")); print((value.get("reports") or [value])[0]["report_date"])')
+          echo "report_date=$report_date" >> "$GITHUB_OUTPUT"
+          echo "scope=$report_scope" >> "$GITHUB_OUTPUT"
+          mkdir -p "$RUNNER_TEMP/report-artifacts"
+          for scope in healthcare life-science-device; do
+            if [ "$report_scope" != "both" ] && [ "$report_scope" != "$scope" ]; then continue; fi
+            python -m healthcare_report export-standalone --report "$scope" --date "$report_date" \
+              --output "$RUNNER_TEMP/report-artifacts/$scope-$report_date.html"
+          done
+
+      - name: Upload the standalone report
+        uses: actions/upload-artifact@v4
+        with:
+          name: healthcare-intel-reports-${{ steps.standalone.outputs.report_date }}
+          path: ${{ runner.temp }}/report-artifacts/*.html
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Commit and push the complete update
+        id: commit
+        run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          git fetch origin "${GITHUB_REF_NAME}"
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse "origin/${GITHUB_REF_NAME}")" ]; then
+            echo "::error::The branch changed while the report was running. Rerun from the new head."
+            exit 1
+          fi
+          git add -- docs reports/final reports/strategy state
+          if git diff --cached --quiet; then
+            echo "No report, site, or state changes were produced."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          report_date=$(python -c 'import json; value=json.load(open("report-result.json")); print((value.get("reports") or [value])[0]["report_date"])')
+          git commit -m "Create healthcare report for $report_date"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Request the branch-based Pages build
+        if: >-
+          steps.commit.outputs.changed == 'true' &&
+          github.ref_name == github.event.repository.default_branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

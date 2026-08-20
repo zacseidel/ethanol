@@ -1,0 +1,69 @@
+report:
+  slug: healthcare
+  name: Healthcare Intel Digest
+  description: >-
+    Weekly review of category and company performance, changes since the previous
+    report, earnings activity, and the payer-technology strategy narrative.
+  timezone: America/Denver
+  benchmark: SPY
+  return_horizons_months: [3, 12, 24]
+  chart_horizons_months: [6, 12, 24]
+  top_stocks_shown: 5
+  chart_stocks_per_horizon: 3
+  previous_report_minimum_days: 5
+
+market_data:
+  api_delay_seconds: 13
+  company_cache_days: 90
+  price_retention_buffer_days: 45
+  price_base_tolerance_days: 7
+  maximum_price_age_days: 7
+  maximum_market_cap_age_days: 90
+  minimum_market_cap_coverage: 0.8
+
+earnings:
+  window_days: 7
+  tentative_interval_days: 90
+  tentative_check_lead_days: 21
+  confirmed_recheck_lead_days: 21
+
+notable_changes:
+  comparison_horizon_months: 12
+  top_n: 3
+  largest_rank_changes: 3
+  movers_shown: 3
+
+strategy_narrative:
+  stale_after_days: 7
+
+report_profiles:
+  healthcare:
+    name: Healthcare Intel Digest
+    description: >-
+      Weekly review of healthcare services, technology, distribution, and diagnostic
+      company performance, changes, earnings activity, and strategy narrative.
+    categories:
+      - Payers
+      - Health System Providers
+      - Inpatient Non-Acute Providers
+      - Health Care Real Estate
+      - Value-Based Care
+      - Outpatient and Home Providers
+      - Digital Health, Specialty, Benefits
+      - Health IT and Data
+      - Pharma Distribution
+      - Precision Diagnostics
+    strategy_narrative:
+      stale_after_days: 7
+  life-science-device:
+    name: Life Science and Device Intel
+    description: >-
+      Weekly review of pharmaceutical, biotech, biologics, and medical-device
+      company performance, changes, earnings activity, and strategy narrative.
+    categories:
+      - Devices & Diagnostic
+      - Big Pharma
+      - Established Biotech
+      - Emerging Biotech
+    strategy_narrative:
+      stale_after_days: 7
