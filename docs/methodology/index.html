@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Methodology · Corn &amp; Ethanol Intel</title><style>
+:root { --site-navy:#1e2422; --site-blue:#5a6360; --site-gold:#c9a24a;
+  --site-ink:#1e2422; --site-muted:#5a6360; --site-line:#d4cfc4; --site-paper:#fffdf8;
+  --site-panel:#e7e4dc; --site-header:#fffdf8; }
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap");
+.public-site-header { position:relative; z-index:20; color:var(--site-ink); background:var(--site-header);
+  border-bottom:1px solid var(--site-line); box-shadow:0 1px 8px #1832480d; }
+.public-site-header-inner { width:min(1500px,100%); min-height:60px; margin:0 auto;
+  padding:.55rem 1.5rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; }
+.public-site-brand { color:#1e2422 !important;
+  font:700 1.15rem/1.2 "Zilla Slab",Georgia,serif;
+  text-decoration:none; letter-spacing:.015em; }
+.public-site-nav { display:flex; align-items:center; gap:.25rem; flex-wrap:wrap; }
+.public-site-nav a { color:#526879 !important; padding:.45rem .68rem; border-radius:4px;
+  font:700 .78rem/1.2 "Source Sans 3",sans-serif; letter-spacing:.12em; text-transform:uppercase; text-decoration:none; }
+.public-site-nav a:hover,.public-site-nav a[aria-current="page"] { color:#b33c28 !important;
+  background:#e7e4dc; }
+.public-page-body { margin:0; color:var(--site-ink); background:#f6f3ec;
+  font:16px/1.62 "Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.public-page { width:min(1040px,calc(100% - 2rem)); min-height:calc(100vh - 60px); margin:0 auto;
+  padding:3rem clamp(1.25rem,4vw,4rem) 5rem; background:var(--site-paper);
+  box-shadow:0 8px 30px #18324814; }
+.public-page h1,.public-page h2,.public-page h3 { color:var(--site-navy);
+  font-family:"Zilla Slab",Georgia,serif; line-height:1.2; }
+.public-page h1 { margin:.15rem 0 1rem; font-size:clamp(2.05rem,5vw,3.25rem);
+  font-weight:500; letter-spacing:-.025em; }
+.public-page h2 { margin-top:2.2rem; padding-bottom:.35rem; border-bottom:2px solid var(--site-line); }
+.public-page a { color:#b33c28; text-underline-offset:2px; }
+.public-site-header + .page-shell { padding-top:1.25rem; }
+.public-site-header + .page-shell main { border-top:1px solid var(--site-line); }
+.public-site-header + .page-shell main > h1 { color:#1e2422;
+  font-family:"Zilla Slab",Georgia,serif;
+  font-size:clamp(2rem,4vw,2.75rem); font-weight:500; letter-spacing:-.035em; }
+.public-site-header + .page-shell .report-nav { border-top:2px solid #9fb7c7; }
+.site-eyebrow { margin:0; color:var(--site-blue); font-size:.77rem; font-weight:800;
+  letter-spacing:.13em; text-transform:uppercase; }
+.site-lede { max-width:740px; color:#40505e; font-size:1.13rem; }
+.report-list { list-style:none; margin:2rem 0 0; padding:0; border-top:1px solid var(--site-line); }
+.report-group { margin-top:2.5rem; }
+.report-group h2 { margin:0; padding-bottom:.45rem; color:var(--site-navy);
+  border-bottom:2px solid var(--site-line); font:700 1.45rem/1.2 "Zilla Slab",Georgia,serif; }
+.report-group .report-list { margin-top:0; }
+.report-list li { display:flex; align-items:center; gap:.75rem; border-bottom:1px solid var(--site-line); }
+.report-list .report-list-link { min-width:0; flex:1; display:grid;
+  grid-template-columns:minmax(190px,1fr) minmax(150px,.8fr) auto;
+  gap:1rem; align-items:center; padding:1rem .2rem; color:inherit; text-decoration:none; }
+.report-list li:hover { background:var(--site-panel); }
+.report-list strong { color:var(--site-navy); font:700 1.06rem/1.3 "Zilla Slab",Georgia,serif; }
+.report-list span { color:var(--site-muted); font-size:.9rem; }
+.site-badge { display:inline-block; justify-self:end; padding:.18rem .5rem; border-radius:2px;
+  color:#fffdf8 !important; background:#b33c28; font-size:.72rem !important; font-weight:800; text-transform:uppercase; }
+.site-badge-warning { color:#754b05 !important; background:#fff0c9; }
+.index-week { margin-top:2.5rem; }
+.index-week > h2 { margin-bottom:.3rem; }
+.index-report { margin:1.25rem 0 2rem; padding:1.1rem 1.25rem; border:1px solid var(--site-line);
+  border-radius:5px; background:#fbfcfd; }
+.index-report-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; }
+.index-report h3 { margin:0 0 .8rem; font-size:1.22rem; }
+.index-report h4 { margin:1rem 0 .35rem; color:var(--site-blue); font-size:.82rem;
+  letter-spacing:.09em; text-transform:uppercase; }
+.index-links { margin:.35rem 0 .6rem; padding-left:1.3rem; }
+.index-links li { margin:.35rem 0; }
+.topic-directory { margin-top:3.5rem; padding-top:.5rem; border-top:4px solid var(--site-gold); }
+.topic-group { margin-top:2.5rem; }
+.topic-section { margin:1.35rem 0; }
+.topic-section h3 { margin-bottom:.4rem; }
+.topic-links { list-style:none; margin:.35rem 0 0; padding:0; }
+.topic-links li { padding:.65rem 0; border-bottom:1px solid var(--site-line); }
+.topic-links span { display:block; margin-top:.15rem; color:var(--site-muted); font-size:.82rem; }
+.index-empty { color:var(--site-muted); font-style:italic; }
+.report-downloads { display:flex; align-items:center; gap:.42rem; flex-wrap:wrap; margin:.8rem 0 1.35rem; }
+.report-downloads-compact { flex:0 0 auto; margin:0; }
+.report-download-label { margin-right:.15rem; color:var(--site-muted); font-size:.78rem; font-weight:600; }
+.download-button { display:inline-flex; align-items:center; justify-content:center; min-width:3.25rem;
+  padding:.36rem .62rem; border:1px solid #b7c8d3; border-radius:4px; color:#315b75 !important;
+  background:#fff; font:600 .76rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.025em; text-decoration:none !important; }
+.download-button:hover { border-color:#7193a8; background:#edf4f7; }
+.report-list-actions { padding-right:.2rem; }
+.public-site-footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--site-line);
+  color:var(--site-muted); font-size:.84rem; }
+@media (max-width:700px) {
+  .public-site-header-inner { align-items:flex-start; flex-direction:column; gap:.45rem; }
+  .public-site-nav { margin-left:-.7rem; }
+  .public-page { width:100%; }
+  .report-list li { display:block; padding-bottom:.8rem; }
+  .report-list .report-list-link { grid-template-columns:1fr; gap:.2rem; padding-bottom:.45rem; }
+  .report-list-actions { padding:0 .2rem; }
+  .index-report-heading { display:block; }
+  .report-downloads-compact { margin:.2rem 0 .8rem; }
+  .site-badge { justify-self:start; margin-top:.25rem; }
+}
+</style></head><body class="public-page-body"><header class="public-site-header"><div class="public-site-header-inner"><a class="public-site-brand" href="../">Corn &amp; Ethanol</a><nav class="public-site-nav" aria-label="Website navigation"><a href="../">Latest report</a><a href="../news/">News &amp; Earnings</a><a href="../reports/">Past reports</a><a href="../about/">About</a><a href="../methodology/" aria-current="page">Methodology</a></nav></div></header><main class="public-page"><h1>Methodology</h1>
+<p>Each weekly report combines public-company market data with an independently generated strategy brief.</p>
+<h2>Market performance</h2>
+<p>Prices and market capitalizations come from Massive. Returns are calculated over 3-, 12-, and 24-month horizons against the S&amp;P 500 (<code>SPY</code>). Companies are ranked across the full watchlist and within each category. The comparison baseline is the latest earlier final report at least five days old. Rank changes use the stored published ranks, so adding or removing a ticker cannot silently rewrite last week's order.</p>
+<p>The watchlist is the YAML front matter in <code>inputs/companies.md</code>. Tickers are U.S. listings or ADRs. Categories follow the corn-to-ethanol value chain: crop inputs, grain origination, ethanol production, wet milling and co-products, blending and retail, advanced biofuels, international ethanol, and logistics.</p>
+<h2>Earnings</h2>
+<p>Upcoming and recently reported earnings dates are collected from public Google Finance pages, with Yahoo Finance as the date fallback. Tentative dates are labeled when a source has not confirmed the next event.</p>
+<h2>Strategy narrative</h2>
+<p>The strategy brief is produced with the OpenAI Responses API, high reasoning, and built-in web search. The version-controlled master prompt is <code>inputs/ethanol-strategy-prompt.md</code>. Each request includes the report date, the prior seven-day window, and up to four earlier ethanol briefs as untrusted reference material.</p>
+<p>The brief is written for plant risk managers. Commodity prices, RINs, crush margins, EIA, and USDA figures in that narrative come from the model's web search of public sources, not from a separate time-series database in this application. If a reliable public value is not available, the brief is instructed to say so rather than invent one.</p>
+<p>If the API call fails, the last successful narrative is reused and the report is marked degraded. A failed call never overwrites the latest good strategy archive.</p>
+<h2>Publication</h2>
+<p>Reports are stored by date under <code>reports/final/</code>. The public site is generated into <code>docs/</code> and published with GitHub Pages. PDF and self-contained HTML downloads are created from the same dated report. The News &amp; Earnings index assigns headlines to topics with deterministic keyword rules, not a separate classifier.</p><footer class="public-site-footer">Corn &amp; Ethanol Intel uses public market and company information. It is informational and is not investment advice.</footer></main></body></html>

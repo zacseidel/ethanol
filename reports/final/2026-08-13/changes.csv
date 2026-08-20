@@ -1,0 +1,2 @@
+change_type,entity_type,category,ticker,name,horizon_months,previous_rank,current_rank,rank_delta,previous_return,current_return,return_delta,previous_report_date,current_report_date,detail
+baseline,report,,,First report,,,,,,,,,2026-08-13,No earlier final report is available; this report establishes the baseline.

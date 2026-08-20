@@ -117,6 +117,396 @@
         "description": "CNH Industrial is the world's second largest manufacturer of agricultural machinery (82% of industrial net sales) as well as a major player in construction equipment (18% of industrial net sales). Its Case and New Holland brands have served farmers for generations. Geographically, agricultural sales are 40% in North America, 32% in Europe, the Middle East, and Africa, 18% in South America, and 10% in Asia-Pacific. CNH's products are available through a robust independent dealer network, which includes over 2,600 dealer and distribution locations and reach into 164 countries. The construction business leverages over 400 dealers. The company's captive finance arm provides retail financing to its customers and wholesale financing to dealers to maintain inventory, thereby supporting sales.",
         "website": "https://www.cnh.com"
       }
+    },
+    "AGCO": {
+      "fetched_at": "2026-08-20T19:41:25Z",
+      "value": {
+        "ticker": "AGCO",
+        "provider_name": "AGCO Corporation",
+        "market_cap": 6969557670.08,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1992-04-16",
+        "description": "Agco is a global manufacturer of agricultural equipment. Its main machine brands are Fendt, Massey Ferguson, and Valtra; its initiatives in precision agriculture have been organized under the PTx umbrella following a series of acquisitions. While a global business, Agco's sales skew heavily toward Europe/Middle East, representing 50%-60% of sales and even more of operating profits. The company is trying to increase its exposure to the larger North and South American markets. Its products are available through a global dealer network, which includes over 3,000 dealers and distribution locations and reaches into over 140 countries. Additionally, Agco offers retail and wholesale financing to customers through its partnership with Rabobank of the Netherlands, having exited their JV in 2026.",
+        "website": "https://www.agcocorp.com"
+      }
+    },
+    "VMI": {
+      "fetched_at": "2026-08-20T19:41:51Z",
+      "value": {
+        "ticker": "VMI",
+        "provider_name": "Valmont Industries, Inc.",
+        "market_cap": 9349921875.14,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1972-06-01",
+        "description": "Valmont Industries Inc, along with its subsidiaries, operates as a manufacturer of products and services for infrastructure and agriculture markets. Its reportable segments are Infrastructure and Agriculture. The company generates maximum revenue from the Infrastructure segment, which includes the manufacturing and distribution of products and solutions to serve the infrastructure markets of utility, solar, lighting, transportation, and telecommunications, along with coatings services to protect metal products. The Agriculture segment provides irrigation equipment components, including aftermarket parts and tubular products, and technology solutions for precision agriculture. Geographically, it derives key revenue from the United States, followed by Australia, Brazil, and other regions.",
+        "website": "https://www.valmont.com"
+      }
+    },
+    "ADM": {
+      "fetched_at": "2026-08-20T19:42:17Z",
+      "value": {
+        "ticker": "ADM",
+        "provider_name": "Archer Daniels Midland Company",
+        "market_cap": 38923055923.08,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1945-09-10",
+        "description": "Archer-Daniels-Midland is a major processor of oilseeds, corn, wheat, and other agricultural commodities. The company is also one of the largest grain merchandisers through its extensive network of logistical assets to store and transport crops around the globe. ADM also runs a nutrition business that focuses on both human and animal ingredients and is a large producer of corn-based sweeteners, starches, and ethanol.",
+        "website": "https://www.adm.com"
+      }
+    },
+    "BG": {
+      "fetched_at": "2026-08-20T19:42:43Z",
+      "value": {
+        "ticker": "BG",
+        "provider_name": "Bunge Global SA",
+        "market_cap": 21901580022.0,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2001-08-02",
+        "description": "Bunge Global SA is an agribusiness solutions company, connecting farmers to consumers and delivering essential food, feed and fuel to the globe. The company segments include Soybean Processing and Refining; Softseed Processing and Refining; Other Oilseeds Processing and Refining; Grain Merchandising and Milling; and Corporate and Other. It generates maximum revenue from the Soybean Processing and Refining segment, which includes integrated business principally involved in the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of soybeans and soybean related products, as well as biodiesel and fertilizer production and distribution. Geographically, the company operates in United States, Switzerland, Netherlands, and Rest of the World.",
+        "website": "https://www.bunge.com"
+      }
+    },
+    "ANDE": {
+      "fetched_at": "2026-08-20T19:43:09Z",
+      "value": {
+        "ticker": "ANDE",
+        "provider_name": "Andersons Inc/The",
+        "market_cap": 2301165356.1,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNAS",
+        "list_date": "1996-02-20",
+        "description": "Andersons Inc is an agriculture and renewable fuels company. Its operations are classified into two reportable business segments: Agribusiness, which generates maximum revenue, and Renewables. The Agribusiness segment includes merchandising and managing logistics across various commodities, as well as being a manufacturer, distributor, and retailer of agricultural and related plant nutrients. The segment specializes in the movement of physical commodities such as whole grains, grain products, feed ingredients, and domestic fuel products, among other agricultural commodities. The Renewables segment mainly produces, purchases, and sells ethanol and co-products. Geographically, the company generates maximum revenue from the United States, followed by Canada, Mexico, and other markets.",
+        "website": "https://www.andersonsinc.com"
+      }
+    },
+    "VLO": {
+      "fetched_at": "2026-08-20T19:43:35Z",
+      "value": {
+        "ticker": "VLO",
+        "provider_name": "Valero Energy Corporation",
+        "market_cap": 99697762645.86,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1997-08-01",
+        "description": "Valero Energy is one of the largest independent refiners in the United States. It operates 15 refineries, with a total throughput capacity of 3.2 million barrels a day in the US, Canada, and the United Kingdom. Valero also owns 12 ethanol plants with capacity of 1.6 billion gallons a year and holds a 50% stake in Diamond Green Diesel, which can produce 1.2 billion gallons per year of renewable diesel.",
+        "website": "https://www.valero.com"
+      }
+    },
+    "GPRE": {
+      "fetched_at": "2026-08-20T19:44:01Z",
+      "value": {
+        "ticker": "GPRE",
+        "provider_name": "Green Plains, Inc.",
+        "market_cap": 1123628107.8400002,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNAS",
+        "list_date": "2006-03-15",
+        "description": "Green Plains Inc manufactures and sells ethanol and ethanol byproducts in two segments based on function. The ethanol production segment, which generates the majority of revenue, includes the production of ethanol, distillers grains, Ultra-High Protein and renewable corn oil. The agribusiness and energy services segment includes grain handling and storage, commodity marketing and merchant trading for company-produced and third-party ethanol, distillers grains, Ultra-High Protein, renewable corn oil, natural gas and other commodities.",
+        "website": "https://www.gpreinc.com"
+      }
+    },
+    "REX": {
+      "fetched_at": "2026-08-20T19:44:27Z",
+      "value": {
+        "ticker": "REX",
+        "provider_name": "REX American Resources Corp.",
+        "market_cap": 1444977688.6599998,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1992-07-01",
+        "description": "REX American Resources Corp operates as a holding company that engages in investments in alternative energy and ethanol production entities. Its operating segments include Ethanol and By-Products. Its products include Ethanol, dried distillers grains, modified distillers grains, Distillers corn oil, Modified distillers grains, and Other.",
+        "website": "https://www.rexamerican.com"
+      }
+    },
+    "NVZMY": {
+      "fetched_at": "2026-08-20T19:44:53Z",
+      "value": {
+        "ticker": "NVZMY",
+        "provider_name": "NOVONESIS B UNSP/ADR",
+        "market_cap": null,
+        "market_cap_date": "2026-08-20",
+        "exchange": "OTC Link",
+        "list_date": null,
+        "description": "NOVONESIS B UNSP/ADR",
+        "website": ""
+      }
+    },
+    "INGR": {
+      "fetched_at": "2026-08-20T19:45:19Z",
+      "value": {
+        "ticker": "INGR",
+        "provider_name": "Ingredion Incorporated",
+        "market_cap": 6757305349.85,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1997-12-11",
+        "description": "Ingredion is an ingredients provider for the food, beverage, brewing, and animal nutrition industries. The company processes corn, tapioca, potatoes, stevia, grains, fruits, gums, and vegetables into value-added ingredients. The company sells specialty ingredients that include starch-based texturizers and natural alternative sweeteners such as stevia. Ingredion also sells commodity ingredients that include sweeteners, such as high-fructose corn syrup, and starches, such as those used for sustainable packaging, as well as plant-based proteins. The company plans to acquire Tate & Lyle in an all-cash deal that should close in 2027.",
+        "website": "https://www.ingredion.com"
+      }
+    },
+    "DAR": {
+      "fetched_at": "2026-08-20T19:45:45Z",
+      "value": {
+        "ticker": "DAR",
+        "provider_name": "DARLING INGREDIENTS INC.",
+        "market_cap": 10563327197.039999,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1994-09-30",
+        "description": "Darling Ingredients Inc is a developer and producer of sustainable natural ingredients from edible and inedible bio-nutrients, creating a wide range of ingredients and customized specialty solutions for customers in the pharmaceutical, food, pet food, animal feed, industrial, fuel, bioenergy and fertilizer industries. It processes by-products from the animal agriculture and food industries into ingredients and products for human nutrition, animal feed, crop inputs, and renewable energy applications. The company operates processing facilities across multiple countries and produces collagen, including gelatin and hydrolyzed collagen, as well as renewable energy products.",
+        "website": "https://www.darlingii.com"
+      }
+    },
+    "TSN": {
+      "fetched_at": "2026-08-20T19:46:12Z",
+      "value": {
+        "ticker": "TSN",
+        "provider_name": "Tyson Foods, Inc.",
+        "market_cap": 20597978527.6,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1972-06-01",
+        "description": "Tyson Foods is a protein-focused food producer, selling raw chicken, beef, pork, and prepared foods. Chicken and beef are its two largest segments, composing about 40% and 30% of sales, respectively. Prepared foods constituted 18% of fiscal 2025 sales and include brands like Tyson, Jimmy Dean, Hillshire Farm, Ball Park, and Sara Lee. However, most of these are in product categories rife with competition where Tyson does not have a massive market share lead. Tyson sells some products overseas, but the international segment accounts for just 4% of total revenue. The company is an active acquirer, with more recent years' purchases focused on international and food-service markets.",
+        "website": "https://www.tysonfoods.com"
+      }
+    },
+    "JBS": {
+      "fetched_at": "2026-08-20T19:46:37Z",
+      "value": {
+        "ticker": "JBS",
+        "provider_name": "JBS N.V.",
+        "market_cap": 45228750792.5,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2008-11-26",
+        "description": "JBS NV is a protein food company, selling protein products, which include fresh and frozen cuts of beef, pork, lamb, fish, whole chickens, and chicken parts, to retailers, and foodservice companies. The food products are marketed under different brands such as Swift, Just Bare, Pilgrim's Pride, Sunnyvalley, Reserva Friboi, Great Southern, etc., globally. The company's reportable segments are Beef North America, which generates maximum revenue, Brazil, Seara, Pork USA, Pilgrim's Pride, Australia, and Others. Geographically, it derives majority of its revenue from United States of America.",
+        "website": "https://www.jbs.com.br"
+      }
+    },
+    "MPC": {
+      "fetched_at": "2026-08-20T19:47:03Z",
+      "value": {
+        "ticker": "MPC",
+        "provider_name": "MARATHON PETROLEUM CORPORATION",
+        "market_cap": 101307533252.25,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2011-06-23",
+        "description": "Marathon Petroleum is a leading integrated downstream and midstream energy company that operates 13 refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States with an aggregate crude oil refining capacity of 3.0 million barrels per day. The company is one of the largest producers of renewable diesel in the US; its Dickinson, North Dakota facility has the capacity to produce 184 million gallons per year, and its Martinez, California, joint venture facility (a 50/50 partnership with Neste) reached its full capacity of 730 million gallons per year in late 2024. Marathon also owns the general partner and approximately 64% of MPLX LP, a large-cap master limited partnership that owns and operates midstream energy infrastructure and logistics assets.",
+        "website": "https://www.marathonpetroleum.com"
+      }
+    },
+    "PSX": {
+      "fetched_at": "2026-08-20T19:47:29Z",
+      "value": {
+        "ticker": "PSX",
+        "provider_name": "PHILLIPS 66",
+        "market_cap": 96678777737.64,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2012-04-12",
+        "description": "Phillips 66 is an independent refiner that owns or holds interest in 10 refineries with a total crude throughput capacity of 2.0 million barrels per day, or mmb/d, at the end of 2025. The midstream segment comprises extensive transportation and NGL processing assets. It includes 70,000 miles of crude oil, refined petroleum product, NGL and natural gas pipeline systems, and a comprehensive set of refined petroleum product, NGL and crude oil terminals, gathering and processing plants and fractionation facilities and various other storage and loading facilities. Its CPChem chemical joint venture operates facilities primarily in the United States and the Middle East and produces olefins and polyolefins.",
+        "website": "https://www.phillips66.com"
+      }
+    },
+    "DINO": {
+      "fetched_at": "2026-08-20T19:47:55Z",
+      "value": {
+        "ticker": "DINO",
+        "provider_name": "HF Sinclair Corporation",
+        "market_cap": 16821907792.380001,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1984-11-05",
+        "description": "HF Sinclair is an integrated petroleum refiner that owns and operates seven refineries serving the Rockies, midcontinent, Southwest, and Pacific Northwest, with a total crude oil throughput capacity of 678,000 barrels per day. It can produce 380 million gallons of renewable diesel annually. It operates a marketing business with over 350 distributors and 1,700 branded wholesale sites across 30 states. It also owns and operates 4,500 miles of petroleum product pipelines and terminals principally in the Southwestern United States.",
+        "website": "https://www.hfsinclair.com"
+      }
+    },
+    "CVI": {
+      "fetched_at": "2026-08-20T19:48:21Z",
+      "value": {
+        "ticker": "CVI",
+        "provider_name": "CVR ENERGY, INC.",
+        "market_cap": 3689472983.3,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2007-10-23",
+        "description": "CVR Energy Inc is a holding company that engages in petroleum refining and nitrogen fertilizer manufacturing through its subsidiaries. Subsidiaries include several complex, full-coking crude oil refineries, along with a crude oil gathering system, pipelines, storage tanks, and marketing and supply. The company's refineries can process blends of a variety of crude oil ranging from heavy sour to light sweet crude oil. Crude oil for CVR's refineries is supplied through its wholly-owned gathering system and pipeline. From its refineries, CVR supplies products through tanker trucks directly to customers located in close geographic proximity and customers at throughput terminals. The company's customers include retailers, railroads, and farm cooperatives.",
+        "website": "https://www.cvrenergy.com"
+      }
+    },
+    "SUN": {
+      "fetched_at": "2026-08-20T19:48:47Z",
+      "value": {
+        "ticker": "SUN",
+        "provider_name": "SUNOCO L.P.",
+        "market_cap": 14487140849.61,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2012-09-20",
+        "description": "Sunoco LP is engaged in the distribution of motor fuels to independent dealers, distributors, and other commercial customers as well as the distribution of motor fuels to end-use customers at retail sites operated by commission agents. It is a growth-oriented master limited partnership (MLP) that operates as a wholesale and retail fuel distributor in the United States. The firm operates through the Fuel Distribution; Pipeline Systems; Refinery and Terminals segments. It generates the majority of its revenue from the Fuel Distribution segment. It distributes motor fuel to convenience stores, dealers, and commercial customers in various states.",
+        "website": "https://www.sunocolp.com"
+      }
+    },
+    "CASY": {
+      "fetched_at": "2026-08-20T19:49:13Z",
+      "value": {
+        "ticker": "CASY",
+        "provider_name": "Casey's General Stores Inc",
+        "market_cap": 30941658841.1,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNAS",
+        "list_date": "1983-10-20",
+        "description": "Casey's General Stores Inc, along with its subsidiaries, operates convenience stores mainly under the names Casey's, GoodStop (by Casey's), and Casey's General Store throughout various states in the USA, approximately half of which are located in Iowa, Missouri, and Illinois. These stores offer a broad selection of food items (which includes prepared foods such as regular and breakfast pizza, donuts, hot breakfast items, and hot and cold sandwiches), beverages, tobacco and nicotine products, groceries, health and beauty aids, automotive products, and other non-food items. The majority of the company's revenue is mainly derived from the retail sale of fuel and the products offered inside its stores.",
+        "website": "https://www.caseys.com"
+      }
+    },
+    "MUSA": {
+      "fetched_at": "2026-08-20T19:49:39Z",
+      "value": {
+        "ticker": "MUSA",
+        "provider_name": "MURPHY USA INC.",
+        "market_cap": 10444448379.28,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2013-08-19",
+        "description": "Murphy USA Inc is mainly engaged in the marketing of retail motor fuel products and convenience merchandise through a network of several retail stores in the Southwest, Southeast, Midwest, and Northeast United States. The majority of Murphy USA's stores are located in proximity to Walmart Supercenters, but it also operates standalone stores that market gasoline and other products under the Murphy USA, Murphy Express, and QuickChek brands. In addition, the company also markets fuel to unbranded wholesale customers through a mixture of company-owned and third-party product distribution terminals and pipeline positions. The firm generates maximum revenue through retail sales of petroleum products, and the rest from merchandise sales and wholesale of petroleum products.",
+        "website": "https://www.murphyusa.com"
+      }
+    },
+    "NTOIY": {
+      "fetched_at": "2026-08-20T19:50:05Z",
+      "value": {
+        "ticker": "NTOIY",
+        "provider_name": "NESTE OYJ UNSP/ADR",
+        "market_cap": null,
+        "market_cap_date": "2026-08-20",
+        "exchange": "OTC Link",
+        "list_date": null,
+        "description": "NESTE OYJ UNSP/ADR",
+        "website": ""
+      }
+    },
+    "CVX": {
+      "fetched_at": "2026-08-20T19:50:31Z",
+      "value": {
+        "ticker": "CVX",
+        "provider_name": "Chevron Corporation",
+        "market_cap": 403619489658.24,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1970-01-02",
+        "description": "Chevron is an integrated energy company with exploration, production, and refining operations worldwide. It is the second-largest oil company in the United States with 2025 worldwide net oil-equivalent production of 3.7 million barrels per day, including 8.5 billion cubic feet per day of natural gas and 2.3 million barrels of liquids per day. Production takes place in North America, South America, Europe, Africa, Asia, and Australia. The company's refining networks arelocated in the United States and Asia, with a total worldwide refining capacity of 1.8 million barrels of oil a day at year-end 2025. Net proved reserves at year-end 2025 stood at 10.6 billion barrels of oil equivalent, consisting of 5.7 billion barrels of liquids and 29.2 trillion cubic feet of natural gas.",
+        "website": "https://www.chevron.com"
+      }
+    },
+    "CSAN": {
+      "fetched_at": "2026-08-20T19:50:57Z",
+      "value": {
+        "ticker": "CSAN",
+        "provider_name": "Cosan S.A. American Depositary Shares (each representing four Common Shares)",
+        "market_cap": 2504672704.64,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2021-03-08",
+        "description": "Cosan SA engages in several services throughout the energy and logistics sectors. Its reportable segments are Raizen, Compass, Moove, Rumo, and Radar. It generates the majority of its revenue from Raizen which operates in the production, commercialization, origination, and trading of ethanol, bioenergy, resale, and trading of electricity, renewable sources, marketing, origination, and trading of sugar and fuels, and lubricant.",
+        "website": "https://www.cosan.com.br"
+      }
+    },
+    "AGRO": {
+      "fetched_at": "2026-08-20T19:51:23Z",
+      "value": {
+        "ticker": "AGRO",
+        "provider_name": "ADECOAGRO S.A.",
+        "market_cap": 1525335200.6200001,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "2011-01-28",
+        "description": "Adecoagro SA is a Luxembourg-based agricultural company. It is involved in a wide range of businesses, including farming crops and other agricultural products, dairy operations sugar, ethanol, energy production, and land transformation. The group operates in two lines of business, namely, Farming and Sugar, Ethanol and Energy. The Farming is further comprised of three reportable segments: Crops, Rice and Dairy. Sugar, Ethanol and Energy Segment, consists of cultivating sugarcane, which is processed in owned sugar mills, transformed into ethanol, sugar and electricity, in addition to biomethane and then marketed.",
+        "website": "https://www.adecoagro.com"
+      }
+    },
+    "UNP": {
+      "fetched_at": "2026-08-20T19:51:49Z",
+      "value": {
+        "ticker": "UNP",
+        "provider_name": "Union Pacific Corp.",
+        "market_cap": 179291985296.4,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1969-06-20",
+        "description": "Omaha, Nebraska-based Union Pacific is the largest public railroad in North America. Operating on more than 30,000 miles of track in the western two-thirds of the US, Union Pacific generated $24.5 billion of revenue in 2025 by hauling coal, industrial products, intermodal containers, agricultural goods, chemicals, fertilizers, and automotive goods. Union Pacific owns about one-fourth of Mexican railroad Ferromex and historically derives roughly 10% of its revenue hauling freight to and from Mexico.",
+        "website": "https://www.up.com"
+      }
+    },
+    "CSX": {
+      "fetched_at": "2026-08-20T19:52:16Z",
+      "value": {
+        "ticker": "CSX",
+        "provider_name": "CSX Corporation",
+        "market_cap": 93883428793.56,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNAS",
+        "list_date": "1980-11-03",
+        "description": "Operating in the Eastern United States, Class I railroad CSX generated revenue of nearly $14 billion in 2025. On its more than 21,000 miles of track, CSX hauls shipments of coal (16% of consolidated revenue), chemicals (17%), intermodal containers (16%), automotive cargo (7%), and a diverse mix of other bulk and industrial merchandise.",
+        "website": "https://www.csx.com"
+      }
+    },
+    "CP": {
+      "fetched_at": "2026-08-20T19:52:41Z",
+      "value": {
+        "ticker": "CP",
+        "provider_name": "Canadian Pacific Kansas City Limited",
+        "market_cap": 83020241914.56,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1952-04-02",
+        "description": "Canadian Pacific Kansas City is a Class I railroad operating on tracks that span most of Canada and into parts of the Midwestern and Northeastern United States. Following the April 2023 Kansas City Southern merger, CPKC operates new single-linehaul services from Canada and the Upper Midwest down through Texas, the Gulf of Mexico, and into Mexico. It also hauls cross-border and intra-Mexico freight via operating concessions on more than 3,000 miles of rail in Mexico. CPKC hauls shipments of grain, intermodal containers, energy products (like crude and frac sand), chemicals, plastics, coal, fertilizer and potash, automotive products, and a diverse mix of other merchandise.",
+        "website": "https://www.cpkcr.com"
+      }
+    },
+    "GATX": {
+      "fetched_at": "2026-08-20T19:53:07Z",
+      "value": {
+        "ticker": "GATX",
+        "provider_name": "GATX Corporation",
+        "market_cap": 6219339017.28,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1953-01-15",
+        "description": "GATX Corp leases transportation assets, including railcars, aircraft spare engines, and tank containers, to customers in North America, Europe, and India. The company's reportable business segments are: Rail North America, Rail International, Engine Leasing, and Other. The majority of its revenue is generated from the Rail North America segment, which is composed of the company's operations in the United States, Canada, and Mexico. This segment mainly provides railcars pursuant to full-service leases under which it maintains the railcars, pays ad valorem taxes and insurance, and provides other ancillary services.",
+        "website": "https://www.gatx.com"
+      }
+    },
+    "TRN": {
+      "fetched_at": "2026-08-20T19:53:33Z",
+      "value": {
+        "ticker": "TRN",
+        "provider_name": "Trinity Industries, Inc.",
+        "market_cap": 2359810175.32,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1972-06-01",
+        "description": "Trinity Industries Inc sells and leases railroad products and railcar maintenance services in North America. The company operates under the name TrinityRail in two main segments: railcar leasing and management services, which owns railcars and provides fleet management and administration services; rail products, which builds, sells, and modifies freight and tank railcars and their components; and all other, which sells highway products such as guardrail and other highway barriers. Customers include railroads, leasing companies, and shipping companies in agriculture, construction, consumer products, energy, and chemicals.",
+        "website": "https://www.trin.net"
+      }
+    },
+    "GBX": {
+      "fetched_at": "2026-08-20T19:53:59Z",
+      "value": {
+        "ticker": "GBX",
+        "provider_name": "The Greenbrier Companies, Inc.",
+        "market_cap": 1407755713.0,
+        "market_cap_date": "2026-08-20",
+        "exchange": "XNYS",
+        "list_date": "1994-07-21",
+        "description": "Greenbrier Companies Inc supplies equipment and services to international freight transportation markets, designing and marketing freight railcars in North America, Europe, and Brazil through subsidiaries and joint ventures. It provides railcar wheel services, parts, maintenance, and conversion services in North America. The company owns a lease fleet sourced mainly from its manufacturing operations and offers railcar management, regulatory compliance, and leasing services to railroads and owners. It operates two segments: Manufacturing and Leasing & Fleet Management, with the majority of revenue from Manufacturing. The company operates in the U.S. and internationally, with the majority of revenue from the U.S. market.",
+        "website": "https://www.gbrx.com"
+      }
     }
   }
 }
