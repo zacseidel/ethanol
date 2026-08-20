@@ -60,7 +60,7 @@ The generated `docs/` directory is the GitHub Pages source.
 - `inputs/companies.md` — YAML front matter, `Ticker: Name; Description`
 - `inputs/ethanol-strategy-prompt.md` — version-controlled research brief
 - `config/settings.yaml` — horizons, cache, timezone (`America/Chicago`), single `ethanol` profile
-- `docs/universe.md` — human research notes for the watchlist
+- `notes/universe.md` — human research notes for the watchlist
 
 Edit categories in the YAML block, then `./bin/run-report --validate`.
 
