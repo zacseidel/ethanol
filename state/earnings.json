@@ -57,12 +57,12 @@
     "next_date_source": "estimated from last earnings"
   },
   "BAYRY": {
-    "checked_at": "2026-08-20T19:54:37Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:17:43Z",
+    "checked_for_date": "2026-08-20"
   },
   "BASFY": {
-    "checked_at": "2026-08-20T19:54:40Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:17:46Z",
+    "checked_for_date": "2026-08-20"
   },
   "NTR": {
     "last_report_date": "2026-08-06",
@@ -138,8 +138,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "YARIY": {
-    "checked_at": "2026-08-20T19:54:54Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:17:50Z",
+    "checked_for_date": "2026-08-20"
   },
   "MOS": {
     "last_report_date": "2026-08-05",
@@ -725,26 +725,26 @@
     "key_moments": [
       {
         "title": "Record First Quarter Profitability and EPS",
-        "timestamp": "1m 42s",
+        "timestamp": "1m",
         "blurb": "REX delivered its highest-ever first-quarter net income per share, with diluted EPS jumping to $0.56 from $0.26 in the prior year. This record performance will please investors by demonstrating robust profitability driven by lower input corn costs and high-margin tax credit income."
       },
       {
         "title": "Progress on Growth Initiatives and Capex Tracking",
-        "timestamp": "3m 15s",
+        "timestamp": "3m",
         "blurb": "REX's total capital investment reached $176.3 million out of a $220 million to $230 million budget, with the Gibson City expansion tracking on-schedule for late 2026. Reassuringly, the expansion remains fully funded through cash reserves, leaving the company with zero bank debt."
       },
       {
         "title": "Integration of 45Z Production Tax Credits",
-        "timestamp": "4m 35s",
+        "timestamp": "4m",
         "blurb": "The company recorded $7.5 million in Section 45Z production tax credits in Q1 2026, changing its accounting principles to report this as operating income from consolidated plants. This material structural tailwind directly boosted gross margins and represents a sustainable layer of future profitability."
       },
       {
         "title": "Strong Industry Export Tailwind",
-        "timestamp": "10m 48s",
+        "timestamp": "10m",
         "blurb": "Management highlighted robust macro demand indicators, specifically pointing to an industry-wide 20% year-over-year increase in national ethanol exports through March 2026. This constructive demand backdrop reinforces investor confidence in stable pricing and off-take capabilities heading into subsequent quarters."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:55:42Z",
+    "at_a_glance_checked_at": "2026-08-20T23:17:53Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
@@ -773,16 +773,16 @@
       }
     ],
     "at_a_glance_report_date": "2026-05-28",
-    "checked_at": "2026-08-20T19:55:43Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-08-20T23:17:54Z",
+    "checked_for_date": "2026-08-20",
     "next_event_date": "2026-08-26",
     "next_check_date": "2026-08-05",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "NVZMY": {
-    "checked_at": "2026-08-20T19:55:47Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:17:57Z",
+    "checked_for_date": "2026-08-20"
   },
   "INGR": {
     "last_report_date": "2026-08-04",
@@ -1319,26 +1319,26 @@
     "key_moments": [
       {
         "title": "Unprecedented Earnings and EBITDA Record",
-        "timestamp": "3m 31s",
+        "timestamp": "3m",
         "blurb": "Casey's delivered massive fourth-quarter diluted EPS of $4.37, beating the $3.32 analyst estimate by $1.05. Full-year net income and EPS escalated 31%, while annual EBITDA spiked 23% to a record $1.5 billion, showcasing stellar operational execution across all core segments and providing an incredibly positive signal to investors."
       },
       {
         "title": "Robust Fuel Margin Expansion",
-        "timestamp": "9m 41s",
+        "timestamp": "9m",
         "blurb": "Despite volatile fuel prices, Casey's generated a historic fourth-quarter fuel margin of $0.469 per gallon, up over 9 cents year-over-year. The company successfully capitalized on market choppiness, utilizing competitive pricing alongside its strong inside-store flywheel to boost total fourth-quarter gallons sold by 3.6% and retail fuel revenue by $446 million."
       },
       {
         "title": "Ambitious Unit Growth and CapEx Guidance",
-        "timestamp": "13m 16s",
+        "timestamp": "13m",
         "blurb": "Management projected an acceleration in unit growth for fiscal 2027, targeting at least 120 new stores via an even mix of organic builds and M&A. Supported by a newly expanded $1 billion share repurchase program, this expansion underpins an impressive fiscal 2027 EBITDA growth forecast of 8% to 10% despite facing tough prior-year comparisons."
       },
       {
         "title": "Structural Margin Tailwinds in Grocery",
-        "timestamp": "22m 29s",
+        "timestamp": "22m",
         "blurb": "Grocery and General Merchandise margins expanded 90 basis points to 35.7% in Q4, driven by structural shifts. Investors will be pleased by the profitable mix shift as consumers transition from lower-margin traditional cigarettes to high-margin nicotine alternatives, further supported by the outperformance of high-margin energy drinks and an expanded liquor footprint."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:56:35Z",
+    "at_a_glance_checked_at": "2026-08-20T23:18:01Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
@@ -1367,8 +1367,8 @@
     "next_date_status": "confirmed",
     "next_date_source": "Google Finance",
     "next_check_date": null,
-    "checked_at": "2026-08-20T19:56:35Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:18:01Z",
+    "checked_for_date": "2026-08-20"
   },
   "MUSA": {
     "last_report_date": "2026-08-06",
@@ -1428,8 +1428,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "NTOIY": {
-    "checked_at": "2026-08-20T19:56:44Z",
-    "checked_for_date": "2026-08-13"
+    "checked_at": "2026-08-20T23:18:05Z",
+    "checked_for_date": "2026-08-20"
   },
   "CVX": {
     "last_report_date": "2026-07-31",
