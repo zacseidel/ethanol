@@ -57,7 +57,7 @@ def test_narrative_same_day_refresh_is_reused():
     )
 
 
-def test_failed_narrative_refresh_is_not_retried_same_day(project, monkeypatch):
+def test_failed_narrative_refresh_is_retried_on_the_same_day(project, monkeypatch):
     import ethanol_report.narrative as narrative
 
     def fail_refresh(*_args, **_kwargs):
@@ -75,7 +75,8 @@ def test_failed_narrative_refresh_is_not_retried_same_day(project, monkeypatch):
     assert detail == "fixture outage"
     marker = read_json(project.root / "state" / "narrative.json")
     assert marker["checked_on"] == "2026-08-04"
-    assert not narrative_refresh_needed(
+    assert marker["last_check_error"] == "fixture outage"
+    assert narrative_refresh_needed(
         marker,
         date(2026, 8, 3),
         checked_on=date(2026, 8, 4),

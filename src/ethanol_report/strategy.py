@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import re
+import time
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import date, timedelta
@@ -355,6 +356,24 @@ def _usage(response: Any) -> dict[str, int]:
     }
 
 
+_RATE_LIMIT_WAIT = re.compile(r"try again in ([\d.]+)\s*s", re.I)
+
+
+def _rate_limit_wait_seconds(exc: BaseException) -> float | None:
+    text = str(exc)
+    lowered = text.lower()
+    if (
+        "rate_limit" not in lowered
+        and "429" not in text
+        and type(exc).__name__ != "RateLimitError"
+    ):
+        return None
+    match = _RATE_LIMIT_WAIT.search(text)
+    if match:
+        return float(match.group(1))
+    return 5.0
+
+
 def _call_openai(settings: StrategySettings, prompt: str, profile: StrategyProfile) -> Any:
     if not os.getenv("OPENAI_API_KEY", "").strip():
         raise RuntimeError("OPENAI_API_KEY is not configured")
@@ -362,18 +381,29 @@ def _call_openai(settings: StrategySettings, prompt: str, profile: StrategyProfi
         from openai import OpenAI
     except ImportError as exc:
         raise RuntimeError("The openai Python package is not installed") from exc
-    client = OpenAI(timeout=settings.timeout_seconds, max_retries=2)
+    # Handle 429 waits ourselves. The SDK's short retries can stack tokens-per-minute
+    # usage and still fail after "try again in 5s".
+    client = OpenAI(timeout=settings.timeout_seconds, max_retries=0)
     responses = cast(Any, client.responses)
-    return responses.create(
-        model=settings.model,
-        instructions=role_instructions(profile),
-        reasoning={"effort": settings.reasoning_effort},
-        tools=[{"type": "web_search"}],
-        include=["web_search_call.action.sources"],
-        input=prompt,
-        max_output_tokens=settings.max_output_tokens,
-        store=False,
-    )
+    attempts = 4
+    for attempt in range(attempts):
+        try:
+            return responses.create(
+                model=settings.model,
+                instructions=role_instructions(profile),
+                reasoning={"effort": settings.reasoning_effort},
+                tools=[{"type": "web_search"}],
+                include=["web_search_call.action.sources"],
+                input=prompt,
+                max_output_tokens=settings.max_output_tokens,
+                store=False,
+            )
+        except Exception as exc:
+            wait = _rate_limit_wait_seconds(exc)
+            if wait is None or attempt >= attempts - 1:
+                raise
+            time.sleep(min(max(wait, 1.0) + 0.5, 60.0))
+    raise RuntimeError("OpenAI rate-limit retries were exhausted")
 
 
 def _write_text_atomic(path: Path, value: str) -> None:

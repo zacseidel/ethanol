@@ -8,6 +8,8 @@ import pytest
 
 from ethanol_report.strategy import (
     StrategySettings,
+    _call_openai,
+    _rate_limit_wait_seconds,
     assemble_prompt,
     discover_history,
     estimate_cost,
@@ -177,6 +179,51 @@ def test_cost_estimate_uses_central_model_pricing():
     )
     assert cost == pytest.approx(0.15225)
     assert estimate_cost("unpriced-model", {}) is None
+
+
+def test_rate_limit_wait_is_parsed_from_openai_error():
+    message = (
+        "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.6-sol "
+        "in organization org-test on tokens per min (TPM): Limit 500000, Used 413809, "
+        "Requested 127811. Please try again in 4.994s. Visit "
+        "https://platform.openai.com/account/rate-limits to learn more.', "
+        "'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+    )
+    assert _rate_limit_wait_seconds(RuntimeError(message)) == pytest.approx(4.994)
+    assert _rate_limit_wait_seconds(RuntimeError("network down")) is None
+
+
+def test_openai_retries_after_rate_limit(monkeypatch):
+    sleeps: list[float] = []
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
+    monkeypatch.setattr("ethanol_report.strategy.time.sleep", sleeps.append)
+    report_date = date(2026, 8, 24)
+    calls = {"count": 0}
+
+    class FakeResponses:
+        def create(self, **_kwargs):
+            calls["count"] += 1
+            if calls["count"] == 1:
+                raise RuntimeError(
+                    "Error code: 429 - Please try again in 4.994s. rate_limit_exceeded"
+                )
+            return FakeResponse(_valid_report(report_date))
+
+    class FakeOpenAI:
+        def __init__(self, **_kwargs):
+            self.responses = FakeResponses()
+
+    fake_openai = SimpleNamespace(OpenAI=FakeOpenAI)
+    monkeypatch.setitem(__import__("sys").modules, "openai", fake_openai)
+
+    settings = StrategySettings(model="gpt-5.6-sol", timeout_seconds=30)
+    from ethanol_report.strategy import STRATEGY_PROFILES
+
+    result = _call_openai(settings, "prompt", STRATEGY_PROFILES["ethanol"])
+    assert calls["count"] == 2
+    assert len(sleeps) == 1
+    assert sleeps[0] == pytest.approx(5.494)
+    assert result.output_text.startswith("# Ethanol Strategy Brief")
 
 
 def test_validation_rejects_missing_sources():

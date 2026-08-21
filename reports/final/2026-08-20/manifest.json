@@ -5,14 +5,14 @@
   "report_date": "2026-08-20",
   "market_data_as_of": "2026-08-19",
   "generated_at": "2026-08-20T23:27:26Z",
-  "rendered_at": "2026-08-20T23:27:26Z",
+  "rendered_at": "2026-08-21T10:54:12Z",
   "baseline_report_date": "2026-08-13",
   "configuration_sha256": "f8653a6f4d7d5afed7d891663e3a6f9f07ecc76a51a99572074a0e4e3533f502",
   "quality": "degraded",
   "issues": [
     "Stale or missing prices: BAYRY, NTOIY, NVZMY, BASFY, YARIY.",
     "Low market-cap coverage: Wet milling, ingredients, and co-products 24m.",
-    "Secondary source warnings: earnings:BAYRY (Google Finance earnings labels were not found); earnings:BASFY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/BASFY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:YARIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/YARIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NVZMY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NVZMY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NTOIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NTOIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); strategy narrative:OpenAI Responses API (Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.6-sol in organization org-CjszQXVKeXnLJNVddojpQwn1 on tokens per min (TPM): Limit 500000, Used 413809, Requested 127811. Please try again in 4.994s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}})"
+    "Secondary source warnings: earnings:BAYRY (Google Finance earnings labels were not found); earnings:BASFY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/BASFY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:YARIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/YARIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NVZMY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NVZMY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NTOIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NTOIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)"
   ],
   "sources": [
     {
@@ -732,44 +732,36 @@
     {
       "source": "strategy narrative",
       "subject": "OpenAI Responses API",
-      "status": "warning",
-      "detail": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.6-sol in organization org-CjszQXVKeXnLJNVddojpQwn1 on tokens per min (TPM): Limit 500000, Used 413809, Requested 127811. Please try again in 4.994s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      "status": "ok",
+      "detail": "OpenAI Responses API"
     }
   ],
   "metrics": {
-    "mode": "full",
+    "mode": "render-only",
     "durations_seconds": {
-      "market_data": 53.126,
-      "analysis": 0.013,
-      "secondary_sources": 576.522,
-      "rendering": 10.992,
-      "total": 640.676
+      "render_input_load": 0.012,
+      "rendering": 0.758,
+      "total": 0.79
     },
     "counts": {
       "companies": 39,
-      "price_bars_loaded": 19800,
+      "price_bars_loaded": 0,
       "performance_charts": 3,
       "earnings_charts": 2,
       "source_statuses": {
-        "ok": 82,
+        "ok": 83,
         "skipped": 32,
-        "warning": 6
+        "warning": 5
       }
     },
     "output_bytes": {
-      "html": 4843186,
-      "markdown": 113306,
+      "html": 4842978,
+      "markdown": 113081,
       "charts": 3536406,
-      "data": 106597,
-      "total_without_manifest": 8599495
+      "data": 106750,
+      "total_without_manifest": 8599215
     },
-    "price_retention": {
-      "cutoff": "2024-07-06",
-      "files_changed": 0,
-      "bars_removed": 0,
-      "bars_retained": 19800
-    },
-    "directory_bytes": 8621854
+    "directory_bytes": 8620783
   },
   "files": [
     "Weekly Corn and Ethanol Intel Report-2026-08-20.html",

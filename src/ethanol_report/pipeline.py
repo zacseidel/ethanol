@@ -560,6 +560,29 @@ def run_report(
     }
 
 
+def _usable_live_narrative(narrative: dict[str, Any] | None, report_date: date) -> bool:
+    return bool(
+        isinstance(narrative, dict)
+        and narrative.get("checked_for_date") == report_date.isoformat()
+        and narrative.get("body")
+        and not narrative.get("last_check_error")
+    )
+
+
+def _narrative_for_render(
+    report_date: date,
+    render_data: dict[str, Any],
+    config: ProjectConfig,
+) -> dict[str, Any] | None:
+    live = load_narrative(config)
+    if _usable_live_narrative(live, report_date):
+        return live
+    stored = render_data.get("narrative")
+    if isinstance(stored, dict) and stored.get("body"):
+        return stored
+    return live if isinstance(live, dict) else None
+
+
 def rerender_report(
     config: ProjectConfig,
     report_date: date,
@@ -609,8 +632,7 @@ def rerender_report(
     # for a presentation-only rebuild; do not reopen the mutable earnings
     # cache unless a full report update is being run.
     earnings: dict[str, dict[str, Any]] = {}
-    narrative_value = render_data.get("narrative")
-    narrative = narrative_value if isinstance(narrative_value, dict) else load_narrative(config)
+    narrative = _narrative_for_render(report_date, render_data, config)
     recent_value = render_data.get("recent_earnings")
     upcoming_value = render_data.get("upcoming_earnings")
     recent = (
@@ -626,6 +648,24 @@ def rerender_report(
     moves_value = render_data.get("period_moves")
     moves = dict(moves_value) if isinstance(moves_value, dict) else None
     status_rows = [dict(row) for row in manifest.get("sources", []) if isinstance(row, dict)]
+    if _usable_live_narrative(narrative, report_date):
+        status_rows = [
+            row
+            for row in status_rows
+            if not (
+                row.get("source") == "strategy narrative"
+                and row.get("status") == "warning"
+            )
+        ]
+        if not any(row.get("source") == "strategy narrative" for row in status_rows):
+            status_rows.append(
+                {
+                    "source": "strategy narrative",
+                    "subject": "OpenAI Responses API",
+                    "status": "ok",
+                    "detail": "OpenAI Responses API",
+                }
+            )
     issues = data_issues(config, snapshot, status_rows, narrative_age(narrative, report_date))
     destination, _new_manifest = _render_final(
         config,

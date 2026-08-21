@@ -172,6 +172,8 @@ def narrative_refresh_needed(
 ) -> bool:
     if not narrative or narrative.get("checked_for_date") != as_of.isoformat():
         return True
+    if narrative.get("last_check_error"):
+        return True
     checked_on = checked_on or datetime.now(UTC).date()
     if narrative.get("checked_on") == checked_on.isoformat():
         return False
