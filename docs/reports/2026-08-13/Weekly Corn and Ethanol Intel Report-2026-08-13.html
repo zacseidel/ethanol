@@ -35,10 +35,14 @@ a { color:#b33c28; text-underline-offset:2px; }
 .return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
   font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
 .category-return { font-size:.76rem; }
-.table-wrap { overflow-x:auto; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
 table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
 th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
 th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
 th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
 th.sortable-heading { cursor:pointer; user-select:none; }
 th.sortable-heading:hover { background:#3a423e; }
@@ -92,7 +96,7 @@ img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
 <li><strong>Soybean supply became a clearer co-product risk.</strong> USDA raised soybean production and crush, implying more soybean meal competition for DDGS and high-protein feed products this autumn.</li>
 <li><strong>Overall margin and risk conditions deteriorated modestly:</strong> corn tightened, ethanol inventories rose and petroleum prices weakened, partially offset by inexpensive natural gas and substantial 45Z support for qualifying low-carbon production.</li>
 </ul>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Exposure</th>
@@ -146,7 +150,7 @@ img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
 <td>Medium</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The initial baseline is therefore a <strong>large-crop but no-longer-loose corn market, high ethanol operating rates, and increasingly bifurcated plant economics between conventional and low-carbon facilities</strong>. Long-running background issues—carbon-pipeline permitting, final 45Z compliance mechanics and structural year-round E15 legislation—are not repeated except where this week produced a measurable change.</p>
 <h3 id="strategy-executive-view-1-usda-tightened-corn-despite-a-second-largest-crop">1. USDA tightened corn despite a second-largest crop</h3>
 <p><strong>Status:</strong> NEW</p>

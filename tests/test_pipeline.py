@@ -160,6 +160,10 @@ def test_end_to_end_report_and_baseline(project, monkeypatch):
 
 ## Executive readout
 
+| Exposure | Main driver |
+| --- | --- |
+| Corn | Central Corn Belt rain |
+
 ### 1. Cloud strategy headline
 Cloud fixture narrative.
 
@@ -231,6 +235,9 @@ Keep this section.
     assert "h2::after" not in report_html
     assert "border-bottom:3px solid var(--navy)" in report_html
     soup = BeautifulSoup(report_html, "html.parser")
+    driver_heading = soup.find("th", string="Main driver")
+    assert driver_heading is not None
+    assert driver_heading.find_parent("div", class_="table-wrap") is not None
     strategy_heading = soup.select_one("h2#strategy-narrative")
     strategy_links = soup.select_one("nav.strategy-narrative-links")
     executive_heading = soup.select_one("h3#executive-readout")

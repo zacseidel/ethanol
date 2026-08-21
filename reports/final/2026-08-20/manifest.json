@@ -5,7 +5,7 @@
   "report_date": "2026-08-20",
   "market_data_as_of": "2026-08-19",
   "generated_at": "2026-08-20T23:27:26Z",
-  "rendered_at": "2026-08-21T10:54:12Z",
+  "rendered_at": "2026-08-21T11:00:09Z",
   "baseline_report_date": "2026-08-13",
   "configuration_sha256": "f8653a6f4d7d5afed7d891663e3a6f9f07ecc76a51a99572074a0e4e3533f502",
   "quality": "degraded",
@@ -739,9 +739,9 @@
   "metrics": {
     "mode": "render-only",
     "durations_seconds": {
-      "render_input_load": 0.012,
-      "rendering": 0.758,
-      "total": 0.79
+      "render_input_load": 0.013,
+      "rendering": 0.698,
+      "total": 0.741
     },
     "counts": {
       "companies": 39,
@@ -755,13 +755,13 @@
       }
     },
     "output_bytes": {
-      "html": 4842978,
+      "html": 4843208,
       "markdown": 113081,
       "charts": 3536406,
       "data": 106750,
-      "total_without_manifest": 8599215
+      "total_without_manifest": 8599445
     },
-    "directory_bytes": 8620783
+    "directory_bytes": 8621013
   },
   "files": [
     "Weekly Corn and Ethanol Intel Report-2026-08-20.html",

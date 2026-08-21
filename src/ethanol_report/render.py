@@ -56,10 +56,14 @@ a { color:#b33c28; text-underline-offset:2px; }
 .return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
   font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
 .category-return { font-size:.76rem; }
-.table-wrap { overflow-x:auto; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
 table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
 th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
 th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
 th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
 th.sortable-heading { cursor:pointer; user-select:none; }
 th.sortable-heading:hover { background:#3a423e; }
@@ -1271,8 +1275,8 @@ def _html_document(
         extensions=["tables", "fenced_code", "toc", "sane_lists"],
         output_format="html5",
     )
+    soup = BeautifulSoup(body, "html.parser")
     if embed_images:
-        soup = BeautifulSoup(body, "html.parser")
         for image_node in soup.select('img[src^="assets/"]'):
             relative = Path(str(image_node.get("src") or ""))
             image_path = folder / relative
@@ -1281,7 +1285,15 @@ def _html_document(
             mime_type = "image/webp" if image_path.suffix.casefold() == ".webp" else "image/png"
             encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
             image_node["src"] = f"data:{mime_type};base64,{encoded}"
-        body = str(soup)
+    for table in soup.find_all("table"):
+        parent = table.parent
+        classes = parent.get("class") if parent is not None else []
+        if parent is not None and parent.name == "div" and "table-wrap" in (classes or []):
+            continue
+        wrapper = soup.new_tag("div")
+        wrapper["class"] = "table-wrap"
+        table.wrap(wrapper)
+    body = str(soup)
     title_match = re.search(r"^# (.+)$", markdown_text, re.M)
     title = html.escape(
         title_match.group(1) if title_match else "Weekly Corn and Ethanol Intel Report"

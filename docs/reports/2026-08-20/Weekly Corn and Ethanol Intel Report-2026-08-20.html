@@ -35,10 +35,14 @@ a { color:#b33c28; text-underline-offset:2px; }
 .return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
   font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
 .category-return { font-size:.76rem; }
-.table-wrap { overflow-x:auto; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
 table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
 th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
 th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
 th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
 th.sortable-heading { cursor:pointer; user-select:none; }
 th.sortable-heading:hover { background:#3a423e; }
@@ -92,7 +96,7 @@ img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
 <li><strong>Natural-gas storage remains a margin buffer.</strong> National stocks were 6.2% above the five-year average, with Midwest inventories 6.7% above normal despite strong summer demand.</li>
 <li><strong>Overall margin and risk conditions were broadly unchanged:</strong> improved corn-weather risk and adequate natural-gas supply were offset by another ethanol inventory build and the possibility that additional gasoline supply limits ethanol’s petroleum-derived value support.</li>
 </ul>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Exposure</th>
@@ -153,7 +157,7 @@ img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
 <td>Corn relief versus ethanol stocks</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The week’s incremental thesis is that <strong>weather has reduced the probability of a broad national corn-yield downgrade, but ethanol producers have not yet reduced output enough to stabilize inventories</strong>. Continuing 45Z monetization, soybean-meal competition, carbon-pipeline permitting and longer-term year-round E15 legislation are not repeated because no material new evidence emerged during the reporting window.</p>
 <h3 id="strategy-executive-view-1-central-corn-belt-rain-reduced-the-next-corn-yield-downgrade-risk">1. Central Corn Belt rain reduced the next corn-yield downgrade risk</h3>
 <p><strong>Status:</strong> REFUTE</p>
