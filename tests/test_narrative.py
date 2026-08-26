@@ -15,7 +15,7 @@ def test_ethanol_refresh_uses_openai_archive(project, monkeypatch):
 
     report_date = date(2026, 8, 24)
 
-    def fake_generate(config, generated_for, *, force=False):
+    def fake_generate(config, generated_for, *, force=False, **_kwargs):
         assert config.scope == "ethanol"
         assert generated_for == report_date
         assert not force

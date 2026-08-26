@@ -14,9 +14,9 @@ Upcoming and recently reported earnings dates are collected from public Google F
 
 ## Strategy narrative
 
-The strategy brief is produced with the OpenAI Responses API, high reasoning, and built-in web search. The version-controlled master prompt is `inputs/ethanol-strategy-prompt.md`. Each request includes the report date, the prior seven-day window, and up to four earlier ethanol briefs as untrusted reference material.
+The strategy brief is produced with the OpenAI Responses API, high reasoning, and built-in web search. The version-controlled master prompt is `inputs/ethanol-strategy-prompt.md`. Each request includes the report date, the prior seven-day window, up to four earlier ethanol briefs as untrusted reference material, and a nearby-futures tape.
 
-The brief is written for plant risk managers. Commodity prices, RINs, crush margins, EIA, and USDA figures in that narrative come from the model's web search of public sources, not from a separate time-series database in this application. If a reliable public value is not available, the brief is instructed to say so rather than invent one.
+Nearby corn, CBOT ethanol, RBOB, and Henry Hub settlements are retrieved from Yahoo Finance delayed futures and shown on the report. Nearby corn is treated as the market's current perception of yield and demand risk and is passed into the briefing prompt so the lead assessment has to be consistent with the tape. Other commodity prices, RINs, crush margins, EIA, and USDA figures in the narrative still come from the model's web search of public sources. If a reliable public value is not available, the brief is instructed to say so rather than invent one. The prompt ranks USDA balance-sheet evidence above noisy weekly prints, but still quotes concrete levels when they are available.
 
 If the API call fails, the last successful narrative is reused and the report is marked degraded. A failed call never overwrites the latest good strategy archive.
 

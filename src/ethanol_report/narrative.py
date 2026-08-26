@@ -107,9 +107,15 @@ def refresh_narrative(
     *,
     as_of: date | None = None,
     force: bool = False,
+    commodity_tape: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     report_date = as_of or datetime.now(config.timezone).date()
-    generated = generate_strategy_report(config, report_date, force=force)
+    generated = generate_strategy_report(
+        config,
+        report_date,
+        force=force,
+        commodity_tape=commodity_tape,
+    )
     generated_at = str(generated.get("generated_at") or utc_now())
     value = {
         "schema": 3,
@@ -139,12 +145,19 @@ def refresh_narrative_with_fallback(
     as_of: date,
     checked_on: date | None = None,
     force: bool = False,
+    commodity_tape: list[dict[str, Any]] | None = None,
 ) -> tuple[dict[str, Any] | None, str, str]:
     cached = load_narrative(config)
     if not force and not narrative_refresh_needed(cached, as_of, checked_on=checked_on):
         return cached, "skipped", "already refreshed for this report date today"
     try:
-        refreshed = refresh_narrative(config, browser, as_of=as_of, force=force)
+        refreshed = refresh_narrative(
+            config,
+            browser,
+            as_of=as_of,
+            force=force,
+            commodity_tape=commodity_tape,
+        )
         return refreshed, "ok", "OpenAI Responses API"
     except Exception as exc:
         checked_on = checked_on or datetime.now(UTC).date()

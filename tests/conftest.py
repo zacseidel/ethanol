@@ -9,6 +9,32 @@ from ethanol_report.config import load_config
 
 
 @pytest.fixture(autouse=True)
+def stub_commodity_tape(monkeypatch):
+    tape = [
+        {
+            "id": "corn",
+            "label": "Nearby corn",
+            "yahoo_symbol": "ZC=F",
+            "unit": "USD/bu",
+            "last": 4.285,
+            "last_date": "2026-08-20",
+            "prior": 4.000,
+            "prior_date": "2026-08-13",
+            "change": 0.285,
+            "change_pct": 0.07125,
+        }
+    ]
+    statuses = []
+
+    def fake_load(*_args, **_kwargs):
+        return tape, statuses
+
+    monkeypatch.setattr("ethanol_report.commodities.load_commodity_tape", fake_load)
+    monkeypatch.setattr("ethanol_report.strategy.load_commodity_tape", fake_load)
+    monkeypatch.setattr("ethanol_report.pipeline.load_commodity_tape", fake_load)
+
+
+@pytest.fixture(autouse=True)
 def stub_site_pdf_generation(monkeypatch):
     import ethanol_report.site as site
 

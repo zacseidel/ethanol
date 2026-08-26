@@ -16,6 +16,7 @@ import markdown
 from bs4 import BeautifulSoup
 
 from .analysis import Baseline, format_percent, months_before
+from .commodities import format_change, format_price
 from .config import ProjectConfig
 from .earnings import format_call_timestamp, google_url
 
@@ -49,6 +50,8 @@ a { color:#b33c28; text-underline-offset:2px; }
 .report-meta { margin:1rem 0 1.35rem; padding:.85rem 1rem; background:var(--panel);
   border-left:4px solid var(--navy-2); color:#40505e; }
 .report-meta span { display:block; }
+.commodity-tape { margin:.2rem 0 1.5rem; }
+.commodity-tape-caption { margin:.15rem 0 .55rem; color:var(--muted); font-size:.88rem; }
 .section-jump-list { columns:2; padding:1rem 1.25rem 1rem 2.25rem; background:var(--panel); border-radius:4px; }
 .strategy-narrative-links { margin:.8rem 0 1.8rem; padding:1rem 1.25rem; background:var(--panel); border-radius:4px; }
 .strategy-narrative-links ul { margin:0; padding-left:1.25rem; }
@@ -165,6 +168,59 @@ class HtmlCell:
 
 def _long_date(value: date) -> str:
     return f"{value.strftime('%B')} {value.day}, {value.year}"
+
+
+def _as_iso_date(value: Any) -> date | None:
+    if isinstance(value, date) and not isinstance(value, datetime):
+        return value
+    try:
+        return date.fromisoformat(str(value)[:10]) if value else None
+    except ValueError:
+        return None
+
+
+def _commodity_tape_markup(tape: list[dict[str, Any]]) -> str:
+    if not tape:
+        return ""
+    rows = [
+        "<tr>"
+        "<th>Contract</th><th>Last</th><th>Week change</th><th>As of</th>"
+        "</tr>"
+    ]
+    for item in tape:
+        as_of = _as_iso_date(item.get("last_date"))
+        as_of_text = _long_date(as_of) if as_of else str(item.get("last_date") or "n/a")
+        unit = str(item.get("unit") or "")
+        rows.append(
+            "<tr>"
+            f"<td>{html.escape(str(item.get('label') or ''))}</td>"
+            f"<td>{html.escape(format_price(item.get('last'), unit))}</td>"
+            f"<td>{html.escape(format_change(item))}</td>"
+            f"<td>{html.escape(as_of_text)}</td>"
+            "</tr>"
+        )
+    caption = (
+        "Nearby futures from Yahoo Finance. Nearby corn is the market's current "
+        "perception of yield and demand risk."
+    )
+    return (
+        '<div class="commodity-tape">'
+        f'<p class="commodity-tape-caption">{html.escape(caption)}</p>'
+        '<div class="table-wrap"><table><thead>'
+        + rows[0]
+        + "</thead><tbody>"
+        + "".join(rows[1:])
+        + "</tbody></table></div></div>\n"
+    )
+
+
+def _corn_meta_line(tape: list[dict[str, Any]]) -> str | None:
+    corn = next((row for row in tape if row.get("id") == "corn"), None)
+    if not corn or corn.get("last") is None:
+        return None
+    change = format_change(corn)
+    last = format_price(corn.get("last"), str(corn.get("unit") or "USD/bu"))
+    return f"Nearby corn: {last} ({change} week)"
 
 
 def _narrative_created(narrative: dict[str, Any] | None) -> str | None:
@@ -775,6 +831,11 @@ def build_markdown(context: dict[str, Any]) -> str:
     overview_tickers = set(config.universe.companies)
     narrative = context.get("narrative")
     narrative_created = _narrative_created(narrative)
+    commodity_tape = [
+        dict(row)
+        for row in (context.get("commodity_tape") or [])
+        if isinstance(row, dict)
+    ]
 
     metadata = [
         f"<strong>Week of {_long_date(report_date)}</strong>",
@@ -782,6 +843,9 @@ def build_markdown(context: dict[str, Any]) -> str:
     ]
     if narrative_created:
         metadata.append(f"Narrative created: {html.escape(narrative_created)}")
+    corn_line = _corn_meta_line(commodity_tape)
+    if corn_line:
+        metadata.append(html.escape(corn_line))
     lines = [
         f"# {config.settings['report']['name']}",
         "",
@@ -794,6 +858,9 @@ def build_markdown(context: dict[str, Any]) -> str:
         "## Strategy Narrative",
         "",
     ]
+    tape_markup = _commodity_tape_markup(commodity_tape)
+    if tape_markup:
+        lines.extend([tape_markup, ""])
     if narrative:
         lines.append(_presentation_narrative(str(narrative.get("body") or "")))
     else:

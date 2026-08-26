@@ -36,6 +36,25 @@ notable_changes:
 strategy_narrative:
   stale_after_days: 7
 
+commodity_tape:
+  contracts:
+    - id: corn
+      label: Nearby corn
+      yahoo_symbol: ZC=F
+      unit: USD/bu
+    - id: ethanol
+      label: CBOT ethanol
+      yahoo_symbol: EH=F
+      unit: USD/gal
+    - id: rbob
+      label: RBOB gasoline
+      yahoo_symbol: RB=F
+      unit: USD/gal
+    - id: natgas
+      label: Henry Hub
+      yahoo_symbol: NG=F
+      unit: USD/MMBtu
+
 report_profiles:
   ethanol:
     name: Weekly Corn and Ethanol Intel Report

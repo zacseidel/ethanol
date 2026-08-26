@@ -24,6 +24,7 @@ from .analysis import (
     period_moves,
 )
 from .cache import MarketCache
+from .commodities import load_commodity_tape
 from .config import ProjectConfig
 from .earnings import (
     load_earnings_state,
@@ -176,6 +177,7 @@ def _render_final(
     upcoming: list[dict[str, Any]] | None = None,
     moves: dict[str, Any] | None = None,
     reuse_assets_from: Path | None = None,
+    commodity_tape: list[dict[str, Any]] | None = None,
 ) -> tuple[Path, dict[str, Any]]:
     render_started = time.perf_counter()
     final_root = config.final_root
@@ -261,6 +263,7 @@ def _render_final(
             "reference": reference,
             "statuses": status_rows,
             "issues": issues,
+            "commodity_tape": commodity_tape or [],
         }
         markdown_text = build_markdown(context)
         html_name = report_html_name(report_date, config)
@@ -276,6 +279,7 @@ def _render_final(
                 "upcoming_earnings": upcoming,
                 "narrative": narrative,
                 "period_moves": moves,
+                "commodity_tape": commodity_tape or [],
             },
         )
         files = [
@@ -381,6 +385,7 @@ def run_report(
         "Massive requests are rate-limited, so this can take several minutes."
     )
     statuses: list[FetchStatus] = []
+    commodity_tape: list[dict[str, Any]] = []
     tickers = list(config.universe.companies)
     benchmark = str(config.settings["report"].get("benchmark", "SPY"))
     price_start, price_end, longest = _report_windows(config, report_date)
@@ -473,6 +478,9 @@ def run_report(
                 statuses.append(_status("browser", "Chromium", "warning", str(exc)))
         else:
             statuses.append(_status("browser", "Chromium", "skipped", "no refresh was due"))
+        _progress("Loading nearby corn and energy futures...")
+        commodity_tape, tape_statuses = load_commodity_tape(config, report_date)
+        statuses.extend(tape_statuses)
         try:
             earnings, earnings_status = refresh_earnings(
                 config,
@@ -493,6 +501,7 @@ def run_report(
                 as_of=report_date,
                 checked_on=checked_on,
                 force=force_secondary,
+                commodity_tape=commodity_tape,
             )
             statuses.append(
                 _status(
@@ -526,6 +535,7 @@ def run_report(
         status_rows,
         issues,
         stage_durations,
+        commodity_tape=commodity_tape,
     )
     save_earnings_state(config, earnings)
     retention: dict[str, Any]
@@ -647,6 +657,12 @@ def rerender_report(
     )
     moves_value = render_data.get("period_moves")
     moves = dict(moves_value) if isinstance(moves_value, dict) else None
+    tape_value = render_data.get("commodity_tape")
+    commodity_tape = (
+        [dict(row) for row in tape_value if isinstance(row, dict)]
+        if isinstance(tape_value, list)
+        else []
+    )
     status_rows = [dict(row) for row in manifest.get("sources", []) if isinstance(row, dict)]
     if _usable_live_narrative(narrative, report_date):
         status_rows = [
@@ -687,6 +703,7 @@ def rerender_report(
         upcoming=upcoming,
         moves=moves,
         reuse_assets_from=None if refresh_charts else folder,
+        commodity_tape=commodity_tape,
     )
     final_manifest = _finish_manifest(
         destination,

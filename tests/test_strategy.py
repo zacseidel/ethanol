@@ -7,6 +7,7 @@ from types import SimpleNamespace
 import pytest
 
 from ethanol_report.strategy import (
+    STRATEGY_PROFILES,
     StrategySettings,
     _call_openai,
     _rate_limit_wait_seconds,
@@ -15,6 +16,7 @@ from ethanol_report.strategy import (
     estimate_cost,
     generate_strategy_report,
     reporting_window,
+    role_instructions,
     strategy_prompt_path,
     strategy_root,
     validate_report,
@@ -148,8 +150,35 @@ def test_prompt_assembly_delimits_history_and_dates():
     )
     assert "Report run date: 2026-08-24" in prompt
     assert "Primary reporting window: 2026-08-17 through 2026-08-24" in prompt
+    assert "Equity/market-data tables close: 2026-08-23" in prompt
+    assert "Strategy research window: 2026-08-17 through 2026-08-24 inclusive" in prompt
+    assert "crop-tour" in prompt
     assert '<prior_report date="2026-08-17">' in prompt
     assert "<master_brief>\nMaster instructions\n</master_brief>" in prompt
+    assert "<market_tape" not in prompt
+
+    taped = assemble_prompt(
+        "Master instructions",
+        date(2026, 8, 24),
+        [],
+        commodity_tape=[
+            {
+                "id": "corn",
+                "label": "Nearby corn",
+                "yahoo_symbol": "ZC=F",
+                "unit": "USD/bu",
+                "last": 4.285,
+                "last_date": "2026-08-20",
+                "prior": 4.000,
+                "prior_date": "2026-08-13",
+                "change": 0.285,
+                "change_pct": 0.07125,
+            }
+        ],
+    )
+    assert "<market_tape as_of=\"2026-08-24\">" in taped
+    assert "Nearby corn (ZC=F): $4.285/bu" in taped
+    assert "current perception of yield and demand risk" in taped
 
 
 def test_ethanol_profile_uses_ethanol_prompt_and_research_task(project):
@@ -162,8 +191,25 @@ def test_ethanol_profile_uses_ethanol_prompt_and_research_task(project):
     assert "life-sciences" not in result["assembled_prompt"]
     assert "Required format:" not in result["assembled_prompt"]
     assert "## Delta-first requirement" in result["assembled_prompt"]
+    assert "## Materiality and ranking" in result["assembled_prompt"]
+    assert "WASDE yield or carryout revision remains the corn regime" in result["assembled_prompt"]
+    assert "Price is a consistency check" in result["assembled_prompt"]
+    assert "Progressive Farmer Crop Tour" in result["assembled_prompt"]
+    assert "Reid Vapor Pressure" in result["assembled_prompt"]
+    assert "marketing-year cumulative sales" in result["assembled_prompt"]
+    assert "## Concrete data points" in result["assembled_prompt"]
+    assert "<market_tape" in result["assembled_prompt"]
+    assert "Nearby corn (ZC=F): $4.285/bu" in result["assembled_prompt"]
     assert "Do **not**:" in result["assembled_prompt"]
     assert "1-12 outline" in result["assembled_prompt"]
+
+
+def test_role_instructions_require_materiality_and_tape_check():
+    text = role_instructions(STRATEGY_PROFILES["ethanol"])
+    assert "materiality hierarchy" in text
+    assert "supplied market tape" in text
+    assert "Nearby corn is the market's current perception" in text
+    assert "not by recency" in text
 
 
 def test_cost_estimate_uses_central_model_pricing():

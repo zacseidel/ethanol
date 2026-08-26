@@ -146,7 +146,7 @@ def test_end_to_end_report_and_baseline(project, monkeypatch):
     monkeypatch.setattr(pipeline, "MassiveClient", FakeMassive)
     monkeypatch.setattr(pipeline, "BrowserSession", FakeBrowser)
 
-    def generate_fixture_strategy(_config, report_date, *, force=False):
+    def generate_fixture_strategy(_config, report_date, *, force=False, **_kwargs):
         return {
             "report_date": report_date.isoformat(),
             "generated_at": f"{report_date.isoformat()}T12:00:00Z",
@@ -244,7 +244,13 @@ Keep this section.
     assert strategy_heading is not None
     assert strategy_links is not None
     assert executive_heading is not None
-    assert strategy_heading.find_next() == strategy_links
+    tape = soup.select_one("div.commodity-tape")
+    assert tape is not None
+    assert "Nearby corn" in tape.get_text()
+    assert "perception of yield and demand risk" in tape.get_text()
+    assert "Nearby corn: $4.285/bu" in report_html
+    assert "+$0.285" in report_html
+    assert strategy_heading.find_next("nav") == strategy_links
     assert strategy_links.find_next_sibling("h3") == executive_heading
     strategy_link_labels = [link.get_text(" ", strip=True) for link in strategy_links.find_all("a")]
     assert strategy_link_labels == ["1. Cloud strategy headline"]
