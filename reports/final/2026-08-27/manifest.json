@@ -1,0 +1,847 @@
+{
+  "schema": 2,
+  "report_type": "ethanol",
+  "report_name": "Weekly Corn and Ethanol Intel Report",
+  "report_date": "2026-08-27",
+  "market_data_as_of": "2026-08-26",
+  "generated_at": "2026-08-28T12:11:32Z",
+  "rendered_at": "2026-08-28T12:11:32Z",
+  "baseline_report_date": "2026-08-20",
+  "configuration_sha256": "3d0b6f89d05de3f6d17e60522a5e2017960573cff509c1ccac51801957e5894e",
+  "quality": "degraded",
+  "issues": [
+    "Stale or missing prices: BAYRY, NTOIY, NVZMY, BASFY, YARIY.",
+    "Low market-cap coverage: Wet milling, ingredients, and co-products 24m.",
+    "Secondary source warnings: Yahoo Finance:EH=F (no usable nearby bars); earnings:BAYRY (Google Finance earnings labels were not found); earnings:BASFY (Google Finance earnings labels were not found); earnings:YARIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/YARIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NVZMY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NVZMY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404); earnings:NTOIY (Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NTOIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)"
+  ],
+  "sources": [
+    {
+      "source": "Massive company",
+      "subject": "CTVA",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CTVA",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "BAYRY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "BAYRY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "BASFY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "BASFY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "NTR",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "NTR",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CF",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CF",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "YARIY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "YARIY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "MOS",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "MOS",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "DE",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "DE",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CNH",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CNH",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "AGCO",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "AGCO",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "VMI",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "VMI",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "ADM",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "ADM",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "BG",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "BG",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "ANDE",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "ANDE",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "VLO",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "VLO",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "GPRE",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "GPRE",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "REX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "REX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "NVZMY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "NVZMY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "INGR",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "INGR",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "DAR",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "DAR",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "TSN",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "TSN",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "JBS",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "JBS",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "MPC",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "MPC",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "PSX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "PSX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "DINO",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "DINO",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CVI",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CVI",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "SUN",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "SUN",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CASY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CASY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "MUSA",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "MUSA",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "NTOIY",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "NTOIY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CVX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CVX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CSAN",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CSAN",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "AGRO",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "AGRO",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "UNP",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "UNP",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CSX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CSX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "CP",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "CP",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "GATX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "GATX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "TRN",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "TRN",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive company",
+      "subject": "GBX",
+      "status": "ok",
+      "detail": "reused company cache (8 days old)"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "GBX",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "Massive prices",
+      "subject": "SPY",
+      "status": "ok",
+      "detail": "reused prices through 2026-08-26"
+    },
+    {
+      "source": "browser",
+      "subject": "Chromium",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "source": "Yahoo Finance",
+      "subject": "ZC=F",
+      "status": "ok",
+      "detail": "cached prices through 2026-08-27"
+    },
+    {
+      "source": "Yahoo Finance",
+      "subject": "EH=F",
+      "status": "warning",
+      "detail": "no usable nearby bars"
+    },
+    {
+      "source": "Yahoo Finance",
+      "subject": "RB=F",
+      "status": "ok",
+      "detail": "cached prices through 2026-08-27"
+    },
+    {
+      "source": "Yahoo Finance",
+      "subject": "NG=F",
+      "status": "ok",
+      "detail": "cached prices through 2026-08-27"
+    },
+    {
+      "source": "earnings",
+      "subject": "CTVA",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "BAYRY",
+      "status": "warning",
+      "detail": "Google Finance earnings labels were not found"
+    },
+    {
+      "source": "earnings",
+      "subject": "BASFY",
+      "status": "warning",
+      "detail": "Google Finance earnings labels were not found"
+    },
+    {
+      "source": "earnings",
+      "subject": "NTR",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CF",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "YARIY",
+      "status": "warning",
+      "detail": "Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/YARIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source": "earnings",
+      "subject": "MOS",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "DE",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CNH",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "AGCO",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "VMI",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "ADM",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "BG",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "ANDE",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "VLO",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "GPRE",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "REX",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "source": "earnings",
+      "subject": "NVZMY",
+      "status": "warning",
+      "detail": "Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NVZMY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source": "earnings",
+      "subject": "INGR",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "DAR",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "TSN",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "JBS",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "MPC",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "PSX",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "DINO",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CVI",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "SUN",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CASY",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "source": "earnings",
+      "subject": "MUSA",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "NTOIY",
+      "status": "warning",
+      "detail": "Google Finance earnings labels were not found; Client error '404 Not Found' for url 'https://finance.yahoo.com/quote/NTOIY/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source": "earnings",
+      "subject": "CVX",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CSAN",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "AGRO",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "UNP",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CSX",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "CP",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "GATX",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "TRN",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "earnings",
+      "subject": "GBX",
+      "status": "skipped",
+      "detail": "not due for recheck"
+    },
+    {
+      "source": "strategy narrative",
+      "subject": "OpenAI Responses API",
+      "status": "ok",
+      "detail": "OpenAI Responses API"
+    }
+  ],
+  "metrics": {
+    "mode": "full",
+    "durations_seconds": {
+      "market_data": 53.459,
+      "analysis": 0.02,
+      "secondary_sources": 314.154,
+      "rendering": 13.486,
+      "total": 381.175
+    },
+    "counts": {
+      "companies": 39,
+      "price_bars_loaded": 19975,
+      "performance_charts": 3,
+      "earnings_charts": 1,
+      "source_statuses": {
+        "ok": 86,
+        "warning": 6,
+        "skipped": 32
+      }
+    },
+    "output_bytes": {
+      "html": 4833534,
+      "markdown": 108196,
+      "charts": 3532604,
+      "data": 104938,
+      "total_without_manifest": 8579272
+    },
+    "price_retention": {
+      "cutoff": "2024-07-13",
+      "files_changed": 0,
+      "bars_removed": 0,
+      "bars_retained": 19975
+    },
+    "directory_bytes": 8601004
+  },
+  "files": [
+    "Weekly Corn and Ethanol Intel Report-2026-08-27.html",
+    "report.md",
+    "snapshot.csv",
+    "changes.csv",
+    "render-data.json.gz",
+    "assets/performance-6m.webp",
+    "assets/performance-12m.webp",
+    "assets/performance-24m.webp",
+    "assets/earnings-de-3m.webp",
+    "assets/earnings-ctva-3m.webp",
+    "assets/earnings-bayry-3m.webp",
+    "assets/earnings-basfy-3m.webp",
+    "assets/earnings-ntr-3m.webp",
+    "assets/earnings-cf-3m.webp",
+    "assets/earnings-yariy-3m.webp",
+    "assets/earnings-mos-3m.webp",
+    "assets/earnings-cnh-3m.webp",
+    "assets/earnings-agco-3m.webp",
+    "assets/earnings-vmi-3m.webp",
+    "assets/earnings-adm-3m.webp",
+    "assets/earnings-bg-3m.webp",
+    "assets/earnings-ande-3m.webp",
+    "assets/earnings-vlo-3m.webp",
+    "assets/earnings-gpre-3m.webp",
+    "assets/earnings-rex-3m.webp",
+    "assets/earnings-nvzmy-3m.webp",
+    "assets/earnings-ingr-3m.webp",
+    "assets/earnings-dar-3m.webp",
+    "assets/earnings-tsn-3m.webp",
+    "assets/earnings-jbs-3m.webp",
+    "assets/earnings-mpc-3m.webp",
+    "assets/earnings-psx-3m.webp",
+    "assets/earnings-dino-3m.webp",
+    "assets/earnings-cvi-3m.webp",
+    "assets/earnings-sun-3m.webp",
+    "assets/earnings-casy-3m.webp",
+    "assets/earnings-musa-3m.webp",
+    "assets/earnings-ntoiy-3m.webp",
+    "assets/earnings-cvx-3m.webp",
+    "assets/earnings-csan-3m.webp",
+    "assets/earnings-agro-3m.webp",
+    "assets/earnings-unp-3m.webp",
+    "assets/earnings-csx-3m.webp",
+    "assets/earnings-cp-3m.webp",
+    "assets/earnings-gatx-3m.webp",
+    "assets/earnings-trn-3m.webp",
+    "assets/earnings-gbx-3m.webp"
+  ]
+}
