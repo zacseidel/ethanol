@@ -389,3 +389,91 @@ def test_dry_run_makes_no_api_call_or_report(project):
     assert result["status"] == "dry-run"
     assert "<master_brief>" in result["assembled_prompt"]
     assert not strategy_root(project).exists()
+
+
+def test_farmer_profile_uses_farmer_prompt_and_long_corn_task(project):
+    result = generate_strategy_report(project, date(2026, 8, 24), profile="farmer", dry_run=True)
+
+    assert strategy_prompt_path(project, "farmer").name == "farmer-strategy-prompt.md"
+    assert result["report_type"] == "farmer"
+    prompt = result["assembled_prompt"]
+    assert "# Farmer Corn Brief" in prompt
+    assert "average sale price" in prompt
+    assert "the reader is long corn" in prompt.casefold() or "who is **long corn**" in prompt
+    assert "Where we are" in prompt
+    assert "What to do with it" in prompt
+    assert "Risk-manager implication" in prompt  # listed as forbidden
+    assert "plant-margin" not in prompt.split("## Materiality and ranking")[1].split("## Polarity")[0]
+    assert "Ethanol Strategy Brief" not in prompt.split("<master_brief>")[1].split("</master_brief>")[0]
+
+
+def test_farmer_role_instructions_are_producer_not_executive():
+    text = role_instructions(STRATEGY_PROFILES["farmer"])
+    assert "Nebraska corn producer" in text
+    assert "average sale price" in text
+    assert "pricing opportunity" in text
+    assert "writing for executives" not in text
+    assert "plant-margin impact" not in text
+
+
+def test_farmer_history_is_isolated_from_ethanol_briefs(project):
+    ethanol_root = strategy_root(project)
+    farmer_root = strategy_root(project, "farmer")
+    ethanol_root.mkdir(parents=True)
+    farmer_root.mkdir(parents=True)
+    (ethanol_root / "2026-08-17.md").write_text(
+        "Ethanol plant-margin deteriorated on the corn rally.\n",
+        encoding="utf-8",
+    )
+    (farmer_root / "2026-08-17.md").write_text(
+        "The board paid you this week. Get some sold.\n",
+        encoding="utf-8",
+    )
+    final = project.root / "reports" / "final" / "2026-08-17"
+    final.mkdir(parents=True)
+    from ethanol_report.storage import write_gzip_json
+
+    write_gzip_json(
+        final / "render-data.json.gz",
+        {"narrative": {"body": "Published ethanol plant-margin thesis."}},
+    )
+
+    history = discover_history(project, date(2026, 8, 24), count=4, profile="farmer")
+    assert [item[0] for item in history] == [date(2026, 8, 17)]
+    assert history[0][1] == "The board paid you this week. Get some sold."
+
+    result = generate_strategy_report(project, date(2026, 8, 24), profile="farmer", dry_run=True)
+    prompt = result["assembled_prompt"]
+    assert "Get some sold" in prompt
+    assert "plant-margin deteriorated" not in prompt
+    assert "Published ethanol plant-margin thesis" not in prompt
+
+
+def test_validation_requires_farmer_title():
+    report_date = date(2026, 8, 24)
+    validate_report(
+        _valid_report(report_date, "Farmer Corn Brief"),
+        report_date,
+        "Farmer Corn Brief",
+    )
+
+
+def test_farmer_generation_uses_farmer_namespace(project):
+    report_date = date(2026, 8, 24)
+    body = _valid_report(report_date, "Farmer Corn Brief")
+
+    result = generate_strategy_report(
+        project,
+        report_date,
+        profile="farmer",
+        response_client=lambda _settings, _prompt: FakeResponse(body),
+    )
+
+    assert result["status"] == "success"
+    assert result["report_type"] == "farmer"
+    root = strategy_root(project, "farmer")
+    assert root == project.root / "reports" / "strategy" / "farmer"
+    assert (root / "latest.md").read_text().startswith("# Farmer Corn Brief")
+    assert not (strategy_root(project) / "latest.md").exists()
+    assert (project.root / "state" / "strategy-runs-farmer.jsonl").is_file()
+    assert not (project.root / "state" / "strategy-runs-ethanol.jsonl").exists()

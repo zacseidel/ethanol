@@ -1288,14 +1288,24 @@ def build_markdown(context: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def _report_file_prefix(config: ProjectConfig | None) -> str:
+def _report_file_prefix(
+    config: ProjectConfig | None,
+    report_name: str | None = None,
+) -> str:
+    if report_name:
+        return report_name
     if config is None:
         return "Weekly Corn and Ethanol Intel Report"
     return config.report_name
 
 
-def report_html_name(report_date: date, config: ProjectConfig | None = None) -> str:
-    return f"{_report_file_prefix(config)}-{report_date.isoformat()}.html"
+def report_html_name(
+    report_date: date,
+    config: ProjectConfig | None = None,
+    *,
+    report_name: str | None = None,
+) -> str:
+    return f"{_report_file_prefix(config, report_name)}-{report_date.isoformat()}.html"
 
 
 def _navigation(body: str) -> tuple[str, str]:
@@ -1376,7 +1386,12 @@ def _html_document(
 
 
 def write_report_files(
-    folder: Path, markdown_text: str, report_date: date, config: ProjectConfig | None = None
+    folder: Path,
+    markdown_text: str,
+    report_date: date,
+    config: ProjectConfig | None = None,
+    *,
+    report_name: str | None = None,
 ) -> Path:
     markdown_path = folder / "report.md"
     markdown_path.write_text(markdown_text, encoding="utf-8")
@@ -1384,7 +1399,7 @@ def write_report_files(
     # sibling assets directory. Keep it portable so charts survive those paths;
     # the WebP files remain alongside report.md for Markdown and chart reuse.
     document = _html_document(folder, markdown_text, embed_images=True)
-    html_path = folder / report_html_name(report_date, config)
+    html_path = folder / report_html_name(report_date, config, report_name=report_name)
     html_path.write_text(document, encoding="utf-8")
     return html_path
 

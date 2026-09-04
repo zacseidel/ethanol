@@ -1,0 +1,211 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Farmer Corn Brief</title><style>
+:root { color-scheme:light; --navy:#2c3331; --navy-2:#5a6360; --ink:#1e2422;
+  --muted:#5a6360; --line:#d4cfc4; --panel:#e7e4dc; --paper:#fffdf8; --accent:#b33c28; }
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap");
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:1.25rem; }
+body { margin:0; color:var(--ink); background:#f6f3ec;
+  font:16px/1.58 "Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.page-shell { width:min(1500px,100%); margin:0 auto; padding:1.5rem;
+  display:grid; grid-template-columns:235px minmax(0,1120px); gap:2rem; align-items:start; }
+.report-nav { position:sticky; top:1.5rem; max-height:calc(100vh - 3rem); overflow:auto;
+  border-top:5px solid var(--navy); background:var(--paper); box-shadow:0 5px 20px #18324814;
+  padding:1rem 1rem 1.1rem; font-size:.87rem; }
+.report-nav-title { margin:0 0 .65rem; color:var(--navy); font:700 1.05rem/1.25 "Zilla Slab",Georgia,serif; }
+.report-nav ul { margin:0; padding:0; list-style:none; }
+.report-nav li { margin:.25rem 0; }
+.report-nav li ul { border-left:2px solid #dce6ed; margin:.35rem 0 .55rem .25rem; padding-left:.7rem; }
+.report-nav a { color:#405466; text-decoration:none; }
+.report-nav a:hover { color:var(--navy-2); text-decoration:underline; }
+main { min-width:0; background:var(--paper); border-top:7px solid var(--navy);
+  box-shadow:0 8px 30px #18324817; padding:3rem 3.5rem 5rem; }
+h1,h2,h3,h4 { color:var(--ink); font-family:"Zilla Slab",Georgia,serif; line-height:1.2; }
+h1 { margin:0; font-size:2.55rem; letter-spacing:-.025em; }
+h2 { margin-top:2.25em; padding-bottom:.35rem; border-bottom:3px solid var(--navy); font-size:1.75rem; }
+h3 { margin-top:1.8em; font-size:1.32rem; }
+h4 { font-size:1.08rem; }
+a { color:#b33c28; text-underline-offset:2px; }
+.report-meta { margin:1rem 0 1.35rem; padding:.85rem 1rem; background:var(--panel);
+  border-left:4px solid var(--navy-2); color:#40505e; }
+.report-meta span { display:block; }
+.commodity-tape { margin:.2rem 0 1.5rem; }
+.commodity-tape-caption { margin:.15rem 0 .55rem; color:var(--muted); font-size:.88rem; }
+.section-jump-list { columns:2; padding:1rem 1.25rem 1rem 2.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links { margin:.8rem 0 1.8rem; padding:1rem 1.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links ul { margin:0; padding-left:1.25rem; }
+.strategy-narrative-links li { margin:.3rem 0; }
+.return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
+  font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
+.category-return { font-size:.76rem; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
+th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
+th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
+th.sortable-heading { cursor:pointer; user-select:none; }
+th.sortable-heading:hover { background:#3a423e; }
+th.sortable-heading::after { content:" ↕"; color:#718696; font-size:.78em; }
+th.sort-asc::after { content:" ↑"; color:var(--navy); }
+th.sort-desc::after { content:" ↓"; color:var(--navy); }
+tbody tr:hover td { box-shadow:inset 0 0 0 999px #ffffff26; }
+tbody tr:last-child td { border-bottom:0; }
+td.text { text-align:left; }
+td.missing { color:var(--muted); }
+blockquote { border-left:4px solid var(--accent); margin-left:0; padding:.65rem 1rem; background:#f6f3ec; }
+code { background:var(--panel); padding:.1rem .25rem; }
+img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
+.metadata { color:var(--muted); margin-top:-.6rem; }
+.good {color:#3f5c4a}.bad {color:#8c2e1e}
+.rank-change-up { color:#3f5c4a; font-weight:800; }
+.rank-change-down { color:#8c2e1e; font-weight:800; }
+@media (max-width:1050px) {
+  .page-shell { display:block; padding:0; }
+  .report-nav { position:relative; top:0; max-height:none; border-top:0; border-bottom:4px solid var(--navy);
+    box-shadow:none; padding:.75rem 1rem; }
+  .report-nav ul { display:flex; flex-wrap:wrap; gap:.15rem 1rem; }
+  .report-nav li ul { display:none; }
+  main { box-shadow:none; border-top:0; }
+}
+@media (max-width:700px) {
+  main { padding:2rem 1rem 4rem; } h1{font-size:2rem} h2{font-size:1.45rem}
+  table{font-size:.8rem} th,td{padding:.44rem .5rem} .section-jump-list{columns:1}
+}
+@media print { body{background:#fff}.page-shell{display:block;padding:0}.report-nav{display:none}main{box-shadow:none;border:0;padding:0} }
+</style></head><body><div class="page-shell"><nav class="report-nav" aria-label="Report navigation"><p class="report-nav-title">In this report</p><ul><li><a href="#week-of-august-27-2026">Week of August 27, 2026</a></li><li><a href="#where-we-are">Where we are</a></li><li><a href="#the-week-in-one-page">The week in one page</a></li><li><a href="#1-crop-tour-cut-enough-bushels-to-threaten-the-usda-carryout">1. Crop Tour cut enough bushels to threaten the USDA carryout</a></li><li><a href="#2-the-rally-is-worth-more-than-the-remaining-board-carry">2. The rally is worth more than the remaining board carry</a></li><li><a href="#3-crop-ratings-confirm-stress-but-maturity-is-closing-the-weather-window">3. Crop ratings confirm stress, but maturity is closing the weather window</a></li><li><a href="#4-ethanol-demand-helped-the-local-bid-but-stocks-kept-it-from-being-a-clean-bull-story">4. Ethanol demand helped the local bid, but stocks kept it from being a clean bull story</a></li><li><a href="#5-export-demand-is-adequate-not-yet-strong-enough-to-carry-the-rally">5. Export demand is adequate, not yet strong enough to carry the rally</a></li><li><a href="#the-crop-you-still-have-to-market">The crop you still have to market</a></li><li><a href="#bottom-line">Bottom line</a></li></ul></nav><main id="main-content"><h1 id="farmer-corn-brief">Farmer Corn Brief</h1>
+<h2 id="week-of-august-27-2026">Week of August 27, 2026</h2>
+<div class="report-meta"><span><strong>Week of August 27, 2026</strong></span><span>Nearby corn: $5.103/bu (+$0.315 (+6.6%) week)</span><span>Narrative created: September 4, 2026</span></div>
+<div class="commodity-tape"><p class="commodity-tape-caption">Nearby futures from Yahoo Finance. Nearby corn is the market's current perception of yield and demand risk.</p><div class="table-wrap"><table><thead><tr><th>Contract</th><th>Last</th><th>Week change</th><th>As of</th></tr></thead><tbody><tr><td>Nearby corn</td><td>$5.103/bu</td><td>+$0.315 (+6.6%)</td><td>August 27, 2026</td></tr><tr><td>RBOB gasoline</td><td>$3.384/gal</td><td>+0.121 (+3.7%)</td><td>August 27, 2026</td></tr><tr><td>Henry Hub</td><td>$2.907/MMBtu</td><td>+0.174 (+6.4%)</td><td>August 27, 2026</td></tr></tbody></table></div></div>
+<h2 id="where-we-are">Where we are</h2>
+<p>The 2025/26 corn marketing year ends August 31. Harvest bids and December futures are now the center of the new-crop decision.</p>
+<p>USDA’s controlling August balance sheet puts the crop at <strong>16.013 billion bushels</strong>, with a <strong>180.7-bushel national yield</strong> and <strong>1.653 billion bushels of 2026/27 ending stocks</strong>. Nebraska is forecast at <strong>183 bushels per acre</strong> and 1.768 billion bushels. USDA cut national yield <strong>2.3 bushels</strong> from July, but higher harvested acreage kept production essentially unchanged. Stronger exports cut projected carryout by <strong>137 million bushels</strong>. (USDA, <em>WASDE-674</em> and <em>August Crop Production</em>, August 12, 2026.) (<a href="https://s3.amazonaws.com/barchart-news-store-prod/external_links/NASS%3AScheduled/wasde0826.pdf">s3.amazonaws.com</a>)</p>
+<p>Field evidence now challenges that yield. Pro Farmer estimated <strong>173.2 bushels per acre</strong> and a <strong>15.344-billion-bushel crop</strong>, 669 million bushels below USDA’s production forecast. (Pro Farmer, <em>2026 U.S. Corn Crop Estimate</em>, August 21, 2026.) (<a href="https://www.profarmer.com/news/pro-farmer-estimates-2026-u-s-corn-crop-15-344-billion-bushels-soybeans-4-572-billion-bushels">profarmer.com</a>)</p>
+<p>Nearby corn was <strong>$5.103 per bushel</strong>, up <strong>31.5 cents</strong>, or <strong>6.6%</strong>, from August 20. December new-crop was <strong>$5.335</strong>, up <strong>30 cents</strong> from $5.035. December carried roughly <strong>23¼ cents</strong> over nearby, about 1½ cents less carry than last week. (Supplied market tape; Pro Farmer, August 20, and Barchart market data, August 27.) (<a href="https://www.profarmer.com/news/after-bell/after-bell-december-corn-closes-three-month-high?utm_source=openai">profarmer.com</a>)</p>
+<h2 id="the-week-in-one-page">The week in one page</h2>
+<ul>
+<li><strong>Crop Tour materially challenged USDA.</strong> Pro Farmer’s 173.2-bushel national estimate is 7.5 bushels below USDA. Its Nebraska samples averaged 163.61 bushels, down 8.9% from last year’s tour and 5.6% below the three-year tour average. That does not prove USDA is wrong, but it puts the September yield revision squarely in play. (<a href="https://www.profarmer.com/news/pro-farmer-estimates-2026-u-s-corn-crop-15-344-billion-bushels-soybeans-4-572-billion-bushels">profarmer.com</a>)</li>
+<li><strong>The board paid you.</strong> Nearby gained 31.5 cents and December gained 30 cents. That is a pricing opportunity for unpriced bushels, not a reason to remain fully exposed.</li>
+<li><strong>Weekly ratings supported the tour’s direction.</strong> U.S. corn fell to <strong>57% G2E</strong>, down 3 points and versus 71% last year. Nebraska fell to <strong>55% G2E</strong>, down 4 points and versus 78% last year. (<a href="https://www.nass.usda.gov/Publications/Todays_Reports/reports/prog3426.pdf">nass.usda.gov</a>)</li>
+<li><strong>Ethanol plants kept consuming corn, but inventories limited the enthusiasm.</strong> Production rose to 1.112 million barrels per day while stocks edged up to 25.206 million barrels. That is supportive for plant bids, not enough by itself to chase a weak basis. (<a href="https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251">agriculture.com</a>)</li>
+<li><strong>Exports remain the demand test.</strong> The August 20 report showed 816,097 metric tons of new-crop sales, but total new-crop commitments of 11.39 million metric tons were running about 30% behind last year. USDA’s higher 3.275-billion-bushel export forecast still needs confirmation. (<a href="https://www.syngenta.ca/market-news/chicago-close--yield-uncertainty-supports-corn?utm_source=openai">syngenta.ca</a>)</li>
+</ul>
+<p><strong>Verdict:</strong> This week made it easier to raise your average sale price. The board handed you roughly 30 cents. Get some sold.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Exposure</th>
+<th>Current signal</th>
+<th>Change this week</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unpriced new-crop</td>
+<td>Bullish field evidence; stronger board</td>
+<td>December +30 cents</td>
+<td>Price another increment; retain room for September</td>
+</tr>
+<tr>
+<td>Stored old-crop</td>
+<td>Nearby rally with modest carry ahead</td>
+<td>Nearby +31.5 cents</td>
+<td>Reward the rally; set basis where the bid is competitive</td>
+</tr>
+<tr>
+<td>Harvest storage</td>
+<td>December only 23¼ cents over nearby</td>
+<td>Carry narrowed slightly</td>
+<td>Storage must be paid by basis improvement and later carry</td>
+</tr>
+<tr>
+<td>Ethanol bid</td>
+<td>Strong run, high stocks</td>
+<td>Mixed-positive</td>
+<td>Shop plants; sell cash if basis joins the board rally</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="1-crop-tour-cut-enough-bushels-to-threaten-the-usda-carryout">1. Crop Tour cut enough bushels to threaten the USDA carryout</h2>
+<p><strong>Status: NEW</strong></p>
+<p><strong>What happened</strong></p>
+<p>Pro Farmer’s national estimate was <strong>15.344 billion bushels at 173.2 bushels per acre</strong>, with a production range of 15.191 billion to 15.498 billion. Scouts cited lower ear populations, shorter grain length and inconsistent field performance. Nebraska’s tour yield of 163.61 was particularly weak relative to both last year’s tour and its three-year tour average. (<a href="https://www.profarmer.com/news/pro-farmer-estimates-2026-u-s-corn-crop-15-344-billion-bushels-soybeans-4-572-billion-bushels">profarmer.com</a>)</p>
+<p>Tour numbers should not be substituted directly for USDA state yields. Pro Farmer adjusts tour observations for maturity, historical error and areas outside the route before producing its national estimate. Still, a 669-million-bushel production gap is too large to dismiss.</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>If the final crop moves materially toward Pro Farmer, USDA’s 1.653-billion-bushel carryout cannot stand without rationing demand or revising other balance-sheet lines. The market recognized that possibility: nearby corn rallied 6.6%.</p>
+<p>Nebraska’s problem is uneven. Irrigated fields can still finish well while stressed dryland fields pull down whole-farm production. Do not let a good pivot corner talk you into selling bushels the dryland ground may not produce.</p>
+<p><strong>What to do with it</strong></p>
+<p><strong>New-crop:</strong> Price another increment into the rally, but recheck ears, kernel depth and expected harvested acres first. August is no time to hedge a crop you no longer expect to have.</p>
+<p><strong>Old-crop:</strong> The nearby board paid more than 30 cents. If your basis is reasonable, finish more cash sales. If basis is poor, set futures or use an HTA and leave basis open.</p>
+<p><strong>Watch next</strong></p>
+<p>USDA’s September 11 Crop Production report is the next survey print capable of resolving the disagreement.</p>
+<hr/>
+<h2 id="2-the-rally-is-worth-more-than-the-remaining-board-carry">2. The rally is worth more than the remaining board carry</h2>
+<p><strong>Status: CONFIRM</strong></p>
+<p><strong>What happened</strong></p>
+<p>December reached <strong>$5.335</strong>, 30 cents above August 20. Nearby reached <strong>$5.103</strong>, up 31.5 cents. The December-nearby spread narrowed to about 23¼ cents. Crop uncertainty led the move, while Black Sea shipping concerns also added risk premium during the week. (Successful Farming, <em>3 Big Things Today</em>, August 27, 2026.) (<a href="https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251">agriculture.com</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>You were paid more in one week by the rally than the board currently offers for carrying corn from nearby into December. That does not mean empty every bin. It means holding unpriced grain now requires a deliberate basis or post-harvest carry plan.</p>
+<p><strong>What to do with it</strong></p>
+<p><strong>Old-crop:</strong> Reward nearby. Do not pay interest and shrink to hold old corn merely because crop headlines remain bullish.</p>
+<p><strong>New-crop:</strong> Use December for incremental HTAs, forward cash sales or short hedges. If harvest basis is ugly, set the board and wait on basis. If the ethanol plant or feedlot bid strengthened with futures, take the cash bid.</p>
+<p>USDA AMS publishes daily Nebraska bids, but no single statewide basis represents the east, central irrigated corridor and western feed market. Compare your exact delivery point and month rather than a state average. (USDA AMS, <em>Nebraska Daily Elevator Grain Bids</em>, accessed August 27, 2026.) (<a href="https://mymarketnews.ams.usda.gov/viewReport/3225?utm_source=openai">mymarketnews.ams.usda.gov</a>)</p>
+<hr/>
+<h2 id="3-crop-ratings-confirm-stress-but-maturity-is-closing-the-weather-window">3. Crop ratings confirm stress, but maturity is closing the weather window</h2>
+<p><strong>Status: CONFIRM</strong></p>
+<p><strong>What happened</strong></p>
+<p>National corn was <strong>57% G2E</strong>, down 3 points. Nebraska was <strong>55% G2E</strong>, down 4. Nebraska corn was 84% dough, 46% dented and only 3% mature. Nebraska topsoil was 43% short or very short, while subsoil was 57% short or very short. (USDA NASS, <em>Crop Progress</em>, and UNL CropWatch, August 24, 2026.) (<a href="https://www.nass.usda.gov/Publications/Todays_Reports/reports/prog3426.pdf">nass.usda.gov</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>The ratings reinforce the tour rather than resolve it. Rain can still protect kernel weight in later fields, but it cannot restore missing ears. As dent advances, test weight and kernel depth matter more than a green windshield view.</p>
+<p><strong>What to do with it</strong></p>
+<p>Re-size expected production before adding sales. Separate irrigated from dryland yield expectations. The 30-cent rally argues for pricing more; uncertain production argues against pricing beyond bushels you can reasonably defend.</p>
+<p><strong>Watch next</strong></p>
+<p>Kernel depth, premature drydown, stalk quality and early harvest reports will matter more than another routine one-point condition change.</p>
+<hr/>
+<h2 id="4-ethanol-demand-helped-the-local-bid-but-stocks-kept-it-from-being-a-clean-bull-story">4. Ethanol demand helped the local bid, but stocks kept it from being a clean bull story</h2>
+<p><strong>Status: UPDATE</strong></p>
+<p><strong>What happened</strong></p>
+<p>Ethanol production for the week ended August 21 rose <strong>23,000 barrels per day</strong> to <strong>1.112 million</strong>. Midwest output rose to 1.062 million barrels per day. Stocks increased 85,000 barrels to <strong>25.206 million</strong>, while refiner and blender inputs slipped from 926,000 to 923,000 barrels per day. (<a href="https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251">agriculture.com</a>)</p>
+<p>RBOB gasoline gained 3.7% this week, supportive to blending economics. Natural gas rose 6.4%, but there is no evidence yet that higher energy costs reduced plant corn demand.</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>High run time means plants need corn. The inventory build means they do not need to chase every bushel at any price. Expect plant basis to depend heavily on each facility’s coverage and harvest timing.</p>
+<p>Reports on August 27 said the White House was urging additional small-refinery waivers, but EPA had not issued a final decision by the report cutoff. That was a policy risk, not a confirmed change in corn disappearance. (<a href="https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251">agriculture.com</a>)</p>
+<p><strong>What to do with it</strong></p>
+<p>Shop ethanol bids against elevators and shuttle loaders. If the plant offers a firm old-crop basis on top of the futures rally, sell cash. For harvest bushels, do not lock a weak basis solely because waiver headlines are circulating.</p>
+<hr/>
+<h2 id="5-export-demand-is-adequate-not-yet-strong-enough-to-carry-the-rally">5. Export demand is adequate, not yet strong enough to carry the rally</h2>
+<p><strong>Status: UPDATE</strong></p>
+<p><strong>What happened</strong></p>
+<p>Weekly sales published August 20 included 232,892 metric tons of old-crop corn and 816,097 tons of new-crop. New-crop commitments totaled 11.39 million metric tons and were roughly 30% behind the prior year. (<a href="https://www.syngenta.ca/market-news/chicago-close--yield-uncertainty-supports-corn?utm_source=openai">syngenta.ca</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>USDA raised 2026/27 exports to <strong>3.275 billion bushels</strong>. The crop may be smaller, but the demand side still has to show up. A bullish yield story without improving export commitments leaves the market vulnerable after the September report.</p>
+<p><strong>What to do with it</strong></p>
+<p>Do not base the whole marketing plan on export acceleration that has not occurred. Use the present crop-risk premium to cover more breakeven.</p>
+<h2 id="the-crop-you-still-have-to-market">The crop you still have to market</h2>
+<p><strong>Old-crop in bins:</strong> Nearby rallied sharply. Sell more where basis is respectable. Where it is not, separate the futures and basis decisions. Old corn should not roll into harvest without a written carry calculation.</p>
+<p><strong>New-crop still growing:</strong> Field evidence is bullish, but your own production estimate comes first. Price an additional increment against December while preserving flexibility for the September 11 report and early yield checks.</p>
+<h2 id="bottom-line">Bottom line</h2>
+<p>The decision that changed this week is the <strong>futures sale</strong>, not automatically the basis sale. Crop Tour challenged USDA, and the board responded with roughly 30 cents. Capture part of it. Wait on weak harvest basis only if your bins, financing and expected carry can pay for that wait. The next event capable of changing the view is USDA’s September 11 yield and production update.</p></main></div><script>
+document.querySelectorAll('table.sortable').forEach((table) => {
+  table.querySelectorAll('th[data-column]').forEach((heading) => {
+    heading.addEventListener('click', () => {
+      const index = Number(heading.dataset.column);
+      const numeric = heading.dataset.type === 'number';
+      const descending = heading.classList.contains('sort-asc');
+      table.querySelectorAll('th').forEach((item) => item.classList.remove('sort-asc','sort-desc'));
+      heading.classList.add(descending ? 'sort-desc' : 'sort-asc');
+      const rows = Array.from(table.tBodies[0].rows);
+      rows.sort((left, right) => {
+        const a = left.cells[index].dataset.sort || '';
+        const b = right.cells[index].dataset.sort || '';
+        const result = numeric ? ((Number(a) || 0) - (Number(b) || 0)) : a.localeCompare(b);
+        return descending ? -result : result;
+      });
+      rows.forEach((row) => table.tBodies[0].appendChild(row));
+    });
+  });
+});
+</script></body></html>

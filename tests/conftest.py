@@ -64,4 +64,8 @@ def project(tmp_path: Path):
         source / "inputs" / "ethanol-strategy-prompt.md",
         tmp_path / "inputs" / "ethanol-strategy-prompt.md",
     )
+    shutil.copy(
+        source / "inputs" / "farmer-strategy-prompt.md",
+        tmp_path / "inputs" / "farmer-strategy-prompt.md",
+    )
     return load_config(tmp_path)

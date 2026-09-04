@@ -621,7 +621,7 @@ def data_issues(
     failures = [
         f"{row['source']}:{row['subject']} ({row.get('detail') or row['status']})"
         for row in statuses
-        if row["status"] not in {"ok", "skipped"}
+        if row["status"] not in {"ok", "skipped"} and row.get("source") != "farmer brief"
     ]
     if failures:
         issues.append("Secondary source warnings: " + "; ".join(failures))

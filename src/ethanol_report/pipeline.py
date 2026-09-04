@@ -32,6 +32,7 @@ from .earnings import (
     refresh_needed,
     save_earnings_state,
 )
+from .farmer import generate_farmer_brief
 from .narrative import (
     load_narrative,
     narrative_age,
@@ -511,6 +512,27 @@ def run_report(
                     narrative_detail,
                 )
             )
+            try:
+                _progress("Refreshing the farmer corn brief...")
+                farmer = generate_farmer_brief(
+                    config,
+                    report_date,
+                    force=force_secondary,
+                    commodity_tape=commodity_tape,
+                )
+                farmer_status = str(farmer.get("status") or "ok")
+                statuses.append(
+                    _status(
+                        "farmer brief",
+                        "OpenAI Responses API",
+                        "ok" if farmer_status in {"success", "skipped"} else farmer_status,
+                        str(farmer.get("detail") or farmer_status),
+                    )
+                )
+            except Exception as exc:
+                statuses.append(
+                    _status("farmer brief", "OpenAI Responses API", "warning", str(exc))
+                )
         finally:
             if browser is not None:
                 browser.__exit__(None, None, None)

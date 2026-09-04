@@ -20,6 +20,10 @@ Nearby corn, CBOT ethanol, RBOB, and Henry Hub settlements are retrieved from Ya
 
 If the API call fails, the last successful narrative is reused and the report is marked degraded. A failed call never overwrites the latest good strategy archive.
 
+## Farmer Corn Brief
+
+The same Thursday run also generates a narrative-only Farmer Corn Brief from `inputs/farmer-strategy-prompt.md`. It uses the same model, tape, and reporting window, but a different audience: a Nebraska producer who is long corn. History is isolated to prior farmer briefs so ethanol plant-margin language cannot leak into the prompt. The published page is the brief itself—no company tables, earnings, or charts. It is stored under `reports/final/farmer/`, shown on the homepage, and listed as its own group on Past reports. If the farmer call fails, the ethanol intel report still publishes; that week is simply omitted from the farmer archive.
+
 ## Publication
 
-Reports are stored by date under `reports/final/`. The public site is generated into `docs/` and published with GitHub Pages. PDF and self-contained HTML downloads are created from the same dated report. The News & Earnings index assigns headlines to topics with deterministic keyword rules, not a separate classifier.
+Reports are stored by date under `reports/final/`. Farmer briefs live under `reports/final/farmer/`. The public site is generated into `docs/` and published with GitHub Pages. PDF and self-contained HTML downloads are created from the same dated report. The News & Earnings index covers the ethanol intel report only and assigns headlines to topics with deterministic keyword rules, not a separate classifier.

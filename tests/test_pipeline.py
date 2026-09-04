@@ -145,6 +145,11 @@ def test_end_to_end_report_and_baseline(project, monkeypatch):
 
     monkeypatch.setattr(pipeline, "MassiveClient", FakeMassive)
     monkeypatch.setattr(pipeline, "BrowserSession", FakeBrowser)
+    monkeypatch.setattr(
+        pipeline,
+        "generate_farmer_brief",
+        lambda *_args, **_kwargs: {"status": "skipped", "detail": "fixture", "report_type": "farmer"},
+    )
 
     def generate_fixture_strategy(_config, report_date, *, force=False, **_kwargs):
         return {
@@ -355,3 +360,110 @@ Keep this section.
     ).read_text()
     assert "Fixture earnings summary" in faithful_html
     assert "Cloud fixture narrative" in faithful_html
+
+
+def _ethanol_fixture_strategy(_config, report_date, *, force=False, **_kwargs):
+    return {
+        "report_date": report_date.isoformat(),
+        "generated_at": f"{report_date.isoformat()}T12:00:00Z",
+        "model": "gpt-5.6-sol",
+        "response_id": "resp_fixture",
+        "prompt_sha256": "fixture",
+        "usage": {},
+        "estimated_cost_usd": 0.0,
+        "content_markdown": """# Ethanol Strategy Brief
+## Week of August 3, 2026
+
+## Executive readout
+
+| Exposure | Main driver |
+| --- | --- |
+| Corn | Central Corn Belt rain |
+
+### 1. Cloud strategy headline
+Cloud fixture narrative.
+
+## Bottom line
+Keep this section.
+""",
+    }
+
+
+def test_run_report_publishes_farmer_sidecar(project, monkeypatch):
+    import ethanol_report.farmer as farmer_module
+    import ethanol_report.narrative as narrative_module
+    import ethanol_report.pipeline as pipeline
+
+    monkeypatch.setattr(pipeline, "MassiveClient", FakeMassive)
+    monkeypatch.setattr(pipeline, "BrowserSession", FakeBrowser)
+    monkeypatch.setattr(narrative_module, "generate_strategy_report", _ethanol_fixture_strategy)
+
+    def fake_farmer_strategy(_config, report_date, *, profile=None, force=False, **_kwargs):
+        assert profile == "farmer"
+        return {
+            "status": "success",
+            "report_type": "farmer",
+            "report_date": report_date.isoformat(),
+            "generated_at": f"{report_date.isoformat()}T12:00:00Z",
+            "model": "gpt-5.6-sol",
+            "content_markdown": """# Farmer Corn Brief
+## Week of August 3, 2026
+
+## Where we are
+The crop is in grain fill.
+
+## The week in one page
+- The board paid you this week.
+""",
+        }
+
+    monkeypatch.setattr(farmer_module, "generate_strategy_report", fake_farmer_strategy)
+    run_report(project, date(2026, 8, 3))
+
+    farmer_html = (
+        project.root
+        / "reports"
+        / "final"
+        / "farmer"
+        / "2026-08-03"
+        / "Farmer Corn Brief-2026-08-03.html"
+    )
+    assert farmer_html.is_file()
+    assert "The board paid you this week" in farmer_html.read_text()
+    ethanol_html = (
+        project.root
+        / "reports"
+        / "final"
+        / "2026-08-03"
+        / "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
+    ).read_text()
+    assert "The board paid you this week" not in ethanol_html
+    assert "Cloud fixture narrative" in ethanol_html
+
+
+def test_farmer_brief_failure_does_not_block_ethanol_report(project, monkeypatch):
+    import ethanol_report.narrative as narrative_module
+    import ethanol_report.pipeline as pipeline
+
+    monkeypatch.setattr(pipeline, "MassiveClient", FakeMassive)
+    monkeypatch.setattr(pipeline, "BrowserSession", FakeBrowser)
+    monkeypatch.setattr(narrative_module, "generate_strategy_report", _ethanol_fixture_strategy)
+
+    def fail_farmer(*_args, **_kwargs):
+        raise RuntimeError("farmer outage")
+
+    monkeypatch.setattr(pipeline, "generate_farmer_brief", fail_farmer)
+    result = run_report(project, date(2026, 8, 3))
+
+    assert result["report_date"] == "2026-08-03"
+    assert (
+        project.root / "reports" / "final" / "2026-08-03" / "Weekly Corn and Ethanol Intel Report-2026-08-03.html"
+    ).is_file()
+    assert not (project.root / "reports" / "final" / "farmer").exists()
+    sources = json.loads(
+        (project.root / "reports" / "final" / "2026-08-03" / "manifest.json").read_text()
+    )["sources"]
+    farmer_rows = [row for row in sources if row.get("source") == "farmer brief"]
+    assert farmer_rows
+    assert farmer_rows[0]["status"] == "warning"
+    assert "farmer outage" in farmer_rows[0]["detail"]

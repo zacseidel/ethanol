@@ -67,7 +67,7 @@ def build_parser() -> argparse.ArgumentParser:
     strategy.add_argument("--date", type=parse_date, help="report date; defaults to today in America/Chicago")
     strategy.add_argument(
         "--report",
-        choices=("ethanol",),
+        choices=("ethanol", "farmer"),
         default="ethanol",
         help="strategy report profile (default: ethanol)",
     )
@@ -107,11 +107,25 @@ def main(argv: list[str] | None = None) -> int:
             )
             return 0
         if args.command == "generate-strategy":
+            from .farmer import generate_farmer_brief
             from .narrative import refresh_narrative
+            from .site import build_site
             from .strategy import generate_strategy_report
 
-            config = config.for_scope(args.report)
+            config = config.for_scope("ethanol")
             report_date = args.date or datetime.now(config.timezone).date()
+            if args.report == "farmer":
+                result = generate_farmer_brief(
+                    config,
+                    report_date,
+                    force=bool(args.force),
+                    dry_run=bool(args.dry_run),
+                )
+                if not args.dry_run and result.get("content_markdown"):
+                    build_site(config)
+                print(json.dumps(result, indent=2))
+                return 0
+            config = config.for_scope(args.report)
             if args.dry_run:
                 result = generate_strategy_report(config, report_date, dry_run=True)
             else:

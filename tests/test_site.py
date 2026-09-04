@@ -23,7 +23,10 @@ def _fake_report(
     assets = folder / "assets"
     assets.mkdir(parents=True)
     (assets / "chart.webp").write_bytes(b"RIFF-fake-webp")
-    name = "Weekly Corn and Ethanol Intel Report" if report_type == "ethanol" else report_type
+    name = {
+        "ethanol": "Weekly Corn and Ethanol Intel Report",
+        "farmer": "Farmer Corn Brief",
+    }.get(report_type, report_type)
     headline_links = "".join(
         f'<li><a href="#{fragment}">{label}</a></li>' for fragment, label in headlines
     )
@@ -148,7 +151,58 @@ def test_build_site_lists_ethanol_reports_only(project):
     links = [str(link["href"]) for link in archive.select(".report-list-link")]
     assert links == ["2026-08-03/", "2026-07-27/"]
     assert "Weekly Corn and Ethanol Intel Report" in archive.get_text(" ", strip=True)
+    assert "Farmer Corn Brief" in archive.get_text(" ", strip=True)
     assert (output / "reports" / "2026-08-03" / "index.html").is_file()
+
+
+def test_build_site_lists_farmer_briefs_separately_and_uses_farmer_homepage(project):
+    _fake_report(
+        project.root,
+        date(2026, 8, 3),
+        headlines=(("strategy-crush", "Midwest crush margins compress on higher corn"),),
+        earnings=(("earnings-gpre", "Green Plains (GPRE)"),),
+    )
+    _fake_report(
+        project.root,
+        date(2026, 8, 3),
+        report_type="farmer",
+        headlines=(("strategy-rally", "The board paid you this week"),),
+    )
+    _fake_report(project.root, date(2026, 7, 27), report_type="farmer")
+
+    output = project.root / "public-site"
+    result = build_site(project, output)
+
+    assert result["reports"] == 3
+    assert result["latest_report"] == "2026-08-03"
+    home = BeautifulSoup((output / "index.html").read_text(), "html.parser")
+    assert "Report for 2026-08-03" in home.get_text(" ", strip=True)
+    assert "The board paid you this week" in home.get_text(" ", strip=True)
+    assert "Midwest crush margins compress on higher corn" not in home.get_text(" ", strip=True)
+    home_downloads = {
+        link.get_text(strip=True): str(link["href"])
+        for link in home.select(".report-downloads-page a")
+    }
+    assert home_downloads == {
+        "PDF": "reports/farmer/2026-08-03/Farmer%20Corn%20Brief-2026-08-03.pdf",
+        "HTML": "reports/farmer/2026-08-03/Farmer%20Corn%20Brief-2026-08-03.html",
+    }
+
+    archive = BeautifulSoup((output / "reports" / "index.html").read_text(), "html.parser")
+    headings = [heading.get_text(strip=True) for heading in archive.select(".report-group h2")]
+    assert headings == ["Weekly Corn and Ethanol Intel Report", "Farmer Corn Brief"]
+    links = [str(link["href"]) for link in archive.select(".report-list-link")]
+    assert "2026-08-03/" in links
+    assert "farmer/2026-08-03/" in links
+    assert "farmer/2026-07-27/" in links
+    assert "Nearby corn through" in archive.get_text(" ", strip=True)
+    assert (output / "reports" / "farmer" / "2026-08-03" / "index.html").is_file()
+
+    news = BeautifulSoup((output / "news" / "index.html").read_text(), "html.parser")
+    assert "Midwest crush margins" in news.get_text(" ", strip=True)
+    assert "The board paid you this week" not in news.get_text(" ", strip=True)
+    assert "July 27, 2026" not in news.get_text(" ", strip=True)
+    assert news.select_one('a[href="../reports/farmer/2026-08-03/"]') is None
 
 
 def test_news_and_earnings_index_links_reports_by_week_and_business_topic(project):
@@ -219,15 +273,18 @@ def test_decorating_already_decorated_report_does_not_nest_navigation(tmp_path):
     assert len(published.select("nav.report-nav")) == 1
 
 
-def test_homepage_uses_the_newest_ethanol_report(project):
-    _fake_report(project.root, date(2026, 8, 3))
+def test_homepage_uses_the_newest_farmer_brief_even_if_ethanol_is_newer(project):
     _fake_report(project.root, date(2026, 8, 10))
+    _fake_report(project.root, date(2026, 8, 3), report_type="farmer")
+    _fake_report(project.root, date(2026, 7, 27), report_type="farmer")
 
     output = project.root / "public-site"
-    build_site(project, output)
+    result = build_site(project, output)
 
+    assert result["latest_report"] == "2026-08-03"
     home = BeautifulSoup((output / "index.html").read_text(), "html.parser")
-    assert "Report for 2026-08-10" in home.get_text(" ", strip=True)
+    assert "Report for 2026-08-03" in home.get_text(" ", strip=True)
+    assert "Report for 2026-08-10" not in home.get_text(" ", strip=True)
     archive = BeautifulSoup((output / "reports" / "index.html").read_text(), "html.parser")
     headings = [heading.get_text(" ", strip=True) for heading in archive.select(".report-group h2")]
-    assert headings == ["Weekly Corn and Ethanol Intel Report"]
+    assert headings == ["Weekly Corn and Ethanol Intel Report", "Farmer Corn Brief"]

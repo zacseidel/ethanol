@@ -8,7 +8,9 @@ Each edition brings three layers together:
 - recent earnings-call highlights and peer-relative price charts; and
 - a strategy narrative focused on crush margins, feedstock, blending demand, logistics, and fuel-policy developments.
 
-The audience is commodities and risk managers at ethanol plants, not general equity investors. Inclusion in the watchlist is not a recommendation to buy or sell a security. Private producers such as POET and Cargill remain important to the industry even though they do not appear in the snapshot tables.
+The audience for the intel report is commodities and risk managers at ethanol plants, not general equity investors. Inclusion in the watchlist is not a recommendation to buy or sell a security. Private producers such as POET and Cargill remain important to the industry even though they do not appear in the snapshot tables.
+
+The homepage is the latest Farmer Corn Brief, written for Nebraska corn producers. The Weekly Corn and Ethanol Intel Report remains in Past reports.
 
 Reports are preserved by publication date so readers can see what information was available at the time.
 

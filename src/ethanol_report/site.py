@@ -194,44 +194,59 @@ def _discover_reports(config: ProjectConfig) -> list[SiteReport]:
     reports: list[SiteReport] = []
     if not final_root.is_dir():
         return reports
-    profiles = config.settings.get("report_profiles", {})
-    candidates: list[tuple[Path, ProjectConfig, str]] = []
-    for folder in final_root.iterdir():
-        if not folder.is_dir():
-            continue
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", folder.name):
-            candidates.append((folder, config, folder.name))
-        elif folder.name in profiles:
-            scoped = config.for_scope(folder.name)
-            for report_folder in folder.iterdir():
-                if report_folder.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", report_folder.name):
-                    candidates.append((report_folder, scoped, f"{folder.name}/{report_folder.name}"))
-    for folder, scoped, archive_path in candidates:
+
+    def add_folder(folder: Path, archive_path: str) -> None:
         try:
             published = date.fromisoformat(folder.name)
         except ValueError:
-            continue
-        source = folder / report_html_name(published, scoped)
+            return
         manifest = read_json(folder / "manifest.json", {})
-        if not source.is_file() or not isinstance(manifest, dict):
-            continue
-        report_type = str(manifest.get("report_type") or scoped.scope)
+        if not isinstance(manifest, dict):
+            return
+        report_name = str(manifest.get("report_name") or "").strip()
+        if not report_name:
+            report_name = config.report_name
+        source = folder / f"{report_name}-{published.isoformat()}.html"
+        if not source.is_file():
+            fallback = folder / report_html_name(published, config)
+            if fallback.is_file():
+                source = fallback
+            else:
+                return
         reports.append(
             SiteReport(
                 report_date=published,
-                report_type=report_type,
-                report_name=str(manifest.get("report_name") or scoped.report_name),
+                report_type=str(manifest.get("report_type") or "ethanol"),
+                report_name=report_name,
                 market_data_as_of=str(manifest.get("market_data_as_of") or ""),
                 quality=str(manifest.get("quality") or "unknown"),
                 source=source,
                 archive_path=archive_path,
             )
         )
+
+    for folder in final_root.iterdir():
+        if not folder.is_dir():
+            continue
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", folder.name):
+            add_folder(folder, folder.name)
+            continue
+        for report_folder in folder.iterdir():
+            if report_folder.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", report_folder.name):
+                add_folder(report_folder, f"{folder.name}/{report_folder.name}")
     return sorted(
         reports,
         key=lambda item: (item.report_date, item.report_type),
         reverse=True,
     )
+
+
+def _homepage_report(reports: list[SiteReport]) -> SiteReport | None:
+    farmer_reports = [report for report in reports if report.report_type == "farmer"]
+    if farmer_reports:
+        return farmer_reports[0]
+    ethanol_reports = [report for report in reports if report.report_type == "ethanol"]
+    return ethanol_reports[0] if ethanol_reports else None
 
 
 def _site_header(prefix: str, active: str) -> str:
@@ -349,6 +364,7 @@ def _content_page(config: ProjectConfig, name: str, *, prefix: str) -> str:
 def _archive_page(reports: list[SiteReport]) -> str:
     groups = (
         ("ethanol", "Weekly Corn and Ethanol Intel Report"),
+        ("farmer", "Farmer Corn Brief"),
     )
     sections: list[str] = []
     for report_type, heading in groups:
@@ -366,10 +382,13 @@ def _archive_page(reports: list[SiteReport]) -> str:
             # turn the archive into a warning dashboard.
             badge = "Latest" if index == 0 else "Final"
             badge_class = ""
+            through_label = (
+                "Nearby corn through" if report.report_type == "farmer" else "Market data through"
+            )
             rows.append(
                 f'<li class="report-list-item"><a class="report-list-link" href="{report.archive_path}/">'
                 f"<strong>{_long_date(report.report_date)}</strong>"
-                f"<span>Market data through {html.escape(market_date or 'not recorded')}</span>"
+                f"<span>{through_label} {html.escape(market_date or 'not recorded')}</span>"
                 f'<span class="site-badge {badge_class}">{badge}</span></a>'
                 f'<div class="report-list-actions">{_report_download_links(report, f"{report.archive_path}/", compact=True)}</div>'
                 "</li>"
@@ -444,8 +463,9 @@ def _index_link_list(items: list[IndexedHeadline] | list[IndexedEarningsCall]) -
 
 
 def _news_index_page(reports: list[SiteReport]) -> str:
-    indexed = [(report, *_indexed_report_content(report)) for report in reports]
-    dates = sorted({report.report_date for report in reports}, reverse=True)
+    news_reports = [report for report in reports if report.report_type == "ethanol"]
+    indexed = [(report, *_indexed_report_content(report)) for report in news_reports]
+    dates = sorted({report.report_date for report in news_reports}, reverse=True)
     weeks: list[str] = []
     for report_date in dates:
         report_cards: list[str] = []
@@ -616,8 +636,10 @@ def build_site(config: ProjectConfig, output: Path | None = None) -> dict[str, A
             (folder / "index.html").write_text(
                 _content_page(config, name, prefix="../"), encoding="utf-8"
             )
-        if reports:
-            latest = reports[0]
+        latest = _homepage_report(reports)
+        if latest is None:
+            (temporary / "index.html").write_text(_empty_home(config), encoding="utf-8")
+        else:
             _decorate_report(
                 latest.source,
                 temporary / "index.html",
@@ -627,20 +649,21 @@ def build_site(config: ProjectConfig, output: Path | None = None) -> dict[str, A
                 download_prefix=f"reports/{latest.archive_path}/",
             )
             _copy_assets(latest.source, temporary)
-            for report in reports:
-                folder = temporary / "reports" / report.archive_path
-                prefix = "../" * (len(report.archive_path.split("/")) + 1)
-                _decorate_report(
-                    report.source,
-                    folder / "index.html",
-                    prefix=prefix,
-                    active="reports",
-                    report=report,
-                )
-                _copy_assets(report.source, folder)
-            _publish_report_downloads(reports, temporary, destination if destination.is_dir() else None)
-        else:
-            (temporary / "index.html").write_text(_empty_home(config), encoding="utf-8")
+        for report in reports:
+            folder = temporary / "reports" / report.archive_path
+            prefix = "../" * (len(report.archive_path.split("/")) + 1)
+            _decorate_report(
+                report.source,
+                folder / "index.html",
+                prefix=prefix,
+                active="reports",
+                report=report,
+            )
+            _copy_assets(report.source, folder)
+        if reports:
+            _publish_report_downloads(
+                reports, temporary, destination if destination.is_dir() else None
+            )
         atomic_replace_directory(temporary, destination)
     except Exception:
         if temporary.exists():
@@ -650,5 +673,5 @@ def build_site(config: ProjectConfig, output: Path | None = None) -> dict[str, A
         "status": "ok",
         "output": str(destination),
         "reports": len(reports),
-        "latest_report": reports[0].report_date.isoformat() if reports else None,
+        "latest_report": latest.report_date.isoformat() if latest else None,
     }

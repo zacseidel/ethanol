@@ -2,7 +2,7 @@
 
 A Python application that creates a weekly corn and ethanol intelligence report from Massive market data, public earnings pages, and an OpenAI strategy brief. Reports are generated as finals immediately and stored in Git.
 
-This is a single-profile port of the Healthcare Intel Digest workflow. There is one watchlist, one strategy prompt, and one published report each week.
+This is a single-profile port of the Healthcare Intel Digest workflow. There is one watchlist and one full intel report each week, plus a narrative-only Farmer Corn Brief generated from a second strategy prompt.
 
 ## What it produces
 
@@ -12,7 +12,7 @@ Reports are written to `reports/final/YYYY-MM-DD/`:
 - `report.md` and `assets/`: diffable Markdown and WebP charts
 - `snapshot.csv`, `changes.csv`, `render-data.json.gz`, `manifest.json`
 
-The strategy archive lives at `reports/strategy/ethanol/`.
+The ethanol strategy archive lives at `reports/strategy/ethanol/`. The farmer brief archive lives at `reports/strategy/farmer/`, with published pages under `reports/final/farmer/`.
 
 The scheduled workflow publishes the self-contained HTML report as a GitHub Actions artifact.
 
@@ -42,6 +42,7 @@ Same-date strategy generation is reused unless you pass `--force-secondary` (ful
 ```sh
 python -m ethanol_report render --date 2026-08-03
 python -m ethanol_report generate-strategy --dry-run
+python -m ethanol_report generate-strategy --report farmer --dry-run
 ./bin/run-report
 ```
 
@@ -58,7 +59,8 @@ The generated `docs/` directory is the GitHub Pages source.
 ## Configuration
 
 - `inputs/companies.md` — YAML front matter, `Ticker: Name; Description`
-- `inputs/ethanol-strategy-prompt.md` — version-controlled research brief
+- `inputs/ethanol-strategy-prompt.md` — version-controlled research brief for plant risk managers
+- `inputs/farmer-strategy-prompt.md` — version-controlled research brief for Nebraska corn producers
 - `config/settings.yaml` — horizons, cache, timezone (`America/Chicago`), single `ethanol` profile
 - `notes/universe.md` — human research notes for the watchlist
 
