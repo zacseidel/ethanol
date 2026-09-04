@@ -39,8 +39,6 @@ The initial baseline is therefore a **large-crop but no-longer-loose corn market
 
 <h3 id="strategy-executive-view-1-usda-tightened-corn-despite-a-second-largest-crop">1. USDA tightened corn despite a second-largest crop</h3>
 
-**Status:** NEW
-
 **What happened**
 
 USDA’s August 12 survey-based forecast put corn production at 16.013 billion bushels. Harvested area increased 1.2 million acres from July, but yield fell 2.3 bushels to 180.7. USDA also reduced beginning stocks by 75 million bushels and raised 2026/27 exports by 75 million to 3.275 billion, lowering ending stocks by 137 million to 1.653 billion. Corn use for ethanol remained 5.6 billion bushels. ([USDA, “WASDE-674,” August 12, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796014/wasde0826.pdf); [USDA NASS, “Crop Production,” August 12, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796015/crop0826.pdf)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796014/wasde0826.pdf?utm_source=openai))
@@ -62,8 +60,6 @@ Whether late-August rainfall stabilizes kernel weight and whether export inspect
 ---
 
 <h3 id="strategy-executive-view-2-ethanol-production-rose-while-blending-inputs-weakened">2. Ethanol production rose while blending inputs weakened</h3>
-
-**Status:** UPDATE
 
 **What happened**
 
@@ -87,8 +83,6 @@ Whether production retreats from the 1.1-million-barrel-per-day area before main
 
 <h3 id="strategy-executive-view-3-green-plains-demonstrated-why-crush-margin-now-requires-a-45z-bridge">3. Green Plains demonstrated why “crush margin” now requires a 45Z bridge</h3>
 
-**Status:** CONFIRM
-
 **What happened**
 
 On its August 6 earnings call, Green Plains reported second-quarter adjusted EBITDA of $93.3 million, a $95.1 million consolidated ethanol crush margin and $58.7 million of recognized 45Z production-credit value. Utilization was 88% because of planned maintenance and work at Madison, while management characterized physical ethanol and co-product conditions as strong. ([The Motley Fool, “Green Plains Q2 2026 Earnings Call Transcript,” published August 13, 2026; call held August 6](https://www.fool.com/earnings/call-transcripts/2026/08/13/green-plains-gpre-q2-2026-earnings-call-transcript/)) ([fool.com](https://www.fool.com/earnings/call-transcripts/2026/08/13/green-plains-gpre-q2-2026-earnings-call-transcript/?utm_source=openai))
@@ -111,8 +105,6 @@ Transfer pricing, audit reserves, final emissions-rate substantiation and the ca
 
 <h3 id="strategy-executive-view-4-e15-demand-protection-continued-but-the-policy-cliff-merely-moved">4. E15 demand protection continued, but the policy cliff merely moved</h3>
 
-**Status:** UPDATE
-
 **What happened**
 
 EPA’s latest nationwide waiver became effective August 9 and permits a common gasoline pool containing 9%–15% ethanol at a 10-psi Reid Vapor Pressure standard through August 28. EPA also provided a sell-through provision for compliant fuel introduced into pipelines or certified before expiration. ([EPA, “Fuel Waivers,” July 30, 2026 action; effective August 9–28](https://www.epa.gov/gasoline-standards/fuel-waivers)) ([epa.gov](https://www.epa.gov/gasoline-standards/fuel-waivers))
@@ -130,8 +122,6 @@ The net signal is **supportive for physical ethanol demand but mixed for D6 RIN 
 ---
 
 <h3 id="strategy-executive-view-5-record-soybean-supply-raises-the-competitive-bar-for-ddgs">5. Record soybean supply raises the competitive bar for DDGS</h3>
-
-**Status:** NEW
 
 **What happened**
 

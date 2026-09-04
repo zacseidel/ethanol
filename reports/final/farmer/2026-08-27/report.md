@@ -35,8 +35,6 @@ Nearby corn was **$5.103 per bushel**, up **31.5 cents**, or **6.6%**, from Augu
 
 ## 1. Crop Tour cut enough bushels to threaten the USDA carryout
 
-**Status: NEW**
-
 **What happened**
 
 Pro Farmer’s national estimate was **15.344 billion bushels at 173.2 bushels per acre**, with a production range of 15.191 billion to 15.498 billion. Scouts cited lower ear populations, shorter grain length and inconsistent field performance. Nebraska’s tour yield of 163.61 was particularly weak relative to both last year’s tour and its three-year tour average. ([profarmer.com](https://www.profarmer.com/news/pro-farmer-estimates-2026-u-s-corn-crop-15-344-billion-bushels-soybeans-4-572-billion-bushels))
@@ -63,8 +61,6 @@ USDA’s September 11 Crop Production report is the next survey print capable of
 
 ## 2. The rally is worth more than the remaining board carry
 
-**Status: CONFIRM**
-
 **What happened**
 
 December reached **$5.335**, 30 cents above August 20. Nearby reached **$5.103**, up 31.5 cents. The December-nearby spread narrowed to about 23¼ cents. Crop uncertainty led the move, while Black Sea shipping concerns also added risk premium during the week. (Successful Farming, *3 Big Things Today*, August 27, 2026.) ([agriculture.com](https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251))
@@ -84,8 +80,6 @@ USDA AMS publishes daily Nebraska bids, but no single statewide basis represents
 ---
 
 ## 3. Crop ratings confirm stress, but maturity is closing the weather window
-
-**Status: CONFIRM**
 
 **What happened**
 
@@ -107,8 +101,6 @@ Kernel depth, premature drydown, stalk quality and early harvest reports will ma
 
 ## 4. Ethanol demand helped the local bid, but stocks kept it from being a clean bull story
 
-**Status: UPDATE**
-
 **What happened**
 
 Ethanol production for the week ended August 21 rose **23,000 barrels per day** to **1.112 million**. Midwest output rose to 1.062 million barrels per day. Stocks increased 85,000 barrels to **25.206 million**, while refiner and blender inputs slipped from 926,000 to 923,000 barrels per day. ([agriculture.com](https://www.agriculture.com/3-big-things-today-aug-27-2026-12069251))
@@ -128,8 +120,6 @@ Shop ethanol bids against elevators and shuttle loaders. If the plant offers a f
 ---
 
 ## 5. Export demand is adequate, not yet strong enough to carry the rally
-
-**Status: UPDATE**
 
 **What happened**
 

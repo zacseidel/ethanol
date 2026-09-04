@@ -343,6 +343,32 @@ def _strip_narrative_section(body: str, title: str) -> str:
     return "\n".join(output)
 
 
+_STATUS_LINE = re.compile(
+    r"""
+    ^\s*
+    (?:
+        \*{0,2}Status:\*{0,2}\s+\*{0,2}
+        (?:NEW|UPDATE|CONFIRM|REFUTE|RESOLVE)
+        (?:\s*/\s*(?:NEW|UPDATE|CONFIRM|REFUTE|RESOLVE))*
+        \*{0,2}
+      |
+        <p>\s*(?:<strong>)?Status:(?:</strong>)?\s*
+        (?:NEW|UPDATE|CONFIRM|REFUTE|RESOLVE)
+        (?:\s*/\s*(?:NEW|UPDATE|CONFIRM|REFUTE|RESOLVE))*
+        \s*</p>
+    )
+    \s*$
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def _strip_status_labels(body: str) -> str:
+    """Drop model Status labels from published copy; keep them in stored strategy files."""
+    kept = [line for line in body.splitlines() if not _STATUS_LINE.match(line)]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(kept)).strip()
+
+
 def _presentation_narrative(body: str) -> str:
     body = re.sub(
         r"^\s*\*{0,2}(?:Strategy brief for\s+)?Week of\s+.+?\*{0,2}\s*$",
@@ -352,6 +378,7 @@ def _presentation_narrative(body: str) -> str:
         flags=re.IGNORECASE | re.MULTILINE,
     )
     body = _strip_narrative_section(body, "Functional strategy summary")
+    body = _strip_status_labels(body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
     return _add_strategy_narrative_links(body)
 

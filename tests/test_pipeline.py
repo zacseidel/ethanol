@@ -6,6 +6,7 @@ from datetime import date, timedelta
 from bs4 import BeautifulSoup
 
 from ethanol_report.cache import MarketCache
+from ethanol_report.farmer import build_farmer_markdown
 from ethanol_report.pipeline import export_standalone_report, rerender_report, run_report
 from ethanol_report.render import _presentation_narrative
 from ethanol_report.storage import config_hash, read_gzip_json, write_gzip_json
@@ -104,6 +105,47 @@ def test_strategy_narrative_links_support_html_headings_and_strip_delta_labels()
     ]
     assert "NEW / RESOLVE" not in presented
     assert "CONFIRM" not in presented
+
+
+def test_presentation_strips_status_labels_from_published_copy():
+    body = """## 1. Crop tour reversed last week's read
+
+**Status:** REFUTE
+
+**What happened**
+Tour yields disappointed.
+
+## 2. Carry widened
+
+**Status: UPDATE**
+
+**What happened**
+December gained on nearby.
+"""
+    presented = _presentation_narrative(body)
+    assert "Status" not in presented
+    assert "REFUTE" not in presented
+    assert "UPDATE" not in presented
+    assert "Tour yields disappointed." in presented
+    assert "December gained on nearby." in presented
+
+
+def test_farmer_markdown_strips_status_labels():
+    body = """# Farmer Corn Brief
+## Week of August 27, 2026
+
+## 1. The board paid you
+
+**Status: NEW**
+
+**What happened**
+December rallied 30 cents.
+"""
+    published = build_farmer_markdown(body, date(2026, 8, 27), [])
+    assert "Status" not in published
+    assert "NEW" not in published
+    assert "December rallied 30 cents." in published
+    assert "# Farmer Corn Brief" in published
 
 
 def test_strategy_jump_list_uses_interpretive_headlines_not_form_sections():

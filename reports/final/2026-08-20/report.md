@@ -39,8 +39,6 @@ The week’s incremental thesis is that **weather has reduced the probability of
 
 <h3 id="strategy-executive-view-1-central-corn-belt-rain-reduced-the-next-corn-yield-downgrade-risk">1. Central Corn Belt rain reduced the next corn-yield downgrade risk</h3>
 
-**Status:** REFUTE
-
 **What happened**
 
 National corn condition slipped one point to 60% good-to-excellent for the week ended August 16, with 76% of the crop in dough, 29% dented and 4% mature. More importantly, a broad storm corridor delivered heavy rain from Nebraska through Iowa, Illinois, Indiana and Ohio. The U.S. Drought Monitor removed all abnormally dry areas from Indiana, Ohio and Kentucky and most from Illinois; Iowa and northern Missouri also improved. Parts of central Illinois and Indiana received more than five inches, although excessive totals created localized flooding and wind damage. ([USDA NASS, “Crop Progress,” August 17, 2026](https://www.nass.usda.gov/Publications/Todays_Reports/reports/prog3326.pdf); [U.S. Drought Monitor, “National Drought Summary for August 18, 2026,” August 20, 2026](https://droughtmonitor.unl.edu/Summary.aspx)) ([finance.yahoo.com](https://finance.yahoo.com/markets/commodities/articles/corn-holds-monday-rally-close-220151273.html?utm_source=openai))
@@ -65,8 +63,6 @@ Whether August 18–24 rainfall reaches the northern Corn Belt and whether natio
 
 <h3 id="strategy-executive-view-2-lower-production-did-not-prevent-another-ethanol-inventory-build">2. Lower production did not prevent another ethanol inventory build</h3>
 
-**Status:** UPDATE
-
 **What happened**
 
 For the week ended August 14, U.S. ethanol production declined 28,000 barrels per day to 1.089 million; Midwest production fell 29,000 to 1.031 million. Refiner and blender inputs improved 11,000 barrels per day to 926,000. Nevertheless, inventories increased 323,000 barrels to 25.121 million, including builds of 124,000 barrels on the East Coast and 195,000 on the Gulf Coast. ([EIA, “Weekly Petroleum Status Report,” August 19, 2026](https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_08_19/wpsr_2026_08_19.php); [DTN, “EIA Weekly Ethanol Report,” August 19, 2026](https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/08/19/eia-ethanol-inventories-0-4-year)) ([dtnpf.com](https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/08/19/eia-ethanol-inventories-0-4-year))
@@ -89,8 +85,6 @@ Whether national output moves below roughly 1.05 million barrels per day during 
 
 <h3 id="strategy-executive-view-3-early-winter-grade-gasoline-adds-supply-not-necessarily-ethanol-demand">3. Early winter-grade gasoline adds supply, not necessarily ethanol demand</h3>
 
-**Status:** NEW
-
 **What happened**
 
 On August 20, the administration authorized an early transition to higher-volatility winter-grade gasoline beginning September 1, rather than the normal mid-September transition. Public reporting indicated that the action permits earlier sale of higher-volatility E10 and is intended to add hundreds of thousands of barrels per day of gasoline supply. Formal waiver text was not yet reflected on EPA’s public fuel-waiver page at the report cutoff. ([Bloomberg News, “US Allows Early Sales of Winter Gasoline to Help Curb Prices,” August 20, 2026](https://news.bloomberglaw.com/business-and-practice/us-allows-early-sales-of-winter-gasoline-to-help-curb-prices)) ([news.bloomberglaw.com](https://news.bloomberglaw.com/business-and-practice/us-allows-early-sales-of-winter-gasoline-to-help-curb-prices?utm_source=openai))
@@ -109,8 +103,6 @@ Treat this as **mixed to slightly bearish for ethanol value**, not as a new etha
 
 <h3 id="strategy-executive-view-4-weekly-corn-sales-did-not-validate-a-more-aggressive-export-assumption">4. Weekly corn sales did not validate a more aggressive export assumption</h3>
 
-**Status:** UPDATE
-
 **What happened**
 
 USDA reported 1.05 million metric tons of corn sales across the 2025/26 and 2026/27 marketing years for the week ended August 13, at the low end of the 1.0–1.8 million-ton analyst range. Mexico was the leading buyer at 391,300 tons. ([USDA FAS, “Weekly Export Sales,” August 20, 2026](https://fas.usda.gov/report-release-announcement/weekly-export-sales-300); [Dow Jones, “U.S. Corn Export Sales on Low Side for Week,” August 20, 2026](https://ae.marketscreener.com/news/u-s-corn-export-sales-on-low-side-for-week-ce7859d3da81f02d)) ([fas.usda.gov](https://fas.usda.gov/report-release-announcement/weekly-export-sales-300?utm_source=openai))
@@ -126,8 +118,6 @@ Export demand remains a corn-price risk, but this print argues against chasing c
 ---
 
 <h3 id="strategy-executive-view-5-midwest-natural-gas-storage-preserved-the-input-cost-buffer">5. Midwest natural-gas storage preserved the input-cost buffer</h3>
-
-**Status:** CONFIRM
 
 **What happened**
 

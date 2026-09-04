@@ -33,8 +33,6 @@ Nearby corn finished at **$5.152 per bushel**, up **5 cents**, or **1.0%**, from
 
 ## 1. The yield disagreement survived, but it did not widen
 
-**Status: UPDATE**
-
 **What happened**
 
 No new USDA production survey was released. The new private evidence was less bearish than Crop Tour: an Allendale producer survey estimated **178.7 bushels per acre** and a **15.833-billion-bushel crop**. That is 2 bushels below USDA, but 5½ bushels above Pro Farmer. ([nationallivestock.websol.barchart.com](https://nationallivestock.websol.barchart.com/?module=futureDetail&region=&selected=news&storyID=4411068&symbol=ZCZ26&utm_source=openai))
@@ -61,8 +59,6 @@ September 11 is the next report capable of repricing the national crop and carry
 
 ## 2. EPA resolved the waiver question but left reallocation unfinished
 
-**Status: RESOLVE**
-
 **What happened**
 
 On August 31, EPA acted on 34 small-refinery petitions for the 2025 compliance year. It granted 18 full exemptions and 11 partial exemptions, denying or finding ineligible five petitions. The action exempted **1.76 billion RINs**.
@@ -87,8 +83,6 @@ Watch the reallocation proposal, RIN prices and—most importantly—the cents u
 
 ## 3. Wider carry makes storage possible, not automatically profitable
 
-**Status: UPDATE**
-
 **What happened**
 
 December gained 7¼ cents versus a 5-cent increase in nearby, widening the spread to about **25½ cents carry**.
@@ -109,8 +103,6 @@ The board offers more carry, but the cash market decides whether you collect it.
 
 ## 4. Export sales improved enough to support the rally
 
-**Status: CONFIRM**
-
 **What happened**
 
 New-crop sales for the week ended August 27 were **1.986 million metric tons**, up from 1.066 million the prior week. Mexico bought 665,000 tons, Japan 371,800 and unknown destinations 353,300. ([kqlx-radio.websol.barchart.com](https://kqlx-radio.websol.barchart.com/?0=news&module=futureDetail&popup=1&selected=news&storyID=4443553&symbol=ZCZ26&utm_source=openai))
@@ -128,8 +120,6 @@ Treat stronger sales as support for the crop premium, not as a reason to leave a
 ---
 
 ## 5. Ethanol demand held while gasoline prices broke
-
-**Status: UPDATE**
 
 **What happened**
 

@@ -5,14 +5,14 @@
   "report_date": "2026-09-03",
   "market_data_as_of": "2026-09-03",
   "generated_at": "2026-09-04T16:37:24Z",
-  "rendered_at": "2026-09-04T16:37:24Z",
+  "rendered_at": "2026-09-04T16:50:14Z",
   "quality": "ok",
   "issues": [],
   "sources": [
     {
       "source": "farmer brief",
       "subject": "OpenAI Responses API",
-      "status": "success",
+      "status": "skipped",
       "detail": "gpt-5.6-sol"
     }
   ],

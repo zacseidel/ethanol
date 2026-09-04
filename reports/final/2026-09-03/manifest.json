@@ -5,7 +5,7 @@
   "report_date": "2026-09-03",
   "market_data_as_of": "2026-09-02",
   "generated_at": "2026-09-04T00:36:06Z",
-  "rendered_at": "2026-09-04T00:36:06Z",
+  "rendered_at": "2026-09-04T16:50:14Z",
   "baseline_report_date": "2026-08-27",
   "configuration_sha256": "3d0b6f89d05de3f6d17e60522a5e2017960573cff509c1ccac51801957e5894e",
   "quality": "degraded",
@@ -761,17 +761,15 @@
     }
   ],
   "metrics": {
-    "mode": "full",
+    "mode": "render-only",
     "durations_seconds": {
-      "market_data": 53.29,
-      "analysis": 0.013,
-      "secondary_sources": 208.506,
-      "rendering": 11.589,
-      "total": 273.423
+      "render_input_load": 0.007,
+      "rendering": 0.343,
+      "total": 0.376
     },
     "counts": {
       "companies": 39,
-      "price_bars_loaded": 20150,
+      "price_bars_loaded": 0,
       "performance_charts": 3,
       "earnings_charts": 0,
       "source_statuses": {
@@ -781,19 +779,13 @@
       }
     },
     "output_bytes": {
-      "html": 4559545,
-      "markdown": 108222,
+      "html": 4558421,
+      "markdown": 107193,
       "charts": 3327304,
-      "data": 103752,
-      "total_without_manifest": 8098823
+      "data": 103608,
+      "total_without_manifest": 8096526
     },
-    "price_retention": {
-      "cutoff": "2024-07-20",
-      "files_changed": 0,
-      "bars_removed": 0,
-      "bars_retained": 20150
-    },
-    "directory_bytes": 8120421
+    "directory_bytes": 8118071
   },
   "files": [
     "Weekly Corn and Ethanol Intel Report-2026-09-03.html",

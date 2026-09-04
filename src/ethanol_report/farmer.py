@@ -15,6 +15,7 @@ from .render import (
     _corn_meta_line,
     _long_date,
     _narrative_created,
+    _strip_status_labels,
     write_report_files,
 )
 from .storage import atomic_replace_directory, utc_now, write_json
@@ -34,7 +35,7 @@ def build_farmer_markdown(
     tape: list[dict[str, Any]],
     generated_at: str = "",
 ) -> str:
-    content = body.strip()
+    content = _strip_status_labels(body.strip())
     meta_bits = [f"<strong>Week of {_long_date(report_date)}</strong>"]
     corn = _corn_meta_line(tape)
     if corn:
