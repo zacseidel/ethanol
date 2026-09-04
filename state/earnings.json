@@ -57,12 +57,12 @@
     "next_date_source": "estimated from last earnings"
   },
   "BAYRY": {
-    "checked_at": "2026-08-28T12:06:13Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:31Z",
+    "checked_for_date": "2026-09-03"
   },
   "BASFY": {
-    "checked_at": "2026-08-28T12:06:17Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:35Z",
+    "checked_for_date": "2026-09-03"
   },
   "NTR": {
     "last_report_date": "2026-08-06",
@@ -138,8 +138,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "YARIY": {
-    "checked_at": "2026-08-28T12:06:21Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:38Z",
+    "checked_for_date": "2026-09-03"
   },
   "MOS": {
     "last_report_date": "2026-08-05",
@@ -721,64 +721,59 @@
   },
   "REX": {
     "last_report_date": "2026-05-28",
-    "summary": "REX American Resources achieved its most profitable first quarter on a net income per share basis in company history for Q1 2026. This performance provides strategic flexibility to pursue value-creating opportunities and thoughtful capital allocation while maintaining growth project advancements.",
+    "summary": "REX American Resources achieved its most profitable first quarter on a net income per share basis in company history for Q1 2026. The milestone reflects operational excellence and strategic discipline, providing capital allocation flexibility while advancing major growth projects, including the One Earth Energy capacity expansion and carbon capture initiative.",
     "key_moments": [
       {
-        "title": "Regulatory Milestones Approaching",
+        "title": "Regulatory Clarity on Carbon Pipeline Moratorium",
         "timestamp": "3m",
-        "blurb": "The upcoming expiration of the Illinois carbon pipeline moratorium on July 1, 2026, marks a critical step forward for REX’s carbon capture initiative. Investors will view this clarity positively as it allows the company to finally advance its pipeline applications."
+        "blurb": "Management confirmed that the Illinois moratorium on carbon pipeline permitting is scheduled to expire on July 1, 2026. This provides investors with a clear timeline for the carbon capture project, with REX prepared to submit its application immediately following the expiration."
       },
       {
-        "title": "45Z Tax Credit Material Contribution",
+        "title": "Record Financial Performance and 45Z Benefit",
         "timestamp": "7m",
-        "blurb": "The inclusion of $7.5 million in 45Z production tax credits helped drive gross profit up to $29.1 million compared to $14.3 million in Q1 2025. This structural benefit and accounting shift will reassure investors of clear bottom-line support from environmental incentives."
+        "blurb": "REX delivered its highest-ever first quarter EPS of $0.56, more than doubling YoY net income to $18.5 million. This massive bottom-line surge will highly please investors, as it was driven by a newly implemented $7.5 million Section 45Z production tax credit benefit and lower corn input pricing."
       },
       {
-        "title": "Record First Quarter Profitability",
-        "timestamp": "8m",
-        "blurb": "REX reported record Q1 net income of $18.5 million, or $0.56 per diluted share, doubling from $0.26 in the prior year. This record performance will please investors as it highlights strong execution and represents the company's 23rd consecutive profitable quarter."
-      },
-      {
-        "title": "Favorable Macro Industry Indicators",
+        "title": "Robust Ethanol Export Market Tailwinds",
         "timestamp": "10m",
-        "blurb": "Management highlighted robust export demand, noting that U.S. ethanol exports through March 2026 spiked 20% year-over-year. This industry tailwind, alongside stable domestic demand, supports positive investor sentiment regarding near-term revenue stability."
+        "blurb": "Investors will be encouraged by favorable industry dynamics, as industry-wide ethanol exports through March 2026 increased 20% compared to the prior year. This strong international demand, paired with stable domestic conditions, supports management's confidence in delivering another profitable quarter in Q2."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-28T12:06:24Z",
+    "at_a_glance_checked_at": "2026-09-04T00:32:42Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Earnings Explode Despite Revenue Disappointment",
-        "detail": "REX American Resources delivered a reported adjusted EPS of $0.56, significantly beating the consensus estimate of $0.14, while its reported revenue of $164,048,000 fell short of analyst forecasts."
+        "headline": "REX Reports Top-Line Growth",
+        "detail": "REX American Resources reported Q1 2027 revenue of $164,048,000, while basic earnings per share reached $0.56, representing a substantial bottom-line increase compared to $0.26 in Q1 2026."
       },
       {
-        "headline": "Ethanol Volume and Margin Growth",
-        "detail": "The company reached ethanol sales volumes of 71.1 million gallons at an average selling price of $1.66 per gallon, driving its gross profit up to $29.1 million from $14.3 million in the previous year."
+        "headline": "Ethanol Volumes and Prices Shift",
+        "detail": "The company's consolidated ethanol sales volumes achieved 71.1 million gallons, matching its performance from the prior year period, while gross profit margins expanded due to lower corn feedstock costs."
       },
       {
-        "headline": "Massive Growth Projects Budget Outlined",
-        "detail": "Management outlined a capital allocation budget of $220 million to $230 million targeted toward organic growth initiatives, with the primary objective being the completion of the Gibson City expansion by the end of 2026."
+        "headline": "Expansion Project on Schedule",
+        "detail": "Management confirmed that its core ethanol capacity expansion at Gibson City remains strictly on schedule for completion by the end of calendar year 2026."
       },
       {
-        "headline": "Strategic Pivot Enhances Bottom Line",
-        "detail": "Profitability was substantially enhanced by the strategic early adoption of a new accounting principle to record Section 45Z production tax credits as operating income, which contributed $7.5 million during the quarter."
+        "headline": "Tax Credits Lift Gross Profit",
+        "detail": "Profitability was heavily supported by the early adoption of new accounting rules, contributing $7.5 million of Section 45Z production tax credit income during the quarter."
       },
       {
-        "headline": "Balance Sheet Strength Remains Unparalleled",
-        "detail": "REX maintained exceptional financial flexibility, concluding the quarter with zero bank debt and $364.3 million in cash, cash equivalents, and short-term investments to fund its pipeline organically."
+        "headline": "Strong Cash Position Maintained",
+        "detail": "REX American Resources closed the first quarter with a robust balance of $364.3 million in cash, cash equivalents, and short-term investments alongside zero bank debt."
       }
     ],
     "at_a_glance_report_date": "2026-05-28",
-    "checked_at": "2026-08-28T12:06:25Z",
-    "checked_for_date": "2026-08-27",
+    "checked_at": "2026-09-04T00:32:42Z",
+    "checked_for_date": "2026-09-03",
     "next_event_date": "2026-08-26",
     "next_check_date": "2026-08-05",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "NVZMY": {
-    "checked_at": "2026-08-28T12:06:29Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:46Z",
+    "checked_for_date": "2026-09-03"
   },
   "INGR": {
     "last_report_date": "2026-08-04",
@@ -1334,8 +1329,8 @@
         "blurb": "Grocery and General Merchandise margins expanded 90 basis points to 35.7% in Q4, driven by structural shifts. Investors will be pleased by the profitable mix shift as consumers transition from lower-margin traditional cigarettes to high-margin nicotine alternatives, further supported by the outperformance of high-margin energy drinks and an expanded liquor footprint."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-28T12:06:33Z",
-    "at_a_glance_scope": null,
+    "at_a_glance_checked_at": "2026-09-04T00:32:49Z",
+    "at_a_glance_scope": "upcoming",
     "at_a_glance": [
       {
         "headline": "Casey's Beats Q4 Estimates Significantly",
@@ -1363,8 +1358,8 @@
     "next_date_status": "confirmed",
     "next_date_source": "Google Finance",
     "next_check_date": null,
-    "checked_at": "2026-08-28T12:06:33Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:49Z",
+    "checked_for_date": "2026-09-03"
   },
   "MUSA": {
     "last_report_date": "2026-08-06",
@@ -1424,8 +1419,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "NTOIY": {
-    "checked_at": "2026-08-28T12:06:36Z",
-    "checked_for_date": "2026-08-27"
+    "checked_at": "2026-09-04T00:32:53Z",
+    "checked_for_date": "2026-09-03"
   },
   "CVX": {
     "last_report_date": "2026-07-31",
