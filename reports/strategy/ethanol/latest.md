@@ -1,129 +1,125 @@
 # Ethanol Strategy Brief
-## Week of September 3, 2026
+## Week of September 10, 2026
 
 ## Executive View
 
-- **Corn-yield risk remained elevated but did not intensify at last week’s pace.** USDA’s controlling August balance sheet still assumes a **180.7-bushel yield and 1.653-billion-bushel 2026/27 carryout**, while Pro Farmer’s field-based estimate remains **173.2 bushels and 15.344 billion bushels**. Corn condition held at 57% good-to-excellent, and a University of Nebraska model supplied a counterweight by indicating near-trend regional yield potential. Nevertheless, nearby corn closed at **$5.188 per bushel, up $0.085, or 1.7%, for the week**—a modest extension, not a reversal, of the crop-tour risk premium.
-- **EPA confirmed a large refinery-relief package but deferred the offsetting demand repair.** The agency exempted **1.76 billion 2025 RINs** for 29 refineries. EPA had already incorporated 990 million RINs into its prior projection and said it would propose reallocating the roughly **770-million-RIN difference** into the 2026 and 2027 obligations. The exemption is final; the incremental reallocation is not.
-- **The petroleum price umbrella weakened sharply.** Nearby RBOB fell **$0.280 to $3.104 per gallon, down 8.3%**, despite gasoline inventories falling to their lowest level in nearly ten months. High refinery utilization, weaker year-over-year gasoline demand and the early transition to winter-grade gasoline outweighed physical stock tightness.
-- **The ethanol balance improved, but stocks remain heavy.** Production edged down to **1.110 million barrels per day**, inventories drew **171,000 barrels to 25.035 million**, and EIA refiner and blender ethanol inputs rose to **940,000 barrels per day**. Stocks were still 11% above last year, with Gulf Coast inventories 32.8% higher.
-- **Export demand continues to prevent a larger product overhang.** July ethanol exports totaled **199.5 million gallons**, taking year-to-date shipments to **1.41 billion gallons, 13% above 2025**. DDGS exports were also 13% ahead, supporting co-product clearance.
-- **Overall margin and risk conditions deteriorated modestly:** higher corn, slightly higher natural gas and an 8.3% RBOB decline outweighed the first weekly ethanol inventory draw in a month.
+- **Corn-yield uncertainty remains the controlling physical-margin regime, but the market trimmed—not expanded—the risk premium this week.** USDA’s August balance sheet still assumes a **180.7-bushel yield and 1.653-billion-bushel 2026/27 carryout**, versus Pro Farmer’s 173.2-bushel field estimate. Nearby corn closed September 9 at **$5.077 per bushel, down $0.075, or 1.5%, from September 3**. The decline indicates that traders did not add to yield risk ahead of Friday’s report, even as USDA lowered corn condition one point to 56% good-to-excellent. ([USDA NASS, *Crop Progress*, September 8, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt); [Pro Farmer, *What to Expect from USDA’s September Crop Report on Friday*, September 9, 2026](https://www.profarmer.com/news/what-expect-usdas-september-crop-report-friday)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt))
+- **45Z guidance produced the week’s largest structural change in plant economics.** IRS Notice 2026-53 and DOE’s September GREET update now permit qualifying regenerative-ag practices to affect corn-feedstock carbon intensity, including for eligible 2025 production. Transition relief removes the pre-application nutrient-budget requirement for 2025 and 2026 crops, although chain-of-custody, verification and input-substantiation obligations remain. ([IRS, *Notice 2026-53*, September 8, 2026](https://www.irs.gov/pub/irs-drop/n-26-53.pdf); [DOE, *45ZCF-GREET Change Log—September 2026*](https://www.energy.gov/documents/45zcf-greet-changelog-september-2026)) ([irs.gov](https://www.irs.gov/pub/irs-drop/n-26-53.pdf))
+- **The prompt ethanol balance deteriorated after last week’s draw.** Production eased 5,000 barrels per day to **1.102 million**, but inventories increased **152,000 barrels to 25.187 million** and EIA refiner and blender ethanol inputs fell **32,000 barrels per day to 908,000**. Stocks were approximately 10% above the comparable 2025 week. ([EIA, *Weekly Ethanol Plant Production* and *Weekly Petroleum Status Report*, released September 10, 2026](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm)) ([eia.gov](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm?utm_source=openai))
+- **Low Mississippi River water became an immediate harvest-logistics exposure.** American Commercial Barge Line implemented its Low Water Protocol effective September 5, added applicable surcharges and reduced Lower Mississippi tow sizes by 13%. This can weaken upriver corn basis while raising Gulf delivery costs and export risk. ([ACBL, *American Currents—Daily River Conditions*, September 9, 2026](https://www.bargeacbl.com/american-currents/)) ([bargeacbl.com](https://www.bargeacbl.com/american-currents/?utm_source=openai))
+- **Energy inputs and output linkage both improved on the supplied tape.** RBOB rose **2.4% to $3.211 per gallon**, while Henry Hub fell **3.1% to $2.822 per MMBtu**. Gas storage increased 40 Bcf to **3,254 Bcf**, including an 18-Bcf Midwest build to 908 Bcf, preserving a comfortable plant-energy buffer. ([EIA, *Weekly Working Gas in Underground Storage*, September 10, 2026](https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm)) ([eia.gov](https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm?utm_source=openai))
+- **Overall margin conditions improved modestly:** lower corn and natural gas plus stronger gasoline outweighed the ethanol stock build for conventional physical crush, while the new 45Z guidance further improved potential economics for plants able to verify low-carbon feedstocks. Event risk remains high through Friday’s USDA reports.
 
 | Exposure | Current signal | Change from last week | Horizon | Confidence | Main driver |
 |---|---|---:|---|---|---|
-| Corn procurement | Yield gap unresolved | Deteriorated modestly | Harvest–Q1 2027 | High | Corn +1.7%; USDA versus field evidence |
-| Ethanol selling | Heavy stocks, improving clearance | Improved modestly | 1–4 weeks | High | First inventory draw after three builds |
-| RINs/RFS | Exemptions final; reallocation pending | Mixed | 1–6 months | High | 1.76 billion RINs exempted |
-| Gasoline linkage | Petroleum support weakened | Deteriorated | 1–8 weeks | High | RBOB −8.3% |
-| Natural gas | Manageable but slightly firmer | Broadly unchanged | 1–3 months | High | $2.956; ample Midwest storage |
-| Overall plant margin | Feedstock/output squeeze | Deteriorated modestly | Near term | Medium-high | Corn higher, gasoline lower |
+| Corn procurement | Yield cut partly priced; report risk high | Improved modestly | Days–Q1 2027 | High | Nearby corn −1.5%; September survey |
+| 45Z/feedstock CI | Regenerative-ag value operationalized | Improved materially | 2025–29 credits | High | IRS notice and GREET update |
+| Ethanol selling | Heavy stocks resumed building | Deteriorated | 1–4 weeks | High | Inputs down; inventories up |
+| Natural gas | Comfortable storage and lower futures | Improved | 1–4 months | High | Henry Hub −3.1% |
+| Gulf logistics | Low-water restrictions active | Deteriorated | Harvest–autumn | High | Tow reductions and surcharges |
+| Overall plant margin | Favorable input/output tape; bifurcated by 45Z | Improved modestly | Near term | Medium-high | Corn/gas lower, RBOB higher |
 
-The week did not resolve the central corn question created by the crop tour. Instead, it added mixed evidence while the futures market retained and modestly increased its risk premium. Ongoing 45Z feedstock-documentation requirements and regenerative-ag carbon-intensity execution remain important but are not re-narrated absent a new federal rule.
+The week’s thesis is **a modest improvement in physical crush inputs immediately before a potentially decisive corn report, combined with a meaningful expansion in the addressable value of verified low-carbon corn**. EPA’s pending reallocation of 2025 refinery exemptions and strong year-to-date ethanol exports remain important but are not re-narrated because no operative federal reallocation or new monthly trade print emerged.
 
-## 1. Corn held its risk premium as supply evidence diverged
+## 1. Corn sold off, but USDA—not price action—must resolve the yield gap
 
 **Status:** UPDATE
 
 **What happened**
 
-Corn condition held at **57% good-to-excellent** for the week ended August 30, 12 points below last year. The crop advanced rapidly: 62% was dented versus a 56% five-year average, and 13% was mature, matching average. That reduces the remaining weather window and shifts attention toward harvest measurements. ([USDA NASS, “Crop Progress,” August 31, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796042/prog3526.txt)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796042/prog3526.txt))
+Corn condition declined to **56% good-to-excellent** for the week ended September 6, from 57% previously and 68% one year earlier. The crop was 76% dented, 25% mature and 5% harvested; maturity and harvest were slightly ahead of their five-year averages. ([USDA NASS, *Crop Progress*, September 8, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt))
 
-The University of Nebraska’s August 25 Hybrid-Maize simulations estimated regional yield potential near its historical trend, approximately 2% above trend in aggregate. However, the model excludes yield losses from flooding, nitrate leaching, disease, poor stands and hail—several issues relevant to this year’s crop-tour findings. ([University of Nebraska–Lincoln CropWatch, “2026 Corn Yield Forecasts as of Aug. 25,” published August 2026](https://cropwatch.unl.edu/2026-corn-yield-forecasts-aug-25/)) ([cropwatch.unl.edu](https://cropwatch.unl.edu/2026-corn-yield-forecasts-aug-25/?utm_source=openai))
-
-Demand evidence remains firm. USDA reported **475 million bushels** used for fuel alcohol in July, 2% above June and 4% above July 2025. Corn export inspections finished the 2025/26 marketing year at **83.806 million metric tons, 25.1% ahead of the prior year**. ([USDA NASS, “Grain Crushings and Co-Products Production,” September 1, 2026](https://esmis.nal.usda.gov/publication/grain-crushings-and-co-products-production); [USDA export-inspection data, week ended August 27](https://www.indexbox.io/blog/usda-grain-export-inspections-report-week-ending-august-27-2026/)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/publication/grain-crushings-and-co-products-production?utm_source=openai))
+Analysts surveyed before the September 11 reports expected USDA to reduce yield to approximately **178.1 bushels per acre** and ending stocks to **1.511 billion bushels**. Those expectations are materially below USDA’s August balance sheet but remain well above Pro Farmer’s 173.2-bushel estimate. ([Pro Farmer, *What to Expect from USDA’s September Crop Report on Friday*, September 9, 2026](https://www.profarmer.com/news/what-expect-usdas-september-crop-report-friday)) ([profarmer.com](https://www.profarmer.com/news/what-expect-usdas-september-crop-report-friday?utm_source=openai))
 
 **Why it matters**
 
-The new information does not validate Pro Farmer’s 173.2-bushel estimate, but neither does it restore confidence in USDA’s 180.7. With crop condition low, demand strong and corn up another 8.5 cents, the market is treating the September survey report—not late-season weather—as the next decisive evidence.
+The 7.5-cent weekly decline shows that the market did not interpret the dry finish and one-point condition loss as new evidence requiring a higher premium. It does not validate USDA’s current yield. Rather, it suggests that a moderate reduction is already expected after corn’s sharp late-August rally.
 
 **Risk-manager implication**
 
-Do not characterize national procurement risk as improving merely because condition stopped declining. The smaller weekly rally suggests urgency moderated after last week’s repricing, but harvest and winter coverage remain exposed to a USDA yield cut. Local basis risk will increasingly depend on early receipts and whether yield shortfalls overlap plant draw areas.
+Plants face asymmetric report risk. A yield near the 178-bushel consensus would largely confirm the market’s current view; a move toward Pro Farmer would materially increase winter coverage risk, while a yield close to 180.7 could extend the futures correction. Directionally this week: **corn less expensive, ethanol neutral and plant margins modestly better**, but confidence beyond September 11 is low.
 
 **Watch next**
 
-Early harvest results and USDA’s September 11 Crop Production report.
+USDA’s objective ear counts, implied ear weight and any demand changes that determine whether a production cut flows fully into carryout.
 
 ---
 
-## 2. EPA finalized the exemptions, but not their full reallocation
+## 2. 45Z turned regenerative corn into a measurable procurement attribute
+
+**Status:** RESOLVE
+
+**What happened**
+
+Effective September 8, IRS Notice 2026-53 allows the 45Z-specific Feedstock Carbon Intensity Calculator to capture qualifying low-carbon agricultural practices. DOE’s updated model includes **cover crops, tillage practices, nitrification inhibitors and manure application** as potential feedstock-CI inputs. The IRS also permits qualifying 2025 feedstocks to use the 2026 calculator and deems the advance nutrient-budget requirement satisfied for 2025 and 2026 production, provided taxpayers substantiate actual nutrient inputs and comply with USDA chain-of-custody, audit and verification rules. ([IRS, *Notice 2026-53*, September 8, 2026](https://www.irs.gov/pub/irs-drop/n-26-53.pdf); [DOE, *45ZCF-GREET User Manual—September 2026*](https://www.energy.gov/documents/cmei-greet-user-manual-2026-sept-2026-update-final)) ([irs.gov](https://www.irs.gov/pub/irs-drop/n-26-53.pdf))
+
+**Why it matters**
+
+The prior uncertainty was whether farm-level practices could be incorporated soon enough to support current credit claims. The guidance answers that question affirmatively and provides limited retroactive usability. It does not remove execution risk: undocumented or inadequately segregated corn cannot automatically receive the same CI benefit.
+
+**Risk-manager implication**
+
+Corn procurement now has two economically distinct components: **commodity value and verified carbon attribute value**. Plants should separately measure farmer premiums, aggregation costs, audit exposure and incremental credit proceeds. Qualifying facilities may improve 2025 and 2026 credit value; plants without traceable supply chains receive little immediate benefit. Confidence is high on eligibility mechanics but only medium on realized net value until calculators, auditors and credit buyers establish repeatable pricing.
+
+**Watch next**
+
+Final Treasury regulations, third-party verification practices and the spread between gross 45Z value and delivered low-CI feedstock cost.
+
+---
+
+## 3. Ethanol stocks rebuilt as domestic inputs fell
 
 **Status:** UPDATE
 
 **What happened**
 
-On August 31, EPA granted 18 full and 11 partial small-refinery exemptions for 2025, denied three petitions and found two ineligible. The exemptions cover **1.76 billion RINs**. EPA said it would propose reallocating 100% of the difference between that amount and the **990 million RINs previously projected**, split across 2026 and 2027, before the end of October. EPA also extended the 2025 compliance date to **October 1, 2026**. ([EPA, “EPA Announces Action on 2025 Small Refinery Exemptions and Related Actions,” August 31, 2026](https://www.epa.gov/newsreleases/epa-announces-action-2025-small-refinery-exemptions-and-related-actions)) ([epa.gov](https://www.epa.gov/newsreleases/epa-announces-action-2025-small-refinery-exemptions-and-related-actions))
+| EIA ethanol balance | Week ended Aug. 28 | Week ended Sept. 4 | Change |
+|---|---:|---:|---:|
+| Production, million bpd | 1.107 | 1.102 | −0.005 |
+| Inventories, million bbl | 25.035 | 25.187 | +0.152 |
+| Refiner/blender inputs, million bpd | 0.940 | 0.908 | −0.032 |
+
+([EIA, *Weekly Petroleum Status Report*, September 10, 2026](https://www.eia.gov/petroleum/supply/weekly/index.php)) ([eia.gov](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm?utm_source=openai))
+
+Gasoline inventories also rose 1.3 million barrels to 206.9 million, while the four-week average of gasoline supplied was **8.8 million barrels per day, down 1.4% year over year**. ([EIA, *Summary of Weekly Petroleum Data*, September 10, 2026](https://ir.eia.gov/wpsr/wpsrsummary.pdf)) ([ir.eia.gov](https://ir.eia.gov/wpsr/wpsrsummary.pdf))
 
 **Why it matters**
 
-The action resolves the exemption package’s size near the upper end of the range discussed last week. EPA’s reallocation commitment limits the expected long-term demand loss, but a proposed future adjustment is not equivalent to an operative obligation. Timing, allocation between years and litigation remain relevant.
+The first inventory draw in a month did not extend. Lower production was constructive, but weaker domestic inputs more than offset the reduction. RBOB’s 2.4% rally improves ethanol’s value umbrella, yet the physical balance still requires exports or deeper maintenance cuts.
 
 **Risk-manager implication**
 
-The immediate exposure remains **D6 RIN value and RIN-linked contract settlement**, rather than a confirmed reduction in current physical ethanol blending. Plants should not assume that the roughly 770-million-RIN incremental shortfall is economically repaired until EPA publishes and finalizes the adjustment.
+Prompt ethanol selling and storage exposure deteriorated modestly. Plants should avoid treating stronger gasoline futures as proof that ethanol tanks are tightening. Directionally: **ethanol softer physically, corn demand still supported by a 1.1-million-barrel run rate and plant margins mixed** over the next several weeks.
 
 ---
 
-## 3. Gasoline futures weakened despite tight physical stocks
+## 4. Low water is widening the harvest basis and freight risk
 
 **Status:** NEW
 
 **What happened**
 
-RBOB fell 8.3% to $3.104 per gallon on the supplied tape. EIA reported gasoline stocks down **1.2 million barrels to 205.7 million**, approximately 6% below the five-year average, while refinery utilization increased to **98%**. Four-week gasoline supplied averaged 8.9 million barrels per day, down 2% year over year. ([EIA, “Weekly Petroleum Status Report,” September 2, 2026](https://www.eia.gov/petroleum/supply/weekly/index.php)) ([eia.gov](https://www.eia.gov/petroleum/supply/weekly/index.php?utm_source=openai))
+ACBL activated low-water surcharges after the Memphis gauge reached zero feet and reduced Lower Mississippi tow size by five barges, or 13%, depending on horsepower classification. Draft restrictions had not yet reduced loading between the Gulf and Cairo as of September 9. ([ACBL, *American Currents—Daily River Conditions*, September 9, 2026](https://www.bargeacbl.com/american-currents/)) ([bargeacbl.com](https://www.bargeacbl.com/american-currents/?utm_source=openai))
 
 **Why it matters**
 
-The futures decline shows that seasonal supply and demand expectations overwhelmed tight inventories. EPA’s September 1 switch to winter volatility limits increased gasoline-production flexibility, while high refinery runs and softer consumption reduced scarcity value.
+The restrictions arrived as harvest and new-crop export movement begin. Reduced barge capacity can raise delivered Gulf costs and weaken export competitiveness even when global demand remains sound.
 
 **Risk-manager implication**
 
-The first transmission is through wholesale gasoline and ethanol’s relative blend value. Directionally, the move is **bearish for ethanol selling and plant margins**, even though cheaper pump prices may eventually support gasoline volumes. Plants should not expect tight gasoline inventories alone to restore last week’s petroleum-derived ethanol support.
-
----
-
-## 4. Ethanol inventories finally drew, with exports providing structural support
-
-**Status:** CONFIRM
-
-**What happened**
-
-| EIA ethanol balance | Week ended Aug. 21 | Week ended Aug. 28 | Change |
-|---|---:|---:|---:|
-| Production, million bpd | 1.112 | 1.110 | −0.002 |
-| Inventories, million bbl | 25.206 | 25.035 | −0.171 |
-| Refiner/blender inputs, million bpd | 0.923 | 0.940 | +0.017 |
-
-The national draw was driven by a 605,000-barrel Midwest reduction. East Coast stocks rose 340,000 barrels and Gulf stocks increased 133,000, leaving Gulf inventory 32.8% above last year. ([DTN, “EIA: Ethanol Stocks Edge Lower on Week, Up 11% on Year,” September 2, 2026](https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/09/02/eia-ethanol-stocks-edge-lower-week)) ([dtnpf.com](https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/09/02/eia-ethanol-stocks-edge-lower-week))
-
-July ethanol exports slipped 3% month over month to **199.5 million gallons**, but year-to-date exports remained 13% ahead. DDGS exports totaled 1.10 million metric tons in July and 7.27 million year to date, also 13% higher. ([Renewable Fuels Association, “July U.S. Ethanol and DDGS Exports Maintain a Steady Pace,” September 3, 2026](https://ethanolrfa.org/media-and-news/category/trade-monitor/article/2026/09/july-u-s-ethanol-and-ddgs-exports-maintain-a-steady-pace)) ([ethanolrfa.org](https://ethanolrfa.org/media-and-news/category/trade-monitor/article/2026/09/july-u-s-ethanol-and-ddgs-exports-maintain-a-steady-pace?utm_source=openai))
-
-**Risk-manager implication**
-
-Prompt ethanol exposure improved from accumulating surplus to **heavy but clearing**. Coastal builds caution against declaring the export channel tight, while the 1.110-million-barrel production rate remains high enough to support corn and limit rapid inventory normalization.
-
----
-
-## 5. REX confirmed that physical crush and 45Z both contributed to profitability
-
-**Status:** CONFIRM
-
-REX American Resources reported fiscal second-quarter gross profit of **$53.3 million**, including **$18.4 million of 45Z production-credit income net of estimated monetization costs**. Management said core gross profit excluding 45Z increased 144% year over year. Ethanol volumes were flat at 70.6 million gallons, while average DDGS realization rose to $166.55 per ton from $143.63 and distillers corn oil to $0.72 per pound from $0.54. ([REX American Resources, “Fiscal Second Quarter 2026 Results,” September 2, 2026](https://investors.rexamerican.com/news-releases/news-release-details/rex-american-resources-reports-record-fiscal-second-quarter-2026)) ([investors.rexamerican.com](https://investors.rexamerican.com/news-releases/news-release-details/rex-american-resources-reports-record-fiscal-second-quarter-2026))
-
-The disclosure confirms that favorable co-product realizations and physical crush—not only tax credits—supported summer economics. Plant benchmarking should nevertheless continue to separate physical margin, accrued 45Z value and monetization cost.
+The exposure is geographically bifurcated. River-linked interior corn bids may weaken as freight deductions increase, creating procurement opportunities for nearby ethanol plants. Conversely, Gulf ethanol, DDGS and grain movements face higher transport costs and congestion risk. Monitor basis rather than assuming the futures decline will translate uniformly across plant draw areas.
 
 ## Strategic Synthesis
 
-The incremental thesis is **persistent corn uncertainty combined with weaker gasoline linkage, partially cushioned by better ethanol clearance and strong exports**. The corn market is no longer repricing yield risk as violently as last week, but it has not surrendered the premium. Until USDA reconciles its survey with crop-tour and harvest evidence, corn procurement remains the primary margin exposure.
+The incremental thesis is **lower immediate physical crush costs but higher differentiation across plants and locations**. Corn futures, gasoline and natural gas improved the representative margin tape; 45Z now rewards verified feedstock execution more concretely; and low river levels may benefit some interior corn buyers while damaging export logistics. Friday’s USDA report remains capable of overwhelming all three effects.
 
 ## What I’m Watching Next
 
-- **September 8, 2026:** USDA Crop Progress, delayed by Labor Day.
-- **September 10, 2026:** EIA petroleum, ethanol and natural-gas storage releases.
-- **September 11, 2026:** USDA WASDE and Crop Production.
-- **October 1, 2026:** Extended 2025 RFS compliance deadline.
+- **September 11, 2026, 11:00 a.m. CDT:** USDA September WASDE and Crop Production reports. ([USDA, *WASDE Report Schedule*](https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report)) ([usda.azureedge.us](https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report?utm_source=openai))
+- **September 14, 2026:** USDA Crop Progress, including additional harvest advancement and final-season condition evidence. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/publication/crop-progress))
+- **September 16, 2026:** EIA petroleum and ethanol balance for the week ending September 11. ([eia.gov](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm?utm_source=openai))
+- **September 17, 2026:** EIA natural-gas storage report. ([eia.gov](https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm?utm_source=openai))
 
 ## Bottom Line
 
-The week’s most consequential change was EPA’s final **1.76-billion-RIN exemption package**, but the closest plant-margin exposure remains corn: nearby futures added another 8.5 cents while the USDA–crop-tour yield gap stayed unresolved. **September 11 Crop Production is the event most likely to reset procurement risk and the overall margin view.**
+The week’s most consequential new change was the **operational incorporation of regenerative-ag feedstock value into 45Z**, but corn remains the exposure requiring the closest immediate attention. Nearby corn’s 1.5% decline improved the margin setup without resolving yield risk; the **September 11 USDA yield and carryout revisions** are the catalyst most likely to reset procurement strategy and the overall plant-margin view.

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Farmer Corn Brief</title><style>
+:root { color-scheme:light; --navy:#2c3331; --navy-2:#5a6360; --ink:#1e2422;
+  --muted:#5a6360; --line:#d4cfc4; --panel:#e7e4dc; --paper:#fffdf8; --accent:#b33c28; }
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap");
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:1.25rem; }
+body { margin:0; color:var(--ink); background:#f6f3ec;
+  font:16px/1.58 "Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.page-shell { width:min(1500px,100%); margin:0 auto; padding:1.5rem;
+  display:grid; grid-template-columns:235px minmax(0,1120px); gap:2rem; align-items:start; }
+.report-nav { position:sticky; top:1.5rem; max-height:calc(100vh - 3rem); overflow:auto;
+  border-top:5px solid var(--navy); background:var(--paper); box-shadow:0 5px 20px #18324814;
+  padding:1rem 1rem 1.1rem; font-size:.87rem; }
+.report-nav-title { margin:0 0 .65rem; color:var(--navy); font:700 1.05rem/1.25 "Zilla Slab",Georgia,serif; }
+.report-nav ul { margin:0; padding:0; list-style:none; }
+.report-nav li { margin:.25rem 0; }
+.report-nav li ul { border-left:2px solid #dce6ed; margin:.35rem 0 .55rem .25rem; padding-left:.7rem; }
+.report-nav a { color:#405466; text-decoration:none; }
+.report-nav a:hover { color:var(--navy-2); text-decoration:underline; }
+main { min-width:0; background:var(--paper); border-top:7px solid var(--navy);
+  box-shadow:0 8px 30px #18324817; padding:3rem 3.5rem 5rem; }
+h1,h2,h3,h4 { color:var(--ink); font-family:"Zilla Slab",Georgia,serif; line-height:1.2; }
+h1 { margin:0; font-size:2.55rem; letter-spacing:-.025em; }
+h2 { margin-top:2.25em; padding-bottom:.35rem; border-bottom:3px solid var(--navy); font-size:1.75rem; }
+h3 { margin-top:1.8em; font-size:1.32rem; }
+h4 { font-size:1.08rem; }
+a { color:#b33c28; text-underline-offset:2px; }
+.report-meta { margin:1rem 0 1.35rem; padding:.85rem 1rem; background:var(--panel);
+  border-left:4px solid var(--navy-2); color:#40505e; }
+.report-meta span { display:block; }
+.commodity-tape { margin:.2rem 0 1.5rem; }
+.commodity-tape-caption { margin:.15rem 0 .55rem; color:var(--muted); font-size:.88rem; }
+.section-jump-list { columns:2; padding:1rem 1.25rem 1rem 2.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links { margin:.8rem 0 1.8rem; padding:1rem 1.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links ul { margin:0; padding-left:1.25rem; }
+.strategy-narrative-links li { margin:.3rem 0; }
+.return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
+  font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
+.category-return { font-size:.76rem; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
+th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
+th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
+th.sortable-heading { cursor:pointer; user-select:none; }
+th.sortable-heading:hover { background:#3a423e; }
+th.sortable-heading::after { content:" ↕"; color:#718696; font-size:.78em; }
+th.sort-asc::after { content:" ↑"; color:var(--navy); }
+th.sort-desc::after { content:" ↓"; color:var(--navy); }
+tbody tr:hover td { box-shadow:inset 0 0 0 999px #ffffff26; }
+tbody tr:last-child td { border-bottom:0; }
+td.text { text-align:left; }
+td.missing { color:var(--muted); }
+blockquote { border-left:4px solid var(--accent); margin-left:0; padding:.65rem 1rem; background:#f6f3ec; }
+code { background:var(--panel); padding:.1rem .25rem; }
+img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
+.metadata { color:var(--muted); margin-top:-.6rem; }
+.good {color:#3f5c4a}.bad {color:#8c2e1e}
+.rank-change-up { color:#3f5c4a; font-weight:800; }
+.rank-change-down { color:#8c2e1e; font-weight:800; }
+@media (max-width:1050px) {
+  .page-shell { display:block; padding:0; }
+  .report-nav { position:relative; top:0; max-height:none; border-top:0; border-bottom:4px solid var(--navy);
+    box-shadow:none; padding:.75rem 1rem; }
+  .report-nav ul { display:flex; flex-wrap:wrap; gap:.15rem 1rem; }
+  .report-nav li ul { display:none; }
+  main { box-shadow:none; border-top:0; }
+}
+@media (max-width:700px) {
+  main { padding:2rem 1rem 4rem; } h1{font-size:2rem} h2{font-size:1.45rem}
+  table{font-size:.8rem} th,td{padding:.44rem .5rem} .section-jump-list{columns:1}
+}
+@media print { body{background:#fff}.page-shell{display:block;padding:0}.report-nav{display:none}main{box-shadow:none;border:0;padding:0} }
+</style><style>
+:root { --site-navy:#1e2422; --site-blue:#5a6360; --site-gold:#c9a24a;
+  --site-ink:#1e2422; --site-muted:#5a6360; --site-line:#d4cfc4; --site-paper:#fffdf8;
+  --site-panel:#e7e4dc; --site-header:#fffdf8; }
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap");
+.public-site-header { position:relative; z-index:20; color:var(--site-ink); background:var(--site-header);
+  border-bottom:1px solid var(--site-line); box-shadow:0 1px 8px #1832480d; }
+.public-site-header-inner { width:min(1500px,100%); min-height:60px; margin:0 auto;
+  padding:.55rem 1.5rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; }
+.public-site-brand { color:#1e2422 !important;
+  font:700 1.15rem/1.2 "Zilla Slab",Georgia,serif;
+  text-decoration:none; letter-spacing:.015em; }
+.public-site-nav { display:flex; align-items:center; gap:.25rem; flex-wrap:wrap; }
+.public-site-nav a { color:#526879 !important; padding:.45rem .68rem; border-radius:4px;
+  font:700 .78rem/1.2 "Source Sans 3",sans-serif; letter-spacing:.12em; text-transform:uppercase; text-decoration:none; }
+.public-site-nav a:hover,.public-site-nav a[aria-current="page"] { color:#b33c28 !important;
+  background:#e7e4dc; }
+.public-page-body { margin:0; color:var(--site-ink); background:#f6f3ec;
+  font:16px/1.62 "Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.public-page { width:min(1040px,calc(100% - 2rem)); min-height:calc(100vh - 60px); margin:0 auto;
+  padding:3rem clamp(1.25rem,4vw,4rem) 5rem; background:var(--site-paper);
+  box-shadow:0 8px 30px #18324814; }
+.public-page h1,.public-page h2,.public-page h3 { color:var(--site-navy);
+  font-family:"Zilla Slab",Georgia,serif; line-height:1.2; }
+.public-page h1 { margin:.15rem 0 1rem; font-size:clamp(2.05rem,5vw,3.25rem);
+  font-weight:500; letter-spacing:-.025em; }
+.public-page h2 { margin-top:2.2rem; padding-bottom:.35rem; border-bottom:2px solid var(--site-line); }
+.public-page a { color:#b33c28; text-underline-offset:2px; }
+.public-site-header + .page-shell { padding-top:1.25rem; }
+.public-site-header + .page-shell main { border-top:1px solid var(--site-line); }
+.public-site-header + .page-shell main > h1 { color:#1e2422;
+  font-family:"Zilla Slab",Georgia,serif;
+  font-size:clamp(2rem,4vw,2.75rem); font-weight:500; letter-spacing:-.035em; }
+.public-site-header + .page-shell .report-nav { border-top:2px solid #9fb7c7; }
+.site-eyebrow { margin:0; color:var(--site-blue); font-size:.77rem; font-weight:800;
+  letter-spacing:.13em; text-transform:uppercase; }
+.site-lede { max-width:740px; color:#40505e; font-size:1.13rem; }
+.report-list { list-style:none; margin:2rem 0 0; padding:0; border-top:1px solid var(--site-line); }
+.report-group { margin-top:2.5rem; }
+.report-group h2 { margin:0; padding-bottom:.45rem; color:var(--site-navy);
+  border-bottom:2px solid var(--site-line); font:700 1.45rem/1.2 "Zilla Slab",Georgia,serif; }
+.report-group .report-list { margin-top:0; }
+.report-list li { display:flex; align-items:center; gap:.75rem; border-bottom:1px solid var(--site-line); }
+.report-list .report-list-link { min-width:0; flex:1; display:grid;
+  grid-template-columns:minmax(190px,1fr) minmax(150px,.8fr) auto;
+  gap:1rem; align-items:center; padding:1rem .2rem; color:inherit; text-decoration:none; }
+.report-list li:hover { background:var(--site-panel); }
+.report-list strong { color:var(--site-navy); font:700 1.06rem/1.3 "Zilla Slab",Georgia,serif; }
+.report-list span { color:var(--site-muted); font-size:.9rem; }
+.site-badge { display:inline-block; justify-self:end; padding:.18rem .5rem; border-radius:2px;
+  color:#fffdf8 !important; background:#b33c28; font-size:.72rem !important; font-weight:800; text-transform:uppercase; }
+.site-badge-warning { color:#754b05 !important; background:#fff0c9; }
+.index-week { margin-top:2.5rem; }
+.index-week > h2 { margin-bottom:.3rem; }
+.index-report { margin:1.25rem 0 2rem; padding:1.1rem 1.25rem; border:1px solid var(--site-line);
+  border-radius:5px; background:#fbfcfd; }
+.index-report-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; }
+.index-report h3 { margin:0 0 .8rem; font-size:1.22rem; }
+.index-report h4 { margin:1rem 0 .35rem; color:var(--site-blue); font-size:.82rem;
+  letter-spacing:.09em; text-transform:uppercase; }
+.index-links { margin:.35rem 0 .6rem; padding-left:1.3rem; }
+.index-links li { margin:.35rem 0; }
+.topic-directory { margin-top:3.5rem; padding-top:.5rem; border-top:4px solid var(--site-gold); }
+.topic-group { margin-top:2.5rem; }
+.topic-section { margin:1.35rem 0; }
+.topic-section h3 { margin-bottom:.4rem; }
+.topic-links { list-style:none; margin:.35rem 0 0; padding:0; }
+.topic-links li { padding:.65rem 0; border-bottom:1px solid var(--site-line); }
+.topic-links span { display:block; margin-top:.15rem; color:var(--site-muted); font-size:.82rem; }
+.index-empty { color:var(--site-muted); font-style:italic; }
+.report-downloads { display:flex; align-items:center; gap:.42rem; flex-wrap:wrap; margin:.8rem 0 1.35rem; }
+.report-downloads-compact { flex:0 0 auto; margin:0; }
+.report-download-label { margin-right:.15rem; color:var(--site-muted); font-size:.78rem; font-weight:600; }
+.download-button { display:inline-flex; align-items:center; justify-content:center; min-width:3.25rem;
+  padding:.36rem .62rem; border:1px solid #b7c8d3; border-radius:4px; color:#315b75 !important;
+  background:#fff; font:600 .76rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.025em; text-decoration:none !important; }
+.download-button:hover { border-color:#7193a8; background:#edf4f7; }
+.report-list-actions { padding-right:.2rem; }
+.public-site-footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--site-line);
+  color:var(--site-muted); font-size:.84rem; }
+@media (max-width:700px) {
+  .public-site-header-inner { align-items:flex-start; flex-direction:column; gap:.45rem; }
+  .public-site-nav { margin-left:-.7rem; }
+  .public-page { width:100%; }
+  .report-list li { display:block; padding-bottom:.8rem; }
+  .report-list .report-list-link { grid-template-columns:1fr; gap:.2rem; padding-bottom:.45rem; }
+  .report-list-actions { padding:0 .2rem; }
+  .index-report-heading { display:block; }
+  .report-downloads-compact { margin:.2rem 0 .8rem; }
+  .site-badge { justify-self:start; margin-top:.25rem; }
+}
+</style></head><body><header class="public-site-header"><div class="public-site-header-inner"><a class="public-site-brand" href="../../../">Ethanol Strategy Digest</a><nav aria-label="Website navigation" class="public-site-nav"><a href="../../../">Latest report</a><a href="../../../news/">News &amp; Earnings</a><a aria-current="page" href="../../../reports/">Past reports</a><a href="../../../about/">About</a><a href="../../../methodology/">Methodology</a></nav></div></header><div class="page-shell"><nav aria-label="Report navigation" class="report-nav"><p class="report-nav-title">In this report</p><ul><li><a href="#week-of-september-10-2026">Week of September 10, 2026</a></li><li><a href="#where-we-are">Where we are</a></li><li><a href="#the-week-in-one-page">The week in one page</a></li><li><a href="#1-usda-must-beat-an-already-bullish-trade-estimate">1. USDA must beat an already-bullish trade estimate</a></li><li><a href="#2-nebraskas-crop-deteriorated-while-maturity-stayed-behind">2. Nebraska’s crop deteriorated while maturity stayed behind</a></li><li><a href="#3-your-basis-matters-more-than-the-shrinking-nearby-carry">3. Your basis matters more than the shrinking nearby carry</a></li><li><a href="#4-demand-is-present-but-it-did-not-rescue-the-board">4. Demand is present, but it did not rescue the board</a></li><li><a href="#the-crop-you-still-have-to-market">The crop you still have to market</a></li><li><a href="#bottom-line">Bottom line</a></li></ul></nav><main id="main-content"><h1 id="farmer-corn-brief">Farmer Corn Brief</h1><div aria-label="Download Farmer Corn Brief for September 10, 2026" class="report-downloads report-downloads-page"><span class="report-download-label">Download report</span><a class="download-button" download="" href="Farmer%20Corn%20Brief-2026-09-10.pdf">PDF</a><a class="download-button" download="" href="Farmer%20Corn%20Brief-2026-09-10.html">HTML</a></div>
+<h2 id="week-of-september-10-2026">Week of September 10, 2026</h2>
+<div class="report-meta"><span><strong>Week of September 10, 2026</strong></span><span>Nearby corn: $5.077/bu (-$0.075 (-1.5%) week)</span><span>Narrative created: September 11, 2026</span></div>
+<div class="commodity-tape"><p class="commodity-tape-caption">Nearby futures from Yahoo Finance. Nearby corn is the market's current perception of yield and demand risk.</p><div class="table-wrap"><table><thead><tr><th>Contract</th><th>Last</th><th>Week change</th><th>As of</th></tr></thead><tbody><tr><td>Nearby corn</td><td>$5.077/bu</td><td>-$0.075 (-1.5%)</td><td>September 9, 2026</td></tr><tr><td>RBOB gasoline</td><td>$3.211/gal</td><td>+0.076 (+2.4%)</td><td>September 9, 2026</td></tr><tr><td>Henry Hub</td><td>$2.822/MMBtu</td><td>-0.091 (-3.1%)</td><td>September 9, 2026</td></tr></tbody></table></div></div>
+<h2 id="where-we-are">Where we are</h2>
+<p>The 2026/27 marketing year is underway. USDA’s August crop remains the official regime: <strong>16.013 billion bushels</strong>, a <strong>180.7-bushel national yield</strong>, and <strong>1.653 billion bushels of ending stocks</strong>. Pro Farmer’s <strong>173.2-bushel yield</strong> and <strong>15.344-billion-bushel crop</strong> remain the main field-based challenge. Friday’s USDA survey will begin resolving that gap. (<a href="https://esmis.nal.usda.gov/publication/world-agricultural-supply-and-demand-estimates/2026-08-12">USDA, <em>August 2026 WASDE</em>, August 12, 2026</a>; <a href="https://www.profarmer.com/news/pro-farmer-estimates-2026-u-s-corn-crop-15-344-billion-bushels-soybeans-4-572-billion-bushels">Pro Farmer, <em>2026 U.S. Corn Crop Estimate</em>, August 21, 2026</a>)</p>
+<p>Nearby corn was <strong>$5.077 per bushel</strong> on September 9, down <strong>7½ cents</strong>, or <strong>1.5%</strong>, from September 3. December new-crop settled at <strong>$5.2775</strong>, down <strong>13 cents</strong>, or 2.4%. December carried about <strong>20 cents</strong> over nearby, down roughly <strong>5½ cents</strong> from last week. After the table cutoff, December recovered <strong>6 cents</strong> on September 10 to settle at <strong>$5.3375</strong>. (<a href="https://andersonsgrain.websol.barchart.com/?1_selected=futureQuote&amp;module=futureDetail&amp;region=US&amp;symbol=ZCZ26">The Andersons/Barchart, <em>Corn Dec ’26</em>, September 9–10, 2026</a>) (<a href="https://andersonsgrain.websol.barchart.com/?1_selected=futureQuote&amp;module=futureDetail&amp;region=US&amp;symbol=ZCZ26">andersonsgrain.websol.barchart.com</a>)</p>
+<h2 id="the-week-in-one-page">The week in one page</h2>
+<ul>
+<li><strong>The market took some crop-risk premium back.</strong> Nearby lost 7½ cents through September 9, while December lost 13 cents. The crop may be smaller than USDA’s August estimate, but the board says that conclusion is already partly priced.</li>
+<li><strong>Friday’s hurdle is lower than USDA but well above Pro Farmer.</strong> The Dow Jones trade survey expects <strong>178.1 bushels per acre</strong>, a <strong>15.780-billion-bushel crop</strong>, and <strong>1.533 billion bushels of new-crop ending stocks</strong>. A routine cut toward those numbers may not restart the rally. (<a href="https://www.dtnpf.com/agriculture/web/AG/news/article/2026/09/09/historic-late-august-price-rallies">DTN, <em>After Historic Late-August Price Rallies, USDA Returns With New Forecasts</em>, September 9, 2026</a>) (<a href="https://www.dtnpf.com/agriculture/web/AG/news/article/2026/09/09/historic-late-august-price-rallies">dtnpf.com</a>)</li>
+<li><strong>Field ratings strengthened the smaller-crop case.</strong> National corn slipped to <strong>56% G2E</strong>, down 1 point. Nebraska fell to <strong>53%</strong>, down 5 points after improving the prior week. Nebraska was only <strong>14% mature</strong>, versus a 25% five-year average. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt">USDA NASS, <em>Crop Progress</em>, September 8, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt">esmis.nal.usda.gov</a>)</li>
+<li><strong>Flat basis did not offset the board break.</strong> Nebraska’s reported ethanol basis averaged <strong>28 under December</strong>, unchanged over seven days. Minden and Ravenna were <strong>35 under</strong>, while Scoular Madrid remained <strong>5 under for harvest</strong> and even December for December delivery. (<a href="https://grainformant.com/data/basis/ethanol">GraInformant, <em>Corn Ethanol Processor Basis Data</em>, September 8, 2026</a>; <a href="https://www.scoularview.com/cashbidssingle-3329?loc=n">Scoular, <em>Madrid Cash Bids</em>, September 9, 2026</a>) (<a href="https://grainformant.com/data/basis/ethanol?utm_source=openai">grainformant.com</a>)</li>
+<li><strong>Ethanol demand softened slightly, not decisively.</strong> Production declined 5,000 barrels per day to <strong>1.102 million</strong>, while stocks rose 152,000 barrels to <strong>25.187 million</strong>. The plants still need corn, but that combination does not require them to chase harvest bushels. (<a href="https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm">EIA, <em>Weekly Ethanol Plant Production and Stocks</em>, September 10, 2026</a>) (<a href="https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm">eia.gov</a>)</li>
+</ul>
+<p><strong>Verdict:</strong> This week made it harder to raise your average sale price. The board took back part of the August rally. Do not chase the break, but do not carry all the report risk either.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Exposure</th>
+<th>Current signal</th>
+<th style="text-align: right;">Weekly change</th>
+<th>Horizon</th>
+<th>Marketing read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unpriced new-crop</td>
+<td>Report risk with smaller crop expected</td>
+<td style="text-align: right;">Dec down 13 cents through Sept. 9</td>
+<td>Immediate</td>
+<td>Use rebounds or floors; Friday must beat expectations</td>
+</tr>
+<tr>
+<td>Stored old-crop</td>
+<td>Harvest pressure is close</td>
+<td style="text-align: right;">Nearby down 7½ cents</td>
+<td>Immediate</td>
+<td>Clear firm basis and DP bushels</td>
+</tr>
+<tr>
+<td>Basis</td>
+<td>Wide geographic split</td>
+<td style="text-align: right;">Broad ethanol index unchanged</td>
+<td>Harvest</td>
+<td>Set basis where near even; wait where 35 under</td>
+</tr>
+<tr>
+<td>Carry</td>
+<td>Dec about 20 cents over nearby</td>
+<td style="text-align: right;">Narrowed 5½ cents</td>
+<td>Harvest–winter</td>
+<td>Storage must be paid by the cash spread</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="1-usda-must-beat-an-already-bullish-trade-estimate">1. USDA must beat an already-bullish trade estimate</h2>
+<p><strong>What happened</strong></p>
+<p>Last week, the market held its crop premium. This week, the trade settled on a smaller-crop expectation while futures moved lower. Analysts expect USDA to cut yield by 2.6 bushels from August to <strong>178.1</strong>, with production near <strong>15.780 billion bushels</strong> and carryout near <strong>1.533 billion</strong>. USDA releases Crop Production and WASDE at <strong>11 a.m. Central on September 11</strong>. (<a href="https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report">USDA, <em>WASDE Report Calendar</em>, accessed September 10, 2026</a>; <a href="https://www.dtnpf.com/agriculture/web/AG/news/article/2026/09/09/historic-late-august-price-rallies">DTN, September 9, 2026</a>) (<a href="https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report">usda.azureedge.us</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>“Lower than August” is no longer enough. A yield near 178 and carryout near 1.53 billion may be treated as confirmation rather than a bullish surprise. A number nearer Pro Farmer’s 173.2 would force a larger balance-sheet adjustment. A yield near 180 would threaten more of the rally.</p>
+<p><strong>What to do with it</strong></p>
+<p><strong>New-crop:</strong> Do not dump corn after a 13-cent break. If you remain lightly priced, use the September 10 rebound for a modest futures sale or establish a floor before the report. Keep production uncertainty in mind.</p>
+<p><strong>Old-crop:</strong> Harvest is too close to carry old corn through a major report merely on hope. Where basis is competitive, sell cash. Where it is not, separate the futures and basis decisions.</p>
+<p><strong>Watch next</strong></p>
+<p>Watch Friday’s closing price, not only the USDA headline. September 30 Grain Stocks will then settle the old-crop carry-in and feed-residual question.</p>
+<hr/>
+<h2 id="2-nebraskas-crop-deteriorated-while-maturity-stayed-behind">2. Nebraska’s crop deteriorated while maturity stayed behind</h2>
+<p><strong>What happened</strong></p>
+<p>Nebraska corn dropped from <strong>58% to 53% G2E</strong>. National ratings slipped from 57% to <strong>56%</strong>. Nebraska was 74% dented, four points behind average, and only 14% mature versus 25% normally. Topsoil was <strong>54% short or very short</strong>, while subsoil was <strong>61% short or very short</strong>. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt">USDA NASS, <em>Crop Progress</em>, September 8, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796051/prog3626.txt">esmis.nal.usda.gov</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>This reverses last week’s stabilization and strengthens the case for a lower USDA yield. It does not prove Pro Farmer’s number. Irrigated fields can still hold kernel weight while dryland fields finish abruptly. Slower maturity also leaves more Nebraska acres exposed to late-season weather and pushes harvest flow later.</p>
+<p>The board still declined. That is the discipline check: the trade treated weaker ratings as support for a known smaller-crop story, not as enough evidence to increase the risk premium.</p>
+<p><strong>What to do with it</strong></p>
+<p>Re-size expected production by field and water regime before adding sales. Do not let good irrigated ears cover contracts tied to stressed dryland acres. Price defensible production on rallies, not bushels you may not have.</p>
+<p><strong>Watch next</strong></p>
+<p>Early yield checks, test weight, kernel depth and stalk quality now matter more than another routine condition move.</p>
+<hr/>
+<h2 id="3-your-basis-matters-more-than-the-shrinking-nearby-carry">3. Your basis matters more than the shrinking nearby carry</h2>
+<p><strong>What happened</strong></p>
+<p>December’s carry over nearby narrowed to about <strong>20 cents</strong>. Local basis did not move broadly: Nebraska ethanol bids averaged 28 under, with Minden and Ravenna at 35 under. Scoular Madrid quoted <strong>$5.23 for harvest at 5 under</strong>, <strong>$5.28 for December at even</strong>, and <strong>$5.44 for March at even March futures</strong> on September 9. That is a 21-cent gross cash spread from harvest to March before interest, drying, shrink and handling. (<a href="https://grainformant.com/data/basis/ethanol">GraInformant, September 8, 2026</a>; <a href="https://www.scoularview.com/cashbidssingle-3329?loc=n">Scoular, September 9, 2026</a>) (<a href="https://grainformant.com/data/basis/ethanol?utm_source=openai">grainformant.com</a>)</p>
+<p>KAAPA’s deferred-price contracts carry a <strong>7-cent-per-bushel monthly charge</strong>, transfer title when grain is delivered, and must be priced by <strong>September 11, 2026</strong>. (<a href="https://kaapaethanol.com/Commodities/Contracts">KAAPA Ethanol Commodities, <em>Contracts</em>, accessed September 10, 2026</a>) (<a href="https://kaapaethanol.com/Commodities/Contracts?utm_source=openai">kaapaethanol.com</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>A 35-cent difference between local buyers is worth more than the nearby board carry. Flat basis also means the futures decline went straight into the cash bid.</p>
+<p><strong>What to do with it</strong></p>
+<p>At or near even December, the cash bid deserves attention. At 35 under, consider leaving basis open if you have bins and can carry the grain. Do not bin corn merely because the calendar says harvest. The later cash bid must cover ownership costs.</p>
+<p>If you have KAAPA DP bushels, the September 11 deadline is a pricing decision, not storage.</p>
+<hr/>
+<h2 id="4-demand-is-present-but-it-did-not-rescue-the-board">4. Demand is present, but it did not rescue the board</h2>
+<p><strong>What happened</strong></p>
+<p>Ethanol production remained historically strong at 1.102 million barrels per day, but inventories turned higher. RBOB gasoline gained <strong>7.6 cents per gallon</strong>, or 2.4%, while natural gas fell 9.1 cents per MMBtu, or 3.1%, during the week. Those energy moves are supportive to continued run time, but the EIA stock build is a reason plants need not chase corn immediately.</p>
+<p>Corn export inspections totaled <strong>1.662 million metric tons</strong> for the week ended September 3, up 11% from the prior week and above last year’s 1.443 million. However, previously reported new-crop commitments represented about <strong>15% of USDA’s annual forecast</strong>, versus a 21% five-year average. The holiday-delayed weekly export-sales report is due September 11. (<a href="https://www.ams.usda.gov/market-news/national-grain-reports">USDA AMS, <em>Weekly Grains Inspected for Export</em>, September 8, 2026</a>; <a href="https://www.agriculture.com/what-farmers-need-to-know-before-the-september-wasde-report-12108271">Successful Farming, <em>What Farmers Need to Know Before the September WASDE</em>, September 4, 2026</a>; <a href="https://fas.usda.gov/report-release-announcement/weekly-export-sales-300">USDA FAS, <em>Weekly Export Sales Calendar</em>, accessed September 10, 2026</a>) (<a href="https://blog.pricegroup.com/2026/09/09/grains-report-09-09-2026/?utm_source=openai">blog.pricegroup.com</a>)</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>Neither demand channel is breaking. Neither is strong enough to replace the crop-risk premium the board removed this week.</p>
+<p><strong>What to do with it</strong></p>
+<p>Shop ethanol plants. Set basis where the bid is firm. Do not leave the whole crop unpriced on the assumption that exports or ethanol will rescue a disappointing USDA report.</p>
+<h2 id="the-crop-you-still-have-to-market">The crop you still have to market</h2>
+<p><strong>Old-crop in bins:</strong> Clear DP deadlines and reward strong basis. Do not roll 2025 corn into harvest without a written return-to-storage calculation.</p>
+<p><strong>New-crop:</strong> Re-size production before Friday. If underpriced, use rebounds or floors rather than waiting with full report exposure. If USDA creates a rally, sell part of it. If USDA breaks the board, avoid pairing a poor futures price with a poor harvest basis unless storage is unavailable.</p>
+<h2 id="bottom-line">Bottom line</h2>
+<p>The decision changed from <strong>selling a rising board</strong> to <strong>managing a report after a 13-cent break</strong>. Do not chase Wednesday’s weakness. Use rebounds, protect downside, and separate futures from basis. Friday’s yield and carryout are the next numbers capable of changing the plan.</p></main></div><script>
+document.querySelectorAll('table.sortable').forEach((table) => {
+  table.querySelectorAll('th[data-column]').forEach((heading) => {
+    heading.addEventListener('click', () => {
+      const index = Number(heading.dataset.column);
+      const numeric = heading.dataset.type === 'number';
+      const descending = heading.classList.contains('sort-asc');
+      table.querySelectorAll('th').forEach((item) => item.classList.remove('sort-asc','sort-desc'));
+      heading.classList.add(descending ? 'sort-desc' : 'sort-asc');
+      const rows = Array.from(table.tBodies[0].rows);
+      rows.sort((left, right) => {
+        const a = left.cells[index].dataset.sort || '';
+        const b = right.cells[index].dataset.sort || '';
+        const result = numeric ? ((Number(a) || 0) - (Number(b) || 0)) : a.localeCompare(b);
+        return descending ? -result : result;
+      });
+      rows.forEach((row) => table.tBodies[0].appendChild(row));
+    });
+  });
+});
+</script></body></html>
