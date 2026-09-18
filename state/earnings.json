@@ -57,12 +57,12 @@
     "next_date_source": "estimated from last earnings"
   },
   "BAYRY": {
-    "checked_at": "2026-09-11T00:41:05Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:26Z",
+    "checked_for_date": "2026-09-17"
   },
   "BASFY": {
-    "checked_at": "2026-09-11T00:41:09Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:34Z",
+    "checked_for_date": "2026-09-17"
   },
   "NTR": {
     "last_report_date": "2026-08-06",
@@ -138,8 +138,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "YARIY": {
-    "checked_at": "2026-09-11T00:41:12Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:37Z",
+    "checked_for_date": "2026-09-17"
   },
   "MOS": {
     "last_report_date": "2026-08-05",
@@ -721,68 +721,68 @@
   },
   "REX": {
     "last_report_date": "2026-09-02",
-    "summary": "REX American Resources achieved record Q2 2026 diluted EPS of $1.06 versus $0.22 last year, with net income surging to $34.9M. Growth was powered by superior commercial execution, robust crush margins, and $18.4M in Section 45Z production tax credit income.",
+    "summary": "REX American Resources achieved record Q2 2026 net income attributable to shareholders of $34.9M, or $1.06 per diluted share, up from $7.1M or $0.22 per share in Q2 2025. Net sales and revenue grew to $168.5M from $158.6M, driven by improved pricing and stronger crush margins.",
     "key_moments": [
       {
-        "title": "Positive Regulatory Progress and Future Expansion",
-        "timestamp": "3m",
-        "blurb": "The receipt of EPA draft permits for three Class VI carbon injection wells significantly advances the carbon capture project. This unlocks clear capacity to capture deeper 45Z tax credit incentives and potentially monetize excess capacity via third-party storage agreements."
+        "title": "Record Financial Performance",
+        "timestamp": "1m",
+        "blurb": "REX posted its highest Q2 net income per share in company history at $1.06, driven by stronger industry crush margins and an $18.4M benefit from Section 45Z production tax credits, which pleased investors looking for high-margin financial execution."
       },
       {
-        "title": "Record Financial Performance and Margin Expansion",
-        "timestamp": "7m",
-        "blurb": "Net income grew nearly five-fold to $34.9M and gross profit jumped to $53.3M. Even excluding the $18.4M 45Z tax credit windfall, core gross profit climbed 144% year-over-year, confirming massive underlying strength in core industry crush margins."
+        "title": "Carbon Capture Permitting Progress",
+        "timestamp": "2m",
+        "blurb": "REX advanced its carbon capture and sequestration project by securing draft Class VI well permits from the U.S. EPA. However, timeline clarity remains limited due to dependency on the Illinois Commerce Commission's approval for a five-mile connector pipeline."
       },
       {
-        "title": "E15 Tailwinds Outweigh Minor RIN Pressures",
-        "timestamp": "16m",
-        "blurb": "Management minimized broader investor concerns regarding recent regulatory changes to RIN credits. Executives emphasized a 13% spike in first-half ethanol exports and the pending approval of E15 in California as powerful counter-balancing commercial demand drivers."
+        "title": "Positive Q3 Guidance Provided",
+        "timestamp": "9m",
+        "blurb": "Management projected higher Q3 2026 year-over-year profitability, supported by constructive industry dynamics, continuous record U.S. ethanol export growth, and the ongoing margin contribution of the 45Z tax credit program."
       },
       {
-        "title": "Strategic Capital Allocation Strategy",
+        "title": "Capital Deployment Strategy Details",
         "timestamp": "17m",
-        "blurb": "Possessing $379.5M in cash and absolutely zero bank debt, management reassured investors they will maintain an aggressive, value-focused share buyback program during market dips while simultaneously scouting related external ethanol plants for strategic acquisition."
+        "blurb": "With a strong cash balance of $379.5M and no bank debt, management reassured investors they will maintain a strategy of buying back shares on market dips and actively searching for strategic M&A opportunities in related industries."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-11T00:41:15Z",
+    "at_a_glance_checked_at": "2026-09-18T00:55:41Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Mixed Results With Huge Earnings Beat",
-        "detail": "REX American Resources reported a significant bottom-line beat with a record diluted EPS of $1.06 against the analyst consensus estimate of $0.42, while revenue of $168.5 million missed the forecasted $194.8 million despite increasing 6.2% year-over-year."
+        "headline": "REX Posts Record EPS Beat",
+        "detail": "REX American Resources reported a record reported adjusted EPS of $1.06, significantly beating Wall Street expectations of $0.42, while its reported revenue of $168,493,000 missed the forecasted $194.8 million despite a 6.2% increase year-over-year."
       },
       {
-        "headline": "Strong Operational KPIs and Margins",
-        "detail": "Ethanol sales volume held steady at 70.6 million gallons compared to the prior-year period, but gross profit surged to $53.3 million due to stronger industry crush margins and a 1.7% increase in the average ethanol selling price to $1.78 per gallon."
+        "headline": "Pricing Offsets Stagnant Sales Volumes",
+        "detail": "Ethanol sales volumes remained flat year-over-year at 70.6 million gallons, but the average ethanol selling price improved to $1.78 per gallon from $1.75 in the prior-year period."
       },
       {
-        "headline": "Positive Guidance and Capacity Expansion",
-        "detail": "Management anticipates remaining profitable in the third quarter with results exceeding the prior-year period, backed by the One Earth ethanol production expansion which is on schedule to scale to 175 million gallons by the end of 2026."
+        "headline": "Positive Third Quarter Outlook Offered",
+        "detail": "Management anticipates continued profitability going forward, projecting that third-quarter fiscal results will exceed those of the prior-year period due to ongoing growth initiatives and constructive market fundamentals."
       },
       {
-        "headline": "Tax Credits Supercharge Record Profitability",
-        "detail": "The company's bottom-line performance was heavily boosted by recognizing $18.4 million in Section 45Z clean fuel production tax credits during the quarter, lifting net income attributable to shareholders to $34.9 million."
+        "headline": "Tax Credits Boost Gross Profits",
+        "detail": "The company's gross profit surged to $53.3 million, heavily lifted by $18.4 million recognized from Section 45Z production tax credits under the Inflation Reduction Act."
       },
       {
-        "headline": "Carbon Capture Permitting Milestones Met",
-        "detail": "REX advanced its strategic low-carbon positioning by receiving draft Class VI well permits from the U.S. EPA for its carbon capture and sequestration project at One Earth Energy."
+        "headline": "Capacity Expansion Progressing on Schedule",
+        "detail": "Construction for the ethanol production expansion at the One Earth Energy facility remains on track for completion by the end of 2026, targeting a phased ramp toward 175 million gallons."
       },
       {
-        "headline": "Market Reaction Tempered by Revenue Shortfall",
-        "detail": "Despite achieving the highest second-quarter net income per share in company history, REX shares fell between 2% and 4.6% after the release as investors focused on the revenue miss."
+        "headline": "Mixed Report Tempers Market Reaction",
+        "detail": "Following the earnings announcement, REX shares fell 4.6% as investors balanced the record-setting bottom-line profitability against the top-line revenue miss."
       }
     ],
     "at_a_glance_report_date": "2026-09-02",
-    "checked_at": "2026-09-11T00:41:16Z",
-    "checked_for_date": "2026-09-10",
+    "checked_at": "2026-09-18T00:55:41Z",
+    "checked_for_date": "2026-09-17",
     "next_event_date": "2026-08-26",
     "next_check_date": "2026-08-05",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "NVZMY": {
-    "checked_at": "2026-09-11T00:41:20Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:45Z",
+    "checked_for_date": "2026-09-17"
   },
   "INGR": {
     "last_report_date": "2026-08-04",
@@ -1315,51 +1315,51 @@
   },
   "CASY": {
     "last_report_date": "2026-09-09",
-    "summary": "Casey's reported strong Q1 2027 results, with diluted EPS up 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue increased 24.3% to $5.68 billion, driven by higher inside sales, higher fuel retail prices, and operating 2% more stores. EBITDA grew 17% to $485 million.",
+    "summary": "Casey's reported strong Q1 2027 performance, with diluted EPS up 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue increased 24.3% to $5.68 billion, and EBITDA grew 17% to $485 million, driven by higher inside sales and fuel prices.",
     "key_moments": [
       {
-        "title": "CEFCO Remodel Performance Boost",
-        "timestamp": "16m",
-        "blurb": "Remodeled CEFCO stores achieved an impressive 30%+ year-over-year lift in Prepared Food and Dispensed Beverages. This performance validates Casey's strategy in Texas and its ability to successfully optimize higher-volume acquired assets despite short-term renovation disruptions."
+        "title": "CEFCO Remodel Lifting Prepared Food Sales",
+        "timestamp": "5m",
+        "blurb": "Planned construction to convert acquired CEFCO stores into Casey's created temporary headwinds of 25 basis points for inside same-store sales and 50 basis points for fuel gallons. However, completed remodels are generating an impressive 30%+ average lift in Prepared Food and Dispensed Beverage sales."
       },
       {
-        "title": "Category Shifts Impacting Inside Sales",
+        "title": "Macro Pressures Inherent to Category Dynamics",
         "timestamp": "20m",
-        "blurb": "Inside merchandise sales experienced headwinds in national-brand snacks and beer, reflecting broader industry trends. However, investors will be pleased by double-digit offsets in nicotine alternatives (+47%), energy drinks (+12%), and private label chips (+16% in units) which carry favorable margins."
+        "blurb": "While lower-income consumers face macro pressures, management believes recent softness in snacks and beer stems from category-specific trends rather than demographic weakness. National snack brands have priced themselves out, allowing Casey's private label chips to surge 16% in unit growth, while liquor offsets beer declines."
       },
       {
-        "title": "Favorable Cheese Cost Hedges",
+        "title": "Strategic Proactive Space Allocation Pays Off",
+        "timestamp": "31m",
+        "blurb": "Casey's early industry transition to reset nicotine back bars is yielding substantial financial benefits. Secular declines in combustible cigarettes are being offset by 47% growth in nicotine alternatives, which carry double the profit margin of traditional tobacco products, strengthening the company's gross profit outlook."
+      },
+      {
+        "title": "Extensive Commodity Cost Protection Locked In",
         "timestamp": "33m",
-        "blurb": "Casey's locked in cheese costs at 80% coverage through early next fiscal year. This strategic position guarantees a modest tailwind to gross margins over the next three quarters, alleviating investor concerns regarding potential input commodity cost inflation."
-      },
-      {
-        "title": "Fuel Share Gains Amid Headwinds",
-        "timestamp": "40m",
-        "blurb": "Despite a slight 0.3% drop in same-store gallons, Casey's significantly outperformed its regional market benchmark, which declined 6%. Consumers are making more frequent trips and trading into high-margin ethanol blends, strengthening fuel gross profit by 19.6%."
+        "blurb": "Management has successfully hedged its exposure to volatile commodity pricing by locking in approximately 80% of its cheese costs through the first quarter of the next fiscal year. This extensive coverage ensures a modest, highly predictable tailwind to inside gross profit margins over the next three quarters."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-11T00:41:23Z",
+    "at_a_glance_checked_at": "2026-09-18T00:55:49Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
         "headline": "Casey's Beats EPS and Revenue Estimates",
-        "detail": "Casey's reported Q1 2027 diluted EPS of $7.37, surpassing the estimated $6.742, while revenue reached $5.68 billion, ahead of the $5.55 billion estimate due to robust fuel and inside sales growth."
+        "detail": "Casey's General Stores reported an adjusted EPS of $7.37, beating the estimated $6.742, while quarterly revenue reached $5.68 billion, outperforming expectations of $5.55 billion."
       },
       {
         "headline": "Strong Inside Sales and Fuel Margins",
-        "detail": "Inside same-store sales rose by 3.2%, anchored by a 4.8% increase in prepared food and dispensed beverages, while fuel gross margins expanded to 47.8 cents per gallon despite a 0.3% dip in same-store gallons."
+        "detail": "Inside same-store sales climbed 3.2%, driven by a 4.8% gain in prepared foods, while fuel margins expanded to 47.8 cents per gallon despite a minor 0.3% dip in same-store gallons."
       },
       {
-        "headline": "Fiscal 2027 Outlook Remains Unchanged",
-        "detail": "Management reiterated its full-year guidance, continuing to project inside same-store sales growth of 2% to 5%, inside margin above 42%, and EBITDA growth of 8% to 10%."
+        "headline": "Fiscal 2027 Growth Guidance Reaffirmed",
+        "detail": "The company maintained its full-year fiscal 2027 outlook, highlighting expected inside same-store sales growth of 2% to 5% and plans to add at least 120 new store units."
       },
       {
-        "headline": "Remodels Impact Near-Term Store Volumes",
-        "detail": "Ongoing CEFCO store conversions disrupted operations and created a 25-basis-point headwind to inside comps, though completed remodels are generating an average 30% lift in prepared food and beverage sales."
+        "headline": "Stock Slopes Amid Soft Inside Performance",
+        "detail": "Despite the overall financial beat, Casey's shares experienced a notable post-earnings selloff because the 3.2% inside same-store sales growth fell short of elevated investor expectations."
       },
       {
-        "headline": "Shares Decline Post-Earnings on High Expectations",
-        "detail": "Despite a strong top and bottom-line beat, Casey's shares slid roughly 15% following the report as investors responded to elevated expectations and potential macroeconomic limits on consumer budgets."
+        "headline": "Remodeling Disruptions Temporarily Impact Volume",
+        "detail": "Planned legacy CEFCO store conversions acted as a temporary drag, creating a 25 basis point headwind on inside comps and a 50 basis point headwind on fuel volumes."
       }
     ],
     "at_a_glance_report_date": "2026-09-09",
@@ -1367,8 +1367,8 @@
     "next_date_status": "confirmed",
     "next_date_source": "Google Finance",
     "next_check_date": null,
-    "checked_at": "2026-09-11T00:41:24Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:49Z",
+    "checked_for_date": "2026-09-17"
   },
   "MUSA": {
     "last_report_date": "2026-08-06",
@@ -1428,8 +1428,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "NTOIY": {
-    "checked_at": "2026-09-11T00:41:27Z",
-    "checked_for_date": "2026-09-10"
+    "checked_at": "2026-09-18T00:55:52Z",
+    "checked_for_date": "2026-09-17"
   },
   "CVX": {
     "last_report_date": "2026-07-31",
@@ -1856,60 +1856,56 @@
   },
   "GBX": {
     "last_report_date": "2026-07-01",
-    "summary": "Greenbrier reported solid Q3 fiscal 2026 results, highlighted by sequentially improved gross margins and earnings driven by operational efficiency and cost control. Despite challenging macroeconomic pressures slowing down near-term new railcar demand, the company demonstrated a resilient earnings profile that delivers higher lows across the economic cycle.",
+    "summary": "The Greenbrier Companies delivered solid Q3 fiscal 2026 results. Despite challenging macroeconomic conditions that pressure new railcar demand, the company sequential improved gross margin and earnings due to operational efficiency, cost control, and commercial excellence. Management highlighted the strength of its integrated business platform, which delivers more resilient earnings profiles across market cycles.",
     "key_moments": [
       {
-        "title": "Narrowed Full-Year EPS Guidance",
+        "title": "Narrowed FY2026 EPS Guidance",
         "timestamp": "14m",
-        "blurb": "Greenbrier narrowed its fiscal 2026 EPS guidance to $3.00–$3.15 while keeping revenue expectations steady at $2.4B–$2.5B. This adjustment reflects Q4 manufacturing margins and a slight shift in delivery timing into fiscal 2027."
+        "blurb": "Greenbrier narrowed its fiscal 2026 EPS guidance to $3.00-$3.15 while reiterating revenue of $2.4-$2.5 billion. The update incorporates latest expectations for Q4 manufacturing margins and shift of some activity into 2027."
       },
       {
-        "title": "Mitigating Potential Tank Car Tariffs",
+        "title": "Mexican Tank Car Tariff Clarification",
         "timestamp": "17m",
-        "blurb": "Management addressed concerns over new Section 232 tariff investigations on tank cars entering the U.S. from Mexico. They clarified they are not currently paying tariffs and emphasize that contractual provisions allow them to pass these costs directly to customers."
+        "blurb": "Management clarified they are currently paying no tariffs under Section 232 investigations on tank cars moving from Mexico to the U.S. Should tariffs apply, provisions exist to pass costs to customers."
       },
       {
-        "title": "Strong Resilience at Trough Production Levels",
-        "timestamp": "25m",
-        "blurb": "Despite industry delivery projections for calendar 2026 dropping to their lowest levels since 2010, Greenbrier achieved sequentially improved gross margins. Management attributed this performance to internal insourcing initiatives and labor efficiencies yielding unprecedented trough-cycle returns."
-      },
-      {
-        "title": "Regulatory Clarity on Coupler Case",
+        "title": "EAPA Coupler Appeal Filed",
         "timestamp": "28m",
-        "blurb": "Greenbrier filed its administrative appeal regarding the CBP's coupler determination letter. Executives reassured investors that the issue has industry-wide implications and a minor financial impact of less than 1% per unit, minimizing downside risk."
+        "blurb": "Greenbrier filed an administrative appeal regarding the CBP's industry-wide EAPA coupler determination. Management minimized investor concerns, noting the financial impact of couplers is small, under 1% of total unit asset cost."
+      },
+      {
+        "title": "Lease Fleet Secondary Acquisitions",
+        "timestamp": "31m",
+        "blurb": "The company added 4,400 secondary market railcars to support fleet expansion. This aligns with their long-term growth and capital deployment framework, funded through a newly secured $300 million term loan facility."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-11T00:41:31Z",
+    "at_a_glance_checked_at": "2026-09-18T00:55:56Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Greenbrier Matches EPS But Misses Revenue",
-        "detail": "The Greenbrier Companies reported Q3 2026 adjusted EPS of $0.60, matching analyst expectations, but fell short on top-line performance with revenue of $576.50 million compared to the estimated $612.69 million."
+        "headline": "Greenbrier Meets EPS but Misses Revenue",
+        "detail": "The Greenbrier Companies reported a fiscal Q3 2026 adjusted EPS of $0.60, meeting the consensus estimate exactly, while quarterly revenue of $576.50 million missed the expected $612.69 million."
       },
       {
-        "headline": "Strong Fleet Utilization and Backlog Resilience",
-        "detail": "The company maintained an exceptionally high lease fleet utilization rate of 99% and achieved a new railcar backlog of 13,800 units valued at approximately $2.0 billion."
+        "headline": "Strong Core Lease Utilization Maintained",
+        "detail": "Greenbrier maintained an exceptionally strong lease fleet utilization rate of 99% and grew its owned lease fleet by 23% sequentially to 20,600 units, demonstrating resilience despite a weak production environment."
       },
       {
-        "headline": "Management Narrows Fiscal 2026 Guidance Range",
-        "detail": "Greenbrier maintained its full-year revenue guidance of $2.4 billion to $2.5 billion, while narrowing its expected full-year adjusted EPS range to between $3.00 and $3.15 per share due to fluid delivery timings moving into fiscal 2027."
+        "headline": "Full-Year Earnings Guidance Narrowed",
+        "detail": "Management narrowed its full-year fiscal 2026 EPS guidance range to $3.00 to $3.15 per share from its previous $3.00 to $3.50 projection, reflecting altered manufacturing activity and delivery timelines shifting into fiscal 2027."
       },
       {
-        "headline": "Sequential Growth in Leasing Segment Revenues",
-        "detail": "Revenue from the Leasing & Fleet Management segment increased 3% sequentially to $47.4 million, benefiting from the sequential expansion of the owned lease fleet to 20,600 railcars."
+        "headline": "New Term Loan Boosts Fleet Financing",
+        "detail": "The company entered into a new $425 million non-recourse term loan with enhanced pricing terms designed to comfortably fund and sustain its ongoing lease fleet expansion strategy."
       },
       {
-        "headline": "Improved Efficiencies Lift Manufacturing Margins",
-        "detail": "Despite fewer manufacturing deliveries that caused segment revenue to slip, the manufacturing gross margin expanded sequentially to 9.9% from 7.6% due to better labor efficiencies and insourcing investments."
-      },
-      {
-        "headline": "Mixed Initial Reaction From Stock Market",
-        "detail": "Shares dropped roughly 4% from the previous close in immediate post-market trading sessions following the company's revenue shortfall and lowered upper-bound EPS outlook."
+        "headline": "Backlog Solidified Amid Cyclical Headwinds",
+        "detail": "Greenbrier secured new railcar orders for 2,200 units valued at $340 million during the quarter, leaving a robust total backlog of 13,800 units worth an estimated $2.0 billion."
       }
     ],
     "at_a_glance_report_date": "2026-07-01",
-    "checked_at": "2026-09-11T00:41:32Z",
-    "checked_for_date": "2026-09-10",
+    "checked_at": "2026-09-18T00:55:56Z",
+    "checked_for_date": "2026-09-17",
     "next_event_date": "2026-09-29",
     "next_check_date": "2026-09-08",
     "next_date_status": "tentative",
