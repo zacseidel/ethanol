@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "report_type": "farmer",
+  "report_name": "Farmer Corn Brief",
+  "report_date": "2026-09-24",
+  "market_data_as_of": "2026-09-23",
+  "generated_at": "2026-09-25T01:12:06Z",
+  "rendered_at": "2026-09-25T01:12:06Z",
+  "quality": "ok",
+  "issues": [],
+  "sources": [
+    {
+      "source": "farmer brief",
+      "subject": "OpenAI Responses API",
+      "status": "success",
+      "detail": "gpt-5.6-sol"
+    }
+  ],
+  "files": [
+    "Farmer Corn Brief-2026-09-24.html",
+    "report.md",
+    "manifest.json"
+  ]
+}
