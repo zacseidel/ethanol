@@ -57,12 +57,12 @@
     "next_date_source": "estimated from last earnings"
   },
   "BAYRY": {
-    "checked_at": "2026-09-25T01:02:47Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:30Z",
+    "checked_for_date": "2026-10-01"
   },
   "BASFY": {
-    "checked_at": "2026-09-25T01:02:50Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:33Z",
+    "checked_for_date": "2026-10-01"
   },
   "NTR": {
     "last_report_date": "2026-08-06",
@@ -138,8 +138,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "YARIY": {
-    "checked_at": "2026-09-25T01:02:54Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:36Z",
+    "checked_for_date": "2026-10-01"
   },
   "MOS": {
     "last_report_date": "2026-08-05",
@@ -371,56 +371,56 @@
   },
   "VMI": {
     "last_report_date": "2026-07-21",
-    "summary": "Valmont Industries delivered strong Q2 2026 performance with net sales up 6.5% year-over-year to $1.12 billion. Adjusted operating margins expanded by 130 basis points to 14.8%, and diluted EPS grew 25.8% to $6.14. Strong results prompted management to increase full-year sales and earnings guidance.",
+    "summary": "Valmont Industries delivered strong Q2 2026 results, with net sales increasing 6.5% year-over-year, adjusted operating margins expanding 130 basis points, and adjusted EPS growing 25.8% to $6.14. Performance was driven by Infrastructure strength, particularly a 34% growth in North America Utility and 17% in Coatings, which offset ongoing pressures in the Agriculture segment.",
     "key_moments": [
       {
-        "title": "Telecom Revenue Plummets",
-        "timestamp": "10m 13s",
-        "blurb": "North America Telecom sales dropped significantly by 26.1% as wireless carriers pull back on capital expenditures following the 5G peak. This sudden revenue compression may disappoint investors, particularly since visibility is low and the downturn was not initially anticipated for the quarter."
+        "title": "Utility Subsegment Drives Infrastructure Surge",
+        "timestamp": "10m",
+        "blurb": "North America Utility sales jumped 33.9% year-over-year in Q2, fueled by strong volume and favorable contract pricing. High demand from grid modernization, data centers, and electrification signals a multiyear investment cycle that will continue to support top-line expansion despite capacity constraints."
       },
       {
-        "title": "Resilient Ag Margins Despite Slump",
-        "timestamp": "11m 40s",
-        "blurb": "Despite a sharp 15.8% drop in Agriculture segment revenue due to multi-regional headwinds, operating margins expanded 90 basis points to 16.5%. Investors will be encouraged by this operational resilience, which proves structural cost-out and efficiency gains can protect profitability during a cyclical downturn."
+        "title": "Full-Year 2026 Guidance Raised",
+        "timestamp": "12m",
+        "blurb": "Valmont raised full-year EPS guidance to $22.25–$23.50, representing nearly 20% year-over-year growth at the midpoint. Sales expectations were increased to $4.3B–$4.45B, driven by robust volume and pricing tailwinds within the North America Utility and Coatings infrastructure markets, pleasing investors with strong execution."
       },
       {
-        "title": "Full-Year Guidance Increased",
-        "timestamp": "14m 4s",
-        "blurb": "Management raised full-year 2026 net sales projections to $4.3B–$4.45B and diluted EPS to $22.25–$23.50. This positive revision will please investors, signaling strong confidence that robust volume and pricing in Utility and Coatings will more than offset ongoing Telecom and Agriculture market softness."
+        "title": "Telecom Sales Plummet on Carrier Softness",
+        "timestamp": "18m",
+        "blurb": "North America Telecom sales dropped 26.1% year-over-year, surprising management due to low visibility and a rapid capital expenditure pullback by carriers post-5G peak. While cost management preserved strong, highly accretive margins, full-year Telecom sales are now projected to finish down in the teens."
       },
       {
-        "title": "Accelerated Input Cost Inflation",
-        "timestamp": "25m 59s",
-        "blurb": "Management revealed that material cost inflation is accelerating, with steel up 27%–30% and diesel up 45% year-to-date. This sequential compression in incremental margins could concern investors, though executives emphasize that strategic pricing actions are successfully maintaining stable full-year margin outlooks."
+        "title": "Material Cost Inflation Headwinds",
+        "timestamp": "25m",
+        "blurb": "Significant material inflation, highlighted by steel rising 27%–30% and diesel up 45% year-to-date, compressed sequential incremental margins in Q2. Although pricing actions are covering these costs, management anticipates these elevated expenses will persist through Q3, limiting second-half Infrastructure margins to first-half levels."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:55:16Z",
+    "at_a_glance_checked_at": "2026-10-02T01:54:39Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Valmont Outperforms EPS and Revenue Expectations",
-        "detail": "Valmont Industries reported an adjusted EPS of $6.14, beating the estimated $5.798, and generated revenue of $1.119 billion, which surpassed the projected $1.094 billion."
+        "headline": "Valmont Exceeds EPS and Revenue Expectations",
+        "detail": "Valmont Industries reported Q2 2026 adjusted EPS of $6.14, beating the estimated $5.798, and generated revenue of $1.12 billion, which surpassed expectations of $1.09 billion."
       },
       {
-        "headline": "Utility Surges While Agriculture Faces Pressure",
-        "detail": "The Infrastructure segment performed strongly, led by a 33.9% surge in North America Utility sales driven by grid modernization and data center demand, which offset a 15.8% drop in Agriculture segment sales."
+        "headline": "Infrastructure Surges Amid Agriculture Pressures",
+        "detail": "The Infrastructure segment achieved a 14.8% sales increase to $878.9 million, highlighted by a 33.9% jump in North America Utility, which offset a 15.8% drop in Agriculture revenues."
       },
       {
-        "headline": "Management Ups Full-Year Guidance Metrics",
-        "detail": "Valmont raised its full-year 2026 outlook, increasing its diluted EPS expectations to a range of $22.25 to $23.50 and full-year revenue projections to between $4.30 billion and $4.45 billion."
+        "headline": "Full-Year 2026 Financial Outlook Raised",
+        "detail": "Valmont raised its full-year 2026 revenue guidance to a range of $4.3 billion to $4.45 billion and increased its diluted EPS outlook to between $22.25 and $23.50."
       },
       {
-        "headline": "Telecommunications Shift Weakens Carrier Spend",
-        "detail": "The North America Telecommunications sales declined 26.1% during the quarter as major carriers shifted capital allocations away from peak 5G deployment cycles."
+        "headline": "Operating Profitability Expands via Pricing Discipline",
+        "detail": "The company's adjusted operating margin expanded by 130 basis points to 14.8%, driven by pricing power and volume gains in core utility markets."
       },
       {
-        "headline": "Muted Post-Earnings Market Reaction Occurs",
-        "detail": "Despite delivering a solid financial beat and increasing future guidance, Valmont shares eased slightly by 3.6% following the announcement due to prior pricing-in and higher investor expectations."
+        "headline": "Geopolitical and Market Headwinds Soften Sectors",
+        "detail": "International agriculture sales declined 28.9% due to Middle East conflict disruptions, while North America telecom sales plummeted 26.1% on carrier capex discipline."
       }
     ],
     "at_a_glance_report_date": "2026-07-21",
-    "checked_at": "2026-08-20T19:55:17Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-02T01:54:40Z",
+    "checked_for_date": "2026-10-01",
     "next_event_date": "2026-10-19",
     "next_check_date": "2026-09-28",
     "next_date_status": "tentative",
@@ -721,68 +721,68 @@
   },
   "REX": {
     "last_report_date": "2026-09-02",
-    "summary": "Executive Chairman Stuart Rose discussed supportive legislation, highlighting that the One Big Beautiful Bill Act preserves the 45Q tax credit and extends the 45Z tax credit through 2029, enhancing long-term operational economics for their carbon capture and sequestration projects.",
+    "summary": "REX American Resources achieved record Q2 2026 results, with net income attributable to shareholders jumping to $34.9M ($1.06 per diluted share) from $7.1M ($0.22 per share) in Q2 2025. Gross profit surged to $53.3M from $14.3M, driven by strong crush margins and $18.4M in Section 45Z production tax credits.",
     "key_moments": [
       {
-        "title": "Two-for-One Stock Split Announcement",
-        "timestamp": "2m",
-        "blurb": "Management authorized a two-for-one stock split to reward shareholders and improve market liquidity following all-time highs in the stock price, signaling strong board confidence."
+        "title": "Record Financial Performance and Margin Expansion",
+        "timestamp": "1m",
+        "blurb": "REX reported its highest-ever Q2 net income of $1.06 per share, up from $0.22 last year, driven by robust crush margins and 45Z tax credits. This massive growth confirms substantial tailwinds in commercial execution and strong industry profitability."
       },
       {
-        "title": "Favorable Carbon Capture Regulation Shift",
-        "timestamp": "5m",
-        "blurb": "New legislation simplified the 45Z credit by removing climate-smart farming mandates and restricting eligibility for non-North American feedstock, enhancing the project's financial viability for investors."
+        "title": "Carbon Capture Project Permit Milestones",
+        "timestamp": "3m",
+        "blurb": "The U.S. EPA issued draft permits for three Class VI injection wells on August 17. Following the expiration of the Illinois moratorium, REX is preparing state pipeline connector applications, clearing significant regulatory hurdles for long-term carbon monetization."
       },
       {
-        "title": "Profitability Declines Year-over-Year",
+        "title": "Optimistic Third Quarter Earnings Outlook",
         "timestamp": "9m",
-        "blurb": "Net income declined significantly to $0.43 per diluted share from $0.70 last year. Investors may find this disappointing as lower dry distillers grain prices and rising shipping costs offset increased volume performance."
+        "blurb": "Management explicitly guided that Q3 2026 performance will improve year-over-year, reinforcing structural confidence and earnings momentum backed by resilient U.S. ethanol export demand."
       },
       {
-        "title": "Improved FY25 Q3 Outlook Provided",
-        "timestamp": "11m",
-        "blurb": "Management projected Q3 2025 to outperform Q2 2025, driven by expectations of a record U.S. corn harvest and strong ethanol export demand, pleasing investors looking for margin expansion."
+        "title": "Strategic Capital Deployment Focus",
+        "timestamp": "17m",
+        "blurb": "Holding $379.5M in cash and zero debt, executives outlined plans to look at buying additional ethanol plants or opportunistic share buybacks on price dips, validating their robust capacity for capital returns."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-25T01:02:57Z",
+    "at_a_glance_checked_at": "2026-10-02T01:54:43Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Mixed Results With Big EPS Beat",
-        "detail": "REX American Resources reported record Q2 2026 adjusted EPS of $1.06, far exceeding the consensus estimate of $0.42, while reported revenue of $168,493,000 missed expectations of $194.8 million."
+        "headline": "EPS Beats But Revenue Misses",
+        "detail": "REX American Resources reported a massive EPS beat of $1.06 against expectations of approximately $0.42, while reported revenue of $186,903,000 came in below consensus estimates."
       },
       {
-        "headline": "Gross Profits Explode on Strong Margins",
-        "detail": "The company's gross profit surged to $53.3 million from $14.3 million in Q2 2025, driven by substantially stronger core crush margins and improved pricing across its product mix."
+        "headline": "Crush Margins Boost Gross Profit",
+        "detail": "Gross profit surged to $53.3 million from $14.3 million in the prior-year quarter, fueled by substantially stronger ethanol crush margins and improved product pricing."
       },
       {
-        "headline": "Forward Outlook Unveiled Without Formal Guidance",
-        "detail": "While management did not provide formal financial guidance for upcoming quarters, they expressed anticipation for continued profitability and highlighted that the One Earth facility expansion remains fully on track for completion by the end of 2026."
+        "headline": "Positive Guidance and Facility Expansions",
+        "detail": "Management forecasts profitable third-quarter results that will exceed the prior year, supported by the One Earth expansion which remains on schedule to finish construction by the end of 2026."
       },
       {
-        "headline": "Tax Credits Drive Powerful Profit Boost",
-        "detail": "Profitability during the quarter was heavily reinforced by $18.4 million in Section 45Z production tax credit income, which flowed directly into the company's gross profit."
+        "headline": "Tax Credits Drive Record Profitability",
+        "detail": "Section 45Z production tax credits contributed a substantial $18.4 million to the quarter's blowout net income, bringing year-to-date tax credit benefits to $26 million."
       },
       {
-        "headline": "Major Regulatory Carbon Capture Milestone Met",
-        "detail": "REX achieved a significant regulatory milestone by receiving draft Class VI injection well permits from the U.S. EPA for its ongoing One Earth Energy carbon capture and sequestration project."
+        "headline": "Key Carbon Capture Regulatory Progress",
+        "detail": "The company reached a milestone by securing draft EPA Class VI well permits for its carbon capture project, though final execution still hinges on upcoming Illinois state pipeline approvals."
       },
       {
-        "headline": "Market Reaction Dampened by Revenue Miss",
-        "detail": "Despite the massive earnings beat, shares of REX fell over 4% following the announcement as investors reacted cautiously to the top-line revenue shortfall."
+        "headline": "Strong Cash Position and Liquidity",
+        "detail": "REX ended the quarter with $379.5 million in cash and short-term investments alongside zero bank debt, providing significant flexibility for acquisitions and share buybacks."
       }
     ],
     "at_a_glance_report_date": "2026-09-02",
-    "checked_at": "2026-09-25T01:02:57Z",
-    "checked_for_date": "2026-09-24",
+    "checked_at": "2026-10-02T01:54:44Z",
+    "checked_for_date": "2026-10-01",
     "next_event_date": "2026-08-26",
     "next_check_date": "2026-08-05",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "NVZMY": {
-    "checked_at": "2026-09-25T01:03:01Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:47Z",
+    "checked_for_date": "2026-10-01"
   },
   "INGR": {
     "last_report_date": "2026-08-04",
@@ -1315,55 +1315,55 @@
   },
   "CASY": {
     "last_report_date": "2026-09-09",
-    "summary": "Casey's reported strong Q1 2027 performance, with diluted EPS increasing 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue rose 24.3% to $5.68 billion, ahead of estimates, driven by higher inside sales and a 33% increase in retail fuel prices.",
+    "summary": "Casey's reported strong Q1 2027 results with diluted EPS up 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue increased 24.3% to $5.68 billion, driven by higher inside sales, unit growth, and elevated retail fuel prices, while EBITDA rose 17% to $485 million.",
     "key_moments": [
       {
-        "title": "Fikes Acquisition Integration Performance",
+        "title": "Strong CEFCO Remodel Sales Lifts",
         "timestamp": "16m",
-        "blurb": "Remodeled CEFCO stores saw a 30% average lift in Prepared Food and Dispensed Beverages revenue compared to pre-remodel periods. Despite causing near-term same-store sales headwinds, management expects these conversions to drive significant performance inflection by the fourth quarter."
+        "blurb": "CEFCO stores remodeled into the Casey's brand are generating an impressive 30%+ lift in Prepared Food and Dispensed Beverages compared to their pre-merger performance. This significant synergy validation underscores the high profitability potential of the Texas expansion, which serves as a major positive driver for investor sentiment."
       },
       {
-        "title": "Grocery Category Dynamics and Product Shifts",
+        "title": "Fuel Margin Volatility and Resiliency",
+        "timestamp": "18m",
+        "blurb": "First-quarter fuel margins of 47.8 cents per gallon beat typical historical baselines but experienced intense day-to-day volatility, swinging from the 30s to the 60s based on geopolitical headlines. Investors will note that structural floors remain elevated, and consumer behavior shifted toward higher-margin ethanol blends."
+      },
+      {
+        "title": "Headwinds in Core Grocery Categories",
         "timestamp": "20m",
-        "blurb": "While national brand price increases pressured beer and snack volumes, Casey's mitigated headwinds via private label chip growth (+16% units) and a 30%+ increase in ready-to-drink cocktails. Additionally, nicotine alternatives surged 47%, offering double the gross profit margin of combustible cigarettes."
+        "blurb": "Same-store grocery and general merchandise growth faced pressure from weakness in beer, national brand snacks, and cigarettes. While nicotine alternatives (+47%) and private-label chips (+16% units) offset some damage, national brand manufacturers are pricing themselves out of immediate consumption, creating shifting dynamics within the store box."
       },
       {
-        "title": "Chicken Wing Strategy Drives Incremental Frequency",
-        "timestamp": "34m",
-        "blurb": "The chicken wing rollout reached 850 stores, with 38% of transactions representing wing-only orders that fulfill a new, incremental dining occasion. Guests purchasing wing-only orders increased their overall prepared food purchase frequency by 30%, showing strong long-term customer monetization potential."
-      },
-      {
-        "title": "Texas M&A Expansion and Long-Term Unit Growth",
-        "timestamp": "45m",
-        "blurb": "Management expressed significant bullishness regarding Texas expansion, highlighting that non-metro regions fit the company's ideal footprint. M&A conditions remain highly favorable, keeping Casey's on track to meet its annual target of 120 new store additions split evenly between builds and acquisitions."
+        "title": "Remodel Disruptions Impact Volume",
+        "timestamp": "22m",
+        "blurb": "Planned construction to convert CEFCO stores created short-term headwinds, shaving 25 basis points off inside same-store sales and 50 basis points off fuel gallons. Management noted that the inflection point where accumulated remodel lifts fully offset ongoing construction headwinds won't occur until the fourth fiscal quarter."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-25T01:03:04Z",
+    "at_a_glance_checked_at": "2026-10-02T01:54:50Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
         "headline": "Casey's Beats EPS and Revenue Estimates",
-        "detail": "Casey's General Stores reported an adjusted EPS of $7.37, heavily beating the estimated $4.114, while its reported quarterly revenue of $5,678,336,000 topped expectations of $5,554,460,290."
+        "detail": "Casey's General Stores reported an adjusted EPS of $7.37, comfortably beating the estimated $6.742, while revenues came in at $5.68 billion ahead of the $5.55 billion forecast."
       },
       {
-        "headline": "Strong In-Store Key Performance Indicators",
-        "detail": "Inside same-store sales climbed 3.2% during the quarter, or 7.7% on a two-year stack basis, spearheaded by a 4.8% increase in prepared food and dispensed beverages."
+        "headline": "Strong In-Store KPIs Offset Fuel Volume",
+        "detail": "Inside same-store sales grew by 3.2% driven by a 4.8% increase in prepared food and dispensed beverages, while same-store fuel gallons sold slipped 0.3% but continued to gain relative market share."
       },
       {
-        "headline": "Fiscal 2027 Expansion Guidance Reaffirmed",
-        "detail": "The company kept its previously disclosed fiscal 2027 outlook intact, most notably reiterating plans to open at least 120 new store units through organic construction and strategic acquisitions."
+        "headline": "Fiscal 2027 Outlook Reaffirmed",
+        "detail": "Management maintained its full-year fiscal 2027 EBITDA growth guidance of 8% to 10% alongside an expectation to open at least 120 stores through new construction and mergers."
       },
       {
-        "headline": "Robust Retail Fuel Margin Expansion",
-        "detail": "Fuel margins expanded to 47.8 cents per gallon, a year-over-year increase of 6.8 cents, driving a 19.6% jump in total fuel gross profit to $446.9 million despite a slight 0.3% decline in same-store gallons."
+        "headline": "Robust Expansion of Retail Fuel Margins",
+        "detail": "The company's fuel margin reached a strong $0.478 per gallon, up $0.068 year-over-year, which helped offset elevated operating expenses during the volatile macro environment."
       },
       {
-        "headline": "Strategic CEFCO Converted Store Remodels",
-        "detail": "Casey's completed 24 store remodels during the quarter from its legacy CEFCO footprint, which generated an impressive 30% average lift in prepared food and dispensed beverage sales post-remodel."
+        "headline": "Remodeling Drives Traffic Lift",
+        "detail": "Integration of CEFCO locations tracking ahead of schedule with remodeled stores delivering an impressive 30% average lift in prepared food and dispensed beverage performance."
       },
       {
-        "headline": "Mixed Market Reaction Following Release",
-        "detail": "While headline figures significantly surpassed consensus expectations, the stock experienced a pullback as some Wall Street analysts flagged concerns over the near-term sustainability of peak fuel margins."
+        "headline": "Market Pullback on Decelerating Growth",
+        "detail": "Despite headline beats, shares fell roughly 3% to 8% in post-earnings activity as investors focused on decelerating inside sales growth and the choice to reiterate rather than raise full-year guidance."
       }
     ],
     "at_a_glance_report_date": "2026-09-09",
@@ -1371,8 +1371,8 @@
     "next_date_status": "confirmed",
     "next_date_source": "Google Finance",
     "next_check_date": null,
-    "checked_at": "2026-09-25T01:03:05Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:51Z",
+    "checked_for_date": "2026-10-01"
   },
   "MUSA": {
     "last_report_date": "2026-08-06",
@@ -1432,8 +1432,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "NTOIY": {
-    "checked_at": "2026-09-25T01:03:08Z",
-    "checked_for_date": "2026-09-24"
+    "checked_at": "2026-10-02T01:54:54Z",
+    "checked_for_date": "2026-10-01"
   },
   "CVX": {
     "last_report_date": "2026-07-31",
@@ -1616,56 +1616,56 @@
   },
   "UNP": {
     "last_report_date": "2026-07-23",
-    "summary": "Union Pacific reported record financial results for Q2 2026, including operating revenue of $6.9 billion, an increase of 12% year-over-year. Adjusted EPS reached $3.41, up from estimates of $3.236, driven by solid core pricing and 2% volume growth, with cash from operations up 21% to $5.5 billion.",
+    "summary": "Union Pacific reported record Q2 2026 financial results, with operating revenue increasing 12% year-over-year to $6.9 billion and adjusted EPS rising to $3.41, beating the estimated $3.242. Performance was driven by solid core pricing and 2% volume growth, which helped achieve a reported operating ratio of 59.2% despite volatile fuel headwinds.",
     "key_moments": [
       {
-        "title": "Labor Cost Inflation Creeps Higher",
-        "timestamp": "11m 45s",
-        "blurb": "Management increased its full-year compensation per employee growth expectation to approximately 6%, citing higher-than-anticipated healthcare and welfare benefit costs. While workforce productivity improved by 5%, this rising cost pressure could disappoint investors tracking operating margin headwinds."
+        "title": "Full-Year 2026 EPS Guidance Raised",
+        "timestamp": "13m",
+        "blurb": "Union Pacific raised its full-year 2026 reported EPS guidance to the high single-digit range. This positive revision is driven by robust volume momentum, effective core pricing that outpaces inflation, and strong operational efficiency gains heading into the second half of the year."
       },
       {
-        "title": "Full-Year 2026 Outlook Raised",
-        "timestamp": "13m 39s",
-        "blurb": "Union Pacific raised its full-year 2026 guidance, expecting reported EPS growth in the high single-digit range, up from the January forecast. This upward revision reflects stronger-than-expected freight demand and highly efficient network execution, which will please investors concerned about macroeconomic headwinds."
+        "title": "Norfolk Southern Merger and CN Settlement",
+        "timestamp": "22m",
+        "blurb": "Management announced a major merger settlement with Canadian National to clear regulatory hurdles for the Norfolk Southern merger. The deal expands competitive optionality by addressing customer overlaps, opening Chicago gateways, and providing Canadian National with priority access to cross-border Mexican lanes."
       },
       {
-        "title": "Domestic Intermodal Drives Record Freight Volume",
-        "timestamp": "15m 35s",
-        "blurb": "Domestic intermodal delivered its fourth consecutive record quarter, achieving double-digit volume growth by capitalizing on constrained truck capacity and successful over-the-road share conversions. Investors will appreciate this performance, as the segment completely offset a 14% drop in international intermodal traffic."
+        "title": "Intermodal Pricing and Capacity Leverage",
+        "timestamp": "57m",
+        "blurb": "Domestic intermodal marked its fourth consecutive record quarter, utilizing truck capacity constraints to secure higher pricing. Management highlighted that nearly all stored containers are deployed, and early peak season surcharges are being implemented to capture maximum economics from strong market demand."
       },
       {
-        "title": "Norfolk Southern Merger and Canadian National Settlement",
-        "timestamp": "22m 18s",
-        "blurb": "CEO Jim Vena announced a major merger settlement agreement with Canadian National (CN), resolving key competitive overlaps and securing expanded transcontinental routing via Chicago and Mexico. This strategic resolution significantly strengthens the regulatory approval case with the STB, minimizing potential pushback from opposing railroads."
+        "title": "Fuel Volatility and Core Margin Resiliency",
+        "timestamp": "61m",
+        "blurb": "Despite fuel adding a 120-basis-point mathematical headwind to the reported operating ratio, Union Pacific recorded a core operating ratio of 58.0% when excluding fuel noise. Management expressed high confidence in maintaining margin expansion even with fuel prices sitting above $4 a gallon."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:57:02Z",
+    "at_a_glance_checked_at": "2026-10-02T01:54:57Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
         "headline": "Union Pacific Beats Q2 Estimates",
-        "detail": "Union Pacific reported Q2 2026 adjusted diluted EPS of $3.36 and revenue of $6.86 billion, surpassing the estimated adjusted EPS of $3.236 and estimated revenue of $6.71 billion."
+        "detail": "Union Pacific reported a reported revenue of $6,864,000,000, beating the estimated $6,712,798,280, and delivered a reported adjusted EPS of $3.36, which surpassed the estimated 3.242."
       },
       {
-        "headline": "Strong Operational Efficiency KPIs Reported",
-        "detail": "The company delivered an elite adjusted operating ratio of 59.2%, backed by record workforce productivity and terminal dwell time improving 7% to 19.7 hours."
+        "headline": "Operating Efficiency Faced Fuel Pressures",
+        "detail": "The company's adjusted operating ratio reached 59.2%, demonstrating a slight core improvement of 10 basis points despite facing a severe 120-basis-point operational drag from volatile fuel prices."
       },
       {
-        "headline": "Full-Year Growth Outlook Improved",
-        "detail": "Management raised its 2026 outlook, now projecting full-year reported earnings per share growth to reach the high single-digit range."
+        "headline": "Full-Year EPS Guidance Upgraded",
+        "detail": "Management raised its full-year 2026 reported EPS growth guidance to the high-single-digit range, reflecting robust volume expectations and pricing power."
       },
       {
-        "headline": "Positive Market Reaction Triggers Surge",
-        "detail": "The strong financial results and enhanced full-year guidance prompted Union Pacific's stock to surge 5.6% up to $308.95 following the release."
+        "headline": "Intermodal Strengths Versus Coal Headwinds",
+        "detail": "The premium commodity segment surged with domestic intermodal hitting its fourth consecutive record quarter, while low natural gas prices and high inventories caused a decline in bulk coal volumes."
       },
       {
-        "headline": "Fuel Surcharges Mitigate Cost Pressures",
-        "detail": "Despite a 63% year-over-year increase in fuel expenses, Union Pacific was the only major U.S. railroad whose first-half fuel surcharges completely exceeded its actual fuel expenditures."
+        "headline": "Improved Balance Sheet and Liquidity",
+        "detail": "Union Pacific paid down $1.5 billion of long-term debt during the first half of the year, bringing its adjusted debt-to-EBITDA ratio down to 2.5 times."
       }
     ],
     "at_a_glance_report_date": "2026-07-23",
-    "checked_at": "2026-08-20T19:57:03Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-02T01:54:58Z",
+    "checked_for_date": "2026-10-01",
     "next_event_date": "2026-10-21",
     "next_check_date": "2026-09-30",
     "next_date_status": "tentative",
@@ -1673,60 +1673,60 @@
   },
   "CSX": {
     "last_report_date": "2026-07-22",
-    "summary": "CSX delivered strong performance in Q2 2026, reaching record quarterly revenue of $3.935B, up 10% year-over-year. Volume increased 6% due to broad-based demand, operating income grew 17%, and EPS rose 23% to $0.54, surpassing estimated EPS of $0.518, driven by improved operating efficiency and cost discipline.",
+    "summary": "CSX Corporation delivered a strong second quarter 2026, achieving a 6% increase in volume and a 10% increase in revenue to reach a new quarterly record. Operating income increased by 17%, driven by improved operating efficiency and cost discipline, resulting in an operating margin expansion of 240 basis points and a 23% increase in EPS.",
     "key_moments": [
       {
-        "title": "Network Dwell and Fluidity Headwinds",
-        "timestamp": "3m 31s",
-        "blurb": "Surging volume growth and seasonal employee shortages caused network tightness, negatively impacting terminal dwell and trip plan metrics. While efficient tonnage movement partly mitigated this, investors may worry that short-term crew constraints could limit near-term service consistency and challenge immediate volume absorption."
+        "title": "Strong Double-Digit Earnings Growth Beat",
+        "timestamp": "0m",
+        "blurb": "CSX posted record quarterly revenue up 10% and EPS growth of 23% ($0.54 vs. $0.518 estimated), fueled by double-digit intermodal revenue growth and a 17% increase in operating income. This financial beat confirms strong commercial execution and highly efficient management of fixed-cost operating leverage."
       },
       {
-        "title": "Intermodal Growth and Price Dynamics",
-        "timestamp": "9m 54s",
-        "blurb": "Intermodal revenue jumped 26% with a 16% RPU increase, emerging as a major growth driver alongside infrastructure-related segments. Although international segments face multi-year contract constraints, tightening domestic truck capacity and spot market acceleration will likely reassure investors about sustained conversion opportunities."
+        "title": "Network Service Congestion and Tightness",
+        "timestamp": "3m",
+        "blurb": "Surging shipping demand coupled with low headcount and summer vacations created crew shortages, driving up terminal dwell times and hurting trip-plan service metrics. Investors may monitor this operational friction, though management is mitigating the issue through a modest increase in T&E hiring."
       },
       {
-        "title": "Upgraded Full-Year 2026 Guidance",
-        "timestamp": "13m 23s",
-        "blurb": "CSX raised its full-year outlook, predicting mid-to-high single-digit revenue growth and greater than 350 basis points of operating margin expansion. Investors will be pleased with this positive adjustment, reflecting strong underlying demand and structural cost discipline that enhance free cash flow projections beyond 80% growth."
+        "title": "Accelerating Truck-to-Rail Intermodal Conversions",
+        "timestamp": "9m",
+        "blurb": "Tightening truck capacity, rising highway freight rates, and key infrastructure unlocks like the Howard Street Tunnel and CPKC partnership are driving continuous week-over-week domestic intermodal volume gains. Shippers converting cargo from roads to rail provides clear visibility for sustained high-margin growth."
       },
       {
-        "title": "Strong Incremental Margins and Insourcing",
-        "timestamp": "41m 44s",
-        "blurb": "Excluding fuel, total expenses dropped 2%, proving substantial operating leverage from structural changes like insourcing contract work and reducing terminal unit costs by 12%. This robust cost discipline signals to investors that the rail business model can successfully drop new volume directly to the bottom line."
+        "title": "Full-Year 2026 Guidance Upgraded",
+        "timestamp": "13m",
+        "blurb": "CSX increased its full-year guidance, forecasting mid-to-high single-digit revenue growth, operating margin expansion over 350 basis points, and free cash flow growth surpassing 80%. This substantial upgrade will highly please investors as it highlights robust volume momentum and effective cost execution."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:57:07Z",
+    "at_a_glance_checked_at": "2026-10-02T01:55:01Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "CSX Outperforms Revenue and EPS Expectations",
-        "detail": "CSX Corporation delivered a strong performance for Q2 2026, reporting an Adjusted EPS of $0.54 against an estimated $0.518, alongside a record revenue of $3.935 billion that topped expectations of $3.900 billion."
+        "headline": "CSX Beats EPS and Revenue Estimates",
+        "detail": "CSX reported an adjusted EPS of $0.54, beating the estimated $0.518, while revenue reached $3.935 billion, exceeding the forecasted $3.899 billion."
       },
       {
-        "headline": "Surging Intermodal Volumes Lead KPI Growth",
-        "detail": "Total freight volume grew 6% year-over-year to 1.68 million units, fueled primarily by a standout 9% volume surge in intermodal shipping as freight shifted from a tightening truck market."
+        "headline": "Volumes Rise on Broad-Based Growth",
+        "detail": "Total volume increased 6% year-over-year, significantly outperforming the 0.1% growth recorded in the same period last year, and led by a 9% increase in intermodal traffic."
       },
       {
-        "headline": "Full-Year Outlook Raised Significantly",
-        "detail": "Driven by robust performance, management raised its full-year 2026 guidance, now projecting mid-to-high single-digit revenue growth and free cash flow growth exceeding 80%."
+        "headline": "Full-Year 2026 Financial Outlook Raised",
+        "detail": "Management boosted its full-year guidance, now expecting mid-to-high single-digit revenue growth, over 350 basis points of operating margin expansion, and greater than 80% free cash flow growth."
       },
       {
-        "headline": "Data Center Boom Drives Freight Demand",
-        "detail": "An emerging infrastructure and data center construction boom created a powerful growth lane, lifting transportation volumes for heavy equipment, coal, metals, and frac sand."
+        "headline": "Margin Expands Despite Fuel Headwinds",
+        "detail": "The company's operating margin expanded by 240 basis points to 38.3%, as rigorous cost control and a 6% headcount reduction successfully countered 160 basis points of fuel price pressures."
       },
       {
-        "headline": "Headcount Reductions Expand Operating Margins",
-        "detail": "Disciplined cost control, including an aggressive reduction of roughly 1,300 positions, helped expand the quarterly operating margin by 240 basis points to 38.3% despite rising fuel pressures."
+        "headline": "Freight Demand Fueled by Data Centers",
+        "detail": "Record quarterly revenue was driven by surging industrial freight demand, heavily supported by the growing data center boom and ongoing truck-to-rail network conversions."
       },
       {
-        "headline": "Positive Market Reaction Boosts Shares",
-        "detail": "Following the strong operational metrics and upside surprises across top and bottom lines, CSX shares rallied over 4% to nearly 6% in immediate post-earnings trading."
+        "headline": "Shares Rally After Earnings Release",
+        "detail": "CSX shares jumped 4.57% to $52.21 in extended trading following the release, successfully breaking above the stock's previous 52-week high of $51.29."
       }
     ],
     "at_a_glance_report_date": "2026-07-22",
-    "checked_at": "2026-08-20T19:57:08Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-02T01:55:01Z",
+    "checked_for_date": "2026-10-01",
     "next_event_date": "2026-10-20",
     "next_check_date": "2026-09-29",
     "next_date_status": "tentative",
@@ -1860,60 +1860,60 @@
   },
   "GBX": {
     "last_report_date": "2026-07-01",
-    "summary": "The Greenbrier Companies reported solid operational results for Q3 fiscal 2026, driven by strong global lease rates, high utilization, and sequentially improved gross margins. Company initiatives and operating discipline over recent years have enhanced earnings resilience, yielding a higher low across the cycle despite pressured demand for new freight rail cars.",
+    "summary": "Greenbrier reported solid Q3 fiscal 2026 performance with total revenue at $577 million and sequential gross margin improvement to 14.1%. Strong leasing and fleet management demand, ongoing cost controls, and operational efficiency are supporting a more resilient earnings profile, allowing the company to deliver \"higher lows\" across economic cycles.",
     "key_moments": [
       {
-        "title": "Full-Year EPS Guidance Narrowed",
+        "title": "Narrowed EPS Guidance Range",
         "timestamp": "14m",
-        "blurb": "Investors will note that while full-year revenue expectations of $2.4-$2.5 billion were maintained, the EPS guidance range was narrowed to $3.00-$3.15. This adjustment reflects Q4 manufacturing margin expectations and absorption impacts, alongside some delivery schedules shifting out of fiscal 2026 and into fiscal 2027."
+        "blurb": "Greenbrier narrowed its fiscal 2026 EPS guidance to $3.00–$3.15 from a prior wider range, while holding revenue steady. This reflects some delivery timing pushing into fiscal 2027, highlighting solid operational execution and giving investors clear near-term visibility as the fiscal year concludes."
       },
       {
-        "title": "Tariff and Backlog Protections Clarified",
+        "title": "No Current Impact from Tank Car Tariffs",
         "timestamp": "17m",
-        "blurb": "Investors will be pleased by management's confirmation that Greenbrier is not currently paying Section 232 tariffs on tank cars from Mexico. Furthermore, contracts include explicit provisions to pass through tariff duties to customers, and tank cars have decreased to 20% of the total backlog, mitigating regulatory risks."
+        "blurb": "Management confirmed Greenbrier is not currently paying tariffs on tank cars moving from Mexico to the U.S. under Section 232. Backlog mix is shifting away from tank cars (now 20%), and strong contractual protections allow any potential future tariff impacts to be passed directly to customers."
       },
       {
-        "title": "U.S. Manufacturing Flexibility Reassures Markets",
-        "timestamp": "20m",
-        "blurb": "Management reassured investors that if Mexican cross-border tariffs or regulatory hurdles intensify, Greenbrier has the active capability to shift tank car production to its Marmaduke, Arkansas facility. The company is already expanding U.S. manufacturing production to handle additional domestic capacity if necessary."
+        "title": "Regulatory Coupler Case Appeal Filed",
+        "timestamp": "28m",
+        "blurb": "Greenbrier filed its administrative appeal regarding the CBP's coupler determination letter. Crucially, management noted the financial impact of the coupler dispute is small, representing less than 1% of total asset cost, reassuring investors that any negative regulatory outcomes remain manageable."
       },
       {
-        "title": "Substantial Secondary Fleet Investments",
+        "title": "Aggressive Secondary Market Fleet Expansion",
         "timestamp": "31m",
-        "blurb": "Greenbrier deployed $227 million in operating cash flow primarily to acquire 4,400 railcars in the secondary market. This aggressive expansion of the owned lease fleet supports the strategic target to double recurring revenue by 2028, pleasing long-term investors focused on high-margin through-cycle stability."
+        "blurb": "The company added 4,400 railcars to its owned lease fleet via disciplined secondary market acquisitions in Q3, pushing total fleet size to 20,600 units with 99% utilization. This large investment supports their strategy to double recurring leasing revenue by 2028."
       }
     ],
-    "at_a_glance_checked_at": "2026-09-25T01:03:12Z",
+    "at_a_glance_checked_at": "2026-10-02T01:55:05Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Greenbrier Misses Q3 Financial Estimates",
-        "detail": "The Greenbrier Companies reported an adjusted EPS of $0.60 and revenue of $576.5 million, both missing the estimated adjusted EPS of $0.823 and estimated revenue of $612.7 million."
+        "headline": "Greenbrier Matches EPS, Misses Revenue",
+        "detail": "The Greenbrier Companies reported a Q3 2026 adjusted EPS of $0.60, perfectly matching expectations, while revenue of $576.5 million missed the projected $612.7 million."
       },
       {
-        "headline": "Strong Fleet Utilization Sustains Performance",
-        "detail": "The company's owned lease fleet expanded to 20,600 units while maintaining an exceptionally strong utilization rate of 99%, continuing its track record of robust fleet optimization."
+        "headline": "Strong Leasing KPIs Counterbalance Manufacturing Downturn",
+        "detail": "The company expanded its owned lease fleet to 20,600 units with an exceptionally high 99% utilization rate, helping to offset a cyclical contraction in new railcar manufacturing volumes."
       },
       {
-        "headline": "Guidance Narrowed on Timing Shifts",
-        "detail": "Management maintained its fiscal 2026 revenue outlook of $2.4 billion to $2.5 billion but narrowed its full-year EPS guidance to a range of $3.00 to $3.15 due to some delivery schedules shifting into fiscal 2027."
+        "headline": "Management Narrows Full-Year EPS Guidance Range",
+        "detail": "Greenbrier tightened its fiscal 2026 EPS guidance to a range of $3.00 to $3.15 from its previous $3.00 to $3.50 forecast, primarily citing railcar delivery shifts into fiscal 2027."
       },
       {
-        "headline": "Healthy Backlog Secures Visible Production",
-        "detail": "Greenbrier received new orders for 2,200 railcars valued at $340 million during the quarter, bringing its total backlog to 13,800 units worth approximately $2.0 billion."
+        "headline": "Gross Margin Expands Despite Lower Topline",
+        "detail": "Aggregate gross margin improved sequentially by 230 basis points to 14.1%, driven by strict cost discipline, manufacturing efficiencies, and a favorable product mix."
       },
       {
-        "headline": "Gross Margin Improves Sequentially",
-        "detail": "Driven by cost discipline and improved manufacturing efficiencies, the aggregate gross margin percentage increased by 230 basis points sequentially to reach 14.1%."
+        "headline": "Backlog Remains Favorable Amid Soft Market",
+        "detail": "Greenbrier secured 2,200 new railcar orders valued at $340 million during the quarter, closing out the period with a robust $2.0 billion backlog of 13,800 units."
       },
       {
-        "headline": "Shares Fall Post Mixed Earnings",
-        "detail": "The company's stock experienced immediate market pressure following the release, declining around 4% total across the regular and after-hours trading sessions due to the top and bottom line shortfall."
+        "headline": "Post-Earnings Share Performance Experiences Pressure",
+        "detail": "The company's stock experienced immediate pressure and moved lower following the report, as investors reacted negatively to the double-digit year-over-year revenue drop and narrowed full-year outlook."
       }
     ],
     "at_a_glance_report_date": "2026-07-01",
-    "checked_at": "2026-09-25T01:03:12Z",
-    "checked_for_date": "2026-09-24",
+    "checked_at": "2026-10-02T01:55:05Z",
+    "checked_for_date": "2026-10-01",
     "next_event_date": "2026-09-29",
     "next_check_date": "2026-09-08",
     "next_date_status": "tentative",
