@@ -1,68 +1,68 @@
 {
   "CTVA": {
     "last_report_date": "2026-07-31",
-    "summary": "Corteva reported strong Q2 and H1 2026 results, driven by strong execution in seed and crop protection. For the first half, net sales increased 4%, operating EBITDA grew 10%, and operating EPS rose 14%. The company experienced organic growth across all regions within its seed segment, reflecting robust demand for latest genetics and trait offerings.",
+    "summary": "Corteva reported strong first-half 2026 results with net sales up 4%, Operating EBITDA up 10%, and Operating EPS up 14% year-over-year. Driven by robust seed technology adoption, licensing growth, and new crop protection product volumes, the company raised its full-year guidance, expecting 9% Operating EBITDA growth and 11% Operating EPS growth at the midpoint.",
     "key_moments": [
       {
-        "title": "Full-Year Guidance Increase",
-        "timestamp": "6m 9s",
-        "blurb": "Corteva raised its full-year 2026 guidance, now projecting operating EBITDA of $4.1B–$4.3B and operating EPS of $3.60–$3.80. This positive revision reflects strong first-half execution, robust seed licensing growth that is three years ahead of plan, and consistent cost-productivity improvements that please investors."
+        "title": "Full-Year 2026 Guidance Raised",
+        "timestamp": "7m",
+        "blurb": "Investors will be pleased that Corteva raised full-year Operating EBITDA guidance to $4.1B–$4.3B and Operating EPS to $3.60–$3.80. This upgrade signals strong commercial execution, out-licensing growth, and cost discipline, proving the company can confidently beat previous expectations despite tight farmer margins."
       },
       {
-        "title": "Corporate Separation Progress",
-        "timestamp": "7m 12s",
-        "blurb": "The planned October 1, 2026 corporate separation into New Corteva and Vylor is running under budget and on schedule. Crucially, management has mitigated investor concerns by largely offsetting expected dis-synergies on a run-rate basis, reducing this year's expected headwind to a minor $25 million."
+        "title": "Corporate Separation Under Budget",
+        "timestamp": "8m",
+        "blurb": "The October 1, 2026 separation into Vylor and New Corteva is moving smoothly and operating under budget. Crucially, management reduced expected dis-synergies from $100 million down to a run-rate that is nearly flat, mitigating a primary investor risk concerning duplicate corporate overhead costs."
       },
       {
-        "title": "Latin American Pricing Pressures",
-        "timestamp": "15m 22s",
-        "blurb": "Crop protection pricing expectations for the second half were downgraded from low-single-digit declines to mid-single-digit declines, driven by intense competitive pressure and generic tension in Brazil. While volumes remain healthy, this pricing headwind introduces caution regarding near-term international margins."
+        "title": "Crop Protection Pricing Pressure",
+        "timestamp": "36m",
+        "blurb": "Crop Protection pricing assumptions for the second half were downgraded from low-single-digit declines to mid-single-digit declines, driven by competitive dynamics in Brazil. While volume gains on new products and robust cost-restructuring are preserving margins, the pricing headwind remains an area of cautious focus for investors."
       },
       {
         "title": "Q3/Q4 Seasonal Earnings Shift",
-        "timestamp": "16m 26s",
-        "blurb": "Management clarified that second-half earnings will be heavily weighted toward the fourth quarter, forecasting a third-quarter operating EBITDA loss of around $100 million. This typical seasonal pattern, combined with back-half weighted dis-synergies and logistics costs, sets flat year-over-year expectations for total second-half EBITDA."
+        "timestamp": "44m",
+        "blurb": "Management clarified that Q3 2026 EBITDA will shift back to a typical seasonal loss of around $100 million due to lapping tough prior-year comps. Consequently, full second-half growth will be concentrated in Q4, requiring investors to adjust quarterly models without losing confidence in full-year targets."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:54:31Z",
+    "at_a_glance_checked_at": "2026-10-09T02:41:31Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Corteva Misses Top and Bottom Lines",
-        "detail": "Corteva reported a reported adjusted EPS of $1.73, which fell short of the estimated adjusted EPS of $2.234, while reported revenue of $6.38 billion also missed the estimated $6.60 billion."
+        "headline": "Corteva Misses EPS and Revenue Estimates",
+        "detail": "Corteva reported an adjusted EPS of $1.73 on revenue of $6.38 billion for Q2 2026, missing the estimated adjusted EPS of $2.234 and falling short of the expected $6.60 billion revenue forecast."
       },
       {
-        "headline": "Seed Margins Offset Chemical Pressures",
-        "detail": "The Seed segment demonstrated robust pricing power with a 6% increase in operating EBITDA despite flat sales, counterbalancing ongoing pricing declines in the Crop Protection unit."
+        "headline": "Seed Strength Offsets Crop Protection Headwinds",
+        "detail": "The Seed business segment achieved robust organic sales growth across all regions driven by technology adoption, while the Crop Protection segment continued to face ongoing pricing pressures, particularly within the competitive Brazilian market."
       },
       {
-        "headline": "Full-Year 2026 Guidance Upgraded",
-        "detail": "Corteva raised its full-year 2026 operating EBITDA guidance to a range of $4.1 billion to $4.3 billion and increased its operating EPS outlook to $3.60 to $3.80 per share."
+        "headline": "Full-Year Operating Outlook Revised Upward",
+        "detail": "Management raised its full-year 2026 guidance, projecting operating EBITDA to reach between $4.1 billion and $4.3 billion and operating EPS to come in between $3.60 and $3.80."
       },
       {
-        "headline": "Corporate Split Remains on Track",
-        "detail": "The planned separation of Corteva into two independent public companies, Vylor and New Corteva, is proceeding on schedule with a target completion date of October 1, 2026."
+        "headline": "Business Separation Execution Remains on Track",
+        "detail": "Corteva confirmed that its planned corporate split into two separate, independent public entities—Vylor and New Corteva—is on track for its targeted completion date of October 1, 2026."
       },
       {
-        "headline": "Market Reactions Driven by Revenue Miss",
-        "detail": "Despite the increased full-year outlook, Corteva's stock fell roughly 10% following the earnings release as investors reacted to the revenue miss and near-term market headwinds."
+        "headline": "Corporate Margins Expand Through Productivity Gains",
+        "detail": "Despite top-line pressures and regional headwinds, operating EBITDA margins expanded by over 190 basis points due to execution on cost discipline and productivity initiatives."
       }
     ],
     "at_a_glance_report_date": "2026-07-31",
-    "checked_at": "2026-08-20T19:54:32Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:41:32Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-29",
     "next_check_date": "2026-10-08",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "BAYRY": {
-    "checked_at": "2026-10-02T01:54:30Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:41:35Z",
+    "checked_for_date": "2026-10-08"
   },
   "BASFY": {
-    "checked_at": "2026-10-02T01:54:33Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:41:39Z",
+    "checked_for_date": "2026-10-08"
   },
   "NTR": {
     "last_report_date": "2026-08-06",
@@ -138,8 +138,8 @@
     "next_date_source": "estimated from last earnings"
   },
   "YARIY": {
-    "checked_at": "2026-10-02T01:54:36Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:41:42Z",
+    "checked_for_date": "2026-10-08"
   },
   "MOS": {
     "last_report_date": "2026-08-05",
@@ -314,56 +314,56 @@
   },
   "AGCO": {
     "last_report_date": "2026-07-30",
-    "summary": "AGCO reported Q2 2026 net sales of approximately $2.6 billion, down 1% year-over-year, and adjusted EPS of $1.43, an increase of $0.08 over the prior year. Operating income fell 14% to $140.7 million, with adjusted operating margins declining 170 basis points to 6.6% due to lower sales, production volumes, and higher input costs.",
+    "summary": "AGCO's Q2 2026 net sales decreased 1% year-over-year to $2.6B, while adjusted EPS rose by $0.08 to $1.43, beating the $1.43 consensus. Results reflect lower sales in Europe and Latin America due to cautious farmer demand, offset by strong North American performance, solid pricing, and business optimization initiatives.",
     "key_moments": [
       {
-        "title": "Full-Year Guidance Reduction",
-        "timestamp": "26m 49s",
-        "blurb": "AGCO cut its full-year 2026 net sales guidance to $10.1B-$10.2B and adjusted EPS to $5.50-$5.75. This disappointing revision reflects weaker retail demand in Western Europe, Brazil, and North American small agriculture, alongside a lower pricing outlook, which will concern investors tracking the industry's cyclical trough."
+        "title": "Full-Year 2026 Guidance Downgrade",
+        "timestamp": "25m",
+        "blurb": "Management lowered full-year 2026 net sales guidance to $10.1B-$10.2B and adjusted EPS to $5.50-$5.75, missing original estimates. This disappointing revision reflects deteriorating market demand across Western Europe and Brazil, coupled with softer pricing realization and lower factory absorption."
       },
       {
-        "title": "North American Market Share Gains",
-        "timestamp": "30m 32s",
-        "blurb": "North American net sales surged 20% constant-currency, driven by robust market share gains in high-horsepower tractors and premium Fendt brands. Combined with strong regional pricing discipline of ~3.5%, this performance pleases investors by demonstrating structural resilience and competitive execution despite a soft overall North American equipment market."
+        "title": "Strong North American Price Execution",
+        "timestamp": "30m",
+        "blurb": "North American net sales provided a bright spot, surging 20% on constant currency driven by strong high-horsepower retail attachment and 3.5% pricing gains. This structural market share momentum helps offset severe volume headwinds across other global agricultural segments."
       },
       {
-        "title": "Aggressive Underproduction Strategy",
-        "timestamp": "35m 2s",
-        "blurb": "To address rising dealer inventory, AGCO is aggressively underproducing relative to retail demand, specifically by 15% in South America. While this strategy hurts short-term factory absorption and margins, it helps clear aged dealer equipment and protects pricing integrity, positioning the company for a healthier operational baseline in 2027."
+        "title": "Severe Production Underproduction Strategy",
+        "timestamp": "35m",
+        "blurb": "To aggressively combat rising channel inventory, AGCO is underproducing retail demand by 15% in South America and implemented sharp cuts in North America. While necessary for channel health, this deep destocking pressures near-term factory absorption margins through the second half of 2026."
       },
       {
-        "title": "EAME Region Guidance Miss",
-        "timestamp": "41m 55s",
-        "blurb": "European operations unexpectedly missed Q2 internal forecasts, surprising management as the German market contracted 15% more than anticipated and dealers aggressively reduced inventory. This sudden softening in AGCO's most profitable region forces margin compression in the second half, likely frustrating investors expecting structural stability."
+        "title": "Unexpected European and German Softness",
+        "timestamp": "41m",
+        "blurb": "Second-quarter performance in the Europe, Middle East region suffered an unexpected contraction, with the German market dropping 15% more than anticipated. This rapid deceleration, paired with aggressive dealer destocking down to 3.5 months of supply, negatively impacted high-margin regional earnings."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:55:11Z",
+    "at_a_glance_checked_at": "2026-10-09T02:41:46Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
         "headline": "AGCO Misses Q2 Earnings Estimates",
-        "detail": "AGCO reported a revenue of $2,609,700,000 against an estimated $2,750,656,880, and a reported adjusted EPS of $1.08 which fell short of the estimated $1.476."
+        "detail": "AGCO Corporation reported a Reported Adjusted EPS of 1.08 on revenue of $2,609,700,000, missing the estimated adjusted EPS of 1.476 and estimated revenue of $2,750,656,880."
       },
       {
-        "headline": "Strong Regional Divergence Highlights KPIs",
-        "detail": "North America delivered approximately 20% constant-currency sales growth fueled by high-horsepower tractors, whereas Latin America net sales experienced a sharp contraction of 25% due to challenging market conditions."
+        "headline": "Divergent Performance Across Key Markets",
+        "detail": "North American constant-currency sales jumped 19.8% due to high-horsepower tractor demand, while Latin America sales plummeted 25.0% because of weak industry demand."
       },
       {
-        "headline": "Full-Year Guidance Cut on Softness",
-        "detail": "Management lowered its full-year 2026 revenue guidance to between $10.1 billion and $10.2 billion, reflecting weaker retail demand across Western Europe and Brazil."
+        "headline": "Full Year Guidance Revised Downward",
+        "detail": "Management lowered its full-year 2026 outlook, now targeting net sales between $10.1 billion and $10.2 billion and adjusted EPS of $5.50 to $5.75 due to softening global demand."
       },
       {
-        "headline": "Tariff Pressures Impact Operating Margins",
-        "detail": "Gross tariff-related costs are expected to reach $115 million for the year, resulting in a $50 million year-over-year headwind that compressed adjusted operating margins by 170 basis points."
+        "headline": "Deliberate Production Cuts Lower Margins",
+        "detail": "The adjusted operating margin contracted 170 basis points to 6.6% as the company deliberately reduced manufacturing hours to help right-size dealer inventory levels."
       },
       {
-        "headline": "Negative Market Reaction Pulls Shares",
-        "detail": "Following the earnings miss and downgraded outlook, AGCO's stock experienced downward pressure, dropping 12.1% in immediate market reaction."
+        "headline": "Tariff Costs Form Macro Headwinds",
+        "detail": "Gross tariff-related costs are anticipated to hit $115 million for the full year, presenting a substantial $50 million year-over-year headwind for the company."
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:55:12Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:41:46Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-28",
     "next_check_date": "2026-10-07",
     "next_date_status": "tentative",
@@ -394,8 +394,8 @@
         "blurb": "Significant material inflation, highlighted by steel rising 27%–30% and diesel up 45% year-to-date, compressed sequential incremental margins in Q2. Although pricing actions are covering these costs, management anticipates these elevated expenses will persist through Q3, limiting second-half Infrastructure margins to first-half levels."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:54:39Z",
-    "at_a_glance_scope": "reported",
+    "at_a_glance_checked_at": "2026-10-09T02:41:49Z",
+    "at_a_glance_scope": "upcoming",
     "at_a_glance": [
       {
         "headline": "Valmont Exceeds EPS and Revenue Expectations",
@@ -419,12 +419,12 @@
       }
     ],
     "at_a_glance_report_date": "2026-07-21",
-    "checked_at": "2026-10-02T01:54:40Z",
-    "checked_for_date": "2026-10-01",
-    "next_event_date": "2026-10-19",
-    "next_check_date": "2026-09-28",
-    "next_date_status": "tentative",
-    "next_date_source": "estimated from last earnings"
+    "checked_at": "2026-10-09T02:41:49Z",
+    "checked_for_date": "2026-10-08",
+    "next_event_date": "2026-10-20",
+    "next_check_date": null,
+    "next_date_status": "confirmed",
+    "next_date_source": "Google Finance"
   },
   "ADM": {
     "last_report_date": "2026-08-04",
@@ -485,60 +485,56 @@
   },
   "BG": {
     "last_report_date": "2026-07-29",
-    "summary": "Bunge Global delivered a strong Q2 2026, driven by benefits from its larger diversified platform across crops and geographies. Financial outperformance in soy and softseed processing helped anchor execution through ongoing macroeconomic uncertainty, shifting trade flows, and volatile weather patterns.",
+    "summary": "Bunge delivered strong Q2 2026 results, driven by global platform diversification in soy and softseed processing. Consequently, management raised the full-year 2026 adjusted EPS guidance to a range of $9.25 to $9.75, up from the previous outlook of $9.00 to $9.50.",
     "key_moments": [
       {
-        "title": "Full-Year 2026 Earnings Guidance Raised",
-        "timestamp": "2m 57s",
-        "blurb": "Management increased full-year adjusted EPS guidance to a range of $9.25–$9.75. This beat initial expectations and previous guidance of $9.00–$9.50, reflecting improved market conditions, stronger U.S. crush margins, and early capture of cost synergies from the Viterra acquisition."
+        "title": "Full-Year Guidance Raised on Crushing Strength",
+        "timestamp": "2m",
+        "blurb": "Bunge boosted its full-year 2026 adjusted EPS guidance to $9.25–$9.75. This positive outlook revision reflects strong Q2 outperformance and improved second-half crush curves, particularly driven by robust processing margins in the U.S. and expanded production capacities in Argentina."
       },
       {
-        "title": "Viterra Integration and Cost Synergies Accelerate",
-        "timestamp": "8m 21s",
-        "blurb": "Bunge completed its $2B share buyback obligation tied to the Viterra transaction. Management reported that cost synergy capture is running ahead of schedule, prompting a prior target increase to $350M, while expanded global footprint liquidity improves raw origination and ocean freight options."
+        "title": "Viterra Synergies Ahead of Plan",
+        "timestamp": "11m",
+        "blurb": "Management confirmed that Viterra cost synergies are running ahead of the elevated $350 million target. The expanded global origination footprint is providing greater internal liquidity, tight credit spreads, and increased structural asset flexibility, validating the deal's strategic rationale during macro volatility."
       },
       {
-        "title": "Renewable Fuels Infrastructure and Supply Agreements",
-        "timestamp": "12m 32s",
-        "blurb": "Bunge is in the final commissioning stages for its new multi-seed processing plant and barge unloader in Destrehan, Louisiana. The company also detailed major new sustainable aviation fuel (SAF) feedstock supply agreements in Brazil with Petrobras, Vibra, and Acelen."
+        "title": "U.S. Crush Margins Validated by Demand",
+        "timestamp": "19m",
+        "blurb": "Executives defended the strength of U.S. crush margins, stating they are fundamentally supported by robust global meal demand and clear domestic RVO mandates. Management noted that adding processing capacity directly addresses healthy feed economics rather than being an artificial reflection of volatile energy markets."
       },
       {
-        "title": "Robust U.S. Soybean Crush Fundamentals",
-        "timestamp": "19m 19s",
-        "blurb": "Executives defended the sustainability of current U.S. crush margins against market skepticism. Management noted that solid global meal demand and clear domestic RVO mandates underpin strong underlying feed and energy destination pathways, separating fundamental margins from temporary energy price volatility."
+        "title": "Capital Projects Set to Boost Volume",
+        "timestamp": "23m",
+        "blurb": "Bunge is in the final commissioning stages for multiple high-return projects. The new Destrehan barge unloader and multi-seed plant will open imminently, the Morristown SPC facility is actively producing, and an Avondale tropical oil expansion will run at 100% capacity within the next month."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:55:25Z",
+    "at_a_glance_checked_at": "2026-10-09T02:41:53Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Bunge Exceeds Top and Bottom Lines",
-        "detail": "Bunge reported Q2 2026 adjusted revenue of $24,041,000,000 and adjusted EPS of $3.47, substantially ahead of the estimated $22,351,400,720 in revenue and $1.944 in adjusted EPS."
+        "headline": "Bunge Beats Earnings and Revenue",
+        "detail": "Bunge Global reported Q2 2026 adjusted EPS of $3.47 and revenue of $24.04 billion, both outperforming Wall Street estimates of $1.944 for EPS and $22.35 billion for revenue."
       },
       {
-        "headline": "Strong Processing Volumes Boost Performance",
-        "detail": "Operating performance was driven by enhanced capacity and solid execution across Soybean and Softseed Processing, heavily supported by the expanded global platform following the Viterra integration."
+        "headline": "Oilseed Processing Performance Drives Growth",
+        "detail": "The company's adjusted segment EBIT more than doubled to $796 million, primarily driven by robust processing margins in the Soybean and Softseed Processing and Refining segments across the Americas and Europe."
       },
       {
-        "headline": "Full-Year Financial Guidance Upgraded",
-        "detail": "Management increased its full-year 2026 adjusted EPS outlook range to $9.25–$9.75, up from the prior forecast of $9.00–$9.50, due to accelerating synergy capture and strong crush margins."
+        "headline": "Full-Year Guidance Revised Upward",
+        "detail": "Bunge raised its full-year 2026 adjusted EPS outlook range to $9.25 to $9.75, up from its previous guidance of $9.00 to $9.50, on the back of improving processing market conditions."
       },
       {
-        "headline": "Viterra Integration Resets Corporate Expenses",
-        "detail": "While the acquisition of Viterra dramatically scaled handling footprints, corporate adjusted losses deepened to $131 million due to permanent overhead and administrative expansion."
+        "headline": "Viterra Integration Ahead of Schedule",
+        "detail": "The company reported that its integration with Viterra is tracking ahead of plan, with cost synergies accelerating beyond original targets."
       },
       {
-        "headline": "Geopolitical Disruptions Lift Profit Profiles",
-        "detail": "Crude oil supply shocks resulting from the Iran war drove soybean oil prices and refining margins considerably higher during the quarter."
-      },
-      {
-        "headline": "Capital Return Milestones Completed",
-        "detail": "Bunge repurchased approximately $250 million in shares, officially completing its $2 billion buyback program associated with the Viterra transaction."
+        "headline": "Share Repurchase Program Successfully Completed",
+        "detail": "Bunge deployed approximately $250 million to repurchase shares in the second quarter, effectively completing its $2 billion buyback program related to the Viterra transaction."
       }
     ],
     "at_a_glance_report_date": "2026-07-29",
-    "checked_at": "2026-08-20T19:55:26Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:41:54Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-27",
     "next_check_date": "2026-10-06",
     "next_date_status": "tentative",
@@ -630,8 +626,8 @@
         "blurb": "Management highlighted that 5 million bbl per day of global refining capacity is offline due to geopolitical conflicts. With clean product inventories substantially below five-year averages, Valero expects supply deficits to persist through 2027. Extended damage to Russian and Middle Eastern plants means a prolonged high-margin environment, which will strongly encourage investors."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:55:34Z",
-    "at_a_glance_scope": "reported",
+    "at_a_glance_checked_at": "2026-10-09T02:41:57Z",
+    "at_a_glance_scope": null,
     "at_a_glance": [
       {
         "headline": "Valero Beats EPS and Revenue Estimates",
@@ -655,12 +651,12 @@
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:55:35Z",
-    "checked_for_date": "2026-08-13",
-    "next_event_date": "2026-10-28",
-    "next_check_date": "2026-10-07",
-    "next_date_status": "tentative",
-    "next_date_source": "estimated from last earnings"
+    "checked_at": "2026-10-09T02:41:57Z",
+    "checked_for_date": "2026-10-08",
+    "next_event_date": "2026-10-22",
+    "next_check_date": null,
+    "next_date_status": "confirmed",
+    "next_date_source": "Google Finance"
   },
   "GPRE": {
     "last_report_date": "2026-08-06",
@@ -721,68 +717,68 @@
   },
   "REX": {
     "last_report_date": "2026-09-02",
-    "summary": "REX American Resources achieved record Q2 2026 results, with net income attributable to shareholders jumping to $34.9M ($1.06 per diluted share) from $7.1M ($0.22 per share) in Q2 2025. Gross profit surged to $53.3M from $14.3M, driven by strong crush margins and $18.4M in Section 45Z production tax credits.",
+    "summary": "REX American Resources achieved record Q2 2026 net income per share of $1.06, supported by operational discipline, commercial execution, and market tailwinds. Growth initiatives include an on-schedule ethanol production expansion at the One Earth facility, expected online before the end of 2026, and significant regulatory milestones achieved for carbon capture and sequestration.",
     "key_moments": [
       {
-        "title": "Record Financial Performance and Margin Expansion",
-        "timestamp": "1m",
-        "blurb": "REX reported its highest-ever Q2 net income of $1.06 per share, up from $0.22 last year, driven by robust crush margins and 45Z tax credits. This massive growth confirms substantial tailwinds in commercial execution and strong industry profitability."
+        "title": "Unprecedented Gross Profit and EPS Growth",
+        "timestamp": "7m",
+        "blurb": "REX delivered a record-setting Q2 2026 performance with EPS jumping to $1.06 from $0.22 year-over-year. Gross profit increased dramatically from $14.3M to $53.3M, signaling to investors that robust crush margins combined with newly recognized 45Z tax credits are dramatically accelerating bottom-line growth."
       },
       {
-        "title": "Carbon Capture Project Permit Milestones",
-        "timestamp": "3m",
-        "blurb": "The U.S. EPA issued draft permits for three Class VI injection wells on August 17. Following the expiration of the Illinois moratorium, REX is preparing state pipeline connector applications, clearing significant regulatory hurdles for long-term carbon monetization."
-      },
-      {
-        "title": "Optimistic Third Quarter Earnings Outlook",
+        "title": "Optimistic Third Quarter Outlook Provided",
         "timestamp": "9m",
-        "blurb": "Management explicitly guided that Q3 2026 performance will improve year-over-year, reinforcing structural confidence and earnings momentum backed by resilient U.S. ethanol export demand."
+        "blurb": "Management issued positive forward-looking guidance, projecting that Q3 2026 performance will outperform the previous year's period. This outlook will please investors as it reinforces the sustainability of the company's profitability, backed by persistent record-high export demand for U.S. ethanol."
       },
       {
-        "title": "Strategic Capital Deployment Focus",
+        "title": "Regulatory Hurdles for Carbon Pipeline Pipeline",
+        "timestamp": "13m",
+        "blurb": "While federal EPA draft permits were secured, management acknowledged a lack of timeline clarity for the Illinois Commerce Commission's approval of its 5-mile connector pipeline. Investors may view this dependency as a potential bottleneck for the carbon capture project's operational timeline."
+      },
+      {
+        "title": "Capital Allocation and M&A Flexibility",
         "timestamp": "17m",
-        "blurb": "Holding $379.5M in cash and zero debt, executives outlined plans to look at buying additional ethanol plants or opportunistic share buybacks on price dips, validating their robust capacity for capital returns."
+        "blurb": "Boasting $379.5M in cash with zero bank debt, management highlighted its opportunistic share buyback strategy alongside ongoing evaluations for ethanol plant acquisitions. This robust balance sheet positions REX to drive shareholder value through both tactical capital returns and strategic external growth."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:54:43Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:00Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "EPS Beats But Revenue Misses",
-        "detail": "REX American Resources reported a massive EPS beat of $1.06 against expectations of approximately $0.42, while reported revenue of $186,903,000 came in below consensus estimates."
+        "headline": "Mixed Results as EPS Crushes Estimates",
+        "detail": "REX American Resources reported a record reported adjusted EPS of $1.06, significantly beating the analyst consensus of $0.42, while reported revenue of $168,493,000 fell short of the forecasted $194.81 million."
       },
       {
-        "headline": "Crush Margins Boost Gross Profit",
-        "detail": "Gross profit surged to $53.3 million from $14.3 million in the prior-year quarter, fueled by substantially stronger ethanol crush margins and improved product pricing."
+        "headline": "Crush Margins Drive Record Gross Profits",
+        "detail": "Improved ethanol crush margins and higher product pricing expanded the company's gross margin by approximately 2,260 basis points year-over-year to 31.6%, helping generate a gross profit of $53.3 million."
       },
       {
-        "headline": "Positive Guidance and Facility Expansions",
-        "detail": "Management forecasts profitable third-quarter results that will exceed the prior year, supported by the One Earth expansion which remains on schedule to finish construction by the end of 2026."
+        "headline": "Positive Production Growth Guidance Maintained",
+        "detail": "Management reiterated that the One Earth facility expansion remains on schedule for completion by the end of 2026, targeting a phased production increase to 200 million gallons by mid-2027."
       },
       {
-        "headline": "Tax Credits Drive Record Profitability",
-        "detail": "Section 45Z production tax credits contributed a substantial $18.4 million to the quarter's blowout net income, bringing year-to-date tax credit benefits to $26 million."
+        "headline": "Tax Credits Provide Significant Financial Boost",
+        "detail": "Section 45Z production tax credits contributed $18.4 million during the quarter, bringing the year-to-date total to $26 million and strengthening the company's cumulative margins."
       },
       {
-        "headline": "Key Carbon Capture Regulatory Progress",
-        "detail": "The company reached a milestone by securing draft EPA Class VI well permits for its carbon capture project, though final execution still hinges on upcoming Illinois state pipeline approvals."
+        "headline": "Regulatory Hurdles Affect Carbon Capture Timeline",
+        "detail": "While REX received draft EPA Class VI well permits for its carbon capture project, final timelines remain dependent on outstanding state-level pipeline approvals in Illinois."
       },
       {
-        "headline": "Strong Cash Position and Liquidity",
-        "detail": "REX ended the quarter with $379.5 million in cash and short-term investments alongside zero bank debt, providing significant flexibility for acquisitions and share buybacks."
+        "headline": "Revenue Miss Drags Share Price Down",
+        "detail": "Despite recording its highest second-quarter EPS in history, the company's stock dropped 4.6% following the release due to missing top-line consensus expectations."
       }
     ],
     "at_a_glance_report_date": "2026-09-02",
-    "checked_at": "2026-10-02T01:54:44Z",
-    "checked_for_date": "2026-10-01",
+    "checked_at": "2026-10-09T02:42:01Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-08-26",
     "next_check_date": "2026-08-05",
     "next_date_status": "tentative",
     "next_date_source": "estimated from last earnings"
   },
   "NVZMY": {
-    "checked_at": "2026-10-02T01:54:47Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:42:04Z",
+    "checked_for_date": "2026-10-08"
   },
   "INGR": {
     "last_report_date": "2026-08-04",
@@ -895,8 +891,8 @@
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:55:57Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:08Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-28",
     "next_check_date": "2026-10-07",
     "next_date_status": "tentative",
@@ -1136,60 +1132,56 @@
   },
   "DINO": {
     "last_report_date": "2026-07-28",
-    "summary": "HF Sinclair announced plans to separate its Lubricants and Specialties segment into an independent public company over the next 12-18 months. The move includes retiring the Mississauga base oil assets to transition into a capital-light, higher-margin specialty distribution model.",
+    "summary": "HF Sinclair announced plans to separate its Lubricants and Specialties segment into a standalone, capital-light public company over the next 12-18 months. The independent business, led by Matt Joyce, is expected to deliver $300-$350 million in annual EBITDA, benefiting from specialized strategic focus and enhanced financial flexibility.",
     "key_moments": [
       {
-        "title": "Lubricants Business Spin-Off",
-        "timestamp": "6m 7s",
-        "blurb": "HF Sinclair announced a tax-efficient spin-off of its Lubricants and Specialties segment into a standalone public entity within 12-18 months. Management expects a valuation step-up due to more stable, non-cyclical cash flows and targets a capital-light structure delivering $300-$350 million in mid-cycle EBITDA."
+        "title": "Lubricants Segment Public Spin-Off",
+        "timestamp": "6m",
+        "blurb": "Management announced a tax-efficient spin-off of its Lubricants and Specialties business into an independent public entity. This strategic pivot will separate a stable, high-multiple specialty chemicals business from volatile core refining operations, maximizing long-term shareholder value."
       },
       {
-        "title": "Mississauga Asset Retirement",
-        "timestamp": "6m 55s",
-        "blurb": "The company decided to retire its Mississauga base oil refining assets due to high capital intensity and shifting global cost competition. Free cash flow will be optimized through new commercial supply and distribution partnerships with two global premier base oil manufacturers."
+        "title": "Mississauga Refinery Asset Retirement",
+        "timestamp": "6m",
+        "blurb": "The company decided to shut down the Mississauga base oil production facility, transitioning the lubricants segment to a capital-light distribution and blending model. The closure reduces future capital intensity and working capital requirements while mitigating structural high-cost location headwinds."
       },
       {
-        "title": "Strong Operational Outperformance",
-        "timestamp": "9m 24s",
-        "blurb": "Refining throughput exceeded guidance, averaging 640,000 barrels per day. This allowed HF Sinclair to heavily capitalize on strong global crack spreads, low commercial product inventories, and supportive regional product shortages across its core markets."
+        "title": "Dividend Increase and Capital Return",
+        "timestamp": "12m",
+        "blurb": "Underscoring strong free cash flow and a healthy balance sheet, the Board declared a 5% increase to the regular quarterly dividend to $0.525 per share. The company remains committed to its 50% target payout ratio, having returned $265 million to shareholders this quarter."
       },
       {
-        "title": "Strategic Growth Pipeline",
-        "timestamp": "10m 16s",
-        "blurb": "The multi-phase 'Go-West' pipeline initiative is progressing toward a Final Investment Decision (FID) for Phase 1 in 2026, aiming to move 35,000 barrels per day of Rockies production into supply-short Western markets by 2029."
+        "title": "Q2 2026 Earnings Beat",
+        "timestamp": "13m",
+        "blurb": "HF Sinclair delivered a substantial earnings beat with adjusted EPS of $5.31 against the $4.49 consensus estimate. Performance was propelled by strong refining volumes that surpassed previous guidance and high regional crack spreads stemming from geopolitical supply disruptions."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:56:21Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:11Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "HF Sinclair Delivers Strong Blowout Results",
-        "detail": "HF Sinclair surpassed expectations for the second quarter of 2026, reporting an adjusted EPS of $4.93 compared to the estimated $4.49, alongside revenues of $10.39 billion which cleared the forecasted $8.95 billion."
+        "headline": "HF Sinclair Beats Q2 Estimates",
+        "detail": "HF Sinclair reported Q2 2026 adjusted EPS of $4.93, beating the estimated $4.49, and generated revenues of $10.39 billion, which surpassed the estimated $8.95 billion."
       },
       {
-        "headline": "Refining Segment Performance Surpasses Expectations",
-        "detail": "The company's core refining business excelled as crude oil charge averaged 639,680 barrels per day, outperforming company guidance and improving from 615,930 barrels per day in the prior year quarter."
+        "headline": "Refining Strength Drives Strong KPIs",
+        "detail": "The company's strong performance was driven by wider refining margins and higher crude oil throughput, which rose 3.9% year-over-year to 639,680 barrels per day."
       },
       {
-        "headline": "Throughput Outlook Impacted by Planned Turnaround",
-        "detail": "For the third quarter of 2026, HF Sinclair expects to run between 590,000 to 620,000 barrels of crude oil per day in its refining segment, capturing the expected impact of a planned turnaround at its El Dorado facility."
+        "headline": "Lubricants Separation Plan Announced",
+        "detail": "The most significant guidance update is HF Sinclair's plan to pursue a strategic separation of its Lubricants & Specialties segment into an independent public company over the next 12 to 18 months."
       },
       {
-        "headline": "Strategic Lubricants Spin-Off Announced",
-        "detail": "Management revealed plans to execute a tax-efficient separation of its Lubricants and Specialties segment into a standalone, publicly traded company over the next 12 to 18 months."
+        "headline": "Mississauga Refining Asset Strategic Shift",
+        "detail": "Management announced plans to end base oil refining at its Mississauga plant by 2027, transitioning the site into a capital-light blending and packaging hub."
       },
       {
-        "headline": "Mississauga Base Oil Assets Face Retirement",
-        "detail": "The company plans to completely retire base oil refining operations at its Mississauga plant by 2027, moving the business toward a capital-light, distribution-heavy hub model."
-      },
-      {
-        "headline": "Robust Shareholder Returns and Dividend Increase",
-        "detail": "HF Sinclair expanded its capital return program, returning $265 million to shareholders during the quarter while approving a 5% increase to its regular quarterly cash dividend to $0.525 per share."
+        "headline": "Increased Dividends and Capital Returns",
+        "detail": "HF Sinclair returned $265 million to shareholders via dividends and share buybacks during the quarter while increasing its regular quarterly dividend by 5% to $0.525 per share."
       }
     ],
     "at_a_glance_report_date": "2026-07-28",
-    "checked_at": "2026-08-20T19:56:22Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:11Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-26",
     "next_check_date": "2026-10-05",
     "next_date_status": "tentative",
@@ -1197,56 +1189,60 @@
   },
   "CVI": {
     "last_report_date": "2026-07-30",
-    "summary": "CVR Energy reported strong Q2 2026 operations with 98% crude and 99% ammonia plant utilization, driven by tight global markets from ongoing conflicts. The company announced a Q2 dividend of $0.10 per share and expects near-term market conditions to remain above mid-cycle levels well into 2027.",
+    "summary": "CVR Energy reported Q2 2026 consolidated net income of $46 million, adjusted EPS of $0.34, and adjusted EBITDA of $209 million. Financials were impacted by a $73 million unfavorable change in RFS liability, $19 million favorable inventory valuation, and $6 million unrealized derivative gains.",
     "key_moments": [
       {
-        "title": "RFS Costs and SRE Delays Hurt Capture",
-        "timestamp": "3m 45s",
-        "blurb": "Investors will be disappointed by skyrocketing RFS compliance costs, which hit $11.16 per barrel and cut the Q2 capture rate by 25%. The EPA is also nine months delinquent on the 2025 SRE petition for the Wynnewood refinery, forcing CVR to recognize 100% of the obligation, which cost $77 million in Q2."
+        "title": "Earnings Beat and Dividend Announcement",
+        "timestamp": "1m",
+        "blurb": "CVR Energy reported adjusted EPS of $0.34, significantly beating the estimated $0.108, alongside reported revenue of $2,738 million against the estimated $2,224 million. Management announced a Q2 dividend of $0.10 per share, pleasing investors with robust operational outperformance driven by tight energy markets."
       },
       {
-        "title": "Substantial Q2 Hedging Losses and Strategy Shift",
-        "timestamp": "5m 27s",
-        "blurb": "The petroleum segment suffered a material $81 million realized derivative loss from crack spread swaps, acting as a $4.16 per barrel headwind. Acknowledging that the aggressive hedging backfired during ongoing geopolitical conflicts, management plans to lower future hedging targets below their historical 30% production volume authorization."
+        "title": "Severe RFS Compliance Cost Headwinds",
+        "timestamp": "3m",
+        "blurb": "Elevated RIN prices increased net RINs expense to $216 million, severely dampening the refining segment's margin capture by 25%. Management strongly criticized the EPA's 9-month delay on its SRE petition, creating severe regulatory uncertainty that threatens near-term compliance planning and cost inflation."
       },
       {
-        "title": "Constructive Outlook Driven by Global Supply Shocks",
-        "timestamp": "9m 2s",
-        "blurb": "Investors should be pleased by the highly constructive macro outlook extending into 2027. Geopolitical conflicts have knocked out significant global refining capacity—particularly in Russia and the Middle East—driving MidCon product inventories to five-year lows and pushing Q3 quarter-to-date Group 3 benchmark crack spreads to a strong $58.70 per barrel."
+        "title": "Deleveraging Focus Over Cash-Funded M&A",
+        "timestamp": "13m",
+        "blurb": "CEO Dane Neumann clarified that rising cash balances will be prioritized toward reaching a $1 billion gross debt target rather than funding refining footprint expansions. This disciplined capital allocation stance, preferring alternative funding for M&A, reassures investors focused on balance sheet strength."
       },
       {
-        "title": "Capital Allocation, Debt Targets, and Growth Funding",
-        "timestamp": "13m 46s",
-        "blurb": "Management reiterated its priority of reducing gross debt to a $1 billion target. While open to expanding refining footprints through M&A, the CEO reassured investors that surplus cash will not be drained for large transactions; alternative funding will be used, leaving potential room for incremental dividend increases if market strength persists."
+        "title": "Strategic Adjustments to Hedging Policy",
+        "timestamp": "15m",
+        "blurb": "Following an $81 million realized loss on crack spread swaps, management signaled a strategic shift to reduce forward hedging authorizations below the historical 30% target. This adjustments will please investors looking for more exposure to strong prompt market pricing."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:56:25Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:15Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "CVR Energy Beats Financial Consensus",
-        "detail": "CVR Energy reported a reported revenue of $2,738,000,000, surpassing the estimated revenue of $2,224,391,630, while adjusted earnings per share reached $0.34 compared to the estimated $0.107."
+        "headline": "CVR Energy Beats Top-Line Forecasts",
+        "detail": "CVR Energy reported a top-line surprise with reported revenue of $2.74 billion, exceeding the estimated $2.22 billion, while reported adjusted EPS stood at $0 compared to the estimated $0.108."
       },
       {
-        "headline": "System Utilization Reaches Near Capacity",
-        "detail": "The company demonstrated high operational performance with crude utilization at 98% and ammonia plant utilization at 99%, an improvement supported by elevated Group 3 crack spreads."
+        "headline": "Strong Operational Utilization Rates Achieved",
+        "detail": "The company achieved high crude utilization of 98% in its petroleum segment and a 99% combined ammonia utilization rate in its fertilizer segment, showing solid operational momentum."
       },
       {
-        "headline": "Guidance Reflects Upcoming Plant Turnaround",
-        "detail": "Management provided third-quarter guidance highlighting a planned six-week turnaround at the East Dubuque facility, which will temporarily lower ammonia utilization to 75%–80%."
+        "headline": "Management Issues Optimistic Long-Term Guidance",
+        "detail": "Management projects that tight market conditions will remain above mid-cycle levels well into 2027, and issued Q3 petroleum throughput guidance between 205,000 and 220,000 barrels per day."
       },
       {
-        "headline": "Regulatory Compliance Costs Drag Earnings",
-        "detail": "Renewable Fuel Standard (RFS) compliance obligations remained a substantial drag on total profitability, resulting in a $216 million RIN expense for the quarter."
+        "headline": "Regulatory Compliance Costs Pressuring Financials",
+        "detail": "The company continues to face strong headwinds from its Renewable Fuel Standard (RFS) compliance, which reached an accrued mark-to-market liability of $408 million at the end of the quarter."
       },
       {
-        "headline": "Positive Market Reaction Boosts Shares",
-        "detail": "Investors responded favorably to the strong operational metrics and top-line expansion, pushing the stock up over 10% in immediate post-earnings trading."
+        "headline": "Robust Shareholder Returns and Distributions",
+        "detail": "CVR Energy declared a sustainable quarterly cash dividend of $0.10 per share, while its subsidiary CVR Partners announced a substantial cash distribution of $6.08 per common unit."
+      },
+      {
+        "headline": "Hedging Losses Weigh on Captures",
+        "detail": "Financial performance was negatively impacted by $81 million in realized derivative hedge losses related to crack spread swaps, which reduced overall capture rates by roughly 9%."
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:56:26Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:16Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-28",
     "next_check_date": "2026-10-07",
     "next_date_status": "tentative",
@@ -1315,55 +1311,51 @@
   },
   "CASY": {
     "last_report_date": "2026-09-09",
-    "summary": "Casey's reported strong Q1 2027 results with diluted EPS up 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue increased 24.3% to $5.68 billion, driven by higher inside sales, unit growth, and elevated retail fuel prices, while EBITDA rose 17% to $485 million.",
+    "summary": "Casey's reported strong Q1 2027 performance, with diluted EPS up 28% year-over-year to $7.37 and net income up 27% to $274 million. Total revenue increased 24.3% to $5.68 billion, driven by higher inside sales, higher fuel retail prices, and increased gallons sold.",
     "key_moments": [
       {
-        "title": "Strong CEFCO Remodel Sales Lifts",
-        "timestamp": "16m",
-        "blurb": "CEFCO stores remodeled into the Casey's brand are generating an impressive 30%+ lift in Prepared Food and Dispensed Beverages compared to their pre-merger performance. This significant synergy validation underscores the high profitability potential of the Texas expansion, which serves as a major positive driver for investor sentiment."
+        "title": "Fikes Acquisition Store Remodel Lift",
+        "timestamp": "5m",
+        "blurb": "The integration of the Fikes acquisition caused minor headwinds, drawing down inside same-store sales by 25 basis points and fuel gallons by 50 basis points due to construction. However, completed CEFCO store remodels delivered an impressive 30%+ lift in Prepared Food and Dispensed Beverages volume."
       },
       {
-        "title": "Fuel Margin Volatility and Resiliency",
-        "timestamp": "18m",
-        "blurb": "First-quarter fuel margins of 47.8 cents per gallon beat typical historical baselines but experienced intense day-to-day volatility, swinging from the 30s to the 60s based on geopolitical headlines. Investors will note that structural floors remain elevated, and consumer behavior shifted toward higher-margin ethanol blends."
-      },
-      {
-        "title": "Headwinds in Core Grocery Categories",
+        "title": "Inside Category Performance Divergence",
         "timestamp": "20m",
-        "blurb": "Same-store grocery and general merchandise growth faced pressure from weakness in beer, national brand snacks, and cigarettes. While nicotine alternatives (+47%) and private-label chips (+16% units) offset some damage, national brand manufacturers are pricing themselves out of immediate consumption, creating shifting dynamics within the store box."
+        "blurb": "Inside sales faced headwinds from industry-wide soft trends in beer, snacks, and combustible cigarettes. Casey's successfully mitigated these headwinds through double-digit gains in nicotine alternatives (+47%), energy drinks (+12%), ready-to-drink cocktails (+30%+), and strong private-label chip growth (+16%)."
       },
       {
-        "title": "Remodel Disruptions Impact Volume",
-        "timestamp": "22m",
-        "blurb": "Planned construction to convert CEFCO stores created short-term headwinds, shaving 25 basis points off inside same-store sales and 50 basis points off fuel gallons. Management noted that the inflection point where accumulated remodel lifts fully offset ongoing construction headwinds won't occur until the fourth fiscal quarter."
+        "title": "Favorable Long-Term Cheese Headwinds",
+        "timestamp": "33m",
+        "blurb": "First-quarter cheese costs fell 9% year-over-year to $1.93 per pound, providing a 45 basis point benefit to Prepared Food margins. Casey's secured 80% cost coverage through early next fiscal year, locking in modest margin tailwinds for the remaining three quarters of fiscal 2027."
+      },
+      {
+        "title": "Consumer Resilience and Fuel Behavior",
+        "timestamp": "41m",
+        "blurb": "While lower-income cohorts show slight pressure, all measured demographic segments posted positive growth. High fuel prices prompted expected consumer adaptations—fewer gallons per pump trip but more frequent visits—benefiting store traffic while driving margin-favorable trade-downs into high-ethanol blends."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:54:50Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:19Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
         "headline": "Casey's Beats EPS and Revenue Estimates",
-        "detail": "Casey's General Stores reported an adjusted EPS of $7.37, comfortably beating the estimated $6.742, while revenues came in at $5.68 billion ahead of the $5.55 billion forecast."
+        "detail": "Casey's General Stores reported a reported adjusted EPS of $7.37, beating the estimated $6.742, while reported revenue reached $5,678,336,000, surpassing the estimated $5,554,460,290."
       },
       {
-        "headline": "Strong In-Store KPIs Offset Fuel Volume",
-        "detail": "Inside same-store sales grew by 3.2% driven by a 4.8% increase in prepared food and dispensed beverages, while same-store fuel gallons sold slipped 0.3% but continued to gain relative market share."
+        "headline": "Strong Inside Sales and Fuel Margins",
+        "detail": "Inside same-store sales grew by 3.2%, supported by a 4.8% increase in prepared food and dispensed beverages, while fuel margins expanded significantly to 47.8 cents per gallon from 41.0 cents a year earlier."
       },
       {
-        "headline": "Fiscal 2027 Outlook Reaffirmed",
-        "detail": "Management maintained its full-year fiscal 2027 EBITDA growth guidance of 8% to 10% alongside an expectation to open at least 120 stores through new construction and mergers."
+        "headline": "Fiscal 2027 Full-Year Guidance Maintained",
+        "detail": "Management maintained its previously disclosed fiscal 2027 guidance, which highlights a targeted EBITDA increase of 8% to 10% and plans to open at least 120 stores through acquisitions and new construction."
       },
       {
-        "headline": "Robust Expansion of Retail Fuel Margins",
-        "detail": "The company's fuel margin reached a strong $0.478 per gallon, up $0.068 year-over-year, which helped offset elevated operating expenses during the volatile macro environment."
+        "headline": "Store Remodels Create Temporary Headwinds",
+        "detail": "The ongoing conversion and remodeling of legacy CEFCO store locations acted as a short-term drag on fuel volumes and same-store sales during the quarter."
       },
       {
-        "headline": "Remodeling Drives Traffic Lift",
-        "detail": "Integration of CEFCO locations tracking ahead of schedule with remodeled stores delivering an impressive 30% average lift in prepared food and dispensed beverage performance."
-      },
-      {
-        "headline": "Market Pullback on Decelerating Growth",
-        "detail": "Despite headline beats, shares fell roughly 3% to 8% in post-earnings activity as investors focused on decelerating inside sales growth and the choice to reiterate rather than raise full-year guidance."
+        "headline": "Mixed Investor and Market Reactions",
+        "detail": "Despite beating top and bottom-line expectations, Casey's shares faced downward pressure as investors focused on decelerating inside same-store sales growth relative to previous periods and the unchanged full-year outlook."
       }
     ],
     "at_a_glance_report_date": "2026-09-09",
@@ -1371,8 +1363,8 @@
     "next_date_status": "confirmed",
     "next_date_source": "Google Finance",
     "next_check_date": null,
-    "checked_at": "2026-10-02T01:54:51Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:42:20Z",
+    "checked_for_date": "2026-10-08"
   },
   "MUSA": {
     "last_report_date": "2026-08-06",
@@ -1432,65 +1424,61 @@
     "next_date_source": "estimated from last earnings"
   },
   "NTOIY": {
-    "checked_at": "2026-10-02T01:54:54Z",
-    "checked_for_date": "2026-10-01"
+    "checked_at": "2026-10-09T02:42:24Z",
+    "checked_for_date": "2026-10-08"
   },
   "CVX": {
     "last_report_date": "2026-07-31",
-    "summary": "Chevron delivered a strong Q2 2026 with global upstream production up over 5% quarter-over-quarter, driven by U.S. upstream records of nearly 2.1 MMboed. The company achieved its $3 billion annual run rate structural cost reduction target six months early. Hess acquisition synergies reached $1.5 billion ahead of schedule, with assets generating strong free cash flow.",
+    "summary": "Chevron delivered a strong Q2 2026 with a global upstream production increase of over 5% quarter-over-quarter, setting a U.S. upstream record of nearly 2.1 MMboed. The company achieved its $3 billion annual structural cost reduction target six months early and expects 2026 U.S. shale CapEx per barrel to be 25% lower year-over-year.",
     "key_moments": [
       {
-        "title": "Microsoft Data Center Power Contract",
-        "timestamp": "3m 32s",
-        "blurb": "Chevron secured a landmark 20-year, 2.67 GW behind-the-meter PPA with Microsoft for Project Kilby. This high-return, long-duration contract bypasses grid constraints to supply AI data center demand, pleasing investors by highlighting Chevron's unique infrastructure-backed growth avenue outside volatile commodity cycles."
+        "title": "Microsoft PPA and Data Center Expansion",
+        "timestamp": "4m",
+        "blurb": "The announcement of a 20-year, 2.67 GW behind-the-meter power agreement with Microsoft for Project Kilby expands Chevron's revenue streams into infrastructure. This repeatable model addresses structural shifts in electricity demand driven by AI, securing stable, mid-teens returns insulated from commodity price volatility."
       },
       {
-        "title": "CapEx Outlook Guided Lower",
-        "timestamp": "5m 34s",
-        "blurb": "Supported by a 25% year-over-year improvement in Permian capital efficiency, Chevron announced it expects full-year organic CapEx to land at the lower end of its $18 billion to $19 billion range. Investors will favor this strict capital discipline combined with higher operational efficiency."
+        "title": "Earnings Beat and Capital Efficiency",
+        "timestamp": "5m",
+        "blurb": "Chevron reported an adjusted EPS of $6.06, significantly beating the consensus estimate of $5.568 on revenue of $67.87 billion. Financial strength was supported by strong capital efficiency gains, allowing management to steer full-year organic CapEx toward the lower end of its $18 billion to $19 billion guidance range."
       },
       {
-        "title": "Cost and Synergy Targets Beat",
-        "timestamp": "7m 10s",
-        "blurb": "Chevron reached its $3 billion structural cost reduction target and realized $1.5 billion in Hess acquisition synergies six months ahead of schedule. The achievement underscores organizational efficiency gains that structurally offset inflation and immediately boost the company's bottom-line results."
+        "title": "Early Structural Cost Reductions",
+        "timestamp": "7m",
+        "blurb": "Investors will be pleased that Chevron achieved its $3 billion annual run-rate structural cost reduction target six months early. Over 70% of these permanent savings stemmed from organizational rewiring and efficiency gains, effectively offsetting inflationary pressures across core growth assets like the Permian Basin and Guyana."
       },
       {
-        "title": "Kazakhstan Processing Capacity Boost",
-        "timestamp": "14m 29s",
-        "blurb": "Chevron successfully lifted the nameplate capacity of its 3GP facility at Tengizchevroil from 260,000 to 320,000 bpd via a low-capital turnaround modification. This elevates total field capacity above 1 MMbpd, reassuring investors of strong international asset execution and production optimization."
+        "title": "Tengizchevroil Processing Capacity Upgrade",
+        "timestamp": "14m",
+        "blurb": "Following a low-capital turnaround column modification, Chevron successfully optimized its third-generation plant in Kazakhstan, boosting its nameplate capacity from 260,000 to 320,000 barrels per day. This expansion lifts total field processing capacity above 1 MMbpd, reassuring investors of sustained international operational growth."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:56:47Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:27Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Chevron Tops EPS and Revenue Estimates",
-        "detail": "Chevron reported a solid beat for Q2 2026, posting a reported adjusted EPS of $6.11 against the estimated $5.578, alongside reported revenue of $67.87 billion which surpassed the $60.38 billion expectation."
+        "headline": "Chevron Outperforms Top and Bottom Lines",
+        "detail": "Chevron reported Q2 2026 adjusted EPS of $6.11, beating the estimated $5.568, while reported revenue reached $67.87 billion, significantly ahead of the estimated $60.38 billion."
       },
       {
-        "headline": "Record Output Across Core Segments",
-        "detail": "Global upstream production expanded 20% year-over-year to 4.07 million barrels of oil equivalent per day, bolstered by a record U.S. upstream output of nearly 2.1 million barrels per day."
+        "headline": "Record U.S. Upstream Production Achieved",
+        "detail": "Chevron delivered record-breaking U.S. upstream production of nearly 2.1 million barrels of oil equivalent per day, pushing global production up 20% compared to the prior year period."
       },
       {
-        "headline": "Optimized CapEx and Synergy Target Guidance",
-        "detail": "Management anticipates full-year organic CapEx to trend toward the lower end of its $18 billion to $19 billion guidance range due to ongoing capital efficiencies, while achieving its $3 billion structural cost reduction target six months early."
+        "headline": "Maintaining Dynamic Full-Year Payout Guidance",
+        "detail": "Chevron reiterated its full-year share repurchase target of $10 billion to $20 billion, though executing toward the lower end of the range due to oil-price volatility."
       },
       {
-        "headline": "Substantial Debt Reduction and Shareholder Returns",
-        "detail": "The company reduced its total debt by a record $8.4 billion during the quarter and returned $6.5 billion to shareholders via $3.5 billion in dividends and $3.0 billion in share repurchases."
+        "headline": "Accelerated Progress on Strategic Synergies",
+        "detail": "The company achieved its annual run-rate structural cost reductions of $3 billion and unlocked $1.5 billion in Hess-related synergies six months ahead of schedule."
       },
       {
-        "headline": "Integration Wins with Accelerated Hess Synergies",
-        "detail": "Chevron successfully captured $1.5 billion in annual run-rate synergies from the legacy Hess acquisition within one year of closing, exceeding its initial timeline and original target by 50%."
-      },
-      {
-        "headline": "Expanding Infrastructure into Data Center Power",
-        "detail": "Leveraging its natural gas footprint, the company expanded its long-term strategy by signing a 20-year agreement with Microsoft to deliver 2.67 gigawatts of dedicated electricity capacity to a West Texas data center."
+        "headline": "Record Total Debt Reduction Executed",
+        "detail": "Chevron strengthened its financial flexibility by paying down a record $8.4 billion in total debt, optimizing its net debt to cash flow from operations ratio to 0.6 times."
       }
     ],
     "at_a_glance_report_date": "2026-07-31",
-    "checked_at": "2026-08-20T19:56:48Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:28Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-29",
     "next_check_date": "2026-10-08",
     "next_date_status": "tentative",
@@ -1639,8 +1627,8 @@
         "blurb": "Despite fuel adding a 120-basis-point mathematical headwind to the reported operating ratio, Union Pacific recorded a core operating ratio of 58.0% when excluding fuel noise. Management expressed high confidence in maintaining margin expansion even with fuel prices sitting above $4 a gallon."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:54:57Z",
-    "at_a_glance_scope": "reported",
+    "at_a_glance_checked_at": "2026-10-09T02:42:31Z",
+    "at_a_glance_scope": null,
     "at_a_glance": [
       {
         "headline": "Union Pacific Beats Q2 Estimates",
@@ -1664,12 +1652,12 @@
       }
     ],
     "at_a_glance_report_date": "2026-07-23",
-    "checked_at": "2026-10-02T01:54:58Z",
-    "checked_for_date": "2026-10-01",
-    "next_event_date": "2026-10-21",
-    "next_check_date": "2026-09-30",
-    "next_date_status": "tentative",
-    "next_date_source": "estimated from last earnings"
+    "checked_at": "2026-10-09T02:42:31Z",
+    "checked_for_date": "2026-10-08",
+    "next_event_date": "2026-10-22",
+    "next_check_date": null,
+    "next_date_status": "confirmed",
+    "next_date_source": "Google Finance"
   },
   "CSX": {
     "last_report_date": "2026-07-22",
@@ -1696,8 +1684,8 @@
         "blurb": "CSX increased its full-year guidance, forecasting mid-to-high single-digit revenue growth, operating margin expansion over 350 basis points, and free cash flow growth surpassing 80%. This substantial upgrade will highly please investors as it highlights robust volume momentum and effective cost execution."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:55:01Z",
-    "at_a_glance_scope": "reported",
+    "at_a_glance_checked_at": "2026-10-09T02:42:35Z",
+    "at_a_glance_scope": "upcoming",
     "at_a_glance": [
       {
         "headline": "CSX Beats EPS and Revenue Estimates",
@@ -1725,20 +1713,20 @@
       }
     ],
     "at_a_glance_report_date": "2026-07-22",
-    "checked_at": "2026-10-02T01:55:01Z",
-    "checked_for_date": "2026-10-01",
-    "next_event_date": "2026-10-20",
-    "next_check_date": "2026-09-29",
-    "next_date_status": "tentative",
-    "next_date_source": "estimated from last earnings"
+    "checked_at": "2026-10-09T02:42:35Z",
+    "checked_for_date": "2026-10-08",
+    "next_event_date": "2026-10-21",
+    "next_check_date": null,
+    "next_date_status": "confirmed",
+    "next_date_source": "Google Finance"
   },
   "CP": {
     "last_report_date": "2026-07-29",
     "summary": "",
-    "at_a_glance_checked_at": "2026-08-20T19:57:12Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:38Z",
     "at_a_glance_scope": null,
-    "checked_at": "2026-08-20T19:57:13Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:39Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-27",
     "next_check_date": "2026-10-06",
     "next_date_status": "tentative",
@@ -1746,56 +1734,60 @@
   },
   "GATX": {
     "last_report_date": "2026-07-30",
-    "summary": "GATX reported strong Q2 2026 results with diluted EPS of $2.84, up 37.9% from $2.06 in Q2 2025. Year-to-date EPS reached $5.19 compared to $4.21 in the prior year period, driven by constructive market conditions, healthy leasing fundamentals, and strong asset remarketing activity.",
+    "summary": "GATX Corporation reported strong Q2 2026 diluted EPS of $2.84, up from $2.06 in Q2 2025. Year-to-date EPS reached $5.19 compared to $4.21 last year. Rail North America maintained 98% utilization and an 82.6% renewal success rate, though its lease price index renewal rate change was 16.8% due to sand car renewal dynamics.",
     "key_moments": [
       {
         "title": "Full-Year 2026 Guidance Increase",
-        "timestamp": "4m 1s",
-        "blurb": "GATX raised its full-year 2026 EPS guidance range to $9.90–$10.30, pleasing investors. The increase is driven by line-by-line outperformance, stronger engine leasing markets, and legacy remarketing gains tracking ahead of the initial $130 million target."
+        "timestamp": "4m",
+        "blurb": "GATX raised its full-year 2026 EPS guidance to a range of $9.90 to $10.30. This upgrade will please investors as it reflects broad outperformance across key line items, including legacy remarketing income and segment profits in Rail North America and engine leasing."
       },
       {
-        "title": "Sand Mix Depresses LPI Metric",
-        "timestamp": "7m 43s",
-        "blurb": "The Q2 Lease Price Index (LPI) of 16.8% was negatively impacted by an outsized volume of sand rail car renewals. While lower sand car pricing created a near-term mathematical drag on the LPI, retaining these customers long-term provides superior economic value for shareholders."
+        "title": "Sand Mix Lowers LPI",
+        "timestamp": "8m",
+        "blurb": "An outsized number of lower-rate sand car renewals in the quarter negatively impacted the Lease Price Index (LPI), dropping it to 16.8%. However, management clarified that renewing these cars instead of taking them back optimizes long-term shareholder economics, mitigating potential investor concerns over lower headline LPI."
       },
       {
         "title": "Wells Fargo Portfolio Outperformance",
-        "timestamp": "15m 8s",
-        "blurb": "The Wells Fargo Rail portfolio integration is vastly exceeding expectations, with its 2026 EPS contribution expected to be at least double the original $0.20–$0.30 forecast. Higher asset optimization sales above book value and rigorous third-party maintenance cost oversight are driving this substantial financial upside."
+        "timestamp": "15m",
+        "blurb": "Management revealed that the Wells Fargo Rail portfolio's EPS contribution is tracking to be at least double the original full-year expectation of $0.20 to $0.30. This massive performance surge will delight investors, showcasing superior operational synergies and management fee upside."
       },
       {
-        "title": "Favorable North American Fleet Tightening",
-        "timestamp": "21m 11s",
-        "blurb": "A shrinking overall North American rail car fleet coupled with rising agricultural, chemical, and intermodal carloads is creating a highly favorable supply-led market dynamic. This structural undersupply supports firm lease rates and elevated utilization levels, reinforcing long-term commercial optimization."
+        "title": "Strong Operating Leverage Realized",
+        "timestamp": "47m",
+        "blurb": "GATX successfully doubled its fleet size and added a major managed portfolio through the Wells Fargo transaction while increasing SG&A by only about 10% (including 3% structural inflation). This confirmation of exceptional operational scaling and cost efficiency provides highly positive reassurance to investors."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:57:16Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:43Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "GATX Beats EPS But Misses Revenue",
-        "detail": "GATX reported a strong Adjusted EPS of $2.84, significantly beating the estimated $2.459, though its reported revenue of $580.1 million fell short of the projected $598.77 million."
+        "headline": "GATX Beats EPS, Misses Revenue Estimates",
+        "detail": "GATX Corporation reported a Q2 2026 adjusted EPS of $2.84, which beat the estimated $2.459, while its reported revenue of $580.10 million fell slightly short of the estimated $598.77 million."
       },
       {
-        "headline": "Fleet Utilization and Remarketing Remain High",
-        "detail": "Rail North America maintained a high fleet utilization rate of 98.0% at quarter-end, while asset remarketing activity delivered a robust $67.7 million in gains on dispositions."
+        "headline": "Fleet Utilization and Lease Rates Strong",
+        "detail": "Rail North America fleet utilization remained highly stable at 98.0%, matching prior strong performance, while the renewal lease price index surged by 16.8% under positive supply-demand dynamics."
       },
       {
-        "headline": "Full-Year Guidance Significantly Upgraded",
-        "detail": "Management raised its full-year 2026 diluted earnings guidance to a range of $9.90 to $10.30 per share, reflecting strong operational momentum and confidence in market conditions."
+        "headline": "Full-Year Earnings Guidance Revised Upward",
+        "detail": "Management raised its full-year 2026 diluted EPS guidance to a range of $9.90 to $10.30, reflecting strong operational momentum and an optimistic business outlook."
       },
       {
-        "headline": "Acquisition Delivers Ahead of Expectations",
-        "detail": "The integration of the Wells Fargo Rail acquisition outperformed initial estimates, with its EPS contribution projected to be at least double original expectations."
+        "headline": "Acquisition Performance Exceeds Initial Expectations",
+        "detail": "The integration of the Wells Fargo Rail fleet acquisition progressed ahead of target, with its EPS contribution expected to reach at least double the company's initial projections."
       },
       {
-        "headline": "Strong Trends Boost Engine Leasing Portfolio",
-        "detail": "The engine leasing segment performed excellently with higher operating and remarketing income, capitalizing on healthy global air passenger traffic trends through its RRPF affiliates."
+        "headline": "Engine Leasing Doubles Segment Profits",
+        "detail": "The Engine Leasing segment delivered excellent growth, more than doubling its profit year-over-year due to strong air travel trends and robust performance at the Rolls-Royce and Partners Finance affiliates."
+      },
+      {
+        "headline": "Robust Gains From Asset Dispositions",
+        "detail": "GATX experienced a strong secondary market for railcar assets, resulting in a substantial $67.7 million in total gains from asset dispositions during the second quarter."
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:57:17Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:43Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-28",
     "next_check_date": "2026-10-07",
     "next_date_status": "tentative",
@@ -1803,56 +1795,56 @@
   },
   "TRN": {
     "last_report_date": "2026-07-30",
-    "summary": "CEO Jean Savage reported Q2 2026 EPS of $1.25, up sequentially and year-over-year, driven by a $132M pre-tax gain from the Napier Park partnership transaction. This offset transitional headwinds in Rail Products. Fleet utilization remained strong at 97.3%, lease rates moved higher, and the Rail Products backlog stood at $1.6B with constructive market indicators.",
+    "summary": "Trinity Industries reported Q2 2026 EPS of $1.25, up sequentially and year-over-year, driven by a $132 million pre-tax gain from the Napier Park transaction. Revenue was $485 million, down slightly due to fleet deconsolidation. The leasing segment achieved a 79.8% operating margin (33% excluding the gain), while utilization held steady at 97.3%.",
     "key_moments": [
       {
-        "title": "Napier Park Deconsolidation Impact",
-        "timestamp": "13m 23s",
-        "blurb": "The successful closure of the Napier Park transaction simplified the company's balance sheet by removing TRIP Holdings debt and asset balances. While it triggered a major $132M non-cash gain that boosted Q2 EPS, it structurally reduced core leasing revenues by transitioning assets into the lower-margin managed fleet category."
+        "title": "Napier Park Fleet Deconsolidation and Gain",
+        "timestamp": "12m",
+        "blurb": "Trinity unlocked substantial embedded asset value by contributing its remaining interest in the Tribute fleet for an 11.2% interest in Napier Park SPE Holdings. This generated a $132 million pre-tax gain, driving EPS growth while shifting the assets to the managed fleet and simplifying the balance sheet."
       },
       {
-        "title": "Regulatory and Tariff Uncertainties",
-        "timestamp": "19m 31s",
-        "blurb": "Management addressed Section 232 investigations, confirming they requested a formal CBP exemption for tank cars produced under USMCA. Tariffs have caused a near-term slowdown in customer tank car ordering behavior, but contracts feature escalation clauses to pass prospective costs through, with the impact expected to defer into 2027."
+        "title": "Section 232 Tariff Exemption and Market Impact",
+        "timestamp": "19m",
+        "blurb": "Management clarified its unique legal standing regarding Section 232 tank car tariff investigations, citing direct North American production exemptions under USMCA. While regulatory uncertainty has temporarily depressed broader industry tank car orders, Trinity has introduced contract escalation clauses and flexible manufacturing footprints to protect future margins."
       },
       {
-        "title": "Production Fatality and Disruption",
-        "timestamp": "22m 55s",
-        "blurb": "The operational shortfall in Rail Products was primarily driven by a tragic employee fatality at the Longview facility, which paused manufacturing operations. Management emphasized that safety reinforcements are underway and production schedules are normalizing, ensuring delayed shipments will recover as operating leverage increases throughout the second half of the year."
+        "title": "Rail Products Margin Miss and Recovery Plan",
+        "timestamp": "22m",
+        "blurb": "Rail Products operating margin fell to 1.3% due to a tragic workplace fatality at the Longview facility and Mexico realignment. Despite lowering full-year segment expectations to the bottom of the 5%-6% range, management maintained full-year EPS guidance, relying on a steep second-half delivery ramp to provide needed operating leverage."
       },
       {
-        "title": "2027 Industry Outlook",
-        "timestamp": "32m 58s",
-        "blurb": "While industry deliveries are stagnant at 25,000 units for 2026, management projects a notable step-up to approximately 35,000 units in 2027. Early Q3 order activity shows a visible sequential improvement, supported by multi-year backlog agreements and falling storage levels across the broader industry."
+        "title": "2027 Volume Outlook and Industry Growth",
+        "timestamp": "32m",
+        "blurb": "Management projects a significant cyclical turnaround for the railcar market, anticipating total industry deliveries to climb from 25,000 units in 2026 to approximately 35,000 units in 2027. This recovery is supported by improving rail traffic, sub-20% fleet storage levels, and a visible order rebound entering Q3."
       }
     ],
-    "at_a_glance_checked_at": "2026-08-20T19:57:21Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:47Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Trinity Reports Mixed Earnings Results",
-        "detail": "Trinity Industries reported Q2 2026 adjusted EPS of $1.20, missing the estimated $1.335, while quarterly revenue of $485.1 million surpassed the estimated $474.8 million."
+        "headline": "Revenue Beats While EPS Misses",
+        "detail": "Trinity Industries reported Q2 2026 reported revenue of $485,100,000, beating the analyst estimate of $474,839,500, while reported adjusted EPS of $1.2 missed the estimated $1.335."
       },
       {
-        "headline": "Strong Fleet Metrics Highlight KPIs",
-        "detail": "The leasing platform showcased solid fundamentals, maintaining a high fleet utilization rate of 97.3% and boosting its renewal success rate to 75% compared to 60% in the prior quarter."
+        "headline": "Strong Fleet Performance Indicators Remain",
+        "detail": "The company maintained a high lease fleet utilization rate of 97.3% at quarter-end, while its renewal success rate improved significantly to 75% compared to 60% in the previous quarter."
       },
       {
-        "headline": "Full-Year Earnings Guidance Maintained",
-        "detail": "Trinity reiterated its full-year 2026 EPS guidance range of $2.20 to $2.40, driven by anticipated operational recoveries and stronger delivery volumes in the second half of the year."
+        "headline": "Full-Year EPS Guidance Reaffirmed",
+        "detail": "Management maintained its full-year 2026 EPS guidance range of $2.20 to $2.40, though it notes that Rail Products segment margins are now expected to be at the lower end of the 5% to 6% range."
       },
       {
-        "headline": "Napier Park Transaction Boosts Earnings",
-        "detail": "The completion of the Napier Park railcar partnership transaction generated a massive $132 million non-cash, pre-tax gain, anchoring headline profit margins despite underlying operational headwinds."
+        "headline": "Napier Park Partnership Fuels Gain",
+        "detail": "Trinity successfully completed its Napier Park railcar partnership transaction during the quarter, generating a substantial $132 million pre-tax, non-cash gain."
       },
       {
-        "headline": "Rail Products Operations Face Headwinds",
-        "detail": "The Rail Products segment operating margin collapsed to 1.3% due to temporary execution challenges, including an unplanned production interruption at the Longview facility and Mexico footprint realignment costs."
+        "headline": "Rail Products Faces Structural Disruptions",
+        "detail": "The Rail Products segment experienced margin compression down to 1.3%, driven by temporary Mexico realignment costs and production disruptions from a fatal workplace incident."
       }
     ],
     "at_a_glance_report_date": "2026-07-30",
-    "checked_at": "2026-08-20T19:57:22Z",
-    "checked_for_date": "2026-08-13",
+    "checked_at": "2026-10-09T02:42:47Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-10-28",
     "next_check_date": "2026-10-07",
     "next_date_status": "tentative",
@@ -1860,60 +1852,56 @@
   },
   "GBX": {
     "last_report_date": "2026-07-01",
-    "summary": "Greenbrier reported solid Q3 fiscal 2026 performance with total revenue at $577 million and sequential gross margin improvement to 14.1%. Strong leasing and fleet management demand, ongoing cost controls, and operational efficiency are supporting a more resilient earnings profile, allowing the company to deliver \"higher lows\" across economic cycles.",
+    "summary": "The Greenbrier Companies delivered solid Q3 fiscal 2026 results. Macroeconomic conditions support stable freight railcar lease rates and high utilization, though new railcar demand remains temporarily pressured. Ongoing strategic focus on operational efficiency, cost control, and commercial excellence has resulted in sequentially improved gross margins and a more resilient through-cycle earnings profile.",
     "key_moments": [
       {
-        "title": "Narrowed EPS Guidance Range",
+        "title": "Narrowed Full-Year EPS Guidance",
         "timestamp": "14m",
-        "blurb": "Greenbrier narrowed its fiscal 2026 EPS guidance to $3.00–$3.15 from a prior wider range, while holding revenue steady. This reflects some delivery timing pushing into fiscal 2027, highlighting solid operational execution and giving investors clear near-term visibility as the fiscal year concludes."
+        "blurb": "Greenbrier narrowed its fiscal 2026 EPS guidance to $3.00-$3.15 while maintaining revenue at $2.4-$2.5 billion. The adjustment reflects Q4 manufacturing margins, delivery timing shifts into fiscal 2027, and lower production ramp-ups affecting absorption, signaling close-to-target execution as the fiscal year wraps up."
       },
       {
-        "title": "No Current Impact from Tank Car Tariffs",
+        "title": "Regulatory Clarity Sought on Mexico Tariffs",
         "timestamp": "17m",
-        "blurb": "Management confirmed Greenbrier is not currently paying tariffs on tank cars moving from Mexico to the U.S. under Section 232. Backlog mix is shifting away from tank cars (now 20%), and strong contractual protections allow any potential future tariff impacts to be passed directly to customers."
+        "blurb": "Management confirmed they are not currently paying Section 232 tariffs on tank cars entering the U.S. from Mexico. While industry-wide regulatory pronouncements are under evaluation, Greenbrier clarified that contractual protections allow them to pass tariff costs through to customers if applied retroactively."
       },
       {
-        "title": "Regulatory Coupler Case Appeal Filed",
-        "timestamp": "28m",
-        "blurb": "Greenbrier filed its administrative appeal regarding the CBP's coupler determination letter. Crucially, management noted the financial impact of the coupler dispute is small, representing less than 1% of total asset cost, reassuring investors that any negative regulatory outcomes remain manageable."
+        "title": "Flexible Sourcing and Production Rebalancing",
+        "timestamp": "20m",
+        "blurb": "In response to potential tariff and coupler headwinds, management emphasized their agility in shifting production to their Marmaduke, Arkansas facility. They also minimized the potential financial downside of the ongoing coupler investigation, stating the impact is minor at less than 1% of total asset cost."
       },
       {
-        "title": "Aggressive Secondary Market Fleet Expansion",
+        "title": "Secondary Market Lease Fleet Expansion",
         "timestamp": "31m",
-        "blurb": "The company added 4,400 railcars to its owned lease fleet via disciplined secondary market acquisitions in Q3, pushing total fleet size to 20,600 units with 99% utilization. This large investment supports their strategy to double recurring leasing revenue by 2028."
+        "blurb": "The company deployed capital to acquire 4,400 secondary market railcars, accelerating its strategy to grow recurring leasing revenue. While this increased operating cash investment to $227 million, management plans to finance a portion later, adhering to their long-term target of investing up to $300 million annually."
       }
     ],
-    "at_a_glance_checked_at": "2026-10-02T01:55:05Z",
+    "at_a_glance_checked_at": "2026-10-09T02:42:51Z",
     "at_a_glance_scope": "reported",
     "at_a_glance": [
       {
-        "headline": "Greenbrier Matches EPS, Misses Revenue",
-        "detail": "The Greenbrier Companies reported a Q3 2026 adjusted EPS of $0.60, perfectly matching expectations, while revenue of $576.5 million missed the projected $612.7 million."
+        "headline": "Greenbrier Meets EPS but Misses Revenue",
+        "detail": "The Greenbrier Companies reported Q3 2026 adjusted EPS of $0.60, meeting the consensus estimate, while reported revenue of $576.5 million missed the estimated $612.7 million."
       },
       {
-        "headline": "Strong Leasing KPIs Counterbalance Manufacturing Downturn",
-        "detail": "The company expanded its owned lease fleet to 20,600 units with an exceptionally high 99% utilization rate, helping to offset a cyclical contraction in new railcar manufacturing volumes."
+        "headline": "Robust Lease Fleet Performance Sustained",
+        "detail": "Greenbrier maintained an exceptionally high lease fleet utilization rate of 99%, with its owned lease fleet growing to 20,600 railcars."
       },
       {
-        "headline": "Management Narrows Full-Year EPS Guidance Range",
-        "detail": "Greenbrier tightened its fiscal 2026 EPS guidance to a range of $3.00 to $3.15 from its previous $3.00 to $3.50 forecast, primarily citing railcar delivery shifts into fiscal 2027."
+        "headline": "FY2026 Full-Year Guidance Range Narrowed",
+        "detail": "Management narrowed its full-year fiscal 2026 EPS guidance to a range of $3.00 to $3.15 per share, citing shifts in manufacturing and delivery timing into fiscal 2027."
       },
       {
-        "headline": "Gross Margin Expands Despite Lower Topline",
-        "detail": "Aggregate gross margin improved sequentially by 230 basis points to 14.1%, driven by strict cost discipline, manufacturing efficiencies, and a favorable product mix."
+        "headline": "Gross Margin Expands Sequentially From Q2",
+        "detail": "Aggregate gross margin improved by 230 basis points sequentially to 14.1%, driven by disciplined cost control and manufacturing efficiencies despite a weak macro market."
       },
       {
-        "headline": "Backlog Remains Favorable Amid Soft Market",
-        "detail": "Greenbrier secured 2,200 new railcar orders valued at $340 million during the quarter, closing out the period with a robust $2.0 billion backlog of 13,800 units."
-      },
-      {
-        "headline": "Post-Earnings Share Performance Experiences Pressure",
-        "detail": "The company's stock experienced immediate pressure and moved lower following the report, as investors reacted negatively to the double-digit year-over-year revenue drop and narrowed full-year outlook."
+        "headline": "Backlog Remains Steady with New Orders",
+        "detail": "The company secured new orders for 2,200 railcars valued at $340 million, concluding the quarter with a strong total backlog of 13,800 units worth approximately $2 billion."
       }
     ],
     "at_a_glance_report_date": "2026-07-01",
-    "checked_at": "2026-10-02T01:55:05Z",
-    "checked_for_date": "2026-10-01",
+    "checked_at": "2026-10-09T02:42:51Z",
+    "checked_for_date": "2026-10-08",
     "next_event_date": "2026-09-29",
     "next_check_date": "2026-09-08",
     "next_date_status": "tentative",
