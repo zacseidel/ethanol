@@ -1,127 +1,127 @@
 # Ethanol Strategy Brief
-## Week of October 8, 2026
+## Week of October 15, 2026
 
 ## Executive View
 
-- **The larger beginning-stock cushion remains the corn regime, and this week’s field deterioration was insufficient to reverse it.** USDA’s September balance sheet still carries a **178.5-bushel yield and 1.567-billion-bushel 2026/27 carryout**, but the September 1 stock count added **173 million bushels** to expected beginning stocks. Corn condition fell three points to **54% good-to-excellent**, while harvest reached only **23% versus a 27% five-year average**. Nearby corn finished October 8 at **$5.003 per bushel, down $0.020, or 0.4%, for the week**—consistent with unresolved yield uncertainty but no renewed national scarcity premium. ([USDA, *September WASDE*, September 11, 2026](https://www.usda.gov/oce/commodity/wasde/wasde0926.txt); [USDA NASS, *Crop Progress*, October 5, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796095/prog4026.txt)) ([usda.gov](https://www.usda.gov/oce/commodity/wasde/wasde0926.txt))
-- **Ethanol inventories drew for a third week, but the improvement slowed as plants returned from maintenance.** Production rebounded **46,000 barrels per day to 1.053 million**, inventories declined only **122,000 barrels to 23.743 million**, and EIA refiner and blender ethanol inputs fell **17,000 barrels per day to 897,000**. The balance remains tighter than in early September, but a return toward full utilization could halt the draw. ([EIA, *Weekly Ethanol Plant Production and Stocks*, released October 7, 2026](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm)) ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=W_EPOOXE_YOP_NUS_MBBLD))
-- **Monthly exports materially strengthen the product-clearance thesis.** August ethanol exports rose 6% to a five-month high of **211.8 million gallons**, taking January-August shipments to **1.62 billion gallons, 12% above 2025**. DDGS exports reached **1.30 million metric tons**, the highest monthly volume since August 2015, and were 13% higher year to date. ([Renewable Fuels Association, *August U.S. Ethanol and DDGS Exports Build*, October 6, 2026](https://ethanolrfa.org/media-and-news/category/trade-monitor/article/2026/10/august-u-s-ethanol-and-ddgs-exports-build)) ([ethanolrfa.org](https://ethanolrfa.org/media-and-news/category/trade-monitor/article/2026/10/august-u-s-ethanol-and-ddgs-exports-build?utm_source=openai))
-- **The energy tape deteriorated on both sides of the representative crush.** RBOB fell **$0.087 to $3.316 per gallon, down 2.5%**, while Henry Hub rose **$0.201 to $3.168 per MMBtu, up 6.8%**. Gas storage remains comfortable—**3,500 Bcf nationally and 1,010 Bcf in the Midwest**—but that cushion did not prevent a meaningful weekly increase in process-energy cost. ([EIA, *Weekly Natural Gas Storage Report*, October 8, 2026](https://www.eia.gov/naturalgas/storage/)) ([ir.eia.gov](https://ir.eia.gov/secure/ngs/ngs.html?Key-Pair-Id=K3QAZ5VRRGL32Q&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS9uZ3MvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA3MDQwMH0sIkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkxNDY5ODAwfX19XX0&Signature=bLTgrDQ-kl7mA~tYYIcki2iJJvLWg8Xgoih2Uc6~wfqGebAWAhdlPq2SCloNAS9eQccLIQHTb3dkKiYSIZH0jONPfVkEf3eXO2WmH-B9LmHPSdlewCxhqrFt7DDOMRUZAvhoiXSbTVLv5ZIARV6qXAUqRyukz2PH0lNtAWkzIf15P0Hr19i2D3LeF2HjMQS-JNMFl9NlfiSfPG1Bwi7uua-IYWcMKgBHoIYvziidpJkGDOosiUCUdGeHuuGKJo1d6egqb9OmdarGjd1UXmfrTGSAx0msikMGtRUhLRgCfk8CnMhZHAiLXucLCJWbWbYK7Yg2WG0nsJyN~jOx7mmJ~A))
-- **River logistics improved procedurally, not fully operationally.** ACBL exited its Low Water Protocol effective September 24, but Lower Mississippi tow sizes remained reduced by five barges, or 13%, and several dredging and channel restrictions persisted. ([ACBL, *American Currents—Daily River Conditions*, October 5, 2026](https://bargeacbl.com/american-currents/)) ([bargeacbl.com](https://bargeacbl.com/american-currents/?utm_source=openai))
-- **Overall margin and risk conditions deteriorated modestly:** corn was essentially unchanged and ethanol stocks continued drawing, but weaker gasoline and higher natural gas reduced the representative operating-margin signal ahead of a potentially decisive October 9 USDA report.
+- **USDA decisively enlarged the corn balance sheet, and futures confirmed lower procurement risk.** USDA raised 2026 yield **2.7 bushels to 181.2 bushels per acre**, production **234 million bushels to 16.034 billion**, and 2026/27 carryout **282 million bushels to 1.849 billion**, or roughly 11.3% of use. Nearby corn closed October 14 at **$4.808 per bushel, down $0.195, or 3.9%, from October 8**. The selloff is consistent with a genuine supply reset, not merely harvest pressure. (USDA WAOB, *World Agricultural Supply and Demand Estimates—October 2026*, October 9, 2026; USDA NASS, *Crop Production*, October 9, 2026.) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.txt))
+- **Demand increases absorbed less than one-third of USDA’s additional supply.** USDA raised corn-for-ethanol use **50 million bushels to 5.650 billion**, feed and residual use 50 million, and exports 25 million. Those revisions validate demand but leave substantially more residual supply, lowering futures-cost risk while encouraging higher industry grind. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.txt))
+- **EPA’s full SRE-reallocation proposal reduced policy downside but did not yet change operative obligations.** EPA proposed reallocating an additional **770 million RINs** associated with 2025 exemptions, either equally across 2026 and 2027 or entirely into 2027. The proposal is constructive for RINs and statutory biofuel demand, but timing remains uncertain until a final rule. (EPA, *Proposed Reallocation of Additional 2025 Small Refinery Exemptions*, October 13, 2026.) ([epa.gov](https://www.epa.gov/renewable-fuel-standard/proposed-reallocation-additional-2025-small-refinery-exemptions?utm_source=openai))
+- **The maintenance-led ethanol tightening stalled.** Production increased **12,000 barrels per day to 1.065 million**, inventories rebuilt **199,000 barrels to 23.942 million**, and EIA refiner and blender ethanol inputs rose only **2,000 barrels per day to 899,000**. Stocks remained 5.8% above last year, with Gulf Coast inventories 30.4% higher. (EIA, weekly data released October 15, 2026; DTN, *EIA: U.S. Ethanol Stocks Expand, Up 5.8% on Year*, October 15, 2026.) ([eia.gov](https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_NUS_W.htm))
+- **Energy provided no offsetting margin lift.** RBOB fell **$0.057 to $3.260 per gallon, down 1.7%**, while Henry Hub increased **$0.030 to $3.198 per MMBtu, up 0.9%**. Gasoline inventories also increased 3.518 million barrels to **208.262 million**, reinforcing the softer output-side signal. ([eia.gov](https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_NUS_W.htm))
+- **Overall margin and risk conditions improved modestly:** the 3.9% corn decline outweighed weaker gasoline, slightly higher gas and the ethanol-stock build. The benefit is principally lower feedstock cost—not stronger ethanol selling conditions.
 
 | Exposure | Current signal | Change from last week | Horizon | Confidence | Main driver |
 |---|---|---:|---|---|---|
-| Corn procurement | Larger carry-in offsets some yield risk | Broadly unchanged | Days–Q1 2027 | High | Corn −0.4%; October reports pending |
-| Ethanol selling | Stocks still drawing, but more slowly | Improved modestly | 1–4 weeks | High | 122,000-barrel draw |
-| Export/co-products | Strong ethanol and DDGS clearance | Improved | Months | High | August export acceleration |
-| Natural gas | Higher futures; storage comfortable | Deteriorated | 1–4 months | High | Henry Hub +6.8% |
-| 45Z/feedstock CI | Execution remains plant-specific | Unchanged | 2025–29 credits | High | Verification and monetization |
-| Overall plant margin | Output linkage weaker; process cost higher | Deteriorated modestly | Near term | Medium-high | RBOB down; gas up |
+| Corn procurement | Larger crop and 1.849-billion-bushel carryout | Improved materially | Harvest–Q2 2027 | High | Yield raised to 181.2; corn −3.9% |
+| Ethanol selling | Production recovering; stocks rebuilt | Deteriorated modestly | 1–4 weeks | High | 199,000-barrel stock build |
+| RFS/RINs | Full additional reallocation proposed | Improved strategically | 2026–27 compliance | Medium-high | 770 million RIN proposal |
+| Natural gas | Slightly higher futures | Deteriorated marginally | 1–3 months | High | Henry Hub +0.9% |
+| 45Z/novel pathways | PER application route now operational | Improved selectively | Months–years | Medium | DOE emissions-value process |
+| Overall plant margin | Lower corn dominates weaker outputs | Improved modestly | Near term | Medium-high | Feedstock relief versus softer RBOB |
 
-The week’s thesis is **a stable corn-cost regime immediately before USDA’s reconciliation of larger beginning stocks with harvest-based yield evidence, alongside an ethanol balance that remains constructive but is becoming more dependent on exports as production recovers**. 45Z feedstock verification and EPA’s promised October proposal addressing additional 2025 refinery-exemption reallocation remain material ongoing stories, but no new operative federal action emerged during the window. ([EPA, *EPA Announces Action on 2025 Small Refinery Exemptions and Related Actions*, August 31, 2026](https://www.epa.gov/newsreleases/epa-announces-action-2025-small-refinery-exemptions-and-related-actions)) ([epa.gov](https://www.epa.gov/newsreleases/epa-announces-action-2025-small-refinery-exemptions-and-related-actions?_hsmi=436190708&utm_source=openai))
+The week’s thesis is a **clear transition from a tight-corn regime to a more balanced procurement environment**, with USDA’s survey-based supply increase validated by the tape. That relief does not automatically become wider crush margins: USDA simultaneously raised assumed ethanol grind, while EIA showed returning production already interrupting the inventory draw. Existing 45Z treatment of standard corn ethanol, regenerative-ag documentation and strong monthly ethanol exports remain material but are not re-narrated; the new developments are the DOE pathway process and EPA’s SRE proposal.
 
-## 1. Field deterioration did not overcome the larger corn cushion
+## 1. USDA replaced yield anxiety with an 11.3% stocks-to-use cushion
 
-**Status:** UPDATE
+**Status:** REFUTE
 
 **What happened**
 
-Corn condition declined from 57% to **54% good-to-excellent**, while the crop was 83% mature and 23% harvested. Iowa was only **7% harvested versus a 20% average**, Nebraska 15% versus 24%, and Minnesota 12% versus 16%, leaving substantial central Corn Belt yield evidence unavailable before the October reports. ([USDA NASS, *Crop Progress*, October 5, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796095/prog4026.txt)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796095/prog4026.txt))
+USDA incorporated the 2.095-billion-bushel September 1 stock count and unexpectedly raised yield from 178.5 to **181.2 bushels per acre**. Production increased to **16.034 billion bushels**, the second-highest U.S. crop on record. Total supply rose 407 million bushels from September, while total use increased 125 million, leaving **1.849 billion bushels** of ending stocks. USDA also lowered its season-average farm-price forecast by $0.10 to $4.70. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796101/crop1026.txt))
 
-Pre-report expectations generally call for a modest production reduction but higher carryout after the **2.095-billion-bushel** September 1 stock count. One major survey placed expected ending stocks near **1.677 billion bushels**, roughly 110 million above September. ([USDA NASS, *Grain Stocks*, September 30, 2026](https://data.nass.usda.gov/Newsroom/2026/09-30-2026.php); [DTN, *U.S. Harvests Delayed, USDA to Gauge Crop Sizes*, October 7, 2026](https://www.dtnpf.com/agriculture/web/ag/news/article/2026/10/07/us-harvests-delayed-usda-gauge-crop)) ([data.nass.usda.gov](https://data.nass.usda.gov/Newsroom/2026/09-30-2026.php?utm_source=openai))
-
-Corn export sales improved to **769,500 metric tons** for the week ended October 1. Current-year commitments are approximately **19.5 million tons**, roughly 23% of USDA’s 3.275-billion-bushel annual forecast, but remain well behind last year’s exceptional commitment pace. ([USDA FAS, *Weekly Export Sales*, released October 8, 2026](https://fas.usda.gov/report-release-announcement/weekly-export-sales-300); [Feed & Grain, *Wheat, Corn Sales Jump as Rice Hits Low*, October 8, 2026](https://www.feedandgrain.com/grain-supply-chain/grain-trade-export/news/15837017/wheat-and-corn-sales-surge-while-rice-hits-low)) ([dynamismptny.com](https://dynamismptny.com/corn-trade-intelligence?utm_source=openai))
+Harvest evidence available after the report did not challenge that framework. Corn harvest reached **33% by October 11**, versus a 39% five-year average, while condition improved two points to 56% good-to-excellent. Iowa remained only 14% harvested versus 34% normally, but its official yield was among those forecast at a record. (USDA NASS, *Crop Progress*, October 13, 2026.) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796104/prog4126.txt))
 
 **Why it matters**
 
-The condition decline and delayed harvest increase uncertainty around yield quality, but nearby corn’s 0.4% weekly decline indicates the market did not add a material risk premium. The stocks cushion remains the stronger national signal.
+The report refutes the prior assumption that late-season condition deterioration would force yield lower. Even after higher ethanol, feed and export use, USDA added 282 million bushels to carryout. The 19.5-cent futures decline shows the market accepted most of that change rather than treating it as an implausible survey outlier.
 
 **Risk-manager implication**
 
-Corn procurement risk is **unchanged rather than materially improved**. Local wet-harvest conditions may tighten nearby basis or affect quality even if national futures remain capped. The October reports can still remove much of the stocks benefit if yield falls approximately two bushels or demand is revised higher.
+Corn futures exposure improved materially through winter and spring. Harvest basis and storage constraints can still create local divergence, particularly where harvest remains delayed, but the national balance no longer requires the same scarcity premium. The offset is competitive: cheaper corn supports higher plant utilization, potentially transferring part of the feedstock benefit into lower ethanol values.
 
 **Watch next**
 
-Whether USDA’s production cut, if any, is large enough to offset the higher beginning-stock figure.
+Whether expanding harvest data sustain 181.2 bushels and whether USDA continues raising use enough to prevent carryout from moving toward 2 billion bushels.
 
 ---
 
-## 2. Ethanol clearance persisted despite the production rebound
+## 2. EPA proposed full reallocation, but the compliance-year split still matters
 
 **Status:** UPDATE
-
-| EIA ethanol balance | Week ended Sept. 25 | Week ended Oct. 2 | Change |
-|---|---:|---:|---:|
-| Production, million bpd | 1.007 | 1.053 | +0.046 |
-| Inventories, million bbl | 23.865 | 23.743 | −0.122 |
-| Refiner/blender inputs, million bpd | 0.914 | 0.897 | −0.017 |
-
-([EIA, weekly data released October 7, 2026](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_4.htm)) ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=W_EPOOXE_YOP_NUS_MBBLD))
-
-**Why it matters**
-
-Stocks have fallen **1.477 million barrels in three weeks**, but the latest draw was much smaller than the previous two. Because domestic inputs declined while production increased, continued clearance increasingly depends on exports and terminal movement rather than maintenance alone. Inventories remain 4.5% above the comparable 2025 week.
-
-**Risk-manager implication**
-
-Prompt ethanol selling conditions remain improved, but plants should not extrapolate the September draws into a persistent shortage. Returning production without sustained export lift would rebuild stocks quickly. The direction is **supportive for ethanol, modestly supportive for corn grind and cautiously positive for plant margins** over the next several weeks.
-
----
-
-## 3. Exports are now the clearest support beneath ethanol and DDGS
-
-**Status:** CONFIRM
 
 **What happened**
 
-August ethanol exports reached **211.8 million gallons**, led by Canada at 84.8 million, the European Union at 51.6 million and the United Kingdom at 19.5 million. Brazil was essentially absent for a fifth consecutive month. DDGS exports increased 18% month over month to **1.30 million metric tons**, with strong shipments to Mexico, Indonesia, South Korea and New Zealand. ([ethanolrfa.org](https://ethanolrfa.org/media-and-news/category/trade-monitor/article/2026/10/august-u-s-ethanol-and-ddgs-exports-build?utm_source=openai))
+EPA proposed reallocating 100% of the additional 2025 SRE volume above what was assumed in the final 2026–27 RFS rule. One option would add approximately half of the **770 million RINs** to each compliance year; the other would place all of it in 2027. EPA may also extend the March 31, 2027 compliance deadline if it revises the 2026 standards. Written comments close December 4. ([epa.gov](https://www.epa.gov/renewable-fuel-standard/proposed-reallocation-additional-2025-small-refinery-exemptions?utm_source=openai))
 
 **Why it matters**
 
-The print confirms that export demand—not a breakout in domestic blending—is helping absorb high U.S. production. It also broadens margin support beyond ethanol into feed co-products.
+The proposal substantially reduces the probability that the August exemptions permanently destroy statutory demand. However, allocating everything to 2027 would defer the nearer-term RIN and blending impact. This is therefore stronger than an advocacy commitment but weaker than an operative final volume.
 
 **Risk-manager implication**
 
-Export-linked plants and Gulf-connected marketers have better product-clearance prospects, but concentration in Canada and Europe creates regulatory, currency and freight exposure. Strong DDGS movement is constructive for co-product realizations and reduces the need to clear excess feed domestically at discounted values.
+The directional signal is supportive for D6 RIN value and ethanol demand expectations, with medium confidence. Plants should not book a 2026 physical-demand increase until EPA chooses the allocation and finalizes revised percentage standards.
+
+**Watch next**
+
+The November 4 hearing, stakeholder arguments over the compliance-year split and the final rule’s treatment of the 2026 deadline.
 
 ---
 
-## 4. Energy moved decisively against the representative margin
+## 3. Returning production ended the three-week ethanol-stock draw
 
 **Status:** UPDATE
 
-Gasoline stocks increased **382,000 barrels to 204.744 million**, although they remained 6.5% below last year. Weekly gasoline supplied was **8.769 million barrels per day**, while refinery utilization edged up to 92.7%. ([EIA, *Weekly Petroleum Status Report*, October 7, 2026](https://www.eia.gov/petroleum/supply/weekly/)) ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=WGTSTUS1))
+| EIA ethanol balance | Week ended Oct. 2 | Week ended Oct. 9 | Change |
+|---|---:|---:|---:|
+| Production, million bpd | 1.053 | 1.065 | +0.012 |
+| Inventories, million bbl | 23.743 | 23.942 | +0.199 |
+| Refiner/blender inputs, million bpd | 0.897 | 0.899 | +0.002 |
 
-Natural-gas storage increased **85 Bcf to 3,500 Bcf**, 2.0% above the five-year average. Midwest inventories rose 26 Bcf to **1,010 Bcf**, 2.3% above average. ([ir.eia.gov](https://ir.eia.gov/secure/ngs/ngs.html?Key-Pair-Id=K3QAZ5VRRGL32Q&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS9uZ3MvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA3MDQwMH0sIkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkxNDY5ODAwfX19XX0&Signature=bLTgrDQ-kl7mA~tYYIcki2iJJvLWg8Xgoih2Uc6~wfqGebAWAhdlPq2SCloNAS9eQccLIQHTb3dkKiYSIZH0jONPfVkEf3eXO2WmH-B9LmHPSdlewCxhqrFt7DDOMRUZAvhoiXSbTVLv5ZIARV6qXAUqRyukz2PH0lNtAWkzIf15P0Hr19i2D3LeF2HjMQS-JNMFl9NlfiSfPG1Bwi7uua-IYWcMKgBHoIYvziidpJkGDOosiUCUdGeHuuGKJo1d6egqb9OmdarGjd1UXmfrTGSAx0msikMGtRUhLRgCfk8CnMhZHAiLXucLCJWbWbYK7Yg2WG0nsJyN~jOx7mmJ~A))
+(EIA, weekly data released October 15, 2026.) ([eia.gov](https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_NUS_W.htm))
+
+**Why it matters**
+
+September’s maintenance cuts removed 1.477 million barrels from inventories, but the first modest production increase was enough to produce a national build. East Coast stocks increased 327,000 barrels and Gulf stocks rose 91,000 to **5.016 million**, partly offset by a Midwest draw. The physical market has improved from early September, but it has not become tight. ([dtnpf.com](https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/10/15/eia-u-s-ethanol-stocks-expand-5-8?utm_source=openai))
 
 **Risk-manager implication**
 
-The Henry Hub rally raises immediate process cost, but storage argues against treating it as Midwest physical scarcity. The more consequential margin change is the combination of higher gas and lower RBOB. Gas coverage remains a price-volatility decision rather than a national availability response.
+Cheaper corn improves the incentive to run precisely as domestic ethanol inputs remain near 0.90 million barrels per day and RBOB weakens. Prompt ethanol selling risk therefore deteriorated modestly. Plants should test export and terminal clearance before translating USDA’s lower feedstock cost into sustained high utilization.
 
 ---
 
-## 5. The low-water protocol ended, but barge capacity remains constrained
+## 4. Brazil’s larger acreage outlook extends the bearish corn-supply horizon
 
-**Status:** RESOLVE
+**Status:** NEW
 
-ACBL reported that it was out of Low Water Protocol, resolving the prior formal status. However, Lower Mississippi tow sizes remained reduced by 13%, and dredging and channel restrictions continued at several locations. ([bargeacbl.com](https://bargeacbl.com/american-currents/?utm_source=openai))
+Conab’s first 2026/27 survey projected Brazilian corn production at **148 million metric tons, up 2.4%**, on 23.7 million hectares, up 4.9%. First-crop area is expected to rise 10.7%. Conab also expects corn use for ethanol to increase domestic consumption by 6.6%. (Conab, *First 2026/27 Grain Crop Survey*, October 15, 2026.) ([gov.br](https://www.gov.br/conab/pt-br/assuntos/noticias/primeiro-levantamento-da-safra-de-graos-2026-27-estima-producao-acima-de-367-milhoes-de-toneladas))
 
 **Risk-manager implication**
 
-The logistics signal improved but did not normalize. Interior plants may still benefit from freight-driven harvest basis weakness, while Gulf-bound corn, DDGS and ethanol remain exposed to reduced barge productivity and intermittent delays.
+The acreage expansion adds medium-term pressure to global corn and U.S. export values, particularly from mid-2027. Brazil’s growing corn-ethanol sector absorbs part of that supply and creates additional ethanol and co-product competition. The net signal is modestly bearish corn beyond the U.S. harvest, with weather confidence still low.
+
+---
+
+## 5. DOE opened the 45Z route for pathways outside the published table
+
+**Status:** RESOLVE
+
+DOE began accepting emissions-value requests from producers whose fuel type, feedstock or pathway is absent from the applicable 45Z table. Applicants generally need engineering analysis consistent with a Class 3 FEED study before using DOE’s value to petition Treasury for a provisional emissions rate. DOE established no fixed review deadline. (DOE, *45Z Emissions Value Request*, accessed October 15, 2026.) ([energy.gov](https://www.energy.gov/cmei/45z-emissions-value-request))
+
+**Risk-manager implication**
+
+This resolves an administrative gap for novel feedstocks and process configurations, but it does **not** change the representative value of standard U.S. corn-starch ethanol, which already has a published methodology. The commercial benefit is project-specific optionality; the FEED requirement and open-ended review period limit near-term credit recognition.
 
 ## Strategic Synthesis
 
-The larger corn carry-in has survived its first week of field deterioration without a futures reversal. At the same time, ethanol’s balance is transitioning from maintenance-led tightening toward export-dependent clearance. That leaves plants with a comparatively stable corn futures input but weaker petroleum linkage and higher energy cost. The October USDA reports determine whether the corn cushion is durable; export execution determines whether returning ethanol production can be absorbed without rebuilding inventories.
+USDA’s larger crop and carryout are now the controlling plant-cost regime. Policy also moved constructively, but neither the SRE proposal nor DOE’s pathway process supplies immediate representative cash margin. The principal near-term tension is that lower corn encourages production while ethanol inventories, gasoline linkage and domestic inputs argue for discipline. Plants should capture procurement relief without assuming that the entire corn decline will remain in the crush.
 
 ## What I’m Watching Next
 
-- **October 9, 2026, 11:00 a.m. CDT:** USDA WASDE and Crop Production reports. ([USDA, *WASDE Report Schedule*](https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report)) ([usda.azureedge.us](https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report))
-- **October 13, 2026:** USDA Crop Progress, including central Corn Belt harvest advancement.
-- **October 15, 2026:** EIA petroleum, ethanol and natural-gas storage reports.
-- **October 16, 2026:** USDA weekly export-sales report following the Columbus Day schedule shift.
+- **October 21, 2026:** EIA ethanol and petroleum balance—whether inventories continue rebuilding.
+- **November 4, 2026:** EPA virtual hearing on additional 2025 SRE reallocation.
+- **November 10, 2026:** USDA WASDE and Crop Production—the next test of the 181.2-bushel yield and 1.849-billion-bushel carryout.
+- **December 4, 2026:** EPA comment deadline for the reallocation proposal. ([epa.gov](https://www.epa.gov/renewable-fuel-standard/proposed-reallocation-additional-2025-small-refinery-exemptions?utm_source=openai))
 
 ## Bottom Line
 
-The most important weekly conclusion is that **late-season field deterioration has not yet overturned the larger corn supply cushion**: nearby corn held near $5 and declined 0.4%. The exposure requiring closest attention is now the **combined output-and-energy margin squeeze from weaker RBOB and higher natural gas**, while the **October 9 USDA yield and carryout revision** is the catalyst most likely to change the procurement view.
+The decisive weekly change was USDA’s increase to a **181.2-bushel yield and 1.849-billion-bushel carryout**, validated by nearby corn’s **3.9% decline to $4.808**. Corn procurement risk improved materially, but ethanol selling now requires the closest attention because returning output has already ended the maintenance-driven inventory draw. The next EIA balance will show whether cheaper corn is beginning to overwhelm product clearance.
