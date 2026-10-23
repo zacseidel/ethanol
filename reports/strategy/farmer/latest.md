@@ -1,131 +1,133 @@
 # Farmer Corn Brief
-## Week of October 15, 2026
+## Week of October 22, 2026
 
 ## Where we are
 
-Harvest is moving again, but USDA changed the crop before Nebraska reached full flow. The October estimate is now **16.034 billion bushels at 181.2 bushels per acre**, up 234 million bushels and 2.7 bushels from September. Projected 2026/27 ending stocks rose 282 million bushels to **1.849 billion**, even after USDA added 125 million bushels of use. Nebraska yield jumped from 177 to **188 bushels per acre**, raising estimated state production roughly 106 million bushels to **1.807 billion**. ([USDA WAOB, *WASDE-676*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf); [USDA NASS, *Crop Production*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796101/crop1026.pdf)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf))
+USDA’s October balance sheet remains the controlling crop regime: **16.034 billion bushels at 181.2 bushels per acre**, with projected 2026/27 ending stocks of **1.849 billion bushels**. Nebraska remains at **188 bushels per acre and 1.807 billion bushels**. USDA raised beginning stocks, production and use in October, but supply increased more than disappearance. ([USDA WAOB, *WASDE-676*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf))
 
-Nearby corn—now December—finished October 14 at **$4.8075 per bushel**, down **19½ cents**, or **3.9%**, from October 8. March settled at **$4.9425**, leaving **13½ cents of December-to-March carry**. ([CME Group, *Corn Futures Quotes*, October 14, 2026](https://www.cmegroup.com/markets/agriculture/grains/corn/quotes)) ([cmegroup.com](https://www.cmegroup.com/markets/agriculture/grains/corn/quotes?videoId=6391665214112&utm_source=openai))
+Harvest delays have not overturned that larger-crop estimate. As of October 18, the United States was **44% harvested**, versus a 52% five-year average. Nebraska reached **37%**, up 10 points for the week but still behind the 48% average. Iowa was only 26% harvested versus 50% normally. ([USDA NASS, *Crop Progress*, October 19, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796110/prog4226.txt)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796110/prog4226.txt))
 
-National harvest reached **33%**, versus a 39% five-year average. Nebraska advanced from 15% to **27% harvested**, still behind the 35% average. ([USDA NASS, *Crop Progress*, October 13, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796104/prog4126.pdf)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796104/prog4126.pdf))
+Nearby corn is December. The supplied tape closed October 21 at **$4.633 per bushel**, down **14.7 cents**, or **3.1%**, from October 15. March settled at **$4.7725**, leaving **14 cents of December-to-March carry**. ([DePutter Publishing/Syngenta, *Chicago Close: Wheat Down on Possible Russia-Ukraine Talks*, October 21, 2026](https://www.syngenta.ca/market-news/chicago-close--wheat-down-on-possible-russia-ukraine-talks)) ([syngenta.ca](https://www.syngenta.ca/market-news/chicago-close--wheat-down-on-possible-russia-ukraine-talks?utm_source=openai))
 
 ## The week in one page
 
-- **USDA reversed the smaller-crop thesis.** Instead of the trade’s expected 177.7-bushel yield and 15.721-billion-bushel crop, USDA printed 181.2 and 16.034 billion. Carryout landed 179 million bushels above the pre-report trade average. ([Pro Farmer, *Market Snapshot: Grains Mostly Firmer Ahead of USDA*, October 9, 2026](https://www.profarmer.com/pro-farmer-max/market-snapshot/market-snapshot-grains-mostly-firmer-ahead-usda); [USDA, *WASDE-676*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf)) ([profarmer.com](https://www.profarmer.com/pro-farmer-max/market-snapshot/market-snapshot-grains-mostly-firmer-ahead-usda?utm_source=openai))
-- **Nebraska’s change was more bearish than the national revision.** The state yield increased **11 bushels** from September. That argues against holding all remaining bushels for a local short-crop rally, even though dryland and irrigated results still vary by field.
-- **The board confirmed the heavier supply.** Nearby December lost **19½ cents** to $4.8075. This was not procurement deterioration. It was a lower selling opportunity caused by more expected corn.
-- **Deferred basis is better than spot basis at several processors.** Against the October 14 board, nearby bids were roughly 25 to 30 under at ADM Columbus, Cargill Blair and Green Plains Central City, while December delivery was roughly 5 to 15 under. The buyer is offering part of the storage return through basis. ([Farmbucks, *CVA Nebraska Cash Bids*, October 14, 2026](https://farmbucks.com/grain-prices/cva/nebraska)) ([farmbucks.com](https://farmbucks.com/grain-prices/cva/nebraska))
-- **Ethanol plants kept running, but inventories increased.** Production rose 12,000 barrels per day to **1.065 million**, while stocks increased 199,000 barrels to **23.942 million**. That supports corn disappearance without forcing plants to chase harvest bushels. ([Ethanol Producer Magazine, *EIA Weekly Data: Ethanol Production Up 1%, Stocks Up 1%*, October 15, 2026](https://ethanolproducer.com/articles/eia-weekly-data-ethanol-production-up-1-stocks-up-1-exports-down-27)) ([ethanolproducer.com](https://ethanolproducer.com/articles/eia-weekly-data-ethanol-production-up-1-stocks-up-1-exports-down-27?utm_source=openai))
-- **Verdict:** This week made it harder to raise your average sale price. USDA added both national and Nebraska bushels, and the board removed 19½ cents. Protect rebounds. Let firm deferred basis—not hope—justify storage.
+- **The market continued to accept USDA’s larger crop.** Nearby December lost 14.7 cents to $4.633. A harvest lag in Nebraska and Iowa was not enough to rebuild the yield premium removed by the October report.
+- **The board—not a new collapse in basis—did most of the cash-price damage.** Selected Nebraska processor bids fell about 21 cents from October 14 through Thursday morning, while their spot-versus-deferred schedules remained broadly similar: weak harvest bids and better December through March delivery bids.
+- **Fourteen cents of December-to-March carry does not pay for automatic storage.** That is less than 5 cents per month before interest, shrink, handling and aeration. The bin needs basis improvement or a firm deferred cash contract.
+- **Ethanol plants increased run time, but inventories increased faster.** Production rose to 1.094 million barrels per day, while stocks climbed roughly 600,000 barrels to 24.6 million. Plants are consuming corn, but the stock build does not require them to chase harvest bushels.
+- **Export sales finally beat expectations.** Weekly sales reached 1.53 million metric tons, up 36%. That helps demand credibility, but one good week did not reverse the board’s supply-driven decline.
+- **Verdict:** This week made it harder to raise the average sale price. The board took away another 14.7 cents, while basis and carry offered only partial protection. Do not panic-sell weak basis, but protect rebounds and make storage show a return.
 
-## 1. USDA replaced the smaller-crop regime with a heavier one
+| Exposure | Current signal | Change this week | Time horizon | Marketing read |
+|---|---|---|---|---|
+| Unpriced 2026 crop | December at $4.633 | Down 14.7 cents | Immediate | Use rebounds or floors; do not wait solely for harvest delay |
+| Stored old-crop | Larger carry-in and larger new crop | Board lower again | Immediate | Sell firm basis; avoid another routine roll |
+| Harvest basis | Spot generally weaker than deferred | Little broad improvement | Harvest–winter | Set futures separately where spot basis is poor |
+| Storage | 14-cent Dec–March carry | About ½ cent wider | Through March | Storage needs basis appreciation to cover costs |
+| Ethanol bid | Stronger production, larger stocks | Mixed | Two to four weeks | Shop plants; no statewide chase signal |
 
-**Status: REFUTE**
+## 1. Harvest delays failed to rebuild the crop-risk premium
+
+**Status: CONFIRM**
 
 **What happened**
 
-The prior working view was that additional harvest evidence might pull USDA below its September yield of 178.5. Instead, USDA raised yield to **181.2**, production to **16.034 billion bushels**, and total supply to 18.154 billion. Higher projected exports and domestic use absorbed 125 million bushels, but supply increased 407 million. Carryout therefore rose to **1.849 billion bushels**, with an 11.3% stocks-to-use ratio. ([USDA, *WASDE-676*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.pdf))
+The prior week established a heavier supply regime. This week tested whether slow harvest and field uncertainty would challenge it. They did not.
 
-Nebraska’s estimate moved even more. USDA raised yield from 177 to **188 bushels**, putting production at **1.8067 billion bushels**. That does not mean every dryland field recovered. It means strong acres—particularly irrigated acres—were sufficient to lift the state total sharply. ([USDA NASS, *Crop Production*, October 9, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796101/crop1026.pdf); [UNL CropWatch, *Nebraska Crop Production Report for October 2026*, October 12, 2026](https://cropwatch.unl.edu/news/nebraska-crop-production-report-october-2026/)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796101/crop1026.pdf))
+National harvest remained eight points behind normal, and Nebraska fell eleven points behind. Nebraska producers reported 5.2 suitable fieldwork days, down from 6.3 the previous week. Even so, December corn fell 14.7 cents. ([USDA NASS, *Crop Progress*, October 19, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796110/prog4226.txt)) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796110/prog4226.txt))
+
+The tape is the consistency check. The market currently views delayed harvest as a logistics issue, not enough evidence that USDA’s **181.2-bushel yield** is wrong.
 
 **Why it matters for a long-corn producer**
 
-The market now has more cushion against disappointing demand or later field losses. A rally needs either a November yield reversal, stronger-than-expected disappearance, or outside-market help. Routine reports of variable yields will not overturn an 11-bushel Nebraska increase.
+A slower combine pace can briefly support an individual elevator or ethanol-plant bid. It does not necessarily tighten the national balance sheet. This week, the board discounted the delay and stayed focused on 16.034 billion bushels of production and 1.849 billion of carryout.
 
 **What to do with it**
 
-**Stored old-crop:** Sell firm basis. The September stocks increase already weakened the case for carrying 2025 corn. The larger 2026 crop weakens it further.
+**2026 crop:** Re-size bushels from actual combine results. Do not make a broad panic futures sale after a 15-cent break. Do not remain fully open waiting for delayed harvest to force $5 corn either. Treat recoveries as opportunities to protect more confirmed production.
 
-**2026 crop:** Re-size production from actual combine results. On a rebound, cover more breakeven with an HTA, short hedge or cash contract. Avoid making a panic futures sale after a 19½-cent break, but do not wait for $5 simply because it traded there last week.
+**Stored old-crop:** The harvest delay is not a reason to keep carrying 2025 bushels. Sell firm basis and stop competing with the larger new crop.
 
 **Watch next**
 
-The November 10 WASDE and continued harvest yields must show that October overstated production before the smaller-crop thesis can be rebuilt.
+The November 10 Crop Production and WASDE reports must lower yield or acreage materially before the smaller-crop argument regains control.
 
 ---
 
-## 2. The board removed value and left only modest carry
+## 2. Cash prices followed the board lower; deferred basis still does more work
 
 **Status: CONFIRM**
 
 **What happened**
 
-December fell from $5.0025 to **$4.8075**. March at $4.9425 provides **13½ cents of carry**, or about 4½ cents per month before interest, shrink, handling and bin costs.
+Thursday morning processor sheets showed ADM Columbus at **$4.30 nearby, $4.55 for December and $4.61 for March**. Cargill Blair was **$4.35 nearby, $4.50 for December and $4.65 for March**. Green Plains Central City was **$4.33 nearby, $4.45 for December and $4.58 for March**. ([Farmbucks, *CVA Nebraska Cash Bids*, updated October 22, 2026](https://farmbucks.com/grain-prices/cva/nebraska)) ([farmbucks.com](https://farmbucks.com/grain-prices/cva/nebraska))
+
+Those nearby and December bids were generally about **21 cents lower** than the same posted locations on October 14. The size and uniformity of the drop indicate that the board caused most of the loss; buyers did not broadly strengthen basis to cushion it.
 
 **Why it matters for a long-corn producer**
 
-The board is telling you the October supply increase matters. The carry is useful, but it does not pay for automatic storage. Most bins still need basis improvement or a favorable deferred cash bid to produce a return.
+Harvest basis remains poor enough to separate futures from basis. Yet the gross cash spread from nearby delivery to March is roughly 25 to 30 cents at the stronger processors. About 14 cents comes from the board. The rest is the buyer paying better basis later.
 
 **What to do with it**
 
-**Unpriced corn:** Treat a recovery toward the pre-report area as a selling opportunity, not proof USDA was wrong. Establish floors if you cannot tolerate another leg lower.
+**On the combine:** Reward a delivery special or strong feed bid. At weak spot basis, an HTA, short hedge or firm deferred basis contract may preserve more value than an immediate cash sale.
 
-**Stored corn:** Do not roll merely to postpone the decision. Capture carry only when the cash spread pays full ownership costs.
+**In the bin:** Do not leave futures, basis and storage costs all open without a target. Fourteen cents of board carry alone is not enough. Make the deferred cash bid cover interest, shrink and handling.
 
 ---
 
-## 3. Deferred processor bids are doing more work than nearby basis
+## 3. Ethanol plants ran harder, but the stock build limits bid urgency
 
 **Status: UPDATE**
 
 **What happened**
 
-On October 14, ADM Columbus bid **$4.51 nearby and $4.76 for December**; Cargill Blair bid $4.56 nearby and **$4.71 for December**; Green Plains Central City bid **$4.54 nearby and $4.66 for December**. Against $4.8075 December futures, nearby basis calculates to roughly 25 to 30 under, while December delivery was approximately 5 to 15 under. March cash bids produced gross nearby-to-March spreads of roughly **24 to 30 cents** at those locations. ([Farmbucks, *CVA Nebraska Cash Bids*, October 14, 2026](https://farmbucks.com/grain-prices/cva/nebraska)) ([farmbucks.com](https://farmbucks.com/grain-prices/cva/nebraska))
+U.S. ethanol production rose **29,000 barrels per day** to **1.094 million**, a 2.7% increase. Midwest production rose 23,000 barrels per day to **1.033 million**. ([EIA, *Weekly Ethanol Plant Production*, October 21, 2026](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_w.htm)) ([eia.gov](https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_w.htm))
+
+Ethanol inventories increased from 23.9 million to **24.6 million barrels**, including a roughly 500,000-barrel Midwest build. RBOB gasoline also lost 6 cents per gallon during the reporting week. ([EIA, *Weekly Petroleum Status Report—Table 5*, October 21, 2026](https://www.eia.gov/petroleum/supply/weekly/pdf/table5.pdf)) ([eia.gov](https://www.eia.gov/petroleum/supply/weekly/pdf/table5.pdf))
 
 **Why it matters for a long-corn producer**
 
-There is no broad harvest basis squeeze. However, several buyers are paying meaningfully better basis for later delivery. About half the gross cash spread comes from board carry; the rest comes from the basis schedule.
+The stronger run rate is real corn disappearance and supports the ethanol plant as a dependable local buyer. The inventory build says production exceeded near-term disappearance. That helps explain why stronger plant demand did not translate into broadly stronger Nebraska basis.
 
 **What to do with it**
 
-At 25 to 30 under nearby, avoid giving away basis if you have economical space. At 5 to 15 under for December delivery, the forward cash bid deserves attention. You can lock the buyer’s basis improvement rather than binning corn with both futures and basis open.
+Shop plants, especially for December through March delivery. Sell firm basis when offered. Do not assume a 1.094-million-barrel run rate guarantees a better bid if stocks continue building.
+
+**Watch next**
+
+Two more weeks of strong production with stable or declining stocks would improve the local-bid case. Continued stock builds would keep buyers patient.
 
 ---
 
-## 4. Harvest momentum returned, so the delayed-bushel window is narrowing
+## 4. Export sales improved enough to help, not enough to change the board
 
 **Status: UPDATE**
 
 **What happened**
 
-Nebraska producers had **6.3 suitable fieldwork days** during the week ended October 11. Corn harvest advanced 12 points to 27%. National harvest advanced 10 points to 33%. Both remain behind normal, but the gap is shrinking. ([UNL CropWatch, *Nebraska Crop Progress: Harvest Gains Momentum*, October 13, 2026](https://cropwatch.unl.edu/news/nebraska-crop-progress-harvest-gains-momentum-soybean-remains-far-behind-average/); [USDA NASS, *Crop Progress*, October 13, 2026](https://esmis.nal.usda.gov/sites/default/release-files/796104/prog4126.pdf)) ([cropwatch.unl.edu](https://cropwatch.unl.edu/news/nebraska-crop-progress-harvest-gains-momentum-soybean-remains-far-behind-average/))
+Corn export sales for 2026/27 reached **1.53 million metric tons** for the week ended October 15, up 36% and slightly above the top of published trade expectations. ([USDA FAS, *Weekly Export Sales*, October 22, 2026](https://fas-prod.azureedge.us/data/weekly-export-sales-10222026); Dow Jones, *U.S. Soybean Export Sales See Big Weekly Rise*, October 22, 2026.) ([fas-prod.azureedge.us](https://fas-prod.azureedge.us/data/weekly-export-sales-10222026?utm_source=openai))
 
-**Why it matters**
+Estimated cumulative commitments are now near **22.2 million metric tons**, or roughly **874 million bushels**. That is about 26% of USDA’s **3.300-billion-bushel** export forecast. Commitments remain behind last year even after the improved week. ([businessquant.com](https://businessquant.com/economic-data/uscornesrcommit/?utm_source=openai))
 
-Wet-weather logistics temporarily limited nearby movement. A full fieldwork week means more corn is now reaching elevators and plants just as USDA increased the Nebraska crop. Any local basis premium caused by delayed deliveries can disappear quickly.
+**Why it matters for a long-corn producer**
 
-**What to do with it**
-
-Reward short-lived delivery specials. Do not store corn solely because harvest had been late. If the elevator or plant offers near-even deferred basis, make it compete against your bin.
-
----
-
-## 5. Ethanol demand held, but it did not rescue the cash bid
-
-**Status: CONFIRM**
-
-**What happened**
-
-Ethanol output rose to **1.065 million barrels per day**, but stocks also increased to 23.942 million barrels. RBOB gasoline lost **5.7 cents per gallon**, while natural gas gained 3 cents per MMBtu during the week.
-
-**Why it matters**
-
-Plants continue to consume corn at a solid rate. The inventory increase and weaker gasoline screen reduce the urgency to improve basis during harvest. The posted bid remains the deciding evidence.
+Demand is not disappearing. It is also not growing fast enough yet to make the market disregard a 16-billion-bushel crop. The board’s weekly loss confirms that stronger sales were supporting evidence, not the controlling price signal.
 
 **What to do with it**
 
-Keep shopping ethanol plants. Sell strong basis when it appears. Do not assume steady production will repair a 20-cent futures loss.
+Use export-driven bounces as pricing opportunities. Do not base storage or an unpriced position on the assumption that one strong sales week will erase the October supply increase.
 
 ## The crop you still have to market
 
-**Old-crop in bins:** Clear it against firm basis. Larger beginning stocks and a larger new crop leave little reason to carry 2025 bushels without a contracted return.
+**Stored 2025 corn:** Clear firm basis. Larger beginning stocks, a larger 2026 crop and modest carry leave little reason to keep paying ownership costs without a contracted return.
 
-**2026 crop:** Confirm production, then protect more futures on rebounds. Separate the basis decision where spot bids remain 25 to 30 under. Use firm December basis where offered.
+**2026 corn:** Avoid dumping weak harvest basis after the board break. Protect futures on rebounds or use a floor if another decline would put breakeven out of reach. Lock firm deferred basis where the buyer—not your bin—is paying the storage return.
 
-The running RP harvest-price estimate is about **$4.92**, still above the $4.62 projected price. If that relationship survives the full October average, it helps insured yield losses. It does not price normal-yield bushels sitting unhedged in the bin. ([AGSIST, *2026 Harvest Price Tracker*, accessed October 15, 2026](https://agsist.com/harvest-price-tracker)) ([agsist.com](https://agsist.com/harvest-price-tracker))
+The running December average used for the RP harvest price was approximately **$4.84 through October 21**, still **22 cents above the $4.62 projected price**, with six discovery days remaining. That can help an insured yield loss. It does not replace a sale on normal-yield bushels. ([Barchart, *Corn Futures Recovering on Thursday Morning*, October 22, 2026](https://tateandlyle.websol.barchart.com/?module=futureDetail&region=&selected=news&storyID=8340794&symbol=ZCZ26); farmdoc, *Projected Prices and Volatility Factors for 2026*, March 3, 2026.) ([tateandlyle.websol.barchart.com](https://tateandlyle.websol.barchart.com/?module=futureDetail&region=&selected=news&storyID=8340794&symbol=ZCZ26&utm_source=openai))
 
 ## Bottom line
 
-The decision changed because USDA added **234 million production bushels**, raised Nebraska yield **11 bushels**, and pushed carryout to **1.849 billion**. The board responded by taking away **19½ cents**.
+The new information was not another USDA revision. It was the market’s verdict on the October revision: **December lost another 14.7 cents even with harvest behind schedule**.
 
-Do not dump weak basis after the break. Do not remain fully open either. Protect rebounds, reward near-even deferred processor basis, and make the cash spread pay before you bin corn.
+Do not give away weak spot basis. Do not store for 14 cents of carry alone. Protect rebounds, favor firm deferred basis over open-ended bin ownership, and make the November 10 USDA report prove the crop is smaller before rebuilding a bullish position.
