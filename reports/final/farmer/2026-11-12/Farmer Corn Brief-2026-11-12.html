@@ -1,0 +1,203 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Farmer Corn Brief</title><style>
+:root { color-scheme:light; --navy:#2c3331; --navy-2:#5a6360; --ink:#1e2422;
+  --muted:#5a6360; --line:#d4cfc4; --panel:#e7e4dc; --paper:#fffdf8; --accent:#b33c28; }
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap");
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:1.25rem; }
+body { margin:0; color:var(--ink); background:#f6f3ec;
+  font:16px/1.58 "Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.page-shell { width:min(1500px,100%); margin:0 auto; padding:1.5rem;
+  display:grid; grid-template-columns:235px minmax(0,1120px); gap:2rem; align-items:start; }
+.report-nav { position:sticky; top:1.5rem; max-height:calc(100vh - 3rem); overflow:auto;
+  border-top:5px solid var(--navy); background:var(--paper); box-shadow:0 5px 20px #18324814;
+  padding:1rem 1rem 1.1rem; font-size:.87rem; }
+.report-nav-title { margin:0 0 .65rem; color:var(--navy); font:700 1.05rem/1.25 "Zilla Slab",Georgia,serif; }
+.report-nav ul { margin:0; padding:0; list-style:none; }
+.report-nav li { margin:.25rem 0; }
+.report-nav li ul { border-left:2px solid #dce6ed; margin:.35rem 0 .55rem .25rem; padding-left:.7rem; }
+.report-nav a { color:#405466; text-decoration:none; }
+.report-nav a:hover { color:var(--navy-2); text-decoration:underline; }
+main { min-width:0; background:var(--paper); border-top:7px solid var(--navy);
+  box-shadow:0 8px 30px #18324817; padding:3rem 3.5rem 5rem; }
+h1,h2,h3,h4 { color:var(--ink); font-family:"Zilla Slab",Georgia,serif; line-height:1.2; }
+h1 { margin:0; font-size:2.55rem; letter-spacing:-.025em; }
+h2 { margin-top:2.25em; padding-bottom:.35rem; border-bottom:3px solid var(--navy); font-size:1.75rem; }
+h3 { margin-top:1.8em; font-size:1.32rem; }
+h4 { font-size:1.08rem; }
+a { color:#b33c28; text-underline-offset:2px; }
+.report-meta { margin:1rem 0 1.35rem; padding:.85rem 1rem; background:var(--panel);
+  border-left:4px solid var(--navy-2); color:#40505e; }
+.report-meta span { display:block; }
+.commodity-tape { margin:.2rem 0 1.5rem; }
+.commodity-tape-caption { margin:.15rem 0 .55rem; color:var(--muted); font-size:.88rem; }
+.section-jump-list { columns:2; padding:1rem 1.25rem 1rem 2.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links { margin:.8rem 0 1.8rem; padding:1rem 1.25rem; background:var(--panel); border-radius:4px; }
+.strategy-narrative-links ul { margin:0; padding-left:1.25rem; }
+.strategy-narrative-links li { margin:.3rem 0; }
+.return-badge { display:inline-block; margin-left:.35rem; padding:.13rem .48rem; border-radius:999px;
+  font:700 .78rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; vertical-align:.12em; }
+.category-return { font-size:.76rem; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0 1.7rem; border:1px solid var(--line); border-radius:5px; }
+table { border-collapse:collapse; width:100%; margin:0; font-size:.9rem; font-variant-numeric:tabular-nums; }
+th,td { border-bottom:1px solid var(--line); padding:.53rem .62rem; text-align:right; vertical-align:top; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; }
+table:not(.sortable) { table-layout:fixed; }
+table:not(.sortable) th, table:not(.sortable) td {
+  white-space:normal; text-align:left; overflow-wrap:anywhere; word-break:break-word;
+}
+th { background:#2c3331; color:#fffdf8; position:sticky; top:0; z-index:1; font-weight:700; }
+th.sortable-heading { cursor:pointer; user-select:none; }
+th.sortable-heading:hover { background:#3a423e; }
+th.sortable-heading::after { content:" ↕"; color:#718696; font-size:.78em; }
+th.sort-asc::after { content:" ↑"; color:var(--navy); }
+th.sort-desc::after { content:" ↓"; color:var(--navy); }
+tbody tr:hover td { box-shadow:inset 0 0 0 999px #ffffff26; }
+tbody tr:last-child td { border-bottom:0; }
+td.text { text-align:left; }
+td.missing { color:var(--muted); }
+blockquote { border-left:4px solid var(--accent); margin-left:0; padding:.65rem 1rem; background:#f6f3ec; }
+code { background:var(--panel); padding:.1rem .25rem; }
+img { display:block; max-width:100%; height:auto; margin:1rem auto 1.7rem; }
+.metadata { color:var(--muted); margin-top:-.6rem; }
+.good {color:#3f5c4a}.bad {color:#8c2e1e}
+.rank-change-up { color:#3f5c4a; font-weight:800; }
+.rank-change-down { color:#8c2e1e; font-weight:800; }
+@media (max-width:1050px) {
+  .page-shell { display:block; padding:0; }
+  .report-nav { position:relative; top:0; max-height:none; border-top:0; border-bottom:4px solid var(--navy);
+    box-shadow:none; padding:.75rem 1rem; }
+  .report-nav ul { display:flex; flex-wrap:wrap; gap:.15rem 1rem; }
+  .report-nav li ul { display:none; }
+  main { box-shadow:none; border-top:0; }
+}
+@media (max-width:700px) {
+  main { padding:2rem 1rem 4rem; } h1{font-size:2rem} h2{font-size:1.45rem}
+  table{font-size:.8rem} th,td{padding:.44rem .5rem} .section-jump-list{columns:1}
+}
+@media print { body{background:#fff}.page-shell{display:block;padding:0}.report-nav{display:none}main{box-shadow:none;border:0;padding:0} }
+</style></head><body><div class="page-shell"><nav class="report-nav" aria-label="Report navigation"><p class="report-nav-title">In this report</p><ul><li><a href="#week-of-november-12-2026">Week of November 12, 2026</a></li><li><a href="#where-we-are">Where we are</a></li><li><a href="#the-week-in-one-page">The week in one page</a></li><li><a href="#1-usda-materially-lowered-the-crop-but-not-enough-to-create-scarcity">1. USDA materially lowered the crop, but not enough to create scarcity</a></li><li><a href="#2-the-board-paid-212-cents-not-a-breakout">2. The board paid 2½ cents, not a breakout</a></li><li><a href="#3-nebraska-lost-bushels-but-the-basis-opportunity-is-buyer-specific">3. Nebraska lost bushels, but the basis opportunity is buyer-specific</a></li><li><a href="#4-export-flashes-improved-but-usda-still-cut-the-annual-target">4. Export flashes improved, but USDA still cut the annual target</a></li><li><a href="#5-ethanol-run-time-continues-to-support-the-plant-bid">5. Ethanol run time continues to support the plant bid</a></li><li><a href="#the-crop-you-still-have-to-market">The crop you still have to market</a></li><li><a href="#bottom-line">Bottom line</a></li></ul></nav><main id="main-content"><h1 id="farmer-corn-brief">Farmer Corn Brief</h1>
+<h2 id="week-of-november-12-2026">Week of November 12, 2026</h2>
+<div class="report-meta"><span><strong>Week of November 12, 2026</strong></span><span>Nearby corn: $4.425/bu (+$0.025 (+0.6%) week)</span><span>Narrative created: November 13, 2026</span></div>
+<div class="commodity-tape"><p class="commodity-tape-caption">Nearby futures from Yahoo Finance. Nearby corn is the market's current perception of yield and demand risk.</p><div class="table-wrap"><table><thead><tr><th>Contract</th><th>Last</th><th>Week change</th><th>As of</th></tr></thead><tbody><tr><td>Nearby corn</td><td>$4.425/bu</td><td>+$0.025 (+0.6%)</td><td>November 12, 2026</td></tr><tr><td>RBOB gasoline</td><td>$2.671/gal</td><td>-0.093 (-3.4%)</td><td>November 12, 2026</td></tr><tr><td>Henry Hub</td><td>$3.340/MMBtu</td><td>+0.393 (+13.3%)</td><td>November 12, 2026</td></tr></tbody></table></div></div>
+<h2 id="where-we-are">Where we are</h2>
+<p>USDA partially reversed October’s larger-crop surprise. The November estimate is <strong>15.893 billion bushels at 179.6 bushels per acre</strong>, down 141 million bushels and 1.6 bushels from October. Projected 2026/27 ending stocks fell 91 million bushels to <strong>1.758 billion</strong>. Nebraska yield dropped from 188 to <strong>184 bushels</strong>, cutting estimated state production 38.4 million bushels to <strong>1.768 billion</strong>. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf">USDA WAOB, <em>WASDE-677</em>, November 10, 2026</a>; <a href="https://esmis.nal.usda.gov/sites/default/release-files/796144/crop1126.pdf">USDA NASS, <em>Crop Production</em>, November 10, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf">esmis.nal.usda.gov</a>)</p>
+<p>Nearby and December 2026 are the same contract. Nearby closed November 12 at <strong>$4.425 per bushel</strong>, up <strong>2½ cents</strong>, or <strong>0.6%</strong>, for the week. March settled at <strong>$4.5475</strong>, leaving <strong>12¼ cents of December-to-March carry</strong>, down from about 15 cents last week. (<a href="https://www.totalfarmmarketing.com/tfm-daily-market-summary-11-12-2026/">Total Farm Marketing, <em>Daily Market Summary</em>, November 12, 2026</a>) (<a href="https://www.totalfarmmarketing.com/tfm-daily-market-summary-11-12-2026/?utm_source=openai">totalfarmmarketing.com</a>)</p>
+<p>Harvest reached <strong>81% nationally</strong>, versus an 86% five-year average. Nebraska advanced eight points to <strong>74%</strong>, still ten points behind average after 4.5 suitable fieldwork days. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796141/prog4526.pdf">USDA NASS, <em>Crop Progress</em>, November 9, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796141/prog4526.pdf">esmis.nal.usda.gov</a>)</p>
+<h2 id="the-week-in-one-page">The week in one page</h2>
+<ul>
+<li><strong>USDA removed meaningful supply.</strong> Yield fell 1.6 bushels, production declined 141 million bushels and carryout dropped to 1.758 billion. The November print came below the trade’s expected yield and stocks. The October supply estimate was too high.</li>
+<li><strong>The revision was bullish, not tight.</strong> USDA also cut feed use 25 million bushels and exports 25 million. Only 91 million of the 141-million-bushel production cut reached carryout. USDA lowered its season-average farm-price forecast <strong>10 cents to $4.60</strong>. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf">USDA WAOB, <em>WASDE-677</em>, November 10, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf">esmis.nal.usda.gov</a>)</li>
+<li><strong>The board paid you, but only 2½ cents.</strong> Nearby finished at $4.425. The smaller crop improved the floor; it did not produce a breakout. A rally is a pricing opportunity. Get an increment sold.</li>
+<li><strong>Nebraska lost 38.4 million expected bushels, while selected processor basis stayed usable.</strong> November bids were about <strong>8 under</strong> at ADM Columbus and <strong>16½ under</strong> at Cargill Blair against the November 12 close. Country basis remained much weaker in parts of eastern and central Nebraska.</li>
+<li><strong>Storage still needs basis appreciation.</strong> March carried December by 12¼ cents. Posted November-to-March cash spreads were only about <strong>10 cents at Columbus and 18 cents at Blair</strong>. That does not automatically cover interest, shrink, handling and aeration.</li>
+<li><strong>Verdict:</strong> This week made it easier to raise the average sale price, but only slightly. USDA gave the board a bullish surprise and the board gave you 2½ cents. Sell the rally. Do not confuse a smaller crop with a shortage.</li>
+</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Exposure</th>
+<th>Current signal</th>
+<th>Weekly change</th>
+<th>Marketing read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unpriced 2026 corn</td>
+<td>$4.425 December</td>
+<td>Up 2½ cents</td>
+<td>Price an increment; keep weak basis separate</td>
+</tr>
+<tr>
+<td>Strong processor basis</td>
+<td>Roughly 8–17 under</td>
+<td>Firm at selected plants</td>
+<td>Sell cash or set basis</td>
+</tr>
+<tr>
+<td>Weak country basis</td>
+<td>East as weak as 52 under</td>
+<td>Little broad improvement</td>
+<td>Set futures separately if the bin works</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>12¼-cent board carry</td>
+<td>Narrower by about 2½ cents</td>
+<td>Require a contracted basis gain</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="1-usda-materially-lowered-the-crop-but-not-enough-to-create-scarcity">1. USDA materially lowered the crop, but not enough to create scarcity</h2>
+<p><strong>What happened</strong></p>
+<p>Last week’s test was clear: USDA needed to remove meaningful production before the smaller-crop argument could be rebuilt. It did.</p>
+<p>Yield fell from 181.2 to <strong>179.6 bushels per acre</strong>. Production declined from 16.034 billion to <strong>15.893 billion bushels</strong>. Carryout fell from 1.849 billion to <strong>1.758 billion</strong>. The 179.6-bushel yield was about one bushel below the pre-report trade average. (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796144/crop1126.pdf">USDA NASS, <em>Crop Production</em>, November 10, 2026</a>; <a href="https://blog.teucrium.com/teucrium-insights/november-wasde-analysis-11/10/2026">Teucrium, <em>November WASDE Analysis</em>, November 10, 2026</a>) (<a href="https://esmis.nal.usda.gov/sites/default/release-files/796144/crop1126.pdf">esmis.nal.usda.gov</a>)</p>
+<p>The demand side kept the report from being fully bullish. USDA lowered feed and residual use to <strong>5.975 billion bushels</strong> and exports to <strong>3.275 billion</strong>. Ethanol use was unchanged at 5.650 billion.</p>
+<p><strong>Why it matters for a long-corn producer</strong></p>
+<p>October’s exact crop estimate no longer controls the market. November established a smaller supply base. However, a 1.758-billion-bushel carryout still gives buyers room to wait. The market does not need to ration demand.</p>
+<p><strong>What to do with it</strong></p>
+<p><strong>Stored old-crop:</strong> Sell firm basis. A smaller 2026 crop does not make another roll on 2025 corn free.</p>
+<p><strong>2026 corn:</strong> Price a modest increment on report strength. The report repaired part of the supply story, but USDA’s lower $4.60 farm-price forecast says not to wait for the agency to promise your breakeven.</p>
+<p><strong>Watch next</strong></p>
+<p>The December 10 WASDE can change demand. USDA’s next national corn-yield revision is not due until the January crop summary.</p>
+<hr/>
+<h2 id="2-the-board-paid-212-cents-not-a-breakout">2. The board paid 2½ cents, not a breakout</h2>
+<p><strong>What happened</strong></p>
+<p>December settled at <strong>$4.49</strong> on the November 10 report day, then gave back 6½ cents by November 12. For the full reporting week it gained only 2½ cents. March ended at $4.5475, leaving 12¼ cents of carry. (<a href="https://www.ams.usda.gov/mnreports/ams_3225.pdf">USDA AMS, <em>Nebraska Daily Elevator Grain Bids</em>, November 10, 2026</a>; <a href="https://www.totalfarmmarketing.com/tfm-daily-market-summary-11-12-2026/">Total Farm Marketing, November 12, 2026</a>) (<a href="https://www.ams.usda.gov/mnreports/ams_3225.pdf">ams.usda.gov</a>)</p>
+<p><strong>Why it matters</strong></p>
+<p>The tape confirms the crop cut was supportive. It also says the market still sees adequate supplies and demand risk. After the report, sellers appeared above $4.45.</p>
+<p><strong>What to do with it</strong></p>
+<p><strong>Unpriced 2026 corn:</strong> The board paid you this week. Get some sold. Use an HTA, short hedge or cash contract where the bid covers breakeven.</p>
+<p><strong>Stored corn:</strong> Do not roll simply because March is higher. Twelve cents is not a storage plan. Capture carry only when the full cash spread covers ownership.</p>
+<p><strong>Watch next</strong></p>
+<p>A close above the report-day area would show the market is willing to carry the supply revision farther. Failure to hold $4.40 would put the pre-report lows back in play.</p>
+<hr/>
+<h2 id="3-nebraska-lost-bushels-but-the-basis-opportunity-is-buyer-specific">3. Nebraska lost bushels, but the basis opportunity is buyer-specific</h2>
+<p><strong>What happened</strong></p>
+<p>USDA cut Nebraska yield four bushels to <strong>184</strong>, reducing state production to 1.768 billion bushels. Harvest remains only 74% complete, with rain delays concentrated more heavily in central and eastern areas.</p>
+<p>Selected November 12 bids showed <strong>$4.35 at ADM Columbus</strong> and <strong>$4.26 at Cargill Blair</strong>. Against the $4.425 close, that is approximately 8 and 16½ cents under. Their March bids were $4.45 and $4.44, producing gross November-to-March spreads of only <strong>10 and 18 cents</strong>. (<a href="https://farmbucks.com/grain-prices/adm">Farmbucks, <em>ADM Cash Bids</em>, November 12, 2026</a>; <a href="https://farmbucks.com/grain-prices/cva/nebraska">Farmbucks, <em>CVA Nebraska Cash Bids</em>, November 12, 2026</a>) (<a href="https://farmbucks.com/grain-prices/adm">farmbucks.com</a>)</p>
+<p>The countryside remains different. USDA’s November 10 ranges showed eastern Nebraska at <strong>52 to 33 under</strong> and central Nebraska at <strong>40 to 15 under</strong>. (<a href="https://www.ams.usda.gov/mnreports/ams_3225.pdf">USDA AMS, <em>Nebraska Daily Elevator Grain Bids</em>, November 10, 2026</a>) (<a href="https://www.ams.usda.gov/mnreports/ams_3225.pdf">ams.usda.gov</a>)</p>
+<p><strong>Why it matters</strong></p>
+<p>The smaller state crop and delayed harvest support selected nearby bids. They have not repaired every elevator bid. Freight to the stronger plant still decides whether the basis is worth taking.</p>
+<p><strong>What to do with it</strong></p>
+<p>Sell or set basis at the stronger processor. At 35 to 50 under, set futures separately and wait on basis if your bin economics work. Do not store corn available at 8 under for a ten-cent gross spread through March.</p>
+<hr/>
+<h2 id="4-export-flashes-improved-but-usda-still-cut-the-annual-target">4. Export flashes improved, but USDA still cut the annual target</h2>
+<p>USDA reduced projected exports by <strong>25 million bushels</strong>, citing slower commitments and stronger global competition. That was the main demand offset to the smaller crop.</p>
+<p>New flash announcements during this reporting window added <strong>523,700 metric tons</strong>, or about <strong>20.6 million bushels</strong>, of current-crop corn: 101,000 tons to unknown destinations, 110,000 to Mexico and 312,700 to Mexico. (<a href="https://fas.usda.gov/">USDA FAS, <em>Daily Export Sales Announcements</em>, November 6–10, 2026</a>) (<a href="https://fas.usda.gov/?utm_source=openai">fas.usda.gov</a>)</p>
+<p>That is useful business. It did not prevent USDA from cutting the full-year target. The weekly export-sales report was delayed until November 13 by the Veterans Day schedule, so it was not available as of this briefing. (<a href="https://fas-prod.azureedge.us/report-release-announcement/weekly-export-sales-312">USDA FAS, <em>Weekly Export Sales Release Calendar</em>, November 2026</a>) (<a href="https://fas-prod.azureedge.us/report-release-announcement/weekly-export-sales-312?utm_source=openai">fas-prod.azureedge.us</a>)</p>
+<p><strong>What to do with it</strong></p>
+<p>Use an export-driven bounce to price corn. Do not hold bins open solely because the flash sales will appear in a later report. Bookings still must become shipments.</p>
+<hr/>
+<h2 id="5-ethanol-run-time-continues-to-support-the-plant-bid">5. Ethanol run time continues to support the plant bid</h2>
+<p>Ethanol production eased 13,000 barrels per day to <strong>1.130 million</strong>, still a strong run rate. Midwest output fell 20,000 barrels to <strong>1.070 million</strong>. National stocks declined 89,000 barrels to <strong>24.345 million</strong>, although Midwest stocks increased 178,000 barrels to 9.875 million. (<a href="https://www.eia.gov/dnav/pet/pet_pnp_wprode_s1_w.htm">EIA, <em>Weekly Ethanol Plant Production</em> and <em>Stocks of Fuel Ethanol</em>, released November 12, 2026</a>) (<a href="https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epooxe_sae_mbbl_w.htm">eia.gov</a>)</p>
+<p>Actual run time supports corn disappearance and the ethanol-plant bid. The Midwest stock build, a <strong>3.4% decline in RBOB gasoline</strong>, and a <strong>13.3% increase in natural gas</strong> argue against assuming plants will chase every bushel.</p>
+<p><strong>What to do with it</strong></p>
+<p>Keep shopping plants. Reward strong nearby basis when it appears. Do not expect ethanol demand to turn 12¼ cents of board carry into a profitable storage return by itself.</p>
+<h2 id="the-crop-you-still-have-to-market">The crop you still have to market</h2>
+<p><strong>Stored 2025 corn:</strong> Clear it against firm basis. The crop revision helped futures, but the narrowed carry still argues against paying another round of interest on old-crop bushels.</p>
+<p><strong>2026 corn in the bin or still in the field:</strong> Price an increment after the USDA cut. Sell or set basis at the stronger processors. At deeply under country bids, set futures separately rather than dumping both futures and basis.</p>
+<h2 id="bottom-line">Bottom line</h2>
+<p>USDA finally removed meaningful bushels: <strong>141 million nationally and 38.4 million in Nebraska</strong>. That changed the supply story. The board’s response was still only <strong>2½ cents</strong>.</p>
+<p>Sell part of the rally. Set strong processor basis. Do not store corn for a 10- to 18-cent gross cash spread through March. Keep poor country basis open only when the bin can earn its keep.</p>
+<p>The next major balance-sheet decision is the December 10 WASDE. Until demand proves stronger, use rallies to cover the breakeven. Keep farming.</p></main></div><script>
+document.querySelectorAll('table.sortable').forEach((table) => {
+  table.querySelectorAll('th[data-column]').forEach((heading) => {
+    heading.addEventListener('click', () => {
+      const index = Number(heading.dataset.column);
+      const numeric = heading.dataset.type === 'number';
+      const descending = heading.classList.contains('sort-asc');
+      table.querySelectorAll('th').forEach((item) => item.classList.remove('sort-asc','sort-desc'));
+      heading.classList.add(descending ? 'sort-desc' : 'sort-asc');
+      const rows = Array.from(table.tBodies[0].rows);
+      rows.sort((left, right) => {
+        const a = left.cells[index].dataset.sort || '';
+        const b = right.cells[index].dataset.sort || '';
+        const result = numeric ? ((Number(a) || 0) - (Number(b) || 0)) : a.localeCompare(b);
+        return descending ? -result : result;
+      });
+      rows.forEach((row) => table.tBodies[0].appendChild(row));
+    });
+  });
+});
+</script></body></html>
