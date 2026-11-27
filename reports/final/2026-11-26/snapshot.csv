@@ -1,0 +1,154 @@
+report_date,market_data_as_of,entity_type,category,ticker,name,horizon_months,price_return,rank,overall_rank,within_category_rank,market_cap,market_cap_coverage,price_date
+2026-11-26,2026-11-25,category,Advanced biofuels and SAF,,Advanced biofuels and SAF,3,0.0536436741422,1,,,401724108874,1,2026-08-12
+2026-11-26,2026-11-25,category,Logistics,,Logistics,3,-0.0255300062083,2,,,364623969226,1,2026-11-25
+2026-11-26,2026-11-25,category,"Crop inputs, equipment, and irrigation",,"Crop inputs, equipment, and irrigation",3,-0.0342400609961,3,,,266896616445,1,2026-08-12
+2026-11-26,2026-11-25,category,"Fuel blending, refining, and retail",,"Fuel blending, refining, and retail",3,-0.058203923404,4,,,347384051049,1,2026-11-25
+2026-11-26,2026-11-25,category,"Wet milling, ingredients, and co-products",,"Wet milling, ingredients, and co-products",3,-0.0815910714654,5,,,80925691919.4,1,2026-11-25
+2026-11-26,2026-11-25,category,U.S. ethanol and process technology,,U.S. ethanol and process technology,3,-0.101204760357,6,,,131704694353,1,2026-08-12
+2026-11-26,2026-11-25,category,International ethanol,,International ethanol,3,-0.103592879409,7,,,3684903276.52,1,2026-09-18
+2026-11-26,2026-11-25,category,Grain origination and agribusiness,,Grain origination and agribusiness,3,-0.191879344112,8,,,51762989197.6,1,2026-11-25
+2026-11-26,2026-11-25,category,"Fuel blending, refining, and retail",,"Fuel blending, refining, and retail",12,0.729664116323,1,,,347384051049,1,2026-11-25
+2026-11-26,2026-11-25,category,U.S. ethanol and process technology,,U.S. ethanol and process technology,12,0.642897790185,2,,,131704694353,1,2026-08-12
+2026-11-26,2026-11-25,category,Advanced biofuels and SAF,,Advanced biofuels and SAF,12,0.410942411879,3,,,401724108874,1,2026-08-12
+2026-11-26,2026-11-25,category,Logistics,,Logistics,12,0.328997373847,4,,,364623969226,1,2026-11-25
+2026-11-26,2026-11-25,category,"Crop inputs, equipment, and irrigation",,"Crop inputs, equipment, and irrigation",12,0.283966322249,5,,,266896616445,1,2026-08-12
+2026-11-26,2026-11-25,category,"Wet milling, ingredients, and co-products",,"Wet milling, ingredients, and co-products",12,0.0620848456239,6,,,80925691919.4,1,2026-11-25
+2026-11-26,2026-11-25,category,Grain origination and agribusiness,,Grain origination and agribusiness,12,0.027785107154,7,,,51762989197.6,1,2026-11-25
+2026-11-26,2026-11-25,category,International ethanol,,International ethanol,12,-0.302420157834,8,,,3684903276.52,1,2026-09-18
+2026-11-26,2026-11-25,category,"Fuel blending, refining, and retail",,"Fuel blending, refining, and retail",24,1.02099422763,1,,,347384051049,1,2026-11-25
+2026-11-26,2026-11-25,category,U.S. ethanol and process technology,,U.S. ethanol and process technology,24,1.01652441779,2,,,131704694353,1,2026-08-12
+2026-11-26,2026-11-25,category,"Crop inputs, equipment, and irrigation",,"Crop inputs, equipment, and irrigation",24,0.310161546602,3,,,266896616445,1,2026-08-12
+2026-11-26,2026-11-25,category,Advanced biofuels and SAF,,Advanced biofuels and SAF,24,0.297914231219,4,,,401724108874,1,2026-08-12
+2026-11-26,2026-11-25,category,Logistics,,Logistics,24,0.263670694327,5,,,364623969226,1,2026-11-25
+2026-11-26,2026-11-25,category,Grain origination and agribusiness,,Grain origination and agribusiness,24,0.140925880398,6,,,51762989197.6,1,2026-11-25
+2026-11-26,2026-11-25,category,"Wet milling, ingredients, and co-products",,"Wet milling, ingredients, and co-products",24,0.102626671782,7,,,80925691919.4,0.840777974557,2026-11-25
+2026-11-26,2026-11-25,category,International ethanol,,International ethanol,24,-0.517385086496,8,,,3684903276.52,1,2026-09-18
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,CVX,Chevron,3,0.0536436741422,1,2,1,401724108874,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CNH,CNH Industrial,3,0.0223752151463,1,5,1,18049714300.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",PSX,Phillips 66,3,-0.0253890930108,1,15,1,95501416388.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ADM,Archer Daniels Midland,3,-0.167686352853,1,29,1,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,CSAN,Cosan,3,-0.0248226950355,1,14,1,2504672704.64,1,2026-09-18
+2026-11-26,2026-11-25,stock,Logistics,GATX,GATX,3,0.0436439016191,1,3,1,6638178543.89,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,NVZMY,Novonesis,3,0,1,7,1,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",TSN,Tyson Foods,3,0.123253757737,1,1,1,22136063165.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,NTOIY,Neste,3,0,2,7,2,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",DE,Deere,3,0.0102121221672,2,6,2,173840984387,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MUSA,Murphy USA,3,-0.0335377323001,2,16,2,9320007201.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,BG,Bunge,3,-0.221633554084,2,33,2,17905879231,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,AGRO,Adecoagro,3,-0.270758122744,2,36,2,1180230571.88,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,TRN,Trinity Industries,3,0.0230430362589,2,4,2,2299452671.62,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,VLO,Valero Energy,3,-0.071919087435,2,21,2,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",JBS,JBS,3,-0.110545454545,2,23,2,12885152577.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BASFY,BASF,3,0,3,7,3,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BAYRY,Bayer,3,0,3,7,3,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",YARIY,Yara International,3,0,3,7,3,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MPC,Marathon Petroleum,3,-0.0441659535705,3,18,3,101795453201,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ANDE,The Andersons,3,-0.346719803801,3,38,3,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,CSX,CSX,3,-0.0115919629057,3,12,3,94621630119.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ADM,Archer Daniels Midland,3,-0.167686352853,3,29,3,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",INGR,Ingredion,3,-0.127362994081,3,25,3,5600895416.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",VLO,Valero Energy,3,-0.071919087435,4,21,4,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,CP,Canadian Pacific Kansas City,3,-0.0160489916587,4,13,4,81059892862.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,REX,REX American Resources,3,-0.20686412788,4,32,4,1174417656,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",ADM,Archer Daniels Midland,3,-0.167686352853,4,29,4,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",DINO,HF Sinclair,3,-0.111479486117,5,24,5,15342738305,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,UNP,Union Pacific,3,-0.039405060846,5,17,5,178809950174,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,GPRE,Green Plains,3,-0.278897849462,5,37,5,820598450.56,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",DAR,Darling Ingredients,3,-0.22176,5,34,5,8045777925.45,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",AGCO,AGCO,3,-0.0442811043385,6,19,6,7338437369.05,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CASY,Casey's General Stores,3,-0.134874615918,6,27,6,25822959877.9,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,GBX,Greenbrier,3,-0.173875432526,6,31,6,1194864853.86,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ANDE,The Andersons,3,-0.346719803801,6,38,6,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CF,CF Industries,3,-0.0652346857597,7,20,7,16632594380.7,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",SUN,Sunoco LP,3,-0.167776298269,7,30,7,,0,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",NTR,Nutrien,3,-0.0919711995653,8,22,8,31254695348.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CVI,CVR Energy,3,-0.239820134899,8,35,8,3748907794.72,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",VMI,Valmont Industries,3,-0.128307266552,9,26,9,7865550534.95,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",MOS,Mosaic,3,-0.157698675497,10,28,10,6335819844.15,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CTVA,Corteva,3,-0.90069980695,11,39,11,5578820280,1,2026-11-25
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,NTOIY,Neste,12,0.781151832461,1,3,1,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BAYRY,Bayer,12,0.587899543379,1,6,1,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",VLO,Valero Energy,12,0.851321144036,1,1,1,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ADM,Archer Daniels Midland,12,0.100908340215,1,23,1,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,AGRO,Adecoagro,12,0.00372670807453,1,30,1,1180230571.88,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,CSX,CSX,12,0.449291784703,1,8,1,94621630119.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,VLO,Valero Energy,12,0.851321144036,1,1,1,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",DAR,Darling Ingredients,12,0.328961748634,1,12,1,8045777925.45,1,2026-11-25
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,CVX,Chevron,12,0.410942411879,2,9,2,401724108874,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CF,CF Industries,12,0.498533350338,2,7,2,16632594380.7,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MPC,Marathon Petroleum,12,0.805935120476,2,2,2,101795453201,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,BG,Bunge,12,-0.0863391376451,2,31,2,17905879231,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,CSAN,Cosan,12,-0.446680080483,2,38,2,2504672704.64,1,2026-09-18
+2026-11-26,2026-11-25,stock,Logistics,UNP,Union Pacific,12,0.293592300356,2,13,2,178809950174,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ADM,Archer Daniels Midland,12,0.100908340215,2,23,2,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",ADM,Archer Daniels Midland,12,0.100908340215,2,23,2,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",DE,Deere,12,0.364249686083,3,10,3,173840984387,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",PSX,Phillips 66,12,0.749259039715,3,4,3,95501416388.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ANDE,The Andersons,12,-0.16936269733,3,37,3,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,CP,Canadian Pacific Kansas City,12,0.292689693439,3,14,3,81059892862.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,GPRE,Green Plains,12,0.0740740740741,3,25,3,820598450.56,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",TSN,Tyson Foods,12,0.0968744603695,3,24,3,22136063165.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CNH,CNH Industrial,12,0.263829787234,4,15,4,18049714300.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",DINO,HF Sinclair,12,0.641653905054,4,5,4,15342738305,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,GATX,GATX,12,0.161926147705,4,19,4,6638178543.89,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,NVZMY,Novonesis,12,0.0351159793814,4,26,4,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",INGR,Ingredion,12,-0.150399702547,4,34,4,5600895416.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",YARIY,Yara International,12,0.230803348672,5,16,5,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MUSA,Murphy USA,12,0.334779446147,5,11,5,9320007201.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,TRN,Trinity Industries,12,0.140536456366,5,21,5,2299452671.62,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,REX,REX American Resources,12,0.0224242424242,5,27,5,1174417656,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",JBS,JBS,12,-0.169157608696,5,36,5,12885152577.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",NTR,Nutrien,12,0.164459930314,6,18,6,31254695348.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CASY,Casey's General Stores,12,0.22248678175,6,17,6,25822959877.9,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,GBX,Greenbrier,12,-0.144839937318,6,33,6,1194864853.86,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ANDE,The Andersons,12,-0.16936269733,6,37,6,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BASFY,BASF,12,0.140975987607,7,20,7,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",SUN,Sunoco LP,12,0.117068811439,7,22,7,,0,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",VMI,Valmont Industries,12,0.0143449621859,8,28,8,7865550534.95,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CVI,CVR Energy,12,-0.115664051148,8,32,8,3748907794.72,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",AGCO,AGCO,12,0.00985035044516,9,29,9,7338437369.05,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",MOS,Mosaic,12,-0.161170651278,10,35,10,6335819844.15,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CTVA,Corteva,12,-0.876519129782,11,39,11,5578820280,1,2026-11-25
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,NTOIY,Neste,24,1.31428571429,1,2,1,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BAYRY,Bayer,24,1.79879275654,1,1,1,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",VLO,Valero Energy,24,1.3104434907,1,3,1,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ADM,Archer Daniels Midland,24,0.240878629933,1,18,1,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,AGRO,Adecoagro,24,-0.260073260073,1,34,1,1180230571.88,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,CSX,CSX,24,0.394385391115,1,12,1,94621630119.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,VLO,Valero Energy,24,1.3104434907,1,3,1,95852568280,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",ADM,Archer Daniels Midland,24,0.240878629933,1,18,1,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,Advanced biofuels and SAF,CVX,Chevron,24,0.297914231219,2,16,2,401724108874,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",YARIY,Yara International,24,0.591397849462,2,8,2,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MPC,Marathon Petroleum,24,1.20357642866,2,4,2,101795453201,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,BG,Bunge,24,-0.0168414008476,2,28,2,17905879231,1,2026-11-25
+2026-11-26,2026-11-25,stock,International ethanol,CSAN,Cosan,24,-0.638633377135,2,37,2,2504672704.64,1,2026-09-18
+2026-11-26,2026-11-25,stock,Logistics,CP,Canadian Pacific Kansas City,24,0.252722140073,2,17,2,81059892862.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,REX,REX American Resources,24,0.571129220023,2,10,2,1174417656,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",DAR,Darling Ingredients,24,0.183167112625,2,20,2,8045777925.45,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",NTR,Nutrien,24,0.456209150327,3,11,3,31254695348.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",DINO,HF Sinclair,24,1.05216558985,3,5,3,15342738305,1,2026-11-25
+2026-11-26,2026-11-25,stock,Grain origination and agribusiness,ANDE,The Andersons,24,-0.108741112505,3,31,3,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,UNP,Union Pacific,24,0.214753898139,3,19,3,178809950174,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ADM,Archer Daniels Midland,24,0.240878629933,3,18,3,32257802833.8,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",TSN,Tyson Foods,24,-0.00454474220342,3,27,3,22136063165.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",DE,Deere,24,0.390378275204,4,13,4,173840984387,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",PSX,Phillips 66,24,0.758510242086,4,6,4,95501416388.5,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,GATX,GATX,24,0.13856121264,4,23,4,6638178543.89,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,NVZMY,Novonesis,24,0.0988372093023,4,24,4,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",INGR,Ingredion,24,-0.385752688172,4,35,4,5600895416.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CF,CF Industries,24,0.333106421602,5,14,5,16632594380.7,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CASY,Casey's General Stores,24,0.637224788389,5,7,5,25822959877.9,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,TRN,Trinity Industries,24,-0.198779193206,5,32,5,2299452671.62,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,GPRE,Green Plains,24,0.00562324273664,5,26,5,820598450.56,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",BASFY,BASF,24,0.333031674208,6,15,6,,0,2026-08-12
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",CVI,CVR Energy,24,0.58986415883,6,9,6,3748907794.72,1,2026-11-25
+2026-11-26,2026-11-25,stock,Logistics,GBX,Greenbrier,24,-0.43955399061,6,36,6,1194864853.86,1,2026-11-25
+2026-11-26,2026-11-25,stock,U.S. ethanol and process technology,ANDE,The Andersons,24,-0.108741112505,6,31,6,1599307132.87,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",VMI,Valmont Industries,24,0.181293860272,7,21,7,7865550534.95,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",SUN,Sunoco LP,24,0.153349326444,7,22,7,,0,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",AGCO,AGCO,24,0.0727437367944,8,25,8,7338437369.05,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Fuel blending, refining, and retail",MUSA,Murphy USA,24,-0.0750162022035,8,30,8,9320007201.96,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CNH,CNH Industrial,24,-0.0403877221325,9,29,9,18049714300.3,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",MOS,Mosaic,24,-0.198818897638,10,33,10,6335819844.15,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Crop inputs, equipment, and irrigation",CTVA,Corteva,24,-0.869881422925,11,38,11,5578820280,1,2026-11-25
+2026-11-26,2026-11-25,stock,"Wet milling, ingredients, and co-products",JBS,JBS,24,,,,,12885152577.8,0,2026-11-25

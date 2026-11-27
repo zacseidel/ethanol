@@ -1,116 +1,108 @@
 # Ethanol Strategy Brief
-## Week of November 19, 2026
+## Week of November 26, 2026
 
 ## Executive View
 
-- **USDA’s tighter-but-adequate November corn balance remains the procurement regime, and futures eased rather than extended the post-WASDE rally.** The official framework is **179.6 bushels per acre, 15.893 billion bushels of production and 1.758 billion bushels of 2026/27 carryout**. Nearby corn ended November 19 at **$4.390 per bushel, down $0.035, or 0.8%, for the week**. Harvest reached **88% versus 92% normally**; delays remain material in Iowa and South Dakota, but the tape does not indicate renewed national scarcity. (USDA WAOB, *WASDE*, November 10, 2026; USDA NASS, *Crop Progress*, November 16, 2026.) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf))
-- **Ethanol clearance deteriorated materially.** Production slipped only **4,000 barrels per day to 1.126 million**, while inventories increased **563,000 barrels to 24.908 million**. EIA refiner and blender ethanol inputs rose **6,000 barrels per day to 894,000**, but estimated exports fell to **133,000 barrels per day**. The resulting build reversed more than six weeks of modest inventory improvement. (EIA, weekly ethanol data released November 18, 2026.) ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=w&n=pet&s=w_epooxe_yir_nus_mbbld&utm_source=openai))
-- **Gasoline compounded the product-side problem.** RBOB fell **$0.176 to $2.495 per gallon, down 6.6%**, while gasoline inventories increased **5.192 million barrels to 215.949 million**. Gasoline supplied was nearly unchanged at 8.790 million barrels per day, indicating that the stock build—not an abrupt consumption collapse—was the clearer bearish signal. (EIA, *Weekly Petroleum Status Report*, November 18, 2026.) ([eia.gov](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epm0_sae_mbbl_w.htm?utm_source=openai))
-- **A new Lower Mississippi restriction adds near-term Gulf-clearance risk.** Following a November 13 vessel collision, large tows and deep-draft vessels face one-way transit through a New Orleans safety zone that may remain effective through December 11. The river is open, but slower turns could affect corn and ethanol export scheduling. (U.S. Coast Guard, *Safety Zone; Mississippi River, New Orleans, LA*, published November 18, 2026.) ([public-inspection.federalregister.gov](https://public-inspection.federalregister.gov/2026-23452.pdf?utm_source=openai))
-- **Natural gas provided only partial relief.** Henry Hub declined **$0.072 to $3.268 per MMBtu, down 2.2%**. Lower-48 storage increased 20 Bcf to **3,882 Bcf**, 80 Bcf above the five-year average; Midwest stocks were also 23 Bcf above average. (EIA, *Weekly Natural Gas Storage Report*, November 19, 2026.) ([eia.gov](https://www.eia.gov/dnav/ng/ng_stor_wkly_s1_w.htm?utm_source=openai))
-- **Overall plant-margin and risk conditions deteriorated.** Modestly cheaper corn and gas were outweighed by the ethanol inventory build, RBOB’s 6.6% decline and new Gulf logistics uncertainty. Corn procurement improved slightly; ethanol selling and export clearance deteriorated.
+- **USDA’s tighter-but-adequate November corn balance remains the procurement regime, and nearby futures registered no material change in supply risk.** The official framework remains a **179.6-bushel-per-acre yield, 15.893-billion-bushel crop and 1.758-billion-bushel 2026/27 carryout**. Nearby corn closed November 25 at **$4.397 per bushel, up $0.007, or 0.2%, from November 19**. Harvest reached **94% versus 96% normally**; persistent western and eastern delays may affect local basis and quality, but the nearly flat tape does not support a renewed national scarcity call. (USDA WAOB, [*World Agricultural Supply and Demand Estimates—November 2026*](https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf), November 10; USDA NASS, [*Crop Progress*](https://esmis.nal.usda.gov/sites/default/release-files/796160/prog4726.pdf), November 23.) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.pdf?utm_source=openai))
+- **Ethanol clearance weakened for a second consecutive week.** Production increased only **3,000 barrels per day to 1.129 million**, but inventories rose another **345,000 barrels to 25.253 million**, following the prior week’s 563,000-barrel build. EIA refiner and blender ethanol inputs declined **4,000 barrels per day to 890,000**, while estimated exports improved 7,000 barrels per day to 140,000. Stocks are now approximately **15% above the year-earlier level**. (EIA, [*Weekly Petroleum Status Report*](https://www.eia.gov/petroleum/supply/weekly/), November 25.) ([ir.eia.gov](https://ir.eia.gov/secure/wpsr/overview.pdf?Key-Pair-Id=K3G4O9EVKGEBPJ&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTYyMjEyMDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTYyMDYwMH19fV19&Signature=LGRg0mIIc3S~EA1MDxyjW8Y5vhGeMvaBR~Wi13Wwa48j9L3UzhzuZ5kE-sk2ilLQDT6m-Wmx0T~LlelzS1AYuuf7pOL5MEFl~WIbqbpVrT-VEPYLDahhcUklB-u7i7mSDzu4BjjWeb4Roqg1JLaCGe4wXWA3yunRAsenH434-JubxLdBqtJSpxzFkva2hqYxwbDqbPFE1n7BXVaIzXvivGo4-Ni7fI3HdJh9KQA0lhJ6ezEJWpAGyXNHeZ4cCU2iO7fV-ibx7S2HztETIKIAipSG0pUsFbbMSNOqnr-WMoorSBaWCNn0CV7esmT6L1QYKFvOzvRUhFT5CiCya8RgLg))
+- **Gasoline offered less support, even though the weakness reflects high refinery throughput more than a consumption collapse.** RBOB declined **$0.053 to $2.442 per gallon, down 2.1%**, while gasoline stocks increased approximately **1.8 million barrels to 217.7 million**. Refinery utilization surged to **97.5%**, and gasoline supplied eased 76,000 barrels per day to 8.714 million—nearly unchanged from the comparable 2025 week. ([ir.eia.gov](https://ir.eia.gov/secure/wpsr/overview.pdf?Key-Pair-Id=K3G4O9EVKGEBPJ&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTYyMjEyMDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTYyMDYwMH19fV19&Signature=LGRg0mIIc3S~EA1MDxyjW8Y5vhGeMvaBR~Wi13Wwa48j9L3UzhzuZ5kE-sk2ilLQDT6m-Wmx0T~LlelzS1AYuuf7pOL5MEFl~WIbqbpVrT-VEPYLDahhcUklB-u7i7mSDzu4BjjWeb4Roqg1JLaCGe4wXWA3yunRAsenH434-JubxLdBqtJSpxzFkva2hqYxwbDqbPFE1n7BXVaIzXvivGo4-Ni7fI3HdJh9KQA0lhJ6ezEJWpAGyXNHeZ4cCU2iO7fV-ibx7S2HztETIKIAipSG0pUsFbbMSNOqnr-WMoorSBaWCNn0CV7esmT6L1QYKFvOzvRUhFT5CiCya8RgLg))
+- **Brazil became a less dependable source of incremental ethanol clearance.** Brazil’s Ministry of Mines and Energy said November 26 that available stocks, projected production and possible imports were sufficient to meet E32 anhydrous demand through the intercrop period. That does not cancel contracted U.S.-linked cargoes, but it weakens the case for a sustained shortage-driven import program. ([gov.br](https://www.gov.br/mme/pt-br/assuntos/noticias/novembro-26/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-a-entressafra))
+- **Process-energy risk was broadly unchanged.** Henry Hub finished at **$3.269 per MMBtu, essentially flat for the week**. Lower-48 storage posted its first seasonal withdrawal, falling 24 Bcf to **3,858 Bcf**, but remained 80 Bcf, or 2.1%, above the five-year average; Midwest inventories were also 2.0% above average. (EIA, [*Weekly Natural Gas Storage Report*](https://ir.eia.gov/ngs/ngs.html), November 25.) ([ir.eia.gov](https://ir.eia.gov/secure/ngs/ngs.html?Key-Pair-Id=K3LA5VTSIIJNB8&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS9uZ3MvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NjMwNzYwMH0sIkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk1NjI2MDAwfX19XX0&Signature=Me~YKC-nd2NipNwpQ-iyLG2LWwDzIGrVSxtNuEOjH~95fnG4nNbuqe3x-sdEX1NflNAJBtQBIjKlQciTgsMl-tyN85~yrK9Y~Sf8hJM6NznsNWKhTvjO440w2RDiJ~AOhPBosBUXn1P9xTZ2Eb-RfFqd~rJmS1plltOv5t0vM5SG6rXpybp0a3BXWGzjHLruA6pYIpBfbAbYKSp7JLC0emOBln2coFHdzCzTm-cj886LoSa31kemzcupFyww61-yiHi7A9-fuvJsZsA6krTfsbAUCCzAJVif2UWQPP~Hw677vU2CtKZY-jfeBLKNsLcWqJ5OKX5~vpOIsgUiquwUQQ&utm_source=openai))
+- **Overall plant-margin and risk conditions deteriorated modestly.** Corn and natural gas were essentially unchanged, while ethanol and gasoline inventories increased and RBOB weakened. Ethanol selling, storage and export execution remain more consequential than extending corn coverage.
 
 | Exposure | Current signal | Change from last week | Horizon | Confidence | Main driver |
 |---|---|---:|---|---|---|
-| Corn procurement | Adequate national supply; localized late-harvest risk | Improved slightly | Winter–Q2 2027 | High | Corn −0.8%; 1.758-billion-bushel carryout |
-| Ethanol selling | Stocks rebuilt despite nearly flat production | Deteriorated materially | 1–6 weeks | High | 563,000-barrel inventory build |
-| Petroleum linkage | Weaker price umbrella; gasoline stocks rising | Deteriorated materially | Days–months | High | RBOB −6.6% |
-| Gulf logistics | River open under transit restrictions | Deteriorated selectively | Days–weeks | Medium | New Orleans safety zone |
-| Natural gas | Ample storage; modest futures relief | Improved modestly | Winter | High | Storage 2.1% above five-year average |
-| Overall plant margin | Output-side weakness dominates input relief | Deteriorated | Near term | High | Ethanol and gasoline stock builds |
+| Corn procurement | Adequate national supply; localized harvest risk | Broadly unchanged | Winter–Q2 2027 | High | Corn +0.2%; 1.758-billion-bushel carryout |
+| Ethanol selling | Two consecutive inventory builds | Deteriorated materially | 1–6 weeks | High | Stocks +908,000 barrels in two weeks |
+| Petroleum linkage | High refinery output; weaker futures umbrella | Deteriorated | Days–months | High | RBOB −2.1%; gasoline stocks +1.8 million barrels |
+| Export demand | Brazil remains optional, not dependable | Deteriorated selectively | 1–4 months | Medium | Brazilian government sees adequate supply |
+| Natural gas | First withdrawal; storage still comfortable | Broadly unchanged | Winter | High | Henry Hub flat; storage 2.1% above average |
+| Overall plant margin | Output weakness dominates stable inputs | Deteriorated modestly | Near term | High | Ethanol and gasoline stock builds |
 
-The incremental thesis is that **the corn-cost regime remains manageable, but product clearance has weakened at the same time that gasoline support and Gulf logistics have deteriorated**. Corn export bookings, 45Z monetization and regenerative-ag documentation remain strategically important but did not overturn that near-term conclusion. Brazil’s contracted import demand is still supportive rather than an open, unrestricted spot outlet, while EPA’s additional-SRE reallocation remains a proposal with comments due December 4. ([spglobal.com](https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/111126-tight-brazil-anhydrous-ethanol-drives-import-interest-despite-unfavorable-economics?utm_source=openai))
+The week extended rather than changed the **adequate-corn, long-product regime**. The important delta is that ethanol stocks continued rising despite stable production and better estimated exports. Existing 45Z margin dispersion, regenerative-ag feedstock documentation and EPA’s proposed SRE reallocation remain strategically important but received no new operative action this week.
 
-## 1. Corn supply remained adequate despite late western harvest
+## 1. Harvest completion preserved USDA’s adequate-supply regime
 
 **Status:** CONFIRM
 
 **What happened**
 
-Corn harvest advanced seven points to **88%**, four points behind normal. Iowa was **84% complete versus 95% normally**, South Dakota 78% versus 92%, Nebraska 85% versus 90% and Ohio 80% versus 86%. Illinois and Indiana were effectively on or ahead of normal. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796149/prog4626.pdf))
-
-USDA reported weekly corn net sales of **1.588 million metric tons** for the week ended November 12. Estimated cumulative commitments are approximately **29.3 million tons**, or 35.2% of USDA’s 3.275-billion-bushel export forecast. That is supportive demand, but nearby corn’s 0.8% decline indicates it was insufficient to tighten the national balance. (USDA FAS, *Weekly Export Sales*, November 19, 2026; USDA WAOB, *WASDE*, November 10, 2026.) ([feedandgrain.com](https://www.feedandgrain.com/grain-supply-chain/grain-trade-export/news/16542196/us-corn-export-sales-drop-45-while-soybean-sales-surge?utm_source=openai))
-
-**Risk-manager implication**
-
-Futures procurement risk improved slightly. Basis remains the larger concern in late-harvest areas, particularly where drying, storage or delivery constraints persist. Plants should continue separating national futures coverage from local origination exposure.
-
----
-
-## 2. The ethanol balance shifted from stable to visibly long
-
-**Status:** UPDATE
-
-| EIA ethanol balance | Week ended Nov. 6 | Week ended Nov. 13 | Change |
-|---|---:|---:|---:|
-| Production, million bpd | 1.130 | 1.126 | −0.004 |
-| Inventories, million bbl | 24.345 | 24.908 | +0.563 |
-| Refiner/blender inputs, million bpd | 0.888 | 0.894 | +0.006 |
-| Estimated exports, million bpd | 0.140 | 0.133 | −0.007 |
-
-(EIA, weekly data released November 18, 2026.) ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=w&n=pet&s=w_epooxe_eex_nus-z00_mbbld&utm_source=openai))
+National corn harvest advanced from 88% to **94%**, two points behind normal. Iowa reached 92% versus 98% normally, Nebraska 91% versus 96%, South Dakota 87% versus 96% and Ohio 85% versus 92%. Corn export inspections improved to **1.191 million metric tons** for the week ended November 19, but marketing-year inspections of 13.66 million tons remained 22% below last year’s exceptional pace. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796160/prog4726.pdf?utm_source=openai))
 
 **Why it matters**
 
-The build occurred without a production increase, making it a clearer disappearance warning than the prior week’s small draw. Four-week-average exports remained 134,000 barrels per day, but inventories are now 11.7% above the year-earlier level. Meanwhile, the gasoline stock build and RBOB selloff reduced ethanol’s petroleum-value support. ([eia.gov](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=4&n=PET&s=W_EPOOXE_EEX_NUS-Z00_MBBLD&utm_source=openai))
+The remaining unharvested acreage is increasingly a local basis, moisture and quality exposure rather than a credible mechanism for materially reducing national production. Favorable rainfall for planting and establishment in Brazil and Argentina also provided no immediate international weather threat sufficient to challenge the U.S. supply cushion. (USDA WAOB, [*Weekly Weather and Crop Bulletin*](https://esmis.nal.usda.gov/sites/default/release-files/796163/wwcb4726.pdf), November 24.) ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/796163/wwcb4726.pdf?utm_source=openai))
 
 **Risk-manager implication**
 
-Prompt ethanol selling, storage and utilization are the binding exposures. A standardized public spot-crush value is not sufficiently dependable to quote, but the direction is unfavorable: small corn and gas savings are unlikely to offset weaker product clearance if inventories continue building.
+Futures procurement risk is broadly unchanged. Plants in late-harvest areas should retain flexibility around cash basis and delivery timing, but the flat nearby-corn tape argues against paying a national scarcity premium.
 
 ---
 
-## 3. New Orleans restrictions create a two-sided basis and export risk
-
-**Status:** NEW
-
-**What happened**
-
-The Coast Guard established a safety zone from Lower Mississippi River mile markers 95.5 to 96.5 following the November 13 collision. Limited two-way traffic is permitted, but deep-draft vessels and towing vessels with ten or more barges are restricted to one-way transit; the alternate channel remains closed. The rule may remain effective through **December 11, 2026**, unless cancelled earlier. ([public-inspection.federalregister.gov](https://public-inspection.federalregister.gov/2026-23452.pdf?utm_source=openai))
-
-**Risk-manager implication**
-
-This is not yet a full export shutdown. However, slower vessel sequencing and barge turnaround could delay Gulf corn and ethanol shipments. For inland plants, the effects are mixed: weaker river bids could improve corn basis in affected tributary markets, while delayed ethanol exports would worsen terminal inventories and prompt product basis.
-
-**Watch next**
-
-Carrier delays, barge-turn times and whether the Coast Guard removes the restrictions before December 11.
-
----
-
-## 4. Gas storage reduced winter scarcity risk, not weather volatility
+## 2. Coastal inventory accumulation confirms that ethanol remains long downstream
 
 **Status:** UPDATE
 
-Lower-48 inventories reached **3,882 Bcf**, up 20 Bcf for the week and 2.1% above the five-year average. Midwest inventories slipped 1 Bcf to **1,128 Bcf** but remained 2.1% above average. ([eia.gov](https://www.eia.gov/dnav/ng/ng_stor_wkly_s1_w.htm?utm_source=openai))
+| EIA ethanol balance | Week ended Nov. 13 | Week ended Nov. 20 | Change |
+|---|---:|---:|---:|
+| Production, million bpd | 1.126 | 1.129 | +0.003 |
+| Inventories, million bbl | 24.908 | 25.253 | +0.345 |
+| Refiner/blender inputs, million bpd | 0.894 | 0.890 | −0.004 |
+| Estimated exports, million bpd | 0.133 | 0.140 | +0.007 |
+
+(EIA, [*Weekly Petroleum Status Report*](https://www.eia.gov/petroleum/supply/weekly/), released November 25.) ([ir.eia.gov](https://ir.eia.gov/secure/wpsr/overview.pdf?Key-Pair-Id=K3G4O9EVKGEBPJ&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTYyMjEyMDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTYyMDYwMH19fV19&Signature=LGRg0mIIc3S~EA1MDxyjW8Y5vhGeMvaBR~Wi13Wwa48j9L3UzhzuZ5kE-sk2ilLQDT6m-Wmx0T~LlelzS1AYuuf7pOL5MEFl~WIbqbpVrT-VEPYLDahhcUklB-u7i7mSDzu4BjjWeb4Roqg1JLaCGe4wXWA3yunRAsenH434-JubxLdBqtJSpxzFkva2hqYxwbDqbPFE1n7BXVaIzXvivGo4-Ni7fI3HdJh9KQA0lhJ6ezEJWpAGyXNHeZ4cCU2iO7fV-ibx7S2HztETIKIAipSG0pUsFbbMSNOqnr-WMoorSBaWCNn0CV7esmT6L1QYKFvOzvRUhFT5CiCya8RgLg))
+
+The build was concentrated downstream: Gulf Coast stocks increased **483,000 barrels** and West Coast stocks rose **392,000**, while Midwest inventories declined 421,000. Barrels moved away from the production region, but terminal and destination markets did not clear them. Meanwhile, gasoline inventories increased as refineries operated at 97.5% utilization.
 
 **Risk-manager implication**
 
-Process-energy exposure improved modestly after last week’s weather-driven price increase. The storage position argues against a sustained availability premium, although uncovered plants remain exposed to forecast-driven prompt volatility and regional basis.
+Prompt ethanol price, basis and storage exposure deteriorated materially. Higher estimated exports were insufficient to prevent a second build, and weaker RBOB reduces the price umbrella available to absorb excess supply. Unless production declines or exports accelerate further, low corn costs risk being transferred to ethanol buyers through high utilization.
+
+**Watch next**
+
+Whether total ethanol stocks exceed 25.5 million barrels and whether coastal inventories begin drawing.
 
 ---
 
-## 5. Green Plains shifted low-carbon competition toward plant reinvestment
+## 3. Brazil’s government weakened the sustained-import thesis
 
-**Status:** CONFIRM
+**Status:** REFUTE
 
-Green Plains approved a 2027–2031 plan including approximately **$140 million of 2027 capital spending**, with $110 million allocated to growth and efficiency projects. Planned investments include grain storage, fermentation and liquefaction capacity, energy efficiency and corn-oil recovery; management estimates 20%–25% base-business returns, which remain company forecasts rather than confirmed outcomes. (Green Plains, *Green Plains Outlines Strategy to Drive Earnings Growth and Long-Term Shareholder Value*, November 18, 2026.) ([streetinsider.com](https://www.streetinsider.com/Business%2BWire/Green%2BPlains%2BOutlines%2BStrategy%2Bto%2BDrive%2BEarnings%2BGrowth%2Band%2BLong-Term%2BShareholder%2BValue/27369469.html?utm_source=openai))
+**What happened**
+
+Brazil’s energy ministry concluded that domestic stocks, production and possible imports should cover E32 anhydrous demand through the cane intercrop, explicitly stating that it identified no supply-shortage risk. The assessment gives growing year-round corn-ethanol output a role in supporting domestic availability. ([gov.br](https://www.gov.br/mme/pt-br/assuntos/noticias/novembro-26/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-a-entressafra))
+
+Separately, USTR proposed increasing tariffs on certain Brazilian sugar imports on November 25. The proposal is not yet effective, but it adds trade-policy uncertainty to a market already viewed as an opportunistic rather than consistently open U.S. ethanol outlet. (USTR, [*Proposed Modifications of the Section 301 Action Regarding Brazil*](https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable), November 25.) ([ustr.gov](https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable?utm_source=openai))
 
 **Risk-manager implication**
 
-The plan reinforces the widening competitive gap between plants able to combine physical efficiency, co-product recovery and lower carbon intensity and those relying primarily on commodity crush. Additional storage may also increase Green Plains’ origination flexibility in local corn markets, although no quantified industry-capacity addition was announced.
+Contracted Brazil cargoes remain supportive, but plants should not build utilization or forward-sales assumptions around recurring emergency imports. The next confirming evidence must be actual vessel arrivals, customs volumes and sustained import parity—not statements of buyer interest.
+
+---
+
+## 4. Lower Mississippi restrictions have not become a broad freight shock
+
+**Status:** REFUTE
+
+**What happened**
+
+The Coast Guard’s New Orleans safety zone remains authorized through December 11, but USDA’s November 26 transportation data showed no broad escalation: the grain barge-cost index edged down to **194 from 195**, Gulf ocean freight was unchanged and Illinois River barge rates declined 1% week over week. Grain-barge traffic and unloading continued through the New Orleans region. (USDA AMS, [*Grain Transportation Report*](https://www.ams.usda.gov/sites/default/files/media/GTR11262026.pdf), November 26.) ([ams.usda.gov](https://www.ams.usda.gov/sites/default/files/media/GTR11262026.pdf))
+
+**Risk-manager implication**
+
+Maintain scheduling buffers for large tows and deep-draft vessels, but current evidence does not justify treating the restriction as a systemwide corn-basis or ethanol-export disruption. The risk remains shipment-specific rather than industry-wide.
 
 ## Strategic Synthesis
 
-The November USDA reset remains intact: corn is adequate, not burdensome enough to eliminate basis risk and not tight enough to require national rationing. The weekly change came downstream. Ethanol inventories rebuilt, gasoline stocks surged, RBOB fell sharply and Gulf logistics became less reliable. Risk managers should therefore prioritize **ethanol sales, storage capacity and export execution over extending already-comfortable corn coverage**.
+Corn costs are stable and process-energy availability remains comfortable, but the output side continues to deteriorate. Two weeks of ethanol builds, rising coastal stocks and a weaker gasoline complex indicate that downstream clearance—not feedstock access—is the binding near-term constraint. Brazil offers selective export value, not a durable solution. Entering next week, the priority is **protecting ethanol realizations and storage capacity while avoiding utilization decisions that assume exports will absorb every incremental gallon**.
 
 ## What I’m Watching Next
 
-- **December 10, 2026:** USDA WASDE and Crop Production—the next corn balance-sheet update. ([esmis.nal.usda.gov](https://esmis.nal.usda.gov/sites/default/release-files/795899/wasde0526_0.pdf?utm_source=openai))
-- **December 4, 2026:** EPA comment deadline for additional 2025 SRE reallocation. ([epa.gov](https://www.epa.gov/newsreleases/while-iowa-administrator-zeldin-proposes-100-reallocation-additional-2025-small?utm_source=openai))
-- **November 25, 2026:** EIA ethanol/petroleum balance and natural-gas storage reports. ([eia.gov](https://www.eia.gov/dnav/pet/PET_STOC_WSTK_A_EPOOXE_SAE_MBBL_W.htm))
-- **December 3, 2026:** REX American Resources fiscal third-quarter results, providing a cleaner commodity-crush comparison with credit-heavy producers. ([rexamerican.gcs-web.com](https://rexamerican.gcs-web.com/node/13216/pdf?utm_source=openai))
+- **December 10, 2026, 11:00 a.m. CST:** USDA WASDE and Crop Production—the next test of the 179.6-bushel yield and 1.758-billion-bushel carryout. ([nass.usda.gov](https://www.nass.usda.gov/Publications/Calendar/reports_by_date.php?month=12&view=l&year=2026&utm_source=openai))
+- **December 4, 2026:** EPA comment deadline on additional 2025 SRE reallocation between the 2026 and 2027 compliance years. ([epa.gov](https://www.epa.gov/newsreleases/while-iowa-administrator-zeldin-proposes-100-reallocation-additional-2025-small?utm_source=openai))
+- **December 2, 2026, 9:30 a.m. CST:** EIA ethanol and petroleum balance—whether the two-week inventory build continues. ([eia.gov](https://www.eia.gov/petroleum/supply/weekly/schedule.php?utm_source=openai))
+- **December 3, 2026:** REX American Resources fiscal third-quarter results and EIA natural-gas storage, providing tests of representative commodity crush and early-winter process costs. ([rexamerican.gcs-web.com](https://rexamerican.gcs-web.com/node/13216/pdf?utm_source=openai))
 
 ## Bottom Line
 
-The most important weekly change was the **563,000-barrel ethanol inventory build combined with RBOB’s 6.6% decline**. Corn and natural gas became modestly cheaper, but output-side risk deteriorated more. Ethanol selling and Gulf clearance require the closest attention; the November 25 EIA balance is the next print most capable of changing the near-term margin view.
+The most consequential weekly change was the **second consecutive ethanol inventory build**, now totaling 908,000 barrels, while RBOB weakened and gasoline stocks increased. Corn procurement risk remains manageable, but ethanol selling, storage and utilization require the closest attention. The December 2 EIA balance is the next print most capable of changing the near-term margin view.
